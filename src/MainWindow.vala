@@ -19,25 +19,36 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
     public MainWindow (Gtk.Application application) {
         Object (
             application: application,
-            deletable: false,
             height_request: 640,
             resizable: false,
+            title: _("Keyboard Shortcuts"),
             width_request: 910
         );
     }
 
     construct {
-        var finish_button = new Gtk.Button.with_label (_("Finish"));
-        finish_button.halign = Gtk.Align.CENTER;
-        finish_button.valign = Gtk.Align.CENTER;
-        finish_button.get_style_context ().add_class (Gtk.STYLE_CLASS_SUGGESTED_ACTION);
-
-        add (finish_button);
-
         var css_provider = new Gtk.CssProvider ();
         css_provider.load_from_resource ("io/elementary/shortcut-overlay/application.css");
         Gtk.StyleContext.add_provider_for_screen (get_screen (), css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
-        finish_button.clicked.connect (() => application.quit ());
+        var layout = new Gtk.Grid ();
+        layout.column_spacing = 6;
+        layout.row_spacing = 6;
+        layout.hexpand = true;
+        layout.margin = 12;
+
+        var key_label = new Gtk.Label (_("⌘"));
+        key_label.halign = Gtk.Align.END;
+        key_label.get_style_context ().add_class ("keycap");
+        key_label.hexpand = true;
+
+        var action_label = new Gtk.Label (_("Application launcher"));
+        action_label.halign = Gtk.Align.START;
+        action_label.hexpand = true;
+
+        layout.attach (key_label, 0, 0, 1, 1);
+        layout.attach (action_label, 1, 0, 1, 1);
+
+        add (layout);
     }
 }
