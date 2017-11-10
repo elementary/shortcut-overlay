@@ -12,6 +12,10 @@ of Ubuntu Unity introduced in Ubuntu 12.04.
 
 The shortcut window should open centered on the primary display, probably styled like a dialog. It should have two columns of keyboard shortcuts, and could have a gear in the titlebar that opens the [system keyboard settings](settings://input/keyboard/shortcuts).
 
+## Included Shortcuts
+
+We need to decide which shortcuts are included, how they're sorted, and if they're grouped into smaller categories. [Read this document](https://paper.dropbox.com/doc/elementary-OS-Shortcut-Overlay-z3oP5UefS11B2OpOZpKE5?_tk=share_copylink) to that effect.
+
 ## Building, Testing, and Installation
 
 You'll need the following dependencies:
