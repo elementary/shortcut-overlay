@@ -16,6 +16,8 @@
  */
 
 public class ShortcutOverlay.MainWindow : Gtk.Window {
+    private static Gee.ArrayList<ShortcutEntry> entries;
+
     public MainWindow (Gtk.Application application) {
         Object (
             application: application,
@@ -26,14 +28,23 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
         );
     }
 
+    static construct {
+        entries = new Gee.ArrayList<ShortcutEntry> ();
+        entries.add (new ShortcutEntry (_("Applications Menu:"), "org.gnome.desktop.wm.keybindings", "panel-main-menu"));
+        entries.add (new ShortcutEntry (_("Multitasking View:"), "org.gnome.desktop.wm.keybindings", "show-desktop"));
+        entries.add (new ShortcutEntry (_("Switch windows:"), "org.gnome.desktop.wm.keybindings", "switch-windows"));   
+        entries.add (new ShortcutEntry (_("Switch workspaces:"), "org.pantheon.desktop.gala.keybindings", "cycle-workspaces-next"));             
+    }
+
     construct {
         var css_provider = new Gtk.CssProvider ();
         css_provider.load_from_resource ("io/elementary/shortcut-overlay/application.css");
         Gtk.StyleContext.add_provider_for_screen (get_screen (), css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
         var layout = new Gtk.Grid ();
+        layout.orientation = Gtk.Orientation.VERTICAL;
         layout.column_spacing = 6;
-        layout.row_spacing = 6;
+        layout.row_spacing = 12;
         layout.hexpand = true;
         layout.margin = 12;
 
@@ -42,12 +53,16 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
         key_label.get_style_context ().add_class ("keycap");
         key_label.hexpand = true;
 
+        foreach (var entry in entries) {
+            var label = new ShortcutLabel (entry);
+
+            layout.add (label);
+        }
+
         var action_label = new Gtk.Label (_("Application launcher"));
         action_label.halign = Gtk.Align.START;
         action_label.hexpand = true;
 
-        layout.attach (key_label, 0, 0, 1, 1);
-        layout.attach (action_label, 1, 0, 1, 1);
 
         add (layout);
     }
