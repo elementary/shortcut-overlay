@@ -15,7 +15,6 @@ executable(
     'src/Application.vala',
     'src/MainWindow.vala',
     'src/ShortcutEntry.vala',
-    'src/Entries.vala',
     'src/ShortcutLabel.vala',
     asresources,
     dependencies: [
