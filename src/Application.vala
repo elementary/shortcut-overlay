@@ -32,6 +32,17 @@ public class ShortcutOverlay.Application : Gtk.Application {
 
         var main_window = new MainWindow (this);
         main_window.show_all ();
+
+        var quit_action = new SimpleAction ("quit", null);
+
+        add_action (quit_action);
+        add_accelerator ("Escape", "app.quit", null);
+
+        quit_action.activate.connect (() => {
+            if (main_window != null) {
+                main_window.destroy ();
+            }
+        });
     }
 }
 
