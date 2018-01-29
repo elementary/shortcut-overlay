@@ -17,13 +17,20 @@
 
 
 public class ShortcutLabel : Gtk.Grid {
+    public Gtk.Label name_label { get; private set; }
     public ShortcutEntry entry { get; construct; }
+
+    public ShortcutLabel (ShortcutEntry entry) {
+        Object (entry: entry);
+    }
 
     construct {
         orientation = Gtk.Orientation.HORIZONTAL;
         column_spacing = 12;
 
-        var name_label = new Gtk.Label (entry.name);
+        name_label = new Gtk.Label (entry.name);
+        name_label.halign = Gtk.Align.END;
+        name_label.xalign = 1;
         add (name_label);
 
         var accel_grid = new Gtk.Grid ();
@@ -37,9 +44,5 @@ public class ShortcutLabel : Gtk.Grid {
         }
 
         add (accel_grid);
-    }
-
-    public ShortcutLabel (ShortcutEntry entry) {
-        Object (entry: entry);
     }
 }

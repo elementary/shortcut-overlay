@@ -48,15 +48,14 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
         layout.hexpand = true;
         layout.margin = 12;
 
-        var key_label = new Gtk.Label (_("⌘"));
-        key_label.halign = Gtk.Align.END;
-        key_label.get_style_context ().add_class ("keycap");
-        key_label.hexpand = true;
+        var size_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.HORIZONTAL);
 
         foreach (var entry in entries) {
             var label = new ShortcutLabel (entry);
 
             layout.add (label);
+
+            size_group.add_widget (label.name_label);
         }
 
         var action_label = new Gtk.Label (_("Application launcher"));
