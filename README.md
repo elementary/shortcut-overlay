@@ -19,6 +19,7 @@ We need to decide which shortcuts are included, how they're sorted, and if they'
 ## Building, Testing, and Installation
 
 You'll need the following dependencies:
+* libgee-0.8-dev
 * libgtk-3-dev
 * meson
 * valac
