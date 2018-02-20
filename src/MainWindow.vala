@@ -85,7 +85,7 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
             try {
                 AppInfo.launch_default_for_uri ("settings://input/keyboard/shortcuts", null);
             } catch (Error e) {
-                warning ("%s\n", e.message);
+                warning (e.message);
             }
         });
     }
