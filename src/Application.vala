@@ -40,7 +40,7 @@ public class ShortcutOverlay.Application : Gtk.Application {
 
         main_window.focus_out_event.connect ((event) => {
             quit_action.activate (null);
-            return main_window.focus_out_event(event);
+            return Gdk.EVENT_STOP;
         });
 
         quit_action.activate.connect (() => {
