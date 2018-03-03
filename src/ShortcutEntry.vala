@@ -71,6 +71,7 @@ public class ShortcutEntry : Object {
 
         string? key = Gdk.keyval_name (accel_key);
         if (key != null) {
+            key = key[0].toupper ().to_string () + key[1:key.length];
             arr += key;
         }
 
