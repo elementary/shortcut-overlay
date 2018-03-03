@@ -18,6 +18,9 @@
 public class ShortcutOverlay.MainWindow : Gtk.Window {
     private static Gee.ArrayList<ShortcutEntry> entries;
 
+    private const string SCHEMA_WM = "org.gnome.desktop.wm.keybindings";
+    private const string SCHEMA_GALA = "org.pantheon.desktop.gala.keybindings";
+
     public MainWindow (Gtk.Application application) {
         Object (
             application: application,
@@ -30,10 +33,10 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
 
     static construct {
         entries = new Gee.ArrayList<ShortcutEntry> ();
-        entries.add (new ShortcutEntry (_("Applications Menu:"), "org.gnome.desktop.wm.keybindings", "panel-main-menu"));
-        entries.add (new ShortcutEntry (_("Multitasking View:"), "org.gnome.desktop.wm.keybindings", "show-desktop"));
-        entries.add (new ShortcutEntry (_("Switch windows:"), "org.gnome.desktop.wm.keybindings", "switch-windows"));   
-        entries.add (new ShortcutEntry (_("Switch workspaces:"), "org.pantheon.desktop.gala.keybindings", "cycle-workspaces-next"));             
+        entries.add (new ShortcutEntry (_("Applications Menu:"), SCHEMA_WM, "panel-main-menu"));
+        entries.add (new ShortcutEntry (_("Multitasking View:"), SCHEMA_WM, "show-desktop"));
+        entries.add (new ShortcutEntry (_("Switch windows:"), SCHEMA_WM, "switch-windows"));   
+        entries.add (new ShortcutEntry (_("Switch workspaces:"), SCHEMA_GALA, "cycle-workspaces-next"));             
     }
 
     construct {
