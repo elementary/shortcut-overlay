@@ -16,7 +16,9 @@
  */
 
 public class ShortcutOverlay.MainWindow : Gtk.Window {
-    private static Gee.ArrayList<ShortcutEntry> entries;
+    private static Gee.ArrayList<ShortcutEntry> application_entries;
+    private static Gee.ArrayList<ShortcutEntry> window_entries;
+    private static Gee.ArrayList<ShortcutEntry> workspace_entries;
 
     public MainWindow (Gtk.Application application) {
         Object (
@@ -29,11 +31,15 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
     }
 
     static construct {
-        entries = new Gee.ArrayList<ShortcutEntry> ();
-        entries.add (new ShortcutEntry (_("Applications Menu:"), "org.gnome.desktop.wm.keybindings", "panel-main-menu"));
-        entries.add (new ShortcutEntry (_("Multitasking View:"), "org.gnome.desktop.wm.keybindings", "show-desktop"));
-        entries.add (new ShortcutEntry (_("Switch windows:"), "org.gnome.desktop.wm.keybindings", "switch-windows"));   
-        entries.add (new ShortcutEntry (_("Switch workspaces:"), "org.pantheon.desktop.gala.keybindings", "cycle-workspaces-next"));             
+        application_entries = new Gee.ArrayList<ShortcutEntry> ();
+        application_entries.add (new ShortcutEntry (_("Applications Menu:"), "org.gnome.desktop.wm.keybindings", "panel-main-menu")); 
+
+        window_entries = new Gee.ArrayList<ShortcutEntry> ();
+        window_entries.add (new ShortcutEntry (_("Switch windows:"), "org.gnome.desktop.wm.keybindings", "switch-windows"));   
+
+        workspace_entries = new Gee.ArrayList<ShortcutEntry> (); 
+        workspace_entries.add (new ShortcutEntry (_("Multitasking View:"), "org.gnome.desktop.wm.keybindings", "show-desktop"));
+        workspace_entries.add (new ShortcutEntry (_("Switch workspaces:"), "org.pantheon.desktop.gala.keybindings", "cycle-workspaces-next"));           
     }
 
     construct {
@@ -64,7 +70,10 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
 
         var size_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.HORIZONTAL);
 
-        foreach (var entry in entries) {
+        var window_header = new Granite.HeaderLabel (_("Windows"));
+        layout.add (window_header);
+
+        foreach (var entry in window_entries) {
             var label = new ShortcutLabel (entry);
 
             layout.add (label);
@@ -72,10 +81,27 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
             size_group.add_widget (label.name_label);
         }
 
-        var action_label = new Gtk.Label (_("Application launcher"));
-        action_label.halign = Gtk.Align.START;
-        action_label.hexpand = true;
+        var workspace_header = new Granite.HeaderLabel (_("Workspaces"));
+        layout.add (workspace_header);
 
+        foreach (var entry in workspace_entries) {
+            var label = new ShortcutLabel (entry);
+
+            layout.add (label);
+
+            size_group.add_widget (label.name_label);
+        }
+
+        var application_header = new Granite.HeaderLabel (_("Applications"));
+        layout.add (application_header);
+
+        foreach (var entry in application_entries) {
+            var label = new ShortcutLabel (entry);
+
+            layout.add (label);
+
+            size_group.add_widget (label.name_label);
+        }
 
         add (layout);
         get_style_context ().add_class ("rounded");
