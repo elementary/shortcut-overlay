@@ -20,6 +20,9 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
     private static Gee.ArrayList<ShortcutEntry> window_entries;
     private static Gee.ArrayList<ShortcutEntry> workspace_entries;
 
+    private const string SCHEMA_WM = "org.gnome.desktop.wm.keybindings";
+    private const string SCHEMA_GALA = "org.pantheon.desktop.gala.keybindings";
+
     public MainWindow (Gtk.Application application) {
         Object (
             application: application,
@@ -32,14 +35,14 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
 
     static construct {
         application_entries = new Gee.ArrayList<ShortcutEntry> ();
-        application_entries.add (new ShortcutEntry (_("Applications Menu:"), "org.gnome.desktop.wm.keybindings", "panel-main-menu")); 
+        application_entries.add (new ShortcutEntry (_("Applications Menu:"), SCHEMA_WM, "panel-main-menu")); 
 
         window_entries = new Gee.ArrayList<ShortcutEntry> ();
-        window_entries.add (new ShortcutEntry (_("Switch windows:"), "org.gnome.desktop.wm.keybindings", "switch-windows"));   
+        window_entries.add (new ShortcutEntry (_("Switch windows:"), SCHEMA_WM, "switch-windows"));   
 
         workspace_entries = new Gee.ArrayList<ShortcutEntry> (); 
-        workspace_entries.add (new ShortcutEntry (_("Multitasking View:"), "org.gnome.desktop.wm.keybindings", "show-desktop"));
-        workspace_entries.add (new ShortcutEntry (_("Switch workspaces:"), "org.pantheon.desktop.gala.keybindings", "cycle-workspaces-next"));           
+        workspace_entries.add (new ShortcutEntry (_("Multitasking View:"), SCHEMA_WM, "show-desktop"));
+        workspace_entries.add (new ShortcutEntry (_("Switch workspaces:"), SCHEMA_GALA, "cycle-workspaces-next"));           
     }
 
     construct {
