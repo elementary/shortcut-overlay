@@ -16,7 +16,7 @@
  */
 
 public class ShortcutOverlay.MainWindow : Gtk.Window {
-    private static Gee.ArrayList<ShortcutEntry> application_entries;
+    private static Gee.ArrayList<ShortcutEntry> system_entries;
     private static Gee.ArrayList<ShortcutEntry> screenshot_entries;
     private static Gee.ArrayList<ShortcutEntry> window_entries;
     private static Gee.ArrayList<ShortcutEntry> workspace_entries;
@@ -36,8 +36,10 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
     }
 
     static construct {
-        application_entries = new Gee.ArrayList<ShortcutEntry> ();
-        application_entries.add (new ShortcutEntry (_("Applications Menu:"), SCHEMA_WM, "panel-main-menu"));
+        system_entries = new Gee.ArrayList<ShortcutEntry> ();
+        system_entries.add (new ShortcutEntry (_("Applications Menu:"), SCHEMA_WM, "panel-main-menu"));
+        system_entries.add (new ShortcutEntry (_("Zoom in:"), SCHEMA_GALA, "zoom-in"));
+        system_entries.add (new ShortcutEntry (_("Zoom out:"), SCHEMA_GALA, "zoom-out"));
 
         screenshot_entries = new Gee.ArrayList<ShortcutEntry> ();
         screenshot_entries.add (new ShortcutEntry (_("Grab the whole screen:"), SCHEMA_MEDIA, "screenshot"));
@@ -115,10 +117,10 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
         column_end.orientation = Gtk.Orientation.VERTICAL;
         column_end.row_spacing = 12;
 
-        var application_header = new Granite.HeaderLabel (_("Applications"));
-        column_end.add (application_header);
+        var system_header = new Granite.HeaderLabel (_("System"));
+        column_end.add (system_header);
 
-        foreach (var entry in application_entries) {
+        foreach (var entry in system_entries) {
             var label = new ShortcutLabel (entry);
 
             column_end.add (label);
