@@ -42,8 +42,6 @@ public class ShortcutEntry : Object {
 
         var settings = get_settings_for_schema (schema_id);
 
-        
-
         if (settings.get_value (key).is_of_type (VariantType.ARRAY)) {
             string[] accels = settings.get_strv (key);
             if (accels.length > 0) {
