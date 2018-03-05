@@ -38,16 +38,20 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
         application_entries.add (new ShortcutEntry (_("Applications Menu:"), SCHEMA_WM, "panel-main-menu"));
 
         window_entries = new Gee.ArrayList<ShortcutEntry> ();
-        window_entries.add (new ShortcutEntry (_("Switch windows:"), SCHEMA_WM, "switch-windows"));
+        window_entries.add (new ShortcutEntry (_("Cycle windows:"), SCHEMA_WM, "switch-windows"));
+        window_entries.add (new ShortcutEntry (_("Toggle maximized:"), SCHEMA_WM, "toggle-maximized"));
         window_entries.add (new ShortcutEntry (_("Tile left:"), SCHEMA_MUTTER, "toggle-tiled-left"));
         window_entries.add (new ShortcutEntry (_("Tile right:"), SCHEMA_MUTTER, "toggle-tiled-right"));
+        window_entries.add (new ShortcutEntry (_("Move to workspace left:"), SCHEMA_WM, "move-to-workspace-left"));
+        window_entries.add (new ShortcutEntry (_("Move to workspace right:"), SCHEMA_WM, "move-to-workspace-right"));
 
         workspace_entries = new Gee.ArrayList<ShortcutEntry> (); 
         workspace_entries.add (new ShortcutEntry (_("Multitasking View:"), SCHEMA_WM, "show-desktop"));
-        workspace_entries.add (new ShortcutEntry (_("Switch workspaces:"), SCHEMA_GALA, "cycle-workspaces-next"));
         workspace_entries.add (new ShortcutEntry (_("Switch left:"), SCHEMA_WM, "switch-to-workspace-left"));
         workspace_entries.add (new ShortcutEntry (_("Switch right:"), SCHEMA_WM, "switch-to-workspace-right"));
+        workspace_entries.add (new ShortcutEntry (_("Switch to first:"), SCHEMA_GALA, "switch-to-workspace-first"));
         workspace_entries.add (new ShortcutEntry (_("Switch to new:"), SCHEMA_GALA, "switch-to-workspace-last"));
+        workspace_entries.add (new ShortcutEntry (_("Cycle workspaces:"), SCHEMA_GALA, "cycle-workspaces-next"));
     }
 
     construct {
