@@ -22,11 +22,11 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
 
     private const string SCHEMA_WM = "org.gnome.desktop.wm.keybindings";
     private const string SCHEMA_GALA = "org.pantheon.desktop.gala.keybindings";
+    private const string SCHEMA_MUTTER = "org.gnome.mutter.keybindings";
 
     public MainWindow (Gtk.Application application) {
         Object (
             application: application,
-            height_request: 640,
             resizable: false,
             title: _("Keyboard Shortcuts"),
             width_request: 910
@@ -35,14 +35,19 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
 
     static construct {
         application_entries = new Gee.ArrayList<ShortcutEntry> ();
-        application_entries.add (new ShortcutEntry (_("Applications Menu:"), SCHEMA_WM, "panel-main-menu")); 
+        application_entries.add (new ShortcutEntry (_("Applications Menu:"), SCHEMA_WM, "panel-main-menu"));
 
         window_entries = new Gee.ArrayList<ShortcutEntry> ();
-        window_entries.add (new ShortcutEntry (_("Switch windows:"), SCHEMA_WM, "switch-windows"));   
+        window_entries.add (new ShortcutEntry (_("Switch windows:"), SCHEMA_WM, "switch-windows"));
+        window_entries.add (new ShortcutEntry (_("Tile left:"), SCHEMA_MUTTER, "toggle-tiled-left"));
+        window_entries.add (new ShortcutEntry (_("Tile right:"), SCHEMA_MUTTER, "toggle-tiled-right"));
 
         workspace_entries = new Gee.ArrayList<ShortcutEntry> (); 
         workspace_entries.add (new ShortcutEntry (_("Multitasking View:"), SCHEMA_WM, "show-desktop"));
-        workspace_entries.add (new ShortcutEntry (_("Switch workspaces:"), SCHEMA_GALA, "cycle-workspaces-next"));           
+        workspace_entries.add (new ShortcutEntry (_("Switch workspaces:"), SCHEMA_GALA, "cycle-workspaces-next"));
+        workspace_entries.add (new ShortcutEntry (_("Switch left:"), SCHEMA_WM, "switch-to-workspace-left"));
+        workspace_entries.add (new ShortcutEntry (_("Switch right:"), SCHEMA_WM, "switch-to-workspace-right"));
+        workspace_entries.add (new ShortcutEntry (_("Switch to new:"), SCHEMA_GALA, "switch-to-workspace-last"));
     }
 
     construct {
@@ -64,47 +69,63 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
         headerbar_style_context.add_class (Gtk.STYLE_CLASS_FLAT);
         headerbar_style_context.add_class ("default-decoration");
 
-        var layout = new Gtk.Grid ();
-        layout.orientation = Gtk.Orientation.VERTICAL;
-        layout.column_spacing = 6;
-        layout.row_spacing = 12;
-        layout.hexpand = true;
-        layout.margin = 12;
+        var column_start = new Gtk.Grid ();
+        column_start.hexpand = true;
+        column_start.orientation = Gtk.Orientation.VERTICAL;
+        column_start.row_spacing = 12;
 
         var size_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.HORIZONTAL);
 
         var window_header = new Granite.HeaderLabel (_("Windows"));
-        layout.add (window_header);
+        column_start.add (window_header);
 
         foreach (var entry in window_entries) {
             var label = new ShortcutLabel (entry);
 
-            layout.add (label);
+            column_start.add (label);
 
             size_group.add_widget (label.name_label);
         }
 
         var workspace_header = new Granite.HeaderLabel (_("Workspaces"));
-        layout.add (workspace_header);
+        column_start.add (workspace_header);
 
         foreach (var entry in workspace_entries) {
             var label = new ShortcutLabel (entry);
 
-            layout.add (label);
+            column_start.add (label);
 
             size_group.add_widget (label.name_label);
         }
 
+        var column_end = new Gtk.Grid ();
+        column_end.halign = Gtk.Align.START;
+        column_end.hexpand = true;
+        column_end.orientation = Gtk.Orientation.VERTICAL;
+        column_end.row_spacing = 12;
+
         var application_header = new Granite.HeaderLabel (_("Applications"));
-        layout.add (application_header);
+        column_end.add (application_header);
 
         foreach (var entry in application_entries) {
             var label = new ShortcutLabel (entry);
 
-            layout.add (label);
+            column_end.add (label);
 
             size_group.add_widget (label.name_label);
         }
+
+        var column_size_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.HORIZONTAL);
+        column_size_group.add_widget (column_start);
+        column_size_group.add_widget (column_end);
+
+        var layout = new Gtk.Grid ();
+        layout.column_spacing = 24;
+        layout.margin = 12;
+        layout.margin_bottom = 32;
+        layout.add (column_start);
+        layout.add (new Gtk.Separator (Gtk.Orientation.VERTICAL));
+        layout.add (column_end);
 
         add (layout);
         get_style_context ().add_class ("rounded");
