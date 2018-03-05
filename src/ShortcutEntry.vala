@@ -44,12 +44,12 @@ public class ShortcutEntry : Object {
         var key_value = settings.get_value (key);
 
         if (key_value.is_of_type (VariantType.ARRAY)) {
-            string[] accels = (string[]) key_value;
+            string[] accels = key_value.get_strv ();
             if (accels.length > 0) {
                 parse_accelerator (accels[0]);
             }
         } else {
-            parse_accelerator ((string) key_value);
+            parse_accelerator (key_value.dup_string ());
         }
     }
 
