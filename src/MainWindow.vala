@@ -49,8 +49,8 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
         window_entries.add (new ShortcutEntry (_("Toggle maximized:"), SCHEMA_WM, "toggle-maximized"));
         window_entries.add (new ShortcutEntry (_("Tile left:"), SCHEMA_MUTTER, "toggle-tiled-left"));
         window_entries.add (new ShortcutEntry (_("Tile right:"), SCHEMA_MUTTER, "toggle-tiled-right"));
-        window_entries.add (new ShortcutEntry (_("Move to workspace left:"), SCHEMA_WM, "move-to-workspace-left"));
-        window_entries.add (new ShortcutEntry (_("Move to workspace right:"), SCHEMA_WM, "move-to-workspace-right"));
+        window_entries.add (new ShortcutEntry (_("Move to left workspace:"), SCHEMA_WM, "move-to-workspace-left"));
+        window_entries.add (new ShortcutEntry (_("Move to right workspace:"), SCHEMA_WM, "move-to-workspace-right"));
 
         workspace_entries = new Gee.ArrayList<ShortcutEntry> (); 
         workspace_entries.add (new ShortcutEntry (_("Multitasking View:"), SCHEMA_WM, "show-desktop"));
