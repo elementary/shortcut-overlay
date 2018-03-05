@@ -17,11 +17,13 @@
 
 public class ShortcutOverlay.MainWindow : Gtk.Window {
     private static Gee.ArrayList<ShortcutEntry> application_entries;
+    private static Gee.ArrayList<ShortcutEntry> screenshot_entries;
     private static Gee.ArrayList<ShortcutEntry> window_entries;
     private static Gee.ArrayList<ShortcutEntry> workspace_entries;
 
     private const string SCHEMA_WM = "org.gnome.desktop.wm.keybindings";
     private const string SCHEMA_GALA = "org.pantheon.desktop.gala.keybindings";
+    private const string SCHEMA_MEDIA = "org.gnome.settings-daemon.plugins.media-keys";
     private const string SCHEMA_MUTTER = "org.gnome.mutter.keybindings";
 
     public MainWindow (Gtk.Application application) {
@@ -36,6 +38,11 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
     static construct {
         application_entries = new Gee.ArrayList<ShortcutEntry> ();
         application_entries.add (new ShortcutEntry (_("Applications Menu:"), SCHEMA_WM, "panel-main-menu"));
+
+        screenshot_entries = new Gee.ArrayList<ShortcutEntry> ();
+        screenshot_entries.add (new ShortcutEntry (_("Grab the whole screen:"), SCHEMA_MEDIA, "screenshot"));
+        screenshot_entries.add (new ShortcutEntry (_("Grab the current window:"), SCHEMA_MEDIA, "window-screenshot"));
+        screenshot_entries.add (new ShortcutEntry (_("Select an area to grab:"), SCHEMA_MEDIA, "area-screenshot"));
 
         window_entries = new Gee.ArrayList<ShortcutEntry> ();
         window_entries.add (new ShortcutEntry (_("Switch windows:"), SCHEMA_WM, "switch-windows"));
@@ -108,6 +115,17 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
         column_end.add (application_header);
 
         foreach (var entry in application_entries) {
+            var label = new ShortcutLabel (entry);
+
+            column_end.add (label);
+
+            size_group.add_widget (label.name_label);
+        }
+
+        var screenshot_header = new Granite.HeaderLabel (_("Screenshots"));
+        column_end.add (screenshot_header);
+
+        foreach (var entry in screenshot_entries) {
             var label = new ShortcutLabel (entry);
 
             column_end.add (label);
