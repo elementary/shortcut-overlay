@@ -41,9 +41,15 @@ public class ShortcutEntry : Object {
         Object (name: name);
 
         var settings = get_settings_for_schema (schema_id);
-        string[] accels = settings.get_strv (key);
-        if (accels.length > 0) {
-            parse_accelerator (accels[0]);
+        var key_value = settings.get_value (key);
+
+        if (key_value.is_of_type (VariantType.ARRAY)) {
+            string[] accels = key_value.get_strv ();
+            if (accels.length > 0) {
+                parse_accelerator (accels[0]);
+            }
+        } else {
+            parse_accelerator (key_value.dup_string ());
         }
     }
 
