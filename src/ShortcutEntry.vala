@@ -41,9 +41,15 @@ public class ShortcutEntry : Object {
         Object (name: name);
 
         var settings = get_settings_for_schema (schema_id);
-        string[] accels = settings.get_strv (key);
-        if (accels.length > 0) {
-            parse_accelerator (accels[0]);
+
+        if (schema_id == "org.gnome.settings-daemon.plugins.media-keys") {
+            string accel = settings.get_string (key);
+            parse_accelerator (accel);
+        } else {
+            string[] accels = settings.get_strv (key);
+            if (accels.length > 0) {
+                parse_accelerator (accels[0]);
+            }
         }
     }
 
