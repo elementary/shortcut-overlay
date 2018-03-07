@@ -8,7 +8,7 @@ of Ubuntu Unity introduced in Ubuntu 12.04.
 
 ![Screenshot](/data/Screenshot@2x.png)
 
-The shortcut window opens centered on the primary display. The titlebar opens the [system keyboard settings](settings://input/keyboard/shortcuts).
+The shortcut window opens centered on the primary display. The gear in the titlebar opens the [system keyboard settings](settings://input/keyboard/shortcuts).
 
 ## Included Shortcuts
 
