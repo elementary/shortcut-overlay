@@ -2,13 +2,13 @@
 
 A native OS-wide shortcut overlay to be launched by Gala.
 
-This GTK+ applet should read window manager and OS keyboard shortcuts from dconf
-and expose them to the user when launched. Inspired by the similar [feature][1]
+This GTK+ applet reads window manager and OS keyboard shortcuts from dconf
+and exposes them to the user when launched. Inspired by the similar [feature][1]
 of Ubuntu Unity introduced in Ubuntu 12.04.
 
 ![Screenshot](/data/Screenshot@2x.png)
 
-The shortcut window should open centered on the primary display, probably styled like a dialog. It should have two columns of keyboard shortcuts, and a gear in the titlebar that opens the [system keyboard settings](settings://input/keyboard/shortcuts).
+The shortcut window opens centered on the primary display. The titlebar opens the [system keyboard settings](settings://input/keyboard/shortcuts).
 
 ## Included Shortcuts
 
