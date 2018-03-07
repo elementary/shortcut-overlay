@@ -1,138 +1,138 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# English translations for io.elementary.shortcut-overlay package.
+# Copyright (C) 2018 THE io.elementary.shortcut-overlay'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the io.elementary.shortcut-overlay package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Automatically generated, 2018.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-07 10:56-0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-03-07 10:56-0800\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en_CA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: src/MainWindow.vala:33
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Keyboard Shortcuts"
 
 #: src/MainWindow.vala:40
 msgid "Applications Menu:"
-msgstr ""
+msgstr "Applications Menu:"
 
 #: src/MainWindow.vala:41
 msgid "Cycle display mode:"
-msgstr ""
+msgstr "Cycle display mode:"
 
 #: src/MainWindow.vala:42
 msgid "Zoom in:"
-msgstr ""
+msgstr "Zoom in:"
 
 #: src/MainWindow.vala:43
 msgid "Zoom out:"
-msgstr ""
+msgstr "Zoom out:"
 
 #: src/MainWindow.vala:44
 msgid "Lock screen:"
-msgstr ""
+msgstr "Lock screen:"
 
 #: src/MainWindow.vala:45
 msgid "Log out:"
-msgstr ""
+msgstr "Log out:"
 
 #: src/MainWindow.vala:48
 msgid "Grab the whole screen:"
-msgstr ""
+msgstr "Grab the whole screen:"
 
 #: src/MainWindow.vala:49
 msgid "Grab the current window:"
-msgstr ""
+msgstr "Grab the current window:"
 
 #: src/MainWindow.vala:50
 msgid "Select an area to grab:"
-msgstr ""
+msgstr "Select an area to grab:"
 
 #: src/MainWindow.vala:53
 msgid "Cycle windows:"
-msgstr ""
+msgstr "Cycle windows:"
 
 #: src/MainWindow.vala:54
 msgid "Toggle maximized:"
-msgstr ""
+msgstr "Toggle maximized:"
 
 #: src/MainWindow.vala:55
 msgid "Tile left:"
-msgstr ""
+msgstr "Tile left:"
 
 #: src/MainWindow.vala:56
 msgid "Tile right:"
-msgstr ""
+msgstr "Tile right:"
 
 #: src/MainWindow.vala:57
 msgid "Move to left workspace:"
-msgstr ""
+msgstr "Move to left workspace:"
 
 #: src/MainWindow.vala:58
 msgid "Move to right workspace:"
-msgstr ""
+msgstr "Move to right workspace:"
 
 #: src/MainWindow.vala:61
 msgid "Multitasking View:"
-msgstr ""
+msgstr "Multitasking View:"
 
 #: src/MainWindow.vala:62
 msgid "Switch left:"
-msgstr ""
+msgstr "Switch left:"
 
 #: src/MainWindow.vala:63
 msgid "Switch right:"
-msgstr ""
+msgstr "Switch right:"
 
 #: src/MainWindow.vala:64
 msgid "Switch to first:"
-msgstr ""
+msgstr "Switch to first:"
 
 #: src/MainWindow.vala:65
 msgid "Switch to new:"
-msgstr ""
+msgstr "Switch to new:"
 
 #: src/MainWindow.vala:66
 msgid "Cycle workspaces:"
-msgstr ""
+msgstr "Cycle workspaces:"
 
 #: src/MainWindow.vala:75
 msgid "Keyboard Settings…"
-msgstr ""
+msgstr "Keyboard Settings…"
 
 #: src/MainWindow.vala:95
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: src/MainWindow.vala:106
 msgid "Workspaces"
-msgstr ""
+msgstr "Workspaces"
 
 #: src/MainWindow.vala:123
 msgid "System"
-msgstr ""
+msgstr "System"
 
 #: src/MainWindow.vala:134
 msgid "Screenshots"
-msgstr ""
+msgstr "Screenshots"
 
 #: src/ShortcutEntry.vala:67
 msgid "Shift"
-msgstr ""
+msgstr "Shift"
 
 #: src/ShortcutEntry.vala:71
 msgid "Ctrl"
-msgstr ""
+msgstr "Ctrl"
 
 #: src/ShortcutEntry.vala:75
 msgid "Alt"
-msgstr ""
+msgstr "Alt"
