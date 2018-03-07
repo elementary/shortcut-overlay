@@ -38,8 +38,11 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
     static construct {
         system_entries = new Gee.ArrayList<ShortcutEntry> ();
         system_entries.add (new ShortcutEntry (_("Applications Menu:"), SCHEMA_WM, "panel-main-menu"));
+        system_entries.add (new ShortcutEntry (_("Cycle display mode:"), SCHEMA_MUTTER, "switch-monitor"));
         system_entries.add (new ShortcutEntry (_("Zoom in:"), SCHEMA_GALA, "zoom-in"));
         system_entries.add (new ShortcutEntry (_("Zoom out:"), SCHEMA_GALA, "zoom-out"));
+        system_entries.add (new ShortcutEntry (_("Lock screen:"), SCHEMA_MEDIA, "screensaver"));
+        system_entries.add (new ShortcutEntry (_("Log out:"), SCHEMA_MEDIA, "logout"));
 
         screenshot_entries = new Gee.ArrayList<ShortcutEntry> ();
         screenshot_entries.add (new ShortcutEntry (_("Grab the whole screen:"), SCHEMA_MEDIA, "screenshot"));
