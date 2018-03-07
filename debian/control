@@ -11,7 +11,7 @@ Build-Depends: debhelper (>= 10.5.1),
 Standards-Version: 3.9.6
 
 Package: io.elementary.shortcut-overlay
-Architecture: all
+Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: shortcut overlay
  Native OS-wide shortcut overlay
