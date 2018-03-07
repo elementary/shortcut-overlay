@@ -36,7 +36,7 @@ public class ShortcutOverlay.Application : Gtk.Application {
         var quit_action = new SimpleAction ("quit", null);
 
         add_action (quit_action);
-        add_accelerator ("Escape", "app.quit", null);
+        set_accels_for_action ("app.quit", {"Escape"});
 
         main_window.focus_out_event.connect ((event) => {
             quit_action.activate (null);
