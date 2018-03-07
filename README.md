@@ -6,11 +6,9 @@ This GTK+ applet should read window manager and OS keyboard shortcuts from dconf
 and expose them to the user when launched. Inspired by the similar [feature][1]
 of Ubuntu Unity introduced in Ubuntu 12.04.
 
-## Super rough sketch
+![Screenshot](/data/Screenshot@2x.png)
 
-![Super rough sketch](/data/sketch.jpg)
-
-The shortcut window should open centered on the primary display, probably styled like a dialog. It should have two columns of keyboard shortcuts, and could have a gear in the titlebar that opens the [system keyboard settings](settings://input/keyboard/shortcuts).
+The shortcut window should open centered on the primary display, probably styled like a dialog. It should have two columns of keyboard shortcuts, and a gear in the titlebar that opens the [system keyboard settings](settings://input/keyboard/shortcuts).
 
 ## Included Shortcuts
 
