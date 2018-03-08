@@ -8,130 +8,133 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-07 10:56-0800\n"
-"PO-Revision-Date: 2018-03-07 10:56-0800\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2018-03-08 09:01+0000\n"
+"Last-Translator: David M <rbndavid@gmail.com>\n"
+"Language-Team: Catalan <https://weblate.elementary.io/projects/desktop"
+"/shortcut-overlay/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.18\n"
 
 #: src/MainWindow.vala:33
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Dreceres de teclat"
 
 #: src/MainWindow.vala:40
 msgid "Applications Menu:"
-msgstr ""
+msgstr "Menú d'aplicacions:"
 
 #: src/MainWindow.vala:41
 msgid "Cycle display mode:"
-msgstr ""
+msgstr "Mode de pantalla cíclic:"
 
 #: src/MainWindow.vala:42
 msgid "Zoom in:"
-msgstr ""
+msgstr "Amplia:"
 
 #: src/MainWindow.vala:43
 msgid "Zoom out:"
-msgstr ""
+msgstr "Redueix:"
 
 #: src/MainWindow.vala:44
 msgid "Lock screen:"
-msgstr ""
+msgstr "Bloqueig de pantalla:"
 
 #: src/MainWindow.vala:45
 msgid "Log out:"
-msgstr ""
+msgstr "Sortida:"
 
 #: src/MainWindow.vala:48
 msgid "Grab the whole screen:"
-msgstr ""
+msgstr "Pren tota la pantalla:"
 
 #: src/MainWindow.vala:49
 msgid "Grab the current window:"
-msgstr ""
+msgstr "Pren la finestra actual:"
 
 #: src/MainWindow.vala:50
 msgid "Select an area to grab:"
-msgstr ""
+msgstr "Seleccioneu-ne una àrea:"
 
 #: src/MainWindow.vala:53
 msgid "Cycle windows:"
-msgstr ""
+msgstr "Cicle de finestres:"
 
 #: src/MainWindow.vala:54
 msgid "Toggle maximized:"
-msgstr ""
+msgstr "Commuta la maximització:"
 
 #: src/MainWindow.vala:55
 msgid "Tile left:"
-msgstr ""
+msgstr "Mosaic a l'esquerra:"
 
 #: src/MainWindow.vala:56
 msgid "Tile right:"
-msgstr ""
+msgstr "Mosaic a la dreta:"
 
 #: src/MainWindow.vala:57
 msgid "Move to left workspace:"
-msgstr ""
+msgstr "Ves a l'espai de treball de l'esquerra:"
 
 #: src/MainWindow.vala:58
 msgid "Move to right workspace:"
-msgstr ""
+msgstr "Ves a l'espai de treball de la dreta:"
 
 #: src/MainWindow.vala:61
 msgid "Multitasking View:"
-msgstr ""
+msgstr "Vista de multitasca:"
 
 #: src/MainWindow.vala:62
 msgid "Switch left:"
-msgstr ""
+msgstr "Ves a l'esquerra:"
 
 #: src/MainWindow.vala:63
 msgid "Switch right:"
-msgstr ""
+msgstr "Ves a la dreta:"
 
 #: src/MainWindow.vala:64
 msgid "Switch to first:"
-msgstr ""
+msgstr "Ves a la primera:"
 
 #: src/MainWindow.vala:65
 msgid "Switch to new:"
-msgstr ""
+msgstr "Ves a la nova:"
 
 #: src/MainWindow.vala:66
 msgid "Cycle workspaces:"
-msgstr ""
+msgstr "Cicle d'espais de treball:"
 
 #: src/MainWindow.vala:75
 msgid "Keyboard Settings…"
-msgstr ""
+msgstr "Paràmetres del teclat…"
 
 #: src/MainWindow.vala:95
 msgid "Windows"
-msgstr ""
+msgstr "Finestres"
 
 #: src/MainWindow.vala:106
 msgid "Workspaces"
-msgstr ""
+msgstr "Espais de treball"
 
 #: src/MainWindow.vala:123
 msgid "System"
-msgstr ""
+msgstr "Sistema"
 
 #: src/MainWindow.vala:134
 msgid "Screenshots"
-msgstr ""
+msgstr "Captures de pantalla"
 
 #: src/ShortcutEntry.vala:67
 msgid "Shift"
-msgstr ""
+msgstr "Maj."
 
 #: src/ShortcutEntry.vala:71
 msgid "Ctrl"
-msgstr ""
+msgstr "Ctrl"
 
 #: src/ShortcutEntry.vala:75
 msgid "Alt"
-msgstr ""
+msgstr "Alt"
