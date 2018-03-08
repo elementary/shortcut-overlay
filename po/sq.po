@@ -1,0 +1,137 @@
+# Albanian translations for io.elementary.shortcut-overlay package.
+# Copyright (C) 2018 THE io.elementary.shortcut-overlay'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the io.elementary.shortcut-overlay package.
+# Automatically generated, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: io.elementary.shortcut-overlay\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-07 10:56-0800\n"
+"PO-Revision-Date: 2018-03-07 10:56-0800\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: sq\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/MainWindow.vala:33
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: src/MainWindow.vala:40
+msgid "Applications Menu:"
+msgstr ""
+
+#: src/MainWindow.vala:41
+msgid "Cycle display mode:"
+msgstr ""
+
+#: src/MainWindow.vala:42
+msgid "Zoom in:"
+msgstr ""
+
+#: src/MainWindow.vala:43
+msgid "Zoom out:"
+msgstr ""
+
+#: src/MainWindow.vala:44
+msgid "Lock screen:"
+msgstr ""
+
+#: src/MainWindow.vala:45
+msgid "Log out:"
+msgstr ""
+
+#: src/MainWindow.vala:48
+msgid "Grab the whole screen:"
+msgstr ""
+
+#: src/MainWindow.vala:49
+msgid "Grab the current window:"
+msgstr ""
+
+#: src/MainWindow.vala:50
+msgid "Select an area to grab:"
+msgstr ""
+
+#: src/MainWindow.vala:53
+msgid "Cycle windows:"
+msgstr ""
+
+#: src/MainWindow.vala:54
+msgid "Toggle maximized:"
+msgstr ""
+
+#: src/MainWindow.vala:55
+msgid "Tile left:"
+msgstr ""
+
+#: src/MainWindow.vala:56
+msgid "Tile right:"
+msgstr ""
+
+#: src/MainWindow.vala:57
+msgid "Move to left workspace:"
+msgstr ""
+
+#: src/MainWindow.vala:58
+msgid "Move to right workspace:"
+msgstr ""
+
+#: src/MainWindow.vala:61
+msgid "Multitasking View:"
+msgstr ""
+
+#: src/MainWindow.vala:62
+msgid "Switch left:"
+msgstr ""
+
+#: src/MainWindow.vala:63
+msgid "Switch right:"
+msgstr ""
+
+#: src/MainWindow.vala:64
+msgid "Switch to first:"
+msgstr ""
+
+#: src/MainWindow.vala:65
+msgid "Switch to new:"
+msgstr ""
+
+#: src/MainWindow.vala:66
+msgid "Cycle workspaces:"
+msgstr ""
+
+#: src/MainWindow.vala:75
+msgid "Keyboard Settings…"
+msgstr ""
+
+#: src/MainWindow.vala:95
+msgid "Windows"
+msgstr ""
+
+#: src/MainWindow.vala:106
+msgid "Workspaces"
+msgstr ""
+
+#: src/MainWindow.vala:123
+msgid "System"
+msgstr ""
+
+#: src/MainWindow.vala:134
+msgid "Screenshots"
+msgstr ""
+
+#: src/ShortcutEntry.vala:67
+msgid "Shift"
+msgstr ""
+
+#: src/ShortcutEntry.vala:71
+msgid "Ctrl"
+msgstr ""
+
+#: src/ShortcutEntry.vala:75
+msgid "Alt"
+msgstr ""
