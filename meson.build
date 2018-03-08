@@ -1,6 +1,7 @@
 project('io.elementary.shortcut-overlay', 'vala', 'c')
 
 gnome = import('gnome')
+i18n = import('i18n')
 
 asresources = gnome.compile_resources(
     'as-resources', 'data/' + meson.project_name() + '.gresource.xml',
@@ -8,7 +9,10 @@ asresources = gnome.compile_resources(
     c_name: 'as'
 )
 
-add_global_arguments('-DGETTEXT_PACKAGE="io.elementary.shortcut-overlay"', language:'c')
+add_global_arguments(
+    '-DGETTEXT_PACKAGE="@0@"'.format(meson.project_name()),
+    language:'c'
+)
 
 executable(
     meson.project_name(),
@@ -26,3 +30,5 @@ executable(
     ],
     install : true
 )
+
+subdir('po')
