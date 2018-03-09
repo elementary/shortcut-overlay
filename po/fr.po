@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-07 10:56-0800\n"
-"PO-Revision-Date: 2018-03-09 09:05+0000\n"
+"PO-Revision-Date: 2018-03-10 00:03+0000\n"
 "Last-Translator: Corentin Noël <corentin@elementary.io>\n"
 "Language-Team: French <https://weblate.elementary.io/projects/desktop"
 "/shortcut-overlay/fr/>\n"
@@ -129,7 +129,7 @@ msgstr "Captures d'écran"
 
 #: src/ShortcutEntry.vala:67
 msgid "Shift"
-msgstr "Maj."
+msgstr "Maj"
 
 #: src/ShortcutEntry.vala:71
 msgid "Ctrl"
