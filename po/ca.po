@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-07 10:56-0800\n"
-"PO-Revision-Date: 2018-03-08 09:01+0000\n"
+"PO-Revision-Date: 2018-03-09 00:05+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://weblate.elementary.io/projects/desktop"
 "/shortcut-overlay/ca/>\n"
@@ -29,7 +29,7 @@ msgstr "Menú d'aplicacions:"
 
 #: src/MainWindow.vala:41
 msgid "Cycle display mode:"
-msgstr "Mode de pantalla cíclic:"
+msgstr "Cicle del mode de pantalla:"
 
 #: src/MainWindow.vala:42
 msgid "Zoom in:"
