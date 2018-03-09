@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-07 10:56-0800\n"
-"PO-Revision-Date: 2018-03-09 00:05+0000\n"
+"PO-Revision-Date: 2018-03-10 00:03+0000\n"
 "Last-Translator: Fabio Zaramella <fabiozaramella@hotmail.it>\n"
 "Language-Team: Italian <https://weblate.elementary.io/projects/desktop"
 "/shortcut-overlay/it/>\n"
@@ -33,11 +33,11 @@ msgstr ""
 
 #: src/MainWindow.vala:42
 msgid "Zoom in:"
-msgstr "Aumenta zoom:"
+msgstr "Aumenta ingrandimento:"
 
 #: src/MainWindow.vala:43
 msgid "Zoom out:"
-msgstr "Diminuisci zoom:"
+msgstr "Riduci ingrandimento:"
 
 #: src/MainWindow.vala:44
 msgid "Lock screen:"
@@ -128,7 +128,6 @@ msgid "Screenshots"
 msgstr "Schermate"
 
 #: src/ShortcutEntry.vala:67
-#, fuzzy
 msgid "Shift"
 msgstr "Maiusc"
 
