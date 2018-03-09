@@ -20,6 +20,7 @@ executable(
     'src/MainWindow.vala',
     'src/ShortcutEntry.vala',
     'src/ShortcutLabel.vala',
+    'src/Views/ComposeView.vala',
     'src/Views/ShortcutsView.vala',
     asresources,
     dependencies: [
