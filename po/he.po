@@ -8,62 +8,64 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-07 10:56-0800\n"
-"PO-Revision-Date: 2018-03-07 10:56-0800\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2018-03-09 00:05+0000\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: Hebrew <https://weblate.elementary.io/projects/desktop"
+"/shortcut-overlay/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.18\n"
 
 #: src/MainWindow.vala:33
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "קיצורי מקלדת"
 
 #: src/MainWindow.vala:40
 msgid "Applications Menu:"
-msgstr ""
+msgstr "תפריט יישומים:"
 
 #: src/MainWindow.vala:41
 msgid "Cycle display mode:"
-msgstr ""
+msgstr "החלפת מצבי תצוגה:"
 
 #: src/MainWindow.vala:42
 msgid "Zoom in:"
-msgstr ""
+msgstr "התקרבות:"
 
 #: src/MainWindow.vala:43
 msgid "Zoom out:"
-msgstr ""
+msgstr "התרחקות:"
 
 #: src/MainWindow.vala:44
 msgid "Lock screen:"
-msgstr ""
+msgstr "נעילת מסך:"
 
 #: src/MainWindow.vala:45
 msgid "Log out:"
-msgstr ""
+msgstr "יציאה:"
 
 #: src/MainWindow.vala:48
 msgid "Grab the whole screen:"
-msgstr ""
+msgstr "צילום המסך כולו:"
 
 #: src/MainWindow.vala:49
 msgid "Grab the current window:"
-msgstr ""
+msgstr "צילום החלון הנוכחי:"
 
 #: src/MainWindow.vala:50
 msgid "Select an area to grab:"
-msgstr ""
+msgstr "בחירת אזור לצילום:"
 
 #: src/MainWindow.vala:53
 msgid "Cycle windows:"
-msgstr ""
+msgstr "החלפה בין חלונות:"
 
 #: src/MainWindow.vala:54
 msgid "Toggle maximized:"
-msgstr ""
+msgstr "החלפת מצב הגדלה:"
 
 #: src/MainWindow.vala:55
 msgid "Tile left:"
