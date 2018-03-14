@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Keyboard Shortcuts
+GenericName=Shortcut Overlay
+Comment=View system keyboard shortcuts
+TryExec=io.elementary.shortcut-overlay
+Exec=io.elementary.shortcut-overlay
+Icon=preferences-desktop-keyboard
+Type=Application
+Categories=Utility;Documentation;
+StartupNotify=true
+NoDisplay=true
+Keywords=cheatsheet;shortcut;overlay;
