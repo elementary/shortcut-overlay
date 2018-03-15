@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-07 10:56-0800\n"
-"PO-Revision-Date: 2018-03-09 00:05+0000\n"
+"PO-Revision-Date: 2018-03-15 11:05+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/desktop"
 "/shortcut-overlay/ja/>\n"
@@ -49,15 +49,15 @@ msgstr "ログアウト:"
 
 #: src/MainWindow.vala:48
 msgid "Grab the whole screen:"
-msgstr ""
+msgstr "スクリーン全体を取得:"
 
 #: src/MainWindow.vala:49
 msgid "Grab the current window:"
-msgstr ""
+msgstr "現在のウィンドウを取得:"
 
 #: src/MainWindow.vala:50
 msgid "Select an area to grab:"
-msgstr ""
+msgstr "エリアを選択して取得:"
 
 #: src/MainWindow.vala:53
 msgid "Cycle windows:"
