@@ -32,4 +32,5 @@ executable(
     install : true
 )
 
+subdir('data')
 subdir('po')

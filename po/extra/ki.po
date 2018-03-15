@@ -1,0 +1,37 @@
+# Kikuyu translations for extra package.
+# Copyright (C) 2018 THE extra'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the extra package.
+# Automatically generated, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: extra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-13 16:43-0700\n"
+"PO-Revision-Date: 2018-03-13 16:43-0700\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ki\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/io.elementary.shortcut-overlay.desktop.in:3
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: data/io.elementary.shortcut-overlay.desktop.in:4
+msgid "Shortcut Overlay"
+msgstr ""
+
+#: data/io.elementary.shortcut-overlay.desktop.in:5
+msgid "View system keyboard shortcuts"
+msgstr ""
+
+#: data/io.elementary.shortcut-overlay.desktop.in:8
+msgid "preferences-desktop-keyboard"
+msgstr ""
+
+#: data/io.elementary.shortcut-overlay.desktop.in:13
+msgid "cheatsheet;shortcut;overlay;"
+msgstr ""

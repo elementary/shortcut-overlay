@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-07 10:56-0800\n"
-"PO-Revision-Date: 2018-03-09 00:05+0000\n"
+"PO-Revision-Date: 2018-03-10 12:29+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://weblate.elementary.io/projects/desktop"
 "/shortcut-overlay/lt/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: src/MainWindow.vala:33
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Klaviatūros susiejimai"
 
 #: src/MainWindow.vala:40
 msgid "Applications Menu:"
@@ -30,7 +30,7 @@ msgstr "Programų meniu:"
 
 #: src/MainWindow.vala:41
 msgid "Cycle display mode:"
-msgstr ""
+msgstr "Perjunginėti rodymo veikseną:"
 
 #: src/MainWindow.vala:42
 msgid "Zoom in:"
@@ -50,31 +50,31 @@ msgstr "Atsijungti:"
 
 #: src/MainWindow.vala:48
 msgid "Grab the whole screen:"
-msgstr ""
+msgstr "Fotografuoti visą ekraną:"
 
 #: src/MainWindow.vala:49
 msgid "Grab the current window:"
-msgstr ""
+msgstr "Fotografuoti esamą langą:"
 
 #: src/MainWindow.vala:50
 msgid "Select an area to grab:"
-msgstr ""
+msgstr "Pasirinkti fotografuojamą sritį:"
 
 #: src/MainWindow.vala:53
 msgid "Cycle windows:"
-msgstr ""
+msgstr "Perjunginėti langus:"
 
 #: src/MainWindow.vala:54
 msgid "Toggle maximized:"
-msgstr ""
+msgstr "Perjungti išskleidimą:"
 
 #: src/MainWindow.vala:55
 msgid "Tile left:"
-msgstr ""
+msgstr "Iškloti kairėje:"
 
 #: src/MainWindow.vala:56
 msgid "Tile right:"
-msgstr ""
+msgstr "Iškloti dešinėje:"
 
 #: src/MainWindow.vala:57
 msgid "Move to left workspace:"
@@ -86,31 +86,31 @@ msgstr "Perkelti į darbo sritį dešinėje:"
 
 #: src/MainWindow.vala:61
 msgid "Multitasking View:"
-msgstr ""
+msgstr "Daugiaprogramio apdorojimo rodinys:"
 
 #: src/MainWindow.vala:62
 msgid "Switch left:"
-msgstr ""
+msgstr "Perjungti kairėn:"
 
 #: src/MainWindow.vala:63
 msgid "Switch right:"
-msgstr ""
+msgstr "Perjungti dešinėn:"
 
 #: src/MainWindow.vala:64
 msgid "Switch to first:"
-msgstr ""
+msgstr "Perjungti į pirmą:"
 
 #: src/MainWindow.vala:65
 msgid "Switch to new:"
-msgstr ""
+msgstr "Perjungti į naują:"
 
 #: src/MainWindow.vala:66
 msgid "Cycle workspaces:"
-msgstr ""
+msgstr "Perjunginėti darbo sritis:"
 
 #: src/MainWindow.vala:75
 msgid "Keyboard Settings…"
-msgstr ""
+msgstr "Klaviatūros nustatymai…"
 
 #: src/MainWindow.vala:95
 msgid "Windows"
@@ -130,12 +130,12 @@ msgstr "Ekrano kopijos"
 
 #: src/ShortcutEntry.vala:67
 msgid "Shift"
-msgstr ""
+msgstr "Shift (Lyg2)"
 
 #: src/ShortcutEntry.vala:71
 msgid "Ctrl"
-msgstr ""
+msgstr "Ctrl (Vald)"
 
 #: src/ShortcutEntry.vala:75
 msgid "Alt"
-msgstr ""
+msgstr "Alt"
