@@ -45,10 +45,10 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
         headerbar_style_context.add_class ("default-decoration");
 
         var shortcuts_view = new ShortcutsView ();
-        
+
         var compose_view = new ComposeView ();
 
-        var stack = new Gtk.Stack ();        
+        var stack = new Gtk.Stack ();
         stack.add_titled (shortcuts_view, "shortcuts", _("Shortcuts"));
         stack.add_titled (compose_view, "compose", _("Compose Key"));
 

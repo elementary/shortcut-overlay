@@ -16,7 +16,7 @@
  */
 
 // Characters to include:
-// 
+//
 // Typographic Glyphs
 //     Em dash
 //     En dash
@@ -49,7 +49,7 @@ public class ShortcutOverlay.ComposeView : Gtk.Grid {
         var key_grid = new Gtk.Grid ();
         key_grid.orientation = Gtk.Orientation.HORIZONTAL;
         key_grid.column_spacing = 6;
-        
+
         var key1_label = new Gtk.Label ("-");
         key1_label.get_style_context ().add_class ("keycap");
 
