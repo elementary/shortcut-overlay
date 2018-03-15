@@ -16,8 +16,6 @@
  */
 
 public class ShortcutOverlay.MainWindow : Gtk.Window {
-    private ShortcutsView shortcuts_view;
-
     public MainWindow (Gtk.Application application) {
         Object (
             application: application,
@@ -46,7 +44,7 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
         headerbar_style_context.add_class (Gtk.STYLE_CLASS_FLAT);
         headerbar_style_context.add_class ("default-decoration");
 
-        shortcuts_view = new ShortcutsView ();
+        var shortcuts_view = new ShortcutsView ();
 
         add (shortcuts_view);
         get_style_context ().add_class ("rounded");
