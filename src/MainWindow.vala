@@ -16,9 +16,6 @@
  */
 
 public class ShortcutOverlay.MainWindow : Gtk.Window {
-    private ComposeView compose_view;
-    private ShortcutsView shortcuts_view;
-
     public MainWindow (Gtk.Application application) {
         Object (
             application: application,
@@ -47,10 +44,11 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
         headerbar_style_context.add_class (Gtk.STYLE_CLASS_FLAT);
         headerbar_style_context.add_class ("default-decoration");
 
-        shortcuts_view = new ShortcutsView ();
-        compose_view = new ComposeView ();
+        var shortcuts_view = new ShortcutsView ();
+        
+        var compose_view = new ComposeView ();
 
-        var stack = new Gtk.Stack ();
+        var stack = new Gtk.Stack ();        
         stack.add_titled (shortcuts_view, "shortcuts", _("Shortcuts"));
         stack.add_titled (compose_view, "compose", _("Compose Key"));
 
@@ -61,11 +59,14 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
         stack_switcher.stack = stack;
 
         var grid = new Gtk.Grid ();
+        grid.margin_start = grid.margin_end = 12;
+        grid.margin_bottom = 32;
         grid.orientation = Gtk.Orientation.VERTICAL;
         grid.add (stack_switcher);
         grid.add (stack);
 
         add (grid);
+
         get_style_context ().add_class ("rounded");
         set_titlebar (headerbar);
 

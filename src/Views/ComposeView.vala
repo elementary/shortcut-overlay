@@ -34,8 +34,6 @@ public class ShortcutOverlay.ComposeView : Gtk.Grid {
 
     construct {
         column_spacing = 24;
-        margin = 12;
-        margin_bottom = 32;
 
         var grid = new Gtk.Grid ();
         grid.column_spacing = 12;

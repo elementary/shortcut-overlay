@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-07 10:56-0800\n"
-"PO-Revision-Date: 2018-03-08 09:01+0000\n"
+"PO-Revision-Date: 2018-03-09 09:05+0000\n"
 "Last-Translator: Piotr Strebski <strebski@o2.pl>\n"
 "Language-Team: Polish <https://weblate.elementary.io/projects/desktop"
 "/shortcut-overlay/pl/>\n"
@@ -30,43 +30,43 @@ msgstr "Menu programów:"
 
 #: src/MainWindow.vala:41
 msgid "Cycle display mode:"
-msgstr ""
+msgstr "Przełączanie trybu wyświetlania:"
 
 #: src/MainWindow.vala:42
 msgid "Zoom in:"
-msgstr ""
+msgstr "Powiększenie:"
 
 #: src/MainWindow.vala:43
 msgid "Zoom out:"
-msgstr ""
+msgstr "Pomniejszenie:"
 
 #: src/MainWindow.vala:44
 msgid "Lock screen:"
-msgstr ""
+msgstr "Blokada ekranu:"
 
 #: src/MainWindow.vala:45
 msgid "Log out:"
-msgstr ""
+msgstr "Wylogowanie:"
 
 #: src/MainWindow.vala:48
 msgid "Grab the whole screen:"
-msgstr ""
+msgstr "Pobierz cały ekran:"
 
 #: src/MainWindow.vala:49
 msgid "Grab the current window:"
-msgstr ""
+msgstr "Pobierz bieżące okno:"
 
 #: src/MainWindow.vala:50
 msgid "Select an area to grab:"
-msgstr ""
+msgstr "Wybierz obszar do pobrania:"
 
 #: src/MainWindow.vala:53
 msgid "Cycle windows:"
-msgstr ""
+msgstr "Przełączanie okien:"
 
 #: src/MainWindow.vala:54
 msgid "Toggle maximized:"
-msgstr ""
+msgstr "Przełączanie maksymalizacji:"
 
 #: src/MainWindow.vala:55
 msgid "Tile left:"
@@ -78,15 +78,15 @@ msgstr ""
 
 #: src/MainWindow.vala:57
 msgid "Move to left workspace:"
-msgstr ""
+msgstr "Przenieś na obszar roboczy po lewej:"
 
 #: src/MainWindow.vala:58
 msgid "Move to right workspace:"
-msgstr ""
+msgstr "Przenieś na obszar roboczy po prawej:"
 
 #: src/MainWindow.vala:61
 msgid "Multitasking View:"
-msgstr ""
+msgstr "Widok wielozadaniowy:"
 
 #: src/MainWindow.vala:62
 msgid "Switch left:"
@@ -106,36 +106,36 @@ msgstr ""
 
 #: src/MainWindow.vala:66
 msgid "Cycle workspaces:"
-msgstr ""
+msgstr "Przełączanie obszarów roboczych:"
 
 #: src/MainWindow.vala:75
 msgid "Keyboard Settings…"
-msgstr ""
+msgstr "Ustawienia klawiatury…"
 
 #: src/MainWindow.vala:95
 msgid "Windows"
-msgstr ""
+msgstr "Okna"
 
 #: src/MainWindow.vala:106
 msgid "Workspaces"
-msgstr ""
+msgstr "Obszary robocze"
 
 #: src/MainWindow.vala:123
 msgid "System"
-msgstr ""
+msgstr "System"
 
 #: src/MainWindow.vala:134
 msgid "Screenshots"
-msgstr ""
+msgstr "Zrzuty ekranu"
 
 #: src/ShortcutEntry.vala:67
 msgid "Shift"
-msgstr ""
+msgstr "Shift"
 
 #: src/ShortcutEntry.vala:71
 msgid "Ctrl"
-msgstr ""
+msgstr "Ctrl"
 
 #: src/ShortcutEntry.vala:75
 msgid "Alt"
-msgstr ""
+msgstr "Alt"

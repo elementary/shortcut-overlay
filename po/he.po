@@ -8,131 +8,133 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-07 10:56-0800\n"
-"PO-Revision-Date: 2018-03-07 10:56-0800\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2018-03-12 13:43+0000\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: Hebrew <https://weblate.elementary.io/projects/desktop"
+"/shortcut-overlay/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.18\n"
 
 #: src/MainWindow.vala:33
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "קיצורי מקלדת"
 
 #: src/MainWindow.vala:40
 msgid "Applications Menu:"
-msgstr ""
+msgstr "תפריט יישומים:"
 
 #: src/MainWindow.vala:41
 msgid "Cycle display mode:"
-msgstr ""
+msgstr "החלפת מצבי תצוגה:"
 
 #: src/MainWindow.vala:42
 msgid "Zoom in:"
-msgstr ""
+msgstr "התקרבות:"
 
 #: src/MainWindow.vala:43
 msgid "Zoom out:"
-msgstr ""
+msgstr "התרחקות:"
 
 #: src/MainWindow.vala:44
 msgid "Lock screen:"
-msgstr ""
+msgstr "נעילת מסך:"
 
 #: src/MainWindow.vala:45
 msgid "Log out:"
-msgstr ""
+msgstr "יציאה:"
 
 #: src/MainWindow.vala:48
 msgid "Grab the whole screen:"
-msgstr ""
+msgstr "צילום המסך כולו:"
 
 #: src/MainWindow.vala:49
 msgid "Grab the current window:"
-msgstr ""
+msgstr "צילום החלון הנוכחי:"
 
 #: src/MainWindow.vala:50
 msgid "Select an area to grab:"
-msgstr ""
+msgstr "בחירת אזור לצילום:"
 
 #: src/MainWindow.vala:53
 msgid "Cycle windows:"
-msgstr ""
+msgstr "החלפה בין חלונות:"
 
 #: src/MainWindow.vala:54
 msgid "Toggle maximized:"
-msgstr ""
+msgstr "החלפת מצב הגדלה:"
 
 #: src/MainWindow.vala:55
 msgid "Tile left:"
-msgstr ""
+msgstr "פריסה שמאלה:"
 
 #: src/MainWindow.vala:56
 msgid "Tile right:"
-msgstr ""
+msgstr "פריסה ימינה:"
 
 #: src/MainWindow.vala:57
 msgid "Move to left workspace:"
-msgstr ""
+msgstr "העברה לסביבת העבודה השמאלית:"
 
 #: src/MainWindow.vala:58
 msgid "Move to right workspace:"
-msgstr ""
+msgstr "העברה לסביבת העבודה הימנית:"
 
 #: src/MainWindow.vala:61
 msgid "Multitasking View:"
-msgstr ""
+msgstr "תצוגת ריבוי משימות:"
 
 #: src/MainWindow.vala:62
 msgid "Switch left:"
-msgstr ""
+msgstr "החלפה שמאלה:"
 
 #: src/MainWindow.vala:63
 msgid "Switch right:"
-msgstr ""
+msgstr "החלפה ימינה:"
 
 #: src/MainWindow.vala:64
 msgid "Switch to first:"
-msgstr ""
+msgstr "מעבר לראשונה:"
 
 #: src/MainWindow.vala:65
 msgid "Switch to new:"
-msgstr ""
+msgstr "מעבר לחדשה:"
 
 #: src/MainWindow.vala:66
 msgid "Cycle workspaces:"
-msgstr ""
+msgstr "דפדוף בין סביבות עבודה:"
 
 #: src/MainWindow.vala:75
 msgid "Keyboard Settings…"
-msgstr ""
+msgstr "הגדרות מקלדת…"
 
 #: src/MainWindow.vala:95
 msgid "Windows"
-msgstr ""
+msgstr "חלונות"
 
 #: src/MainWindow.vala:106
 msgid "Workspaces"
-msgstr ""
+msgstr "סביבות עבודה"
 
 #: src/MainWindow.vala:123
 msgid "System"
-msgstr ""
+msgstr "מערכת"
 
 #: src/MainWindow.vala:134
 msgid "Screenshots"
-msgstr ""
+msgstr "צילומי מסך"
 
 #: src/ShortcutEntry.vala:67
 msgid "Shift"
-msgstr ""
+msgstr "Shift"
 
 #: src/ShortcutEntry.vala:71
 msgid "Ctrl"
-msgstr ""
+msgstr "Ctrl"
 
 #: src/ShortcutEntry.vala:75
 msgid "Alt"
-msgstr ""
+msgstr "Alt"
