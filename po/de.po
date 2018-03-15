@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-07 10:56-0800\n"
+"POT-Creation-Date: 2018-03-15 11:47-0700\n"
 "PO-Revision-Date: 2018-03-10 15:53+0000\n"
 "Last-Translator: Felix Günther <felix.gnthr@gmail.com>\n"
-"Language-Team: German <https://weblate.elementary.io/projects/desktop"
-"/shortcut-overlay/de/>\n"
+"Language-Team: German <https://weblate.elementary.io/projects/desktop/"
+"shortcut-overlay/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,113 +19,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2.18\n"
 
-#: src/MainWindow.vala:33
+#: src/MainWindow.vala:23
 msgid "Keyboard Shortcuts"
 msgstr "Tastenkombination"
 
-#: src/MainWindow.vala:40
-msgid "Applications Menu:"
-msgstr "Anwendungsmenü:"
-
-#: src/MainWindow.vala:41
-msgid "Cycle display mode:"
-msgstr "Anzeigemodus auswählen:"
-
-#: src/MainWindow.vala:42
-msgid "Zoom in:"
-msgstr "Vergrößern:"
-
-#: src/MainWindow.vala:43
-msgid "Zoom out:"
-msgstr "Verkleinern:"
-
-#: src/MainWindow.vala:44
-msgid "Lock screen:"
-msgstr "Bildschirm sperren:"
-
-#: src/MainWindow.vala:45
-msgid "Log out:"
-msgstr "Abmelden:"
-
-#: src/MainWindow.vala:48
-msgid "Grab the whole screen:"
-msgstr "Gesamten Bildschirm erfassen:"
-
-#: src/MainWindow.vala:49
-msgid "Grab the current window:"
-msgstr "Aktuelles Fenster erfassen:"
-
-#: src/MainWindow.vala:50
-msgid "Select an area to grab:"
-msgstr "Freien Bereich erfassen:"
-
-#: src/MainWindow.vala:53
-msgid "Cycle windows:"
-msgstr "Anwendung wechseln:"
-
-#: src/MainWindow.vala:54
-msgid "Toggle maximized:"
-msgstr "Fenster maximieren:"
-
-#: src/MainWindow.vala:55
-msgid "Tile left:"
-msgstr "Links maximieren:"
-
-#: src/MainWindow.vala:56
-msgid "Tile right:"
-msgstr "Rechts maximieren:"
-
-#: src/MainWindow.vala:57
-msgid "Move to left workspace:"
-msgstr "Auf linke Arbeitsfläche verschieben:"
-
-#: src/MainWindow.vala:58
-msgid "Move to right workspace:"
-msgstr "Auf rechte Arbeitsfläche verschieben:"
-
-#: src/MainWindow.vala:61
-msgid "Multitasking View:"
-msgstr "Arbeitsflächen anzeigen:"
-
-#: src/MainWindow.vala:62
-msgid "Switch left:"
-msgstr "Nach links wechseln:"
-
-#: src/MainWindow.vala:63
-msgid "Switch right:"
-msgstr "Nach rechts wechseln:"
-
-#: src/MainWindow.vala:64
-msgid "Switch to first:"
-msgstr "Auf erste Arbeitsfläche wechseln:"
-
-#: src/MainWindow.vala:65
-msgid "Switch to new:"
-msgstr "Auf neue Arbeitsfläche wechseln:"
-
-#: src/MainWindow.vala:66
-msgid "Cycle workspaces:"
-msgstr "Zwischen Arbeitsflächen wechslen:"
-
-#: src/MainWindow.vala:75
+#: src/MainWindow.vala:34
 msgid "Keyboard Settings…"
 msgstr "Tastatureinstellungen…"
-
-#: src/MainWindow.vala:95
-msgid "Windows"
-msgstr "Fenster"
-
-#: src/MainWindow.vala:106
-msgid "Workspaces"
-msgstr "Arbeitsflächen"
-
-#: src/MainWindow.vala:123
-msgid "System"
-msgstr "System"
-
-#: src/MainWindow.vala:134
-msgid "Screenshots"
-msgstr "Bildschirmfotos"
 
 #: src/ShortcutEntry.vala:67
 msgid "Shift"
@@ -138,3 +38,103 @@ msgstr "Strg"
 #: src/ShortcutEntry.vala:75
 msgid "Alt"
 msgstr "Alt"
+
+#: src/Views/ShortcutsView.vala:31
+msgid "Applications Menu:"
+msgstr "Anwendungsmenü:"
+
+#: src/Views/ShortcutsView.vala:32
+msgid "Cycle display mode:"
+msgstr "Anzeigemodus auswählen:"
+
+#: src/Views/ShortcutsView.vala:33
+msgid "Zoom in:"
+msgstr "Vergrößern:"
+
+#: src/Views/ShortcutsView.vala:34
+msgid "Zoom out:"
+msgstr "Verkleinern:"
+
+#: src/Views/ShortcutsView.vala:35
+msgid "Lock screen:"
+msgstr "Bildschirm sperren:"
+
+#: src/Views/ShortcutsView.vala:36
+msgid "Log out:"
+msgstr "Abmelden:"
+
+#: src/Views/ShortcutsView.vala:39
+msgid "Grab the whole screen:"
+msgstr "Gesamten Bildschirm erfassen:"
+
+#: src/Views/ShortcutsView.vala:40
+msgid "Grab the current window:"
+msgstr "Aktuelles Fenster erfassen:"
+
+#: src/Views/ShortcutsView.vala:41
+msgid "Select an area to grab:"
+msgstr "Freien Bereich erfassen:"
+
+#: src/Views/ShortcutsView.vala:44
+msgid "Cycle windows:"
+msgstr "Anwendung wechseln:"
+
+#: src/Views/ShortcutsView.vala:45
+msgid "Toggle maximized:"
+msgstr "Fenster maximieren:"
+
+#: src/Views/ShortcutsView.vala:46
+msgid "Tile left:"
+msgstr "Links maximieren:"
+
+#: src/Views/ShortcutsView.vala:47
+msgid "Tile right:"
+msgstr "Rechts maximieren:"
+
+#: src/Views/ShortcutsView.vala:48
+msgid "Move to left workspace:"
+msgstr "Auf linke Arbeitsfläche verschieben:"
+
+#: src/Views/ShortcutsView.vala:49
+msgid "Move to right workspace:"
+msgstr "Auf rechte Arbeitsfläche verschieben:"
+
+#: src/Views/ShortcutsView.vala:52
+msgid "Multitasking View:"
+msgstr "Arbeitsflächen anzeigen:"
+
+#: src/Views/ShortcutsView.vala:53
+msgid "Switch left:"
+msgstr "Nach links wechseln:"
+
+#: src/Views/ShortcutsView.vala:54
+msgid "Switch right:"
+msgstr "Nach rechts wechseln:"
+
+#: src/Views/ShortcutsView.vala:55
+msgid "Switch to first:"
+msgstr "Auf erste Arbeitsfläche wechseln:"
+
+#: src/Views/ShortcutsView.vala:56
+msgid "Switch to new:"
+msgstr "Auf neue Arbeitsfläche wechseln:"
+
+#: src/Views/ShortcutsView.vala:57
+msgid "Cycle workspaces:"
+msgstr "Zwischen Arbeitsflächen wechslen:"
+
+#: src/Views/ShortcutsView.vala:68
+msgid "Windows"
+msgstr "Fenster"
+
+#: src/Views/ShortcutsView.vala:79
+msgid "Workspaces"
+msgstr "Arbeitsflächen"
+
+#: src/Views/ShortcutsView.vala:96
+msgid "System"
+msgstr "System"
+
+#: src/Views/ShortcutsView.vala:107
+msgid "Screenshots"
+msgstr "Bildschirmfotos"
