@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-15 11:47-0700\n"
-"PO-Revision-Date: 2018-03-09 09:05+0000\n"
+"PO-Revision-Date: 2018-03-18 00:08+0000\n"
 "Last-Translator: Piotr Strebski <strebski@o2.pl>\n"
-"Language-Team: Polish <https://weblate.elementary.io/projects/desktop/"
-"shortcut-overlay/pl/>\n"
+"Language-Team: Polish <https://weblate.elementary.io/projects/desktop"
+"/shortcut-overlay/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -106,19 +106,19 @@ msgstr "Widok wielozadaniowy:"
 
 #: src/Views/ShortcutsView.vala:53
 msgid "Switch left:"
-msgstr ""
+msgstr "Przełącz do lewej:"
 
 #: src/Views/ShortcutsView.vala:54
 msgid "Switch right:"
-msgstr ""
+msgstr "Przełącz do prawej:"
 
 #: src/Views/ShortcutsView.vala:55
 msgid "Switch to first:"
-msgstr ""
+msgstr "Przełącz na pierwszą:"
 
 #: src/Views/ShortcutsView.vala:56
 msgid "Switch to new:"
-msgstr ""
+msgstr "Przełącz do nowej:"
 
 #: src/Views/ShortcutsView.vala:57
 msgid "Cycle workspaces:"
