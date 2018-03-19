@@ -51,6 +51,7 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
         add (shortcuts_view);
         get_style_context ().add_class ("rounded");
         set_titlebar (headerbar);
+        skip_taskbar_hint = true;
 
         settings_button.clicked.connect (() => {
             try {
