@@ -37,9 +37,15 @@ public class ShortcutLabel : Gtk.Grid {
         accel_grid.orientation = Gtk.Orientation.HORIZONTAL;
         accel_grid.column_spacing = 6;
 
-        foreach (string accel in entry.accels) {
-            var label = new Gtk.Label (accel);
-            label.get_style_context ().add_class ("keycap");
+        if (entry.accels[0] != "") {
+            foreach (string accel in entry.accels) {
+                var label = new Gtk.Label (accel);
+                label.get_style_context ().add_class ("keycap");
+                accel_grid.add (label);
+            }
+        } else {
+            var label = new Gtk.Label (_("Disabled"));
+            label.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
             accel_grid.add (label);
         }
 
