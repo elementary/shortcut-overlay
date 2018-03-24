@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-13 16:43-0700\n"
-"PO-Revision-Date: 2018-03-22 23:10+0000\n"
+"PO-Revision-Date: 2018-03-25 00:09+0000\n"
 "Last-Translator: Kaj Printz Madsen <kajprintz@gmail.com>\n"
 "Language-Team: Danish <https://weblate.elementary.io/projects/desktop"
 "/shortcut-overlay-extra/da/>\n"
@@ -29,7 +29,7 @@ msgstr "Genvejsoverlay"
 
 #: data/io.elementary.shortcut-overlay.desktop.in:5
 msgid "View system keyboard shortcuts"
-msgstr "Se systemtastaturgenveje"
+msgstr "Se system tastaturgenveje"
 
 #: data/io.elementary.shortcut-overlay.desktop.in:8
 msgid "preferences-desktop-keyboard"
