@@ -8,132 +8,134 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-15 11:47-0700\n"
-"PO-Revision-Date: 2018-03-07 10:56-0800\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2018-04-02 10:56+0000\n"
+"Last-Translator: Jernej Virag <jernej@virag.si>\n"
+"Language-Team: Slovenian <https://weblate.elementary.io/projects/desktop"
+"/shortcut-overlay/sl/>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 2.18\n"
 
 #: src/MainWindow.vala:23
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Bližnjice na tipkovnici"
 
 #: src/MainWindow.vala:34
 msgid "Keyboard Settings…"
-msgstr ""
+msgstr "Nastavitve tipkovnice…"
 
 #: src/ShortcutEntry.vala:67
 msgid "Shift"
-msgstr ""
+msgstr "Shift"
 
 #: src/ShortcutEntry.vala:71
 msgid "Ctrl"
-msgstr ""
+msgstr "Ctrl"
 
 #: src/ShortcutEntry.vala:75
 msgid "Alt"
-msgstr ""
+msgstr "Alt"
 
 #: src/Views/ShortcutsView.vala:31
 msgid "Applications Menu:"
-msgstr ""
+msgstr "Meni z aplikacijami:"
 
 #: src/Views/ShortcutsView.vala:32
 msgid "Cycle display mode:"
-msgstr ""
+msgstr "Preklopi zaslon:"
 
 #: src/Views/ShortcutsView.vala:33
 msgid "Zoom in:"
-msgstr ""
+msgstr "Povečaj:"
 
 #: src/Views/ShortcutsView.vala:34
 msgid "Zoom out:"
-msgstr ""
+msgstr "Pomanjšaj:"
 
 #: src/Views/ShortcutsView.vala:35
 msgid "Lock screen:"
-msgstr ""
+msgstr "Zakleni zaslon:"
 
 #: src/Views/ShortcutsView.vala:36
 msgid "Log out:"
-msgstr ""
+msgstr "Odjava:"
 
 #: src/Views/ShortcutsView.vala:39
 msgid "Grab the whole screen:"
-msgstr ""
+msgstr "Zajemi celoten zaslon:"
 
 #: src/Views/ShortcutsView.vala:40
 msgid "Grab the current window:"
-msgstr ""
+msgstr "Zajemi trenutno okno:"
 
 #: src/Views/ShortcutsView.vala:41
 msgid "Select an area to grab:"
-msgstr ""
+msgstr "Zajemi kos zaslona:"
 
 #: src/Views/ShortcutsView.vala:44
 msgid "Cycle windows:"
-msgstr ""
+msgstr "Preklapljaj med okni:"
 
 #: src/Views/ShortcutsView.vala:45
 msgid "Toggle maximized:"
-msgstr ""
+msgstr "Maksimiraj:"
 
 #: src/Views/ShortcutsView.vala:46
 msgid "Tile left:"
-msgstr ""
+msgstr "Razporedi na levo:"
 
 #: src/Views/ShortcutsView.vala:47
 msgid "Tile right:"
-msgstr ""
+msgstr "Razporedi na desno:"
 
 #: src/Views/ShortcutsView.vala:48
 msgid "Move to left workspace:"
-msgstr ""
+msgstr "Premakni na levi delovni prostor:"
 
 #: src/Views/ShortcutsView.vala:49
 msgid "Move to right workspace:"
-msgstr ""
+msgstr "Premakni na desni delovni prostor:"
 
 #: src/Views/ShortcutsView.vala:52
 msgid "Multitasking View:"
-msgstr ""
+msgstr "Pregled oken:"
 
 #: src/Views/ShortcutsView.vala:53
 msgid "Switch left:"
-msgstr ""
+msgstr "Preklopi na levo:"
 
 #: src/Views/ShortcutsView.vala:54
 msgid "Switch right:"
-msgstr ""
+msgstr "Preklopi na desno:"
 
 #: src/Views/ShortcutsView.vala:55
 msgid "Switch to first:"
-msgstr ""
+msgstr "Preklopi na prvega:"
 
 #: src/Views/ShortcutsView.vala:56
 msgid "Switch to new:"
-msgstr ""
+msgstr "Preklopi na novega:"
 
 #: src/Views/ShortcutsView.vala:57
 msgid "Cycle workspaces:"
-msgstr ""
+msgstr "Preklapljaj med prostori:"
 
 #: src/Views/ShortcutsView.vala:68
 msgid "Windows"
-msgstr ""
+msgstr "Okna"
 
 #: src/Views/ShortcutsView.vala:79
 msgid "Workspaces"
-msgstr ""
+msgstr "Delovni prostori"
 
 #: src/Views/ShortcutsView.vala:96
 msgid "System"
-msgstr ""
+msgstr "Sistem"
 
 #: src/Views/ShortcutsView.vala:107
 msgid "Screenshots"
-msgstr ""
+msgstr "Posnetki zaslona"
