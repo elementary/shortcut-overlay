@@ -8,27 +8,29 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-13 16:43-0700\n"
-"PO-Revision-Date: 2018-03-13 16:43-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2018-04-03 00:05+0000\n"
+"Last-Translator: Jernej Virag <jernej@virag.si>\n"
+"Language-Team: Slovenian <https://weblate.elementary.io/projects/desktop"
+"/shortcut-overlay-extra/sl/>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 2.18\n"
 
 #: data/io.elementary.shortcut-overlay.desktop.in:3
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Bližnjice na tipkovnici"
 
 #: data/io.elementary.shortcut-overlay.desktop.in:4
 msgid "Shortcut Overlay"
-msgstr ""
+msgstr "Prikaz bližnjic"
 
 #: data/io.elementary.shortcut-overlay.desktop.in:5
 msgid "View system keyboard shortcuts"
-msgstr ""
+msgstr "Prikaži sistemske bližnjice na tipkovnici"
 
 #: data/io.elementary.shortcut-overlay.desktop.in:8
 msgid "preferences-desktop-keyboard"
@@ -36,4 +38,4 @@ msgstr ""
 
 #: data/io.elementary.shortcut-overlay.desktop.in:13
 msgid "cheatsheet;shortcut;overlay;"
-msgstr ""
+msgstr "shortcut;cheatsheet;pomoč;bližnjice;tipkovnica;tipke;"
