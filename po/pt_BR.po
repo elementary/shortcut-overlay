@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-15 11:47-0700\n"
 "PO-Revision-Date: 2018-04-11 14:47+0000\n"
-"Last-Translator: Gustavo Marques <outlinx@outlook.com>\n"
+"Last-Translator: Tiago de Oliveira <deoliveiratiago@outlook.com>\n"
 "Language-Team: Portuguese (Brazil) "
 "<https://weblate.elementary.io/projects/desktop/shortcut-overlay/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -65,7 +65,7 @@ msgstr "Encerrar sessão:"
 
 #: src/Views/ShortcutsView.vala:39
 msgid "Grab the whole screen:"
-msgstr ""
+msgstr "Selecione a tela inteira:"
 
 #: src/Views/ShortcutsView.vala:40
 msgid "Grab the current window:"
