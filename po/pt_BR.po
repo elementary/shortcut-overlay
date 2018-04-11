@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-15 11:47-0700\n"
 "PO-Revision-Date: 2018-04-11 14:46+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"Last-Translator: Gustavo Marques <outlinx@outlook.com>\n"
 "Language-Team: Portuguese (Brazil) "
 "<https://weblate.elementary.io/projects/desktop/shortcut-overlay/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -49,7 +49,7 @@ msgstr "Trocar modo do display:"
 
 #: src/Views/ShortcutsView.vala:33
 msgid "Zoom in:"
-msgstr ""
+msgstr "Ampliar:"
 
 #: src/Views/ShortcutsView.vala:34
 msgid "Zoom out:"
