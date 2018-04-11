@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-15 11:47-0700\n"
-"PO-Revision-Date: 2018-04-11 14:47+0000\n"
-"Last-Translator: Tiago de Oliveira <deoliveiratiago@outlook.com>\n"
+"PO-Revision-Date: 2018-04-11 14:48+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Portuguese (Brazil) "
 "<https://weblate.elementary.io/projects/desktop/shortcut-overlay/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -69,15 +69,15 @@ msgstr "Selecione a tela inteira:"
 
 #: src/Views/ShortcutsView.vala:40
 msgid "Grab the current window:"
-msgstr ""
+msgstr "Selecionar a janela atual:"
 
 #: src/Views/ShortcutsView.vala:41
 msgid "Select an area to grab:"
-msgstr ""
+msgstr "Selecionar uma área:"
 
 #: src/Views/ShortcutsView.vala:44
 msgid "Cycle windows:"
-msgstr ""
+msgstr "Trocar janela:"
 
 #: src/Views/ShortcutsView.vala:45
 msgid "Toggle maximized:"
