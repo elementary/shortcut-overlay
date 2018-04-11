@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-15 11:47-0700\n"
 "PO-Revision-Date: 2018-04-11 14:50+0000\n"
-"Last-Translator: Fernando da Silva Sousa <wild.nando@gmail.com>\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Portuguese (Brazil) "
 "<https://weblate.elementary.io/projects/desktop/shortcut-overlay/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -125,15 +125,15 @@ msgstr "Alternar áreas de trabalho:"
 
 #: src/Views/ShortcutsView.vala:68
 msgid "Windows"
-msgstr ""
+msgstr "Janelas"
 
 #: src/Views/ShortcutsView.vala:79
 msgid "Workspaces"
-msgstr ""
+msgstr "Áreas de trabalho"
 
 #: src/Views/ShortcutsView.vala:96
 msgid "System"
-msgstr ""
+msgstr "Sistema"
 
 #: src/Views/ShortcutsView.vala:107
 msgid "Screenshots"
