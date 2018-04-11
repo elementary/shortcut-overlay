@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-15 11:47-0700\n"
-"PO-Revision-Date: 2018-04-11 14:46+0000\n"
-"Last-Translator: Gustavo Marques <outlinx@outlook.com>\n"
+"PO-Revision-Date: 2018-04-11 14:47+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Portuguese (Brazil) "
 "<https://weblate.elementary.io/projects/desktop/shortcut-overlay/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -53,11 +53,11 @@ msgstr "Ampliar:"
 
 #: src/Views/ShortcutsView.vala:34
 msgid "Zoom out:"
-msgstr ""
+msgstr "Diminuir:"
 
 #: src/Views/ShortcutsView.vala:35
 msgid "Lock screen:"
-msgstr ""
+msgstr "Tela de bloqueio:"
 
 #: src/Views/ShortcutsView.vala:36
 msgid "Log out:"
