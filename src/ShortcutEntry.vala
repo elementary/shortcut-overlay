@@ -39,6 +39,7 @@ public class ShortcutEntry : Object {
 
     public ShortcutEntry (string name, string schema_id, string key) {
         Object (name: name);
+        accels = {""};
 
         var settings = get_settings_for_schema (schema_id);
         var key_value = settings.get_value (key);
