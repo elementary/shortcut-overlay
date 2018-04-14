@@ -68,15 +68,18 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
         add (grid);
 
         get_style_context ().add_class ("rounded");
-        set_titlebar (headerbar);
         skip_taskbar_hint = true;
+        
+        if (ShortcutsView.is_gala) {
+            set_titlebar (headerbar);
 
-        settings_button.clicked.connect (() => {
-            try {
-                AppInfo.launch_default_for_uri ("settings://input/keyboard/shortcuts", null);
-            } catch (Error e) {
-                warning (e.message);
-            }
-        });
+            settings_button.clicked.connect (() => {
+                try {
+                    AppInfo.launch_default_for_uri ("settings://input/keyboard/shortcuts", null);
+                } catch (Error e) {
+                    warning (e.message);
+                }
+            });
+        }
     }
 }

@@ -1,7 +1,7 @@
 # Shortcut Overlay
 [![l10n](https://l10n.elementary.io/widgets/desktop/shortcut-overlay/svg-badge.svg)](https://l10n.elementary.io/projects/desktop/shortcut-overlay)
 
-A native OS-wide shortcut overlay to be launched by Gala.
+A native OS-wide shortcut overlay to be launched by Gala (or Mutter).
 
 This GTK+ applet reads window manager and OS keyboard shortcuts from dconf
 and exposes them to the user when launched. Inspired by the similar [feature][1]
