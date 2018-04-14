@@ -20,8 +20,7 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
         Object (
             application: application,
             resizable: false,
-            title: _("Keyboard Shortcuts"),
-            width_request: 910
+            title: _("Keyboard Shortcuts")
         );
     }
 
@@ -59,8 +58,6 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
         stack_switcher.stack = stack;
 
         var grid = new Gtk.Grid ();
-        grid.margin_start = grid.margin_end = 12;
-        grid.margin_bottom = 32;
         grid.orientation = Gtk.Orientation.VERTICAL;
         grid.add (stack_switcher);
         grid.add (stack);
