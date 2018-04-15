@@ -20,8 +20,7 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
         Object (
             application: application,
             resizable: false,
-            title: _("Keyboard Shortcuts"),
-            width_request: 910
+            title: _("Keyboard Shortcuts")
         );
     }
 
@@ -45,8 +44,7 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
         headerbar_style_context.add_class ("default-decoration");
 
         var shortcuts_view = new ShortcutsView ();
-        shortcuts_view.margin = 12;
-        shortcuts_view.margin_bottom = 32;
+        shortcuts_view.get_style_context ().add_class ("shortcuts-view");
 
         add (shortcuts_view);
         get_style_context ().add_class ("rounded");
