@@ -26,7 +26,7 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
     private const string SCHEMA_MEDIA = "org.gnome.settings-daemon.plugins.media-keys";
     private const string SCHEMA_MUTTER = "org.gnome.mutter.keybindings";
 
-    private Gtk.SizeGroup size_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.HORIZONTAL);
+    private Gtk.SizeGroup size_group;
 
     static construct {
         system_entries = new Gee.ArrayList<ShortcutEntry> ();
@@ -65,6 +65,8 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
         column_start.orientation = Gtk.Orientation.VERTICAL;
         column_start.row_spacing = 12;
 
+        size_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.HORIZONTAL);
+
         var window_header = new Granite.HeaderLabel (_("Windows"));
         column_start.add (window_header);
         add_shortcut_entries (window_entries, column_start);
@@ -98,10 +100,10 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
     }
 
     private void add_shortcut_entries (Gee.ArrayList<ShortcutEntry> entries, Gtk.Grid column) {
-        for (int a = 0; a < entries.size; a++) {
-            var label = new ShortcutLabel (entries[a]);
+        for (int i = 0; i < entries.size; i++) {
+            var label = new ShortcutLabel (entries[i]);
 
-            if (a + 1 == entries.size) {
+            if (i + 1 == entries.size) {
                 label.get_style_context ().add_class ("last-entry");
             }
 
