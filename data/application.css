@@ -14,15 +14,3 @@ decoration:backdrop {
         0 3px 6px alpha (#000, 0.23),
         0 14px 28px transparent;
 }
-
-.shortcuts-view {
-    padding: 40px;
-}
-
-.column {
-    padding: 0 20px;
-}
-
-.last-entry {
-    padding-bottom: 25px;
-}

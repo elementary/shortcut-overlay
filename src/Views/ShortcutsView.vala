@@ -62,7 +62,6 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
         column_start.hexpand = true;
         column_start.orientation = Gtk.Orientation.VERTICAL;
         column_start.row_spacing = 12;
-        column_start.get_style_context ().add_class ("column");
 
         var size_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.HORIZONTAL);
 
