@@ -20,6 +20,8 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
     private static Gee.ArrayList<ShortcutEntry> screenshot_entries;
     private static Gee.ArrayList<ShortcutEntry> window_entries;
     private static Gee.ArrayList<ShortcutEntry> workspace_entries;
+    
+    public static bool is_gala;
 
     private const string SCHEMA_WM = "org.gnome.desktop.wm.keybindings";
     private const string SCHEMA_GALA = "org.pantheon.desktop.gala.keybindings";
@@ -29,11 +31,23 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
     private Gtk.SizeGroup size_group;
 
     static construct {
+        SettingsSchemaSource sss = SettingsSchemaSource.get_default();
+        SettingsSchema gala_schema = sss.lookup (SCHEMA_GALA, false);
+        if (gala_schema == null) {
+            is_gala = false;
+        } else {
+            is_gala = true;
+        }
+
         system_entries = new Gee.ArrayList<ShortcutEntry> ();
         system_entries.add (new ShortcutEntry (_("Applications Menu:"), SCHEMA_WM, "panel-main-menu"));
         system_entries.add (new ShortcutEntry (_("Cycle display mode:"), SCHEMA_MUTTER, "switch-monitor"));
-        system_entries.add (new ShortcutEntry (_("Zoom in:"), SCHEMA_GALA, "zoom-in"));
-        system_entries.add (new ShortcutEntry (_("Zoom out:"), SCHEMA_GALA, "zoom-out"));
+        
+        if (is_gala) {
+            system_entries.add (new ShortcutEntry (_("Zoom in:"), SCHEMA_GALA, "zoom-in"));
+            system_entries.add (new ShortcutEntry (_("Zoom out:"), SCHEMA_GALA, "zoom-out"));
+        }
+        
         system_entries.add (new ShortcutEntry (_("Lock screen:"), SCHEMA_MEDIA, "screensaver"));
         system_entries.add (new ShortcutEntry (_("Log out:"), SCHEMA_MEDIA, "logout"));
 
@@ -47,16 +61,28 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
         window_entries.add (new ShortcutEntry (_("Toggle maximized:"), SCHEMA_WM, "toggle-maximized"));
         window_entries.add (new ShortcutEntry (_("Tile left:"), SCHEMA_MUTTER, "toggle-tiled-left"));
         window_entries.add (new ShortcutEntry (_("Tile right:"), SCHEMA_MUTTER, "toggle-tiled-right"));
-        window_entries.add (new ShortcutEntry (_("Move to left workspace:"), SCHEMA_WM, "move-to-workspace-left"));
-        window_entries.add (new ShortcutEntry (_("Move to right workspace:"), SCHEMA_WM, "move-to-workspace-right"));
 
-        workspace_entries = new Gee.ArrayList<ShortcutEntry> (); 
+        if (is_gala) {
+            window_entries.add (new ShortcutEntry (_("Move to left workspace:"), SCHEMA_WM, "move-to-workspace-left"));
+            window_entries.add (new ShortcutEntry (_("Move to right workspace:"), SCHEMA_WM, "move-to-workspace-right"));
+        } else {
+            window_entries.add (new ShortcutEntry (_("Move to workspace up:"), SCHEMA_WM, "move-to-workspace-up"));
+            window_entries.add (new ShortcutEntry (_("Move to workspace down:"), SCHEMA_WM, "move-to-workspace-down"));
+        }
+
+        workspace_entries = new Gee.ArrayList<ShortcutEntry> ();
         workspace_entries.add (new ShortcutEntry (_("Multitasking View:"), SCHEMA_WM, "show-desktop"));
-        workspace_entries.add (new ShortcutEntry (_("Switch left:"), SCHEMA_WM, "switch-to-workspace-left"));
-        workspace_entries.add (new ShortcutEntry (_("Switch right:"), SCHEMA_WM, "switch-to-workspace-right"));
-        workspace_entries.add (new ShortcutEntry (_("Switch to first:"), SCHEMA_GALA, "switch-to-workspace-first"));
-        workspace_entries.add (new ShortcutEntry (_("Switch to new:"), SCHEMA_GALA, "switch-to-workspace-last"));
-        workspace_entries.add (new ShortcutEntry (_("Cycle workspaces:"), SCHEMA_GALA, "cycle-workspaces-next"));
+
+        if (is_gala) {
+            workspace_entries.add (new ShortcutEntry (_("Switch left:"), SCHEMA_WM, "switch-to-workspace-left"));
+            workspace_entries.add (new ShortcutEntry (_("Switch right:"), SCHEMA_WM, "switch-to-workspace-right"));
+            workspace_entries.add (new ShortcutEntry (_("Switch to first:"), SCHEMA_GALA, "switch-to-workspace-first"));
+            workspace_entries.add (new ShortcutEntry (_("Switch to new:"), SCHEMA_GALA, "switch-to-workspace-last"));
+            workspace_entries.add (new ShortcutEntry (_("Cycle workspaces:"), SCHEMA_GALA, "cycle-workspaces-next"));
+        } else {
+            workspace_entries.add (new ShortcutEntry (_("Switch up:"), SCHEMA_WM, "switch-to-workspace-up"));
+            workspace_entries.add (new ShortcutEntry (_("Switch down:"), SCHEMA_WM, "switch-to-workspace-down"));
+        }
     }
 
     construct {
@@ -100,13 +126,8 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
     }
 
     private void add_shortcut_entries (Gee.ArrayList<ShortcutEntry> entries, Gtk.Grid column) {
-        for (int i = 0; i < entries.size; i++) {
-            var label = new ShortcutLabel (entries[i]);
-
-            if (i + 1 == entries.size) {
-                label.get_style_context ().add_class ("last-entry");
-            }
-
+        foreach (entry in entries) {
+            var label = new ShortcutLabel (entry);
             column.add (label);
             size_group.add_widget (label.name_label);
         }
