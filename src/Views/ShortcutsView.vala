@@ -100,7 +100,7 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
     }
 
     private void add_shortcut_entries (Gee.ArrayList<ShortcutEntry> entries, Gtk.Grid column) {
-        foreach (entry in entries) {
+        foreach (var entry in entries) {
             var label = new ShortcutLabel (entry);
             column.add (label);
             size_group.add_widget (label.name_label);
