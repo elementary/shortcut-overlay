@@ -93,7 +93,6 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
         column_end.hexpand = true;
         column_end.orientation = Gtk.Orientation.VERTICAL;
         column_end.row_spacing = 12;
-        column_end.get_style_context ().add_class ("column");
 
         var system_header = new Granite.HeaderLabel (_("System"));
         column_end.add (system_header);
@@ -121,7 +120,7 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
         column_size_group.add_widget (column_start);
         column_size_group.add_widget (column_end);
 
-        column_spacing = 24;
+        column_spacing = 42;
         add (column_start);
         add (new Gtk.Separator (Gtk.Orientation.VERTICAL));
         add (column_end);

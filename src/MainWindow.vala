@@ -44,7 +44,9 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
         headerbar_style_context.add_class ("default-decoration");
 
         var shortcuts_view = new ShortcutsView ();
-        shortcuts_view.get_style_context ().add_class ("shortcuts-view");
+        shortcuts_view.margin = 54;
+        shortcuts_view.margin_top = 42;
+        shortcuts_view.margin_bottom = 60;
 
         add (shortcuts_view);
         get_style_context ().add_class ("rounded");
