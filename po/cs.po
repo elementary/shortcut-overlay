@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-15 11:47-0700\n"
-"PO-Revision-Date: 2018-04-20 00:11+0000\n"
+"PO-Revision-Date: 2018-04-20 20:26+0000\n"
 "Last-Translator: Jan Marek <janmarek28@gmail.com>\n"
 "Language-Team: Czech <https://weblate.elementary.io/projects/desktop"
 "/shortcut-overlay/cs/>\n"
@@ -45,7 +45,7 @@ msgstr "Menu aplikací:"
 
 #: src/Views/ShortcutsView.vala:32
 msgid "Cycle display mode:"
-msgstr ""
+msgstr "Přepínat mód zobrazení:"
 
 #: src/Views/ShortcutsView.vala:33
 msgid "Zoom in:"
@@ -65,31 +65,31 @@ msgstr "Odhlásit se:"
 
 #: src/Views/ShortcutsView.vala:39
 msgid "Grab the whole screen:"
-msgstr ""
+msgstr "Zachytit celou obrazovku:"
 
 #: src/Views/ShortcutsView.vala:40
 msgid "Grab the current window:"
-msgstr ""
+msgstr "Zachytit aktuální okno:"
 
 #: src/Views/ShortcutsView.vala:41
 msgid "Select an area to grab:"
-msgstr ""
+msgstr "Vyberte oblast k zachycení:"
 
 #: src/Views/ShortcutsView.vala:44
 msgid "Cycle windows:"
-msgstr ""
+msgstr "Cyklicky přepínat okna:"
 
 #: src/Views/ShortcutsView.vala:45
 msgid "Toggle maximized:"
-msgstr ""
+msgstr "Přepínat maximalizaci:"
 
 #: src/Views/ShortcutsView.vala:46
 msgid "Tile left:"
-msgstr ""
+msgstr "Vyplnit vlevo:"
 
 #: src/Views/ShortcutsView.vala:47
 msgid "Tile right:"
-msgstr ""
+msgstr "Vyplnit vpravo:"
 
 #: src/Views/ShortcutsView.vala:48
 msgid "Move to left workspace:"
@@ -121,7 +121,7 @@ msgstr "Přepnout na novou:"
 
 #: src/Views/ShortcutsView.vala:57
 msgid "Cycle workspaces:"
-msgstr ""
+msgstr "Cyklicky přepínat pracovní plochy:"
 
 #: src/Views/ShortcutsView.vala:68
 msgid "Windows"
