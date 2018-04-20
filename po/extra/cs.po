@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-13 16:43-0700\n"
-"PO-Revision-Date: 2018-04-20 00:11+0000\n"
+"PO-Revision-Date: 2018-04-21 00:10+0000\n"
 "Last-Translator: Jan Marek <janmarek28@gmail.com>\n"
 "Language-Team: Czech <https://weblate.elementary.io/projects/desktop"
 "/shortcut-overlay-extra/cs/>\n"
@@ -25,16 +25,16 @@ msgstr "Klávesové zkratky"
 
 #: data/io.elementary.shortcut-overlay.desktop.in:4
 msgid "Shortcut Overlay"
-msgstr ""
+msgstr "Přehled zkratek"
 
 #: data/io.elementary.shortcut-overlay.desktop.in:5
 msgid "View system keyboard shortcuts"
-msgstr ""
+msgstr "Zobrazit systémové klávesové zkratky"
 
 #: data/io.elementary.shortcut-overlay.desktop.in:8
 msgid "preferences-desktop-keyboard"
-msgstr ""
+msgstr "preferences-desktop-keyboard"
 
 #: data/io.elementary.shortcut-overlay.desktop.in:13
 msgid "cheatsheet;shortcut;overlay;"
-msgstr ""
+msgstr "cheatsheet;shortcut;overlay;zkratka;přehled;nápověda;"
