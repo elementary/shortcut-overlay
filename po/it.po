@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-15 11:47-0700\n"
+"POT-Creation-Date: 2018-05-03 09:07-0700\n"
 "PO-Revision-Date: 2018-03-14 00:02+0000\n"
 "Last-Translator: Fabio Zaramella <fabiozaramella@hotmail.it>\n"
 "Language-Team: Italian <https://weblate.elementary.io/projects/desktop/"
@@ -27,17 +27,21 @@ msgstr "Scorciatoie da tastiera"
 msgid "Keyboard Settings…"
 msgstr "Impostazioni della tastiera…"
 
-#: src/ShortcutEntry.vala:67
+#: src/ShortcutEntry.vala:68
 msgid "Shift"
 msgstr "Maiusc"
 
-#: src/ShortcutEntry.vala:71
+#: src/ShortcutEntry.vala:72
 msgid "Ctrl"
 msgstr "Ctrl"
 
-#: src/ShortcutEntry.vala:75
+#: src/ShortcutEntry.vala:76
 msgid "Alt"
 msgstr "Alt"
+
+#: src/ShortcutLabel.vala:47
+msgid "Disabled"
+msgstr ""
 
 #: src/Views/ShortcutsView.vala:31
 msgid "Applications Menu:"
@@ -99,42 +103,46 @@ msgstr "Sposta nello spazio di lavoro a sinistra:"
 msgid "Move to right workspace:"
 msgstr "Sposta nello spazio di lavoro a destra:"
 
-#: src/Views/ShortcutsView.vala:52
+#: src/Views/ShortcutsView.vala:50
+msgid "Picture in Picture Mode:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:53
 msgid "Multitasking View:"
 msgstr "Panoramica degli spazi di lavoro:"
 
-#: src/Views/ShortcutsView.vala:53
+#: src/Views/ShortcutsView.vala:54
 msgid "Switch left:"
 msgstr "Scorri verso sinistra:"
 
-#: src/Views/ShortcutsView.vala:54
+#: src/Views/ShortcutsView.vala:55
 msgid "Switch right:"
 msgstr "Scorri verso destra:"
 
-#: src/Views/ShortcutsView.vala:55
+#: src/Views/ShortcutsView.vala:56
 msgid "Switch to first:"
 msgstr "Passa al primo spazio di lavoro:"
 
-#: src/Views/ShortcutsView.vala:56
+#: src/Views/ShortcutsView.vala:57
 msgid "Switch to new:"
 msgstr "Passa a un nuovo spazio di lavoro:"
 
-#: src/Views/ShortcutsView.vala:57
+#: src/Views/ShortcutsView.vala:58
 msgid "Cycle workspaces:"
 msgstr "Passa da uno spazio di lavoro all'altro:"
 
-#: src/Views/ShortcutsView.vala:68
+#: src/Views/ShortcutsView.vala:69
 msgid "Windows"
 msgstr "Finestre"
 
-#: src/Views/ShortcutsView.vala:79
+#: src/Views/ShortcutsView.vala:80
 msgid "Workspaces"
 msgstr "Spazi di lavoro"
 
-#: src/Views/ShortcutsView.vala:96
+#: src/Views/ShortcutsView.vala:97
 msgid "System"
 msgstr "Sistema"
 
-#: src/Views/ShortcutsView.vala:107
+#: src/Views/ShortcutsView.vala:108
 msgid "Screenshots"
 msgstr "Schermate"

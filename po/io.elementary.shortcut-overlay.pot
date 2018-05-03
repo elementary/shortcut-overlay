@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-15 11:47-0700\n"
+"POT-Creation-Date: 2018-05-03 09:07-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,16 +25,20 @@ msgstr ""
 msgid "Keyboard Settings…"
 msgstr ""
 
-#: src/ShortcutEntry.vala:67
+#: src/ShortcutEntry.vala:68
 msgid "Shift"
 msgstr ""
 
-#: src/ShortcutEntry.vala:71
+#: src/ShortcutEntry.vala:72
 msgid "Ctrl"
 msgstr ""
 
-#: src/ShortcutEntry.vala:75
+#: src/ShortcutEntry.vala:76
 msgid "Alt"
+msgstr ""
+
+#: src/ShortcutLabel.vala:47
+msgid "Disabled"
 msgstr ""
 
 #: src/Views/ShortcutsView.vala:31
@@ -97,42 +101,46 @@ msgstr ""
 msgid "Move to right workspace:"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:52
-msgid "Multitasking View:"
+#: src/Views/ShortcutsView.vala:50
+msgid "Picture in Picture Mode:"
 msgstr ""
 
 #: src/Views/ShortcutsView.vala:53
-msgid "Switch left:"
+msgid "Multitasking View:"
 msgstr ""
 
 #: src/Views/ShortcutsView.vala:54
-msgid "Switch right:"
+msgid "Switch left:"
 msgstr ""
 
 #: src/Views/ShortcutsView.vala:55
-msgid "Switch to first:"
+msgid "Switch right:"
 msgstr ""
 
 #: src/Views/ShortcutsView.vala:56
-msgid "Switch to new:"
+msgid "Switch to first:"
 msgstr ""
 
 #: src/Views/ShortcutsView.vala:57
+msgid "Switch to new:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:58
 msgid "Cycle workspaces:"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:68
+#: src/Views/ShortcutsView.vala:69
 msgid "Windows"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:79
+#: src/Views/ShortcutsView.vala:80
 msgid "Workspaces"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:96
+#: src/Views/ShortcutsView.vala:97
 msgid "System"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:107
+#: src/Views/ShortcutsView.vala:108
 msgid "Screenshots"
 msgstr ""
