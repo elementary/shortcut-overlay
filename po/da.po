@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-03 09:07-0700\n"
-"PO-Revision-Date: 2018-03-25 00:09+0000\n"
+"PO-Revision-Date: 2018-05-05 20:53+0000\n"
 "Last-Translator: Kaj Printz Madsen <kajprintz@gmail.com>\n"
-"Language-Team: Danish <https://weblate.elementary.io/projects/desktop/"
-"shortcut-overlay/da/>\n"
+"Language-Team: Danish <https://weblate.elementary.io/projects/desktop"
+"/shortcut-overlay/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,7 +41,7 @@ msgstr "Alt"
 
 #: src/ShortcutLabel.vala:47
 msgid "Disabled"
-msgstr ""
+msgstr "Deaktiveret"
 
 #: src/Views/ShortcutsView.vala:31
 msgid "Applications Menu:"
@@ -105,7 +105,7 @@ msgstr "Flyt til højre skrivebord:"
 
 #: src/Views/ShortcutsView.vala:50
 msgid "Picture in Picture Mode:"
-msgstr ""
+msgstr "Billede i Billede Tilstand:"
 
 #: src/Views/ShortcutsView.vala:53
 msgid "Multitasking View:"
