@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-03 09:07-0700\n"
 "PO-Revision-Date: 2018-05-09 19:32+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"Last-Translator: Piotr Strebski <strebski@gmail.com>\n"
 "Language-Team: Polish <https://weblate.elementary.io/projects/desktop"
 "/shortcut-overlay/pl/>\n"
 "Language: pl\n"
@@ -106,7 +106,7 @@ msgstr "Przenieś na obszar roboczy po prawej:"
 
 #: src/Views/ShortcutsView.vala:50
 msgid "Picture in Picture Mode:"
-msgstr ""
+msgstr "Tryb obraz w obrazie:"
 
 #: src/Views/ShortcutsView.vala:53
 msgid "Multitasking View:"
