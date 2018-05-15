@@ -26,7 +26,7 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
     private const string SCHEMA_MEDIA = "org.gnome.settings-daemon.plugins.media-keys";
     private const string SCHEMA_MUTTER = "org.gnome.mutter.keybindings";
 
-    private Gtk.SizeGroup size_group;
+    private static Gtk.SizeGroup size_group;
 
     static construct {
         system_entries = new Gee.ArrayList<ShortcutEntry> ();
