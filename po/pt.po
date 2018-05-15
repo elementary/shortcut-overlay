@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-15 11:47-0700\n"
-"PO-Revision-Date: 2018-04-15 00:09+0000\n"
-"Last-Translator: Yure Garcia Felipeto <yurefelipeto14@gmail.com>\n"
+"POT-Creation-Date: 2018-05-03 09:07-0700\n"
+"PO-Revision-Date: 2018-05-12 00:11+0000\n"
+"Last-Translator: Pedro Ferreira <pmaf.ferreira@gmail.com>\n"
 "Language-Team: Portuguese <https://weblate.elementary.io/projects/desktop"
 "/shortcut-overlay/pt/>\n"
 "Language: pt\n"
@@ -21,23 +21,27 @@ msgstr ""
 
 #: src/MainWindow.vala:23
 msgid "Keyboard Shortcuts"
-msgstr "Atalhos de Teclado"
+msgstr "Atalhos do Teclado"
 
 #: src/MainWindow.vala:34
 msgid "Keyboard Settings…"
-msgstr "Configurações de Teclado…"
+msgstr "Configurações do Teclado…"
 
-#: src/ShortcutEntry.vala:67
+#: src/ShortcutEntry.vala:68
 msgid "Shift"
 msgstr "Shift"
 
-#: src/ShortcutEntry.vala:71
+#: src/ShortcutEntry.vala:72
 msgid "Ctrl"
 msgstr "Ctrl"
 
-#: src/ShortcutEntry.vala:75
+#: src/ShortcutEntry.vala:76
 msgid "Alt"
 msgstr "Alt"
+
+#: src/ShortcutLabel.vala:47
+msgid "Disabled"
+msgstr "Desativado"
 
 #: src/Views/ShortcutsView.vala:31
 msgid "Applications Menu:"
@@ -45,15 +49,15 @@ msgstr "Menu de Aplicativos:"
 
 #: src/Views/ShortcutsView.vala:32
 msgid "Cycle display mode:"
-msgstr ""
+msgstr "Percorrer modo de visualização:"
 
 #: src/Views/ShortcutsView.vala:33
 msgid "Zoom in:"
-msgstr "Zoom in:"
+msgstr "Aumentar zoom:"
 
 #: src/Views/ShortcutsView.vala:34
 msgid "Zoom out:"
-msgstr "Zoom out:"
+msgstr "Diminuir zoom:"
 
 #: src/Views/ShortcutsView.vala:35
 msgid "Lock screen:"
@@ -77,19 +81,19 @@ msgstr "Selecione um área para capturar:"
 
 #: src/Views/ShortcutsView.vala:44
 msgid "Cycle windows:"
-msgstr ""
+msgstr "Percorrer janelas:"
 
 #: src/Views/ShortcutsView.vala:45
 msgid "Toggle maximized:"
-msgstr "Maximizar:"
+msgstr "Alternar maximização:"
 
 #: src/Views/ShortcutsView.vala:46
 msgid "Tile left:"
-msgstr "Ajustar a esquerda:"
+msgstr "Ajustar à esquerda:"
 
 #: src/Views/ShortcutsView.vala:47
 msgid "Tile right:"
-msgstr "Ajustar a direita:"
+msgstr "Ajustar à direita:"
 
 #: src/Views/ShortcutsView.vala:48
 msgid "Move to left workspace:"
@@ -99,42 +103,46 @@ msgstr "Mover para a área de trabalho à esquerda:"
 msgid "Move to right workspace:"
 msgstr "Mover para a área de trabalho à direita:"
 
-#: src/Views/ShortcutsView.vala:52
-msgid "Multitasking View:"
-msgstr "Visão de Multitarefa:"
+#: src/Views/ShortcutsView.vala:50
+msgid "Picture in Picture Mode:"
+msgstr "Modo Picture in Picture:"
 
 #: src/Views/ShortcutsView.vala:53
+msgid "Multitasking View:"
+msgstr "Visão Multitarefa:"
+
+#: src/Views/ShortcutsView.vala:54
 msgid "Switch left:"
 msgstr "Trocar para esquerda:"
 
-#: src/Views/ShortcutsView.vala:54
+#: src/Views/ShortcutsView.vala:55
 msgid "Switch right:"
 msgstr "Trocar para direita:"
 
-#: src/Views/ShortcutsView.vala:55
+#: src/Views/ShortcutsView.vala:56
 msgid "Switch to first:"
 msgstr "Trocar para o primeiro:"
 
-#: src/Views/ShortcutsView.vala:56
+#: src/Views/ShortcutsView.vala:57
 msgid "Switch to new:"
 msgstr "Trocar para novo:"
 
-#: src/Views/ShortcutsView.vala:57
+#: src/Views/ShortcutsView.vala:58
 msgid "Cycle workspaces:"
-msgstr ""
+msgstr "Percorrer áreas de trabalho:"
 
-#: src/Views/ShortcutsView.vala:68
+#: src/Views/ShortcutsView.vala:69
 msgid "Windows"
 msgstr "Janelas"
 
-#: src/Views/ShortcutsView.vala:79
+#: src/Views/ShortcutsView.vala:80
 msgid "Workspaces"
 msgstr "Áreas de Trabalho"
 
-#: src/Views/ShortcutsView.vala:96
+#: src/Views/ShortcutsView.vala:97
 msgid "System"
 msgstr "Sistema"
 
-#: src/Views/ShortcutsView.vala:107
+#: src/Views/ShortcutsView.vala:108
 msgid "Screenshots"
 msgstr "Captura de Tela"

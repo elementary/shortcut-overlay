@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-13 16:43-0700\n"
-"PO-Revision-Date: 2018-04-15 00:09+0000\n"
-"Last-Translator: Yure Garcia Felipeto <yurefelipeto14@gmail.com>\n"
+"PO-Revision-Date: 2018-05-12 00:11+0000\n"
+"Last-Translator: Pedro Ferreira <pmaf.ferreira@gmail.com>\n"
 "Language-Team: Portuguese <https://weblate.elementary.io/projects/desktop"
 "/shortcut-overlay-extra/pt/>\n"
 "Language: pt\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: data/io.elementary.shortcut-overlay.desktop.in:3
 msgid "Keyboard Shortcuts"
-msgstr "Atalhos de Teclado"
+msgstr "Atalhos do Teclado"
 
 #: data/io.elementary.shortcut-overlay.desktop.in:4
 msgid "Shortcut Overlay"
@@ -33,8 +33,8 @@ msgstr "Ver atalhos de teclado do sistema"
 
 #: data/io.elementary.shortcut-overlay.desktop.in:8
 msgid "preferences-desktop-keyboard"
-msgstr ""
+msgstr "preferences-desktop-keyboard"
 
 #: data/io.elementary.shortcut-overlay.desktop.in:13
 msgid "cheatsheet;shortcut;overlay;"
-msgstr ""
+msgstr "cheatsheet;shortcut;overlay;"
