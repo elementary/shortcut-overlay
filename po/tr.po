@@ -8,34 +8,36 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-03 09:07-0700\n"
-"PO-Revision-Date: 2018-03-07 10:56-0800\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2018-05-27 00:04+0000\n"
+"Last-Translator: İbrahim Ethem Göl <ethem578@gmail.com>\n"
+"Language-Team: Turkish <https://weblate.elementary.io/projects/desktop"
+"/shortcut-overlay/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2.18\n"
 
 #: src/MainWindow.vala:23
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Klavye Kısayolları"
 
 #: src/MainWindow.vala:34
 msgid "Keyboard Settings…"
-msgstr ""
+msgstr "Klavye Ayarları…"
 
 #: src/ShortcutEntry.vala:68
 msgid "Shift"
-msgstr ""
+msgstr "Shift"
 
 #: src/ShortcutEntry.vala:72
 msgid "Ctrl"
-msgstr ""
+msgstr "Ctrl"
 
 #: src/ShortcutEntry.vala:76
 msgid "Alt"
-msgstr ""
+msgstr "Alt"
 
 #: src/ShortcutLabel.vala:47
 msgid "Disabled"
@@ -51,19 +53,19 @@ msgstr ""
 
 #: src/Views/ShortcutsView.vala:33
 msgid "Zoom in:"
-msgstr ""
+msgstr "Yakınlaştır:"
 
 #: src/Views/ShortcutsView.vala:34
 msgid "Zoom out:"
-msgstr ""
+msgstr "Uzaklaştır:"
 
 #: src/Views/ShortcutsView.vala:35
 msgid "Lock screen:"
-msgstr ""
+msgstr "Kilit ekranı:"
 
 #: src/Views/ShortcutsView.vala:36
 msgid "Log out:"
-msgstr ""
+msgstr "Çıkış yap:"
 
 #: src/Views/ShortcutsView.vala:39
 msgid "Grab the whole screen:"
@@ -95,19 +97,19 @@ msgstr ""
 
 #: src/Views/ShortcutsView.vala:48
 msgid "Move to left workspace:"
-msgstr ""
+msgstr "Soldaki çalışma alanına taşı:"
 
 #: src/Views/ShortcutsView.vala:49
 msgid "Move to right workspace:"
-msgstr ""
+msgstr "Sağdaki çalışma alanına taşı:"
 
 #: src/Views/ShortcutsView.vala:50
 msgid "Picture in Picture Mode:"
-msgstr ""
+msgstr "Resim İçinde Resim Modu (PIP):"
 
 #: src/Views/ShortcutsView.vala:53
 msgid "Multitasking View:"
-msgstr ""
+msgstr "Çoklu Görev Görünümü:"
 
 #: src/Views/ShortcutsView.vala:54
 msgid "Switch left:"
@@ -131,16 +133,16 @@ msgstr ""
 
 #: src/Views/ShortcutsView.vala:69
 msgid "Windows"
-msgstr ""
+msgstr "Pencereler"
 
 #: src/Views/ShortcutsView.vala:80
 msgid "Workspaces"
-msgstr ""
+msgstr "Çalışma Alanları"
 
 #: src/Views/ShortcutsView.vala:97
 msgid "System"
-msgstr ""
+msgstr "Sistem"
 
 #: src/Views/ShortcutsView.vala:108
 msgid "Screenshots"
-msgstr ""
+msgstr "Ekran Görüntüleri"
