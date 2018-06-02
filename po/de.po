@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-03 09:07-0700\n"
-"PO-Revision-Date: 2018-05-21 00:09+0000\n"
-"Last-Translator: Güren Tan Dinga <freakeh@gmx.net>\n"
+"PO-Revision-Date: 2018-06-02 19:05+0000\n"
+"Last-Translator: Jörg Arnold <j.ar@mailbox.org>\n"
 "Language-Team: German <https://weblate.elementary.io/projects/desktop"
 "/shortcut-overlay/de/>\n"
 "Language: de\n"
@@ -41,7 +41,7 @@ msgstr "Alt"
 
 #: src/ShortcutLabel.vala:47
 msgid "Disabled"
-msgstr ""
+msgstr "Deaktiviert"
 
 #: src/Views/ShortcutsView.vala:31
 msgid "Applications Menu:"
@@ -105,7 +105,7 @@ msgstr "Auf rechte Arbeitsfläche verschieben:"
 
 #: src/Views/ShortcutsView.vala:50
 msgid "Picture in Picture Mode:"
-msgstr ""
+msgstr "Bild in Bild-Modus:"
 
 #: src/Views/ShortcutsView.vala:53
 msgid "Multitasking View:"
