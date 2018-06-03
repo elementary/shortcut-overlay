@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-13 16:43-0700\n"
-"PO-Revision-Date: 2018-05-18 00:07+0000\n"
+"PO-Revision-Date: 2018-06-03 06:58+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://weblate.elementary.io/projects/desktop"
 "/shortcut-overlay-extra/ko/>\n"
@@ -25,16 +25,16 @@ msgstr "키보드 단축키"
 
 #: data/io.elementary.shortcut-overlay.desktop.in:4
 msgid "Shortcut Overlay"
-msgstr ""
+msgstr "단축키 오버레이"
 
 #: data/io.elementary.shortcut-overlay.desktop.in:5
 msgid "View system keyboard shortcuts"
-msgstr ""
+msgstr "시스템 키보드 단축키 보기"
 
 #: data/io.elementary.shortcut-overlay.desktop.in:8
 msgid "preferences-desktop-keyboard"
-msgstr ""
+msgstr "설정-데스크톱-키보드"
 
 #: data/io.elementary.shortcut-overlay.desktop.in:13
 msgid "cheatsheet;shortcut;overlay;"
-msgstr ""
+msgstr "치트시트;단축키;오버레이;"
