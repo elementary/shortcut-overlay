@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-03 09:07-0700\n"
-"PO-Revision-Date: 2018-05-18 00:07+0000\n"
+"PO-Revision-Date: 2018-06-09 00:05+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://weblate.elementary.io/projects/desktop"
 "/shortcut-overlay/fi/>\n"
@@ -81,7 +81,7 @@ msgstr "Valitse kaapattava alue:"
 
 #: src/Views/ShortcutsView.vala:44
 msgid "Cycle windows:"
-msgstr ""
+msgstr "Vaihda ikkunoiden välillä:"
 
 #: src/Views/ShortcutsView.vala:45
 msgid "Toggle maximized:"
