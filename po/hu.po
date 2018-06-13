@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-03 09:07-0700\n"
-"PO-Revision-Date: 2018-06-04 00:08+0000\n"
+"PO-Revision-Date: 2018-06-13 10:42+0000\n"
 "Last-Translator: Majer Tamás <mtamas@disroot.org>\n"
 "Language-Team: Hungarian <https://weblate.elementary.io/projects/desktop"
 "/shortcut-overlay/hu/>\n"
@@ -49,7 +49,7 @@ msgstr "Alkalmazás menü:"
 
 #: src/Views/ShortcutsView.vala:32
 msgid "Cycle display mode:"
-msgstr ""
+msgstr "Képernyőmódok körbejárása:"
 
 #: src/Views/ShortcutsView.vala:33
 msgid "Zoom in:"
@@ -73,7 +73,7 @@ msgstr "A teljes képernyő mentése:"
 
 #: src/Views/ShortcutsView.vala:40
 msgid "Grab the current window:"
-msgstr "Az aktív képernyő mentése:"
+msgstr "Az aktív ablak mentése:"
 
 #: src/Views/ShortcutsView.vala:41
 msgid "Select an area to grab:"
@@ -81,31 +81,31 @@ msgstr "Kijelölt terület mentése:"
 
 #: src/Views/ShortcutsView.vala:44
 msgid "Cycle windows:"
-msgstr ""
+msgstr "Ablakok körbejárása:"
 
 #: src/Views/ShortcutsView.vala:45
 msgid "Toggle maximized:"
-msgstr ""
+msgstr "Maximalizás rögzítése:"
 
 #: src/Views/ShortcutsView.vala:46
 msgid "Tile left:"
-msgstr ""
+msgstr "Igazítás balra:"
 
 #: src/Views/ShortcutsView.vala:47
 msgid "Tile right:"
-msgstr ""
+msgstr "Igazítás jobbra:"
 
 #: src/Views/ShortcutsView.vala:48
 msgid "Move to left workspace:"
-msgstr ""
+msgstr "Mozgatás a baloldali munkaterületre:"
 
 #: src/Views/ShortcutsView.vala:49
 msgid "Move to right workspace:"
-msgstr ""
+msgstr "Mozgatás a jobboldali munkaterületre:"
 
 #: src/Views/ShortcutsView.vala:50
 msgid "Picture in Picture Mode:"
-msgstr ""
+msgstr "Kép a képben mód:"
 
 #: src/Views/ShortcutsView.vala:53
 msgid "Multitasking View:"
@@ -113,27 +113,27 @@ msgstr "Többfeladatos nézet:"
 
 #: src/Views/ShortcutsView.vala:54
 msgid "Switch left:"
-msgstr ""
+msgstr "Váltás balra:"
 
 #: src/Views/ShortcutsView.vala:55
 msgid "Switch right:"
-msgstr ""
+msgstr "Váltás jobbra:"
 
 #: src/Views/ShortcutsView.vala:56
 msgid "Switch to first:"
-msgstr ""
+msgstr "Váltás az elsőre:"
 
 #: src/Views/ShortcutsView.vala:57
 msgid "Switch to new:"
-msgstr ""
+msgstr "Váltás egy újra:"
 
 #: src/Views/ShortcutsView.vala:58
 msgid "Cycle workspaces:"
-msgstr ""
+msgstr "Munkaterületek körbejárása:"
 
 #: src/Views/ShortcutsView.vala:69
 msgid "Windows"
-msgstr ""
+msgstr "Ablakok"
 
 #: src/Views/ShortcutsView.vala:80
 msgid "Workspaces"
@@ -141,7 +141,7 @@ msgstr "Munkaterületek"
 
 #: src/Views/ShortcutsView.vala:97
 msgid "System"
-msgstr ""
+msgstr "Rendszer"
 
 #: src/Views/ShortcutsView.vala:108
 msgid "Screenshots"
