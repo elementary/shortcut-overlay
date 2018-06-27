@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-03 09:07-0700\n"
+"POT-Creation-Date: 2018-06-27 10:31-0700\n"
 "PO-Revision-Date: 2018-05-05 08:13+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock@gmail.com>\n"
-"Language-Team: Japanese <https://weblate.elementary.io/projects/desktop"
-"/shortcut-overlay/ja/>\n"
+"Language-Team: Japanese <https://weblate.elementary.io/projects/desktop/"
+"shortcut-overlay/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,106 +43,106 @@ msgstr "Alt"
 msgid "Disabled"
 msgstr "無効"
 
-#: src/Views/ShortcutsView.vala:31
+#: src/Views/ShortcutsView.vala:33
 msgid "Applications Menu:"
 msgstr "アプリケーションメニュー:"
 
-#: src/Views/ShortcutsView.vala:32
+#: src/Views/ShortcutsView.vala:34
 msgid "Cycle display mode:"
 msgstr "ディスプレイモードの切り替え:"
 
-#: src/Views/ShortcutsView.vala:33
+#: src/Views/ShortcutsView.vala:35
 msgid "Zoom in:"
 msgstr "ズームイン:"
 
-#: src/Views/ShortcutsView.vala:34
+#: src/Views/ShortcutsView.vala:36
 msgid "Zoom out:"
 msgstr "ズームアウト:"
 
-#: src/Views/ShortcutsView.vala:35
+#: src/Views/ShortcutsView.vala:37
 msgid "Lock screen:"
 msgstr "スクリーンをロック:"
 
-#: src/Views/ShortcutsView.vala:36
+#: src/Views/ShortcutsView.vala:38
 msgid "Log out:"
 msgstr "ログアウト:"
 
-#: src/Views/ShortcutsView.vala:39
+#: src/Views/ShortcutsView.vala:41
 msgid "Grab the whole screen:"
 msgstr "スクリーン全体を取得:"
 
-#: src/Views/ShortcutsView.vala:40
+#: src/Views/ShortcutsView.vala:42
 msgid "Grab the current window:"
 msgstr "現在のウィンドウを取得:"
 
-#: src/Views/ShortcutsView.vala:41
+#: src/Views/ShortcutsView.vala:43
 msgid "Select an area to grab:"
 msgstr "エリアを選択して取得:"
 
-#: src/Views/ShortcutsView.vala:44
+#: src/Views/ShortcutsView.vala:46
 msgid "Cycle windows:"
 msgstr "ウィンドウの切り替え:"
 
-#: src/Views/ShortcutsView.vala:45
+#: src/Views/ShortcutsView.vala:47
 msgid "Toggle maximized:"
 msgstr "最大化の切り替え:"
 
-#: src/Views/ShortcutsView.vala:46
+#: src/Views/ShortcutsView.vala:48
 msgid "Tile left:"
 msgstr "左にタイル:"
 
-#: src/Views/ShortcutsView.vala:47
+#: src/Views/ShortcutsView.vala:49
 msgid "Tile right:"
 msgstr "右にタイル:"
 
-#: src/Views/ShortcutsView.vala:48
+#: src/Views/ShortcutsView.vala:50
 msgid "Move to left workspace:"
 msgstr "左のワークスペースに移動:"
 
-#: src/Views/ShortcutsView.vala:49
+#: src/Views/ShortcutsView.vala:51
 msgid "Move to right workspace:"
 msgstr "右のワークスペースに移動:"
 
-#: src/Views/ShortcutsView.vala:50
+#: src/Views/ShortcutsView.vala:52
 msgid "Picture in Picture Mode:"
 msgstr "ピクチャーインピクチャーモード:"
 
-#: src/Views/ShortcutsView.vala:53
+#: src/Views/ShortcutsView.vala:55
 msgid "Multitasking View:"
 msgstr "マルチタスキングビュー:"
 
-#: src/Views/ShortcutsView.vala:54
+#: src/Views/ShortcutsView.vala:56
 msgid "Switch left:"
 msgstr "左に切り替え:"
 
-#: src/Views/ShortcutsView.vala:55
+#: src/Views/ShortcutsView.vala:57
 msgid "Switch right:"
 msgstr "右に切り替え:"
 
-#: src/Views/ShortcutsView.vala:56
+#: src/Views/ShortcutsView.vala:58
 msgid "Switch to first:"
 msgstr "最初に切り替え:"
 
-#: src/Views/ShortcutsView.vala:57
+#: src/Views/ShortcutsView.vala:59
 msgid "Switch to new:"
 msgstr "新規に切り替え:"
 
-#: src/Views/ShortcutsView.vala:58
+#: src/Views/ShortcutsView.vala:60
 msgid "Cycle workspaces:"
 msgstr "ワークスペースを切り替え:"
 
-#: src/Views/ShortcutsView.vala:69
+#: src/Views/ShortcutsView.vala:71
 msgid "Windows"
 msgstr "ウィンドウ"
 
-#: src/Views/ShortcutsView.vala:80
+#: src/Views/ShortcutsView.vala:75
 msgid "Workspaces"
 msgstr "ワークスペース"
 
-#: src/Views/ShortcutsView.vala:97
+#: src/Views/ShortcutsView.vala:85
 msgid "System"
 msgstr "システム"
 
-#: src/Views/ShortcutsView.vala:108
+#: src/Views/ShortcutsView.vala:89
 msgid "Screenshots"
 msgstr "スクリーンショット"
