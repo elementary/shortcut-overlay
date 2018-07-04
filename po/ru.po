@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-27 10:31-0700\n"
 "PO-Revision-Date: 2018-07-04 20:20+0000\n"
-"Last-Translator: Kirill Romanov <djaler1@gmail.com>\n"
+"Last-Translator: Евгений Леснов <s4eniel@gmail.com>\n"
 "Language-Team: Russian <https://weblate.elementary.io/projects/desktop/"
 "shortcut-overlay/ru/>\n"
 "Language: ru\n"
@@ -30,23 +30,23 @@ msgstr "Настройки клавиатуры…"
 
 #: src/ShortcutEntry.vala:68
 msgid "Shift"
-msgstr ""
+msgstr "Shift"
 
 #: src/ShortcutEntry.vala:72
 msgid "Ctrl"
-msgstr ""
+msgstr "Ctrl"
 
 #: src/ShortcutEntry.vala:76
 msgid "Alt"
-msgstr ""
+msgstr "Alt"
 
 #: src/ShortcutLabel.vala:47
 msgid "Disabled"
-msgstr ""
+msgstr "Отключено"
 
 #: src/Views/ShortcutsView.vala:33
 msgid "Applications Menu:"
-msgstr ""
+msgstr "Меню приложений:"
 
 #: src/Views/ShortcutsView.vala:34
 msgid "Cycle display mode:"
@@ -54,11 +54,11 @@ msgstr "Переключение режима экрана:"
 
 #: src/Views/ShortcutsView.vala:35
 msgid "Zoom in:"
-msgstr ""
+msgstr "Приблизить:"
 
 #: src/Views/ShortcutsView.vala:36
 msgid "Zoom out:"
-msgstr ""
+msgstr "Отдалить:"
 
 #: src/Views/ShortcutsView.vala:37
 msgid "Lock screen:"
@@ -66,11 +66,11 @@ msgstr "Заблокировать:"
 
 #: src/Views/ShortcutsView.vala:38
 msgid "Log out:"
-msgstr ""
+msgstr "Выйти из системы:"
 
 #: src/Views/ShortcutsView.vala:41
 msgid "Grab the whole screen:"
-msgstr ""
+msgstr "Захватить весь экран:"
 
 #: src/Views/ShortcutsView.vala:42
 msgid "Grab the current window:"
