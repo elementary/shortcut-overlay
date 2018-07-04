@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-27 10:31-0700\n"
 "PO-Revision-Date: 2018-07-04 20:20+0000\n"
-"Last-Translator: Kirill Romanov <djaler1@gmail.com>\n"
+"Last-Translator: Евгений Леснов <s4eniel@gmail.com>\n"
 "Language-Team: Russian <https://weblate.elementary.io/projects/desktop/"
 "shortcut-overlay/ru/>\n"
 "Language: ru\n"
@@ -74,7 +74,7 @@ msgstr "Снять весь экран:"
 
 #: src/Views/ShortcutsView.vala:42
 msgid "Grab the current window:"
-msgstr ""
+msgstr "Захватить текущее окно:"
 
 #: src/Views/ShortcutsView.vala:43
 msgid "Select an area to grab:"
