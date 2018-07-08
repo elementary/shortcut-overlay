@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-27 10:31-0700\n"
-"PO-Revision-Date: 2018-07-05 00:07+0000\n"
+"PO-Revision-Date: 2018-07-08 06:20+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://weblate.elementary.io/projects/desktop/"
 "shortcut-overlay/fi/>\n"
@@ -29,7 +29,7 @@ msgstr "Näppäimistön asetukset…"
 
 #: src/ShortcutEntry.vala:68
 msgid "Shift"
-msgstr ""
+msgstr "Shift"
 
 #: src/ShortcutEntry.vala:72
 msgid "Ctrl"
@@ -49,7 +49,7 @@ msgstr "Sovellusvalikko:"
 
 #: src/Views/ShortcutsView.vala:34
 msgid "Cycle display mode:"
-msgstr ""
+msgstr "Vaihda näyttötilaa:"
 
 #: src/Views/ShortcutsView.vala:35
 msgid "Zoom in:"
@@ -85,7 +85,7 @@ msgstr "Vaihda ikkunoiden välillä:"
 
 #: src/Views/ShortcutsView.vala:47
 msgid "Toggle maximized:"
-msgstr ""
+msgstr "Suurenna tai palauta koko:"
 
 #: src/Views/ShortcutsView.vala:48
 msgid "Tile left:"
@@ -97,11 +97,11 @@ msgstr "Laatoita oikealle:"
 
 #: src/Views/ShortcutsView.vala:50
 msgid "Move to left workspace:"
-msgstr ""
+msgstr "Siirrä vasemmalla olevaan työtilaan:"
 
 #: src/Views/ShortcutsView.vala:51
 msgid "Move to right workspace:"
-msgstr ""
+msgstr "Siirrä oikealla olevaan työtilaan:"
 
 #: src/Views/ShortcutsView.vala:52
 msgid "Picture in Picture Mode:"
@@ -113,19 +113,19 @@ msgstr "Moniajonäkymä:"
 
 #: src/Views/ShortcutsView.vala:56
 msgid "Switch left:"
-msgstr ""
+msgstr "Vaihda vasemmalle:"
 
 #: src/Views/ShortcutsView.vala:57
 msgid "Switch right:"
-msgstr ""
+msgstr "Vaihda oikealle:"
 
 #: src/Views/ShortcutsView.vala:58
 msgid "Switch to first:"
-msgstr ""
+msgstr "Vaihda ensimmäiseen:"
 
 #: src/Views/ShortcutsView.vala:59
 msgid "Switch to new:"
-msgstr ""
+msgstr "Vaihda uuteen:"
 
 #: src/Views/ShortcutsView.vala:60
 msgid "Cycle workspaces:"
