@@ -26,7 +26,7 @@ public class ShortcutOverlay.Application : Gtk.Application {
     }
 
     protected override void activate () {
-        if (main_window != null) {
+        if (main_window != null && !main_window.visible) {
             main_window.destroy ();
             return;
         }
