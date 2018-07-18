@@ -49,7 +49,10 @@ public class ShortcutOverlay.Application : Gtk.Application {
 
         quit_action.activate.connect (() => {
             if (main_window != null) {
-                main_window.destroy ();
+                Timeout.add (100, () => {
+                    main_window.destroy ();
+                    return false;
+                });
             }
         });
     }
