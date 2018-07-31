@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-13 16:43-0700\n"
-"PO-Revision-Date: 2018-03-28 00:03+0000\n"
-"Last-Translator: Justin <justin.hucke@t-online.de>\n"
+"PO-Revision-Date: 2018-06-04 00:08+0000\n"
+"Last-Translator: Jörg Arnold <j.ar@mailbox.org>\n"
 "Language-Team: German <https://weblate.elementary.io/projects/desktop"
 "/shortcut-overlay-extra/de/>\n"
 "Language: de\n"
@@ -21,11 +21,11 @@ msgstr ""
 
 #: data/io.elementary.shortcut-overlay.desktop.in:3
 msgid "Keyboard Shortcuts"
-msgstr "Tastatur Befehle"
+msgstr "Tastaturkürzel"
 
 #: data/io.elementary.shortcut-overlay.desktop.in:4
 msgid "Shortcut Overlay"
-msgstr ""
+msgstr "Übersicht der Tastaturkürzel"
 
 #: data/io.elementary.shortcut-overlay.desktop.in:5
 msgid "View system keyboard shortcuts"
@@ -37,4 +37,4 @@ msgstr ""
 
 #: data/io.elementary.shortcut-overlay.desktop.in:13
 msgid "cheatsheet;shortcut;overlay;"
-msgstr ""
+msgstr "Cheatsheet; Tastaturkürzel; Übersicht;"

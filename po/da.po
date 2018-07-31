@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-15 11:47-0700\n"
-"PO-Revision-Date: 2018-03-25 00:09+0000\n"
+"POT-Creation-Date: 2018-06-27 10:31-0700\n"
+"PO-Revision-Date: 2018-05-05 20:53+0000\n"
 "Last-Translator: Kaj Printz Madsen <kajprintz@gmail.com>\n"
-"Language-Team: Danish <https://weblate.elementary.io/projects/desktop"
-"/shortcut-overlay/da/>\n"
+"Language-Team: Danish <https://weblate.elementary.io/projects/desktop/"
+"shortcut-overlay/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,114 +27,122 @@ msgstr "Tastaturgenveje"
 msgid "Keyboard Settings…"
 msgstr "Tastatur Indstillinger…"
 
-#: src/ShortcutEntry.vala:67
+#: src/ShortcutEntry.vala:68
 msgid "Shift"
 msgstr "Shift"
 
-#: src/ShortcutEntry.vala:71
+#: src/ShortcutEntry.vala:72
 msgid "Ctrl"
 msgstr "Ctrl"
 
-#: src/ShortcutEntry.vala:75
+#: src/ShortcutEntry.vala:76
 msgid "Alt"
 msgstr "Alt"
 
-#: src/Views/ShortcutsView.vala:31
+#: src/ShortcutLabel.vala:47
+msgid "Disabled"
+msgstr "Deaktiveret"
+
+#: src/Views/ShortcutsView.vala:33
 msgid "Applications Menu:"
 msgstr "Applikationsmenu:"
 
-#: src/Views/ShortcutsView.vala:32
+#: src/Views/ShortcutsView.vala:34
 msgid "Cycle display mode:"
 msgstr "Cykle display tilstand:"
 
-#: src/Views/ShortcutsView.vala:33
+#: src/Views/ShortcutsView.vala:35
 msgid "Zoom in:"
 msgstr "Zoom ind:"
 
-#: src/Views/ShortcutsView.vala:34
+#: src/Views/ShortcutsView.vala:36
 msgid "Zoom out:"
 msgstr "Zoom ud:"
 
-#: src/Views/ShortcutsView.vala:35
+#: src/Views/ShortcutsView.vala:37
 msgid "Lock screen:"
 msgstr "Lås skærmen:"
 
-#: src/Views/ShortcutsView.vala:36
+#: src/Views/ShortcutsView.vala:38
 msgid "Log out:"
 msgstr "Log ud:"
 
-#: src/Views/ShortcutsView.vala:39
+#: src/Views/ShortcutsView.vala:41
 msgid "Grab the whole screen:"
 msgstr "Screenshot hele skærmen:"
 
-#: src/Views/ShortcutsView.vala:40
+#: src/Views/ShortcutsView.vala:42
 msgid "Grab the current window:"
 msgstr "Screenshot det nuværende vindue:"
 
-#: src/Views/ShortcutsView.vala:41
+#: src/Views/ShortcutsView.vala:43
 msgid "Select an area to grab:"
 msgstr "Vælg et område at screenshot:"
 
-#: src/Views/ShortcutsView.vala:44
+#: src/Views/ShortcutsView.vala:46
 msgid "Cycle windows:"
 msgstr "Cycle mellem vinduer:"
 
-#: src/Views/ShortcutsView.vala:45
+#: src/Views/ShortcutsView.vala:47
 msgid "Toggle maximized:"
 msgstr "Toggle maksimeret:"
 
-#: src/Views/ShortcutsView.vala:46
+#: src/Views/ShortcutsView.vala:48
 msgid "Tile left:"
 msgstr "Tile venstre:"
 
-#: src/Views/ShortcutsView.vala:47
+#: src/Views/ShortcutsView.vala:49
 msgid "Tile right:"
 msgstr "Tile højre:"
 
-#: src/Views/ShortcutsView.vala:48
+#: src/Views/ShortcutsView.vala:50
 msgid "Move to left workspace:"
 msgstr "Flyt til venstre skrivebord:"
 
-#: src/Views/ShortcutsView.vala:49
+#: src/Views/ShortcutsView.vala:51
 msgid "Move to right workspace:"
 msgstr "Flyt til højre skrivebord:"
 
 #: src/Views/ShortcutsView.vala:52
+msgid "Picture in Picture Mode:"
+msgstr "Billede i Billede Tilstand:"
+
+#: src/Views/ShortcutsView.vala:55
 msgid "Multitasking View:"
 msgstr "Vinduesoversigt:"
 
-#: src/Views/ShortcutsView.vala:53
+#: src/Views/ShortcutsView.vala:56
 msgid "Switch left:"
 msgstr "Skift til venstre:"
 
-#: src/Views/ShortcutsView.vala:54
+#: src/Views/ShortcutsView.vala:57
 msgid "Switch right:"
 msgstr "Skift til højre:"
 
-#: src/Views/ShortcutsView.vala:55
+#: src/Views/ShortcutsView.vala:58
 msgid "Switch to first:"
 msgstr "Skift til første:"
 
-#: src/Views/ShortcutsView.vala:56
+#: src/Views/ShortcutsView.vala:59
 msgid "Switch to new:"
 msgstr "Skift til ny:"
 
-#: src/Views/ShortcutsView.vala:57
+#: src/Views/ShortcutsView.vala:60
 msgid "Cycle workspaces:"
 msgstr "Cycle mellem skrivebord:"
 
-#: src/Views/ShortcutsView.vala:68
+#: src/Views/ShortcutsView.vala:71
 msgid "Windows"
 msgstr "Vinduer"
 
-#: src/Views/ShortcutsView.vala:79
+#: src/Views/ShortcutsView.vala:75
 msgid "Workspaces"
 msgstr "Skriveborde"
 
-#: src/Views/ShortcutsView.vala:96
+#: src/Views/ShortcutsView.vala:85
 msgid "System"
 msgstr "System"
 
-#: src/Views/ShortcutsView.vala:107
+#: src/Views/ShortcutsView.vala:89
 msgid "Screenshots"
 msgstr "Screenshots"

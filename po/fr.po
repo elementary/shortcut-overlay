@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-15 11:47-0700\n"
-"PO-Revision-Date: 2018-03-10 00:03+0000\n"
+"POT-Creation-Date: 2018-06-27 10:31-0700\n"
+"PO-Revision-Date: 2018-05-05 15:08+0000\n"
 "Last-Translator: Corentin Noël <corentin@elementary.io>\n"
 "Language-Team: French <https://weblate.elementary.io/projects/desktop/"
 "shortcut-overlay/fr/>\n"
@@ -27,114 +27,122 @@ msgstr "Raccourcis clavier"
 msgid "Keyboard Settings…"
 msgstr "Paramètres du clavier…"
 
-#: src/ShortcutEntry.vala:67
+#: src/ShortcutEntry.vala:68
 msgid "Shift"
 msgstr "Maj"
 
-#: src/ShortcutEntry.vala:71
+#: src/ShortcutEntry.vala:72
 msgid "Ctrl"
 msgstr "Ctrl"
 
-#: src/ShortcutEntry.vala:75
+#: src/ShortcutEntry.vala:76
 msgid "Alt"
 msgstr "Alt"
 
-#: src/Views/ShortcutsView.vala:31
+#: src/ShortcutLabel.vala:47
+msgid "Disabled"
+msgstr "Désactivé"
+
+#: src/Views/ShortcutsView.vala:33
 msgid "Applications Menu:"
 msgstr "Menu Applications :"
 
-#: src/Views/ShortcutsView.vala:32
+#: src/Views/ShortcutsView.vala:34
 msgid "Cycle display mode:"
 msgstr "Changer le mode d'affichage :"
 
-#: src/Views/ShortcutsView.vala:33
+#: src/Views/ShortcutsView.vala:35
 msgid "Zoom in:"
 msgstr "Zoom avant :"
 
-#: src/Views/ShortcutsView.vala:34
+#: src/Views/ShortcutsView.vala:36
 msgid "Zoom out:"
 msgstr "Zoom arrière :"
 
-#: src/Views/ShortcutsView.vala:35
+#: src/Views/ShortcutsView.vala:37
 msgid "Lock screen:"
 msgstr "Verrouiller l'écran :"
 
-#: src/Views/ShortcutsView.vala:36
+#: src/Views/ShortcutsView.vala:38
 msgid "Log out:"
 msgstr "Fermer la session :"
 
-#: src/Views/ShortcutsView.vala:39
+#: src/Views/ShortcutsView.vala:41
 msgid "Grab the whole screen:"
 msgstr "Récupérer tout l'écran :"
 
-#: src/Views/ShortcutsView.vala:40
+#: src/Views/ShortcutsView.vala:42
 msgid "Grab the current window:"
 msgstr "Récupérer la fenêtre actuelle :"
 
-#: src/Views/ShortcutsView.vala:41
+#: src/Views/ShortcutsView.vala:43
 msgid "Select an area to grab:"
 msgstr "Sélectionner une zone à récupérer :"
 
-#: src/Views/ShortcutsView.vala:44
+#: src/Views/ShortcutsView.vala:46
 msgid "Cycle windows:"
 msgstr "Faire défiler les fenêtres :"
 
-#: src/Views/ShortcutsView.vala:45
+#: src/Views/ShortcutsView.vala:47
 msgid "Toggle maximized:"
 msgstr "Maximiser ou minimiser :"
 
-#: src/Views/ShortcutsView.vala:46
+#: src/Views/ShortcutsView.vala:48
 msgid "Tile left:"
 msgstr "Tuiler à gauche :"
 
-#: src/Views/ShortcutsView.vala:47
+#: src/Views/ShortcutsView.vala:49
 msgid "Tile right:"
 msgstr "Tuiler à droite :"
 
-#: src/Views/ShortcutsView.vala:48
+#: src/Views/ShortcutsView.vala:50
 msgid "Move to left workspace:"
 msgstr "Déplacer sur l'espace de travail de gauche :"
 
-#: src/Views/ShortcutsView.vala:49
+#: src/Views/ShortcutsView.vala:51
 msgid "Move to right workspace:"
 msgstr "Déplacer sur l'espace de travail de droite :"
 
 #: src/Views/ShortcutsView.vala:52
+msgid "Picture in Picture Mode:"
+msgstr "Mode image dans l'image :"
+
+#: src/Views/ShortcutsView.vala:55
 msgid "Multitasking View:"
 msgstr "Vue multitâche :"
 
-#: src/Views/ShortcutsView.vala:53
+#: src/Views/ShortcutsView.vala:56
 msgid "Switch left:"
 msgstr "Basculer à gauche :"
 
-#: src/Views/ShortcutsView.vala:54
+#: src/Views/ShortcutsView.vala:57
 msgid "Switch right:"
 msgstr "Basculer à droite :"
 
-#: src/Views/ShortcutsView.vala:55
+#: src/Views/ShortcutsView.vala:58
 msgid "Switch to first:"
 msgstr "Basculer au premier :"
 
-#: src/Views/ShortcutsView.vala:56
+#: src/Views/ShortcutsView.vala:59
 msgid "Switch to new:"
 msgstr "Basculer au nouveau :"
 
-#: src/Views/ShortcutsView.vala:57
+#: src/Views/ShortcutsView.vala:60
 msgid "Cycle workspaces:"
 msgstr "Faire défiler les espaces de travail :"
 
-#: src/Views/ShortcutsView.vala:68
+#: src/Views/ShortcutsView.vala:71
 msgid "Windows"
 msgstr "Fenêtres"
 
-#: src/Views/ShortcutsView.vala:79
+#: src/Views/ShortcutsView.vala:75
 msgid "Workspaces"
 msgstr "Espaces de travail"
 
-#: src/Views/ShortcutsView.vala:96
+#: src/Views/ShortcutsView.vala:85
 msgid "System"
 msgstr "Système"
 
-#: src/Views/ShortcutsView.vala:107
+#: src/Views/ShortcutsView.vala:89
 msgid "Screenshots"
 msgstr "Captures d'écran"

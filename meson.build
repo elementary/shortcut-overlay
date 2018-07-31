@@ -1,4 +1,8 @@
-project('io.elementary.shortcut-overlay', 'vala', 'c')
+project(
+    'io.elementary.shortcut-overlay',
+    'vala', 'c',
+    version: '1.0'
+)
 
 gnome = import('gnome')
 i18n = import('i18n')
@@ -29,6 +33,7 @@ executable(
         dependency('granite'),
         dependency('gtk+-3.0'),
         dependency('gee-0.8'),
+        meson.get_compiler('vala').find_library('posix'),
     ],
     install : true
 )
