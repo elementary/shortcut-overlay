@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-13 16:43-0700\n"
 "PO-Revision-Date: 2018-08-12 12:02+0000\n"
-"Last-Translator: James Qian <sotux82@gmail.com>\n"
+"Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://weblate.elementary.io/projects/"
 "desktop/shortcut-overlay-extra/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -33,7 +33,7 @@ msgstr "查看系统键盘快捷键"
 
 #: data/io.elementary.shortcut-overlay.desktop.in:8
 msgid "preferences-desktop-keyboard"
-msgstr ""
+msgstr "设置-桌面-键盘"
 
 #: data/io.elementary.shortcut-overlay.desktop.in:13
 msgid "cheatsheet;shortcut;overlay;"
