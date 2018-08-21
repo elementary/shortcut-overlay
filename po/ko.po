@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-27 10:31-0700\n"
-"PO-Revision-Date: 2018-06-04 02:20+0000\n"
+"PO-Revision-Date: 2018-07-21 00:07+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://weblate.elementary.io/projects/desktop/"
 "shortcut-overlay/ko/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.0.1\n"
 
 #: src/MainWindow.vala:23
 msgid "Keyboard Shortcuts"
@@ -69,15 +69,15 @@ msgstr "로그 아웃:"
 
 #: src/Views/ShortcutsView.vala:41
 msgid "Grab the whole screen:"
-msgstr "전체 화면 잡기:"
+msgstr "전체 화면 찍기:"
 
 #: src/Views/ShortcutsView.vala:42
 msgid "Grab the current window:"
-msgstr "현재 창 잡기:"
+msgstr "현재 창 찍기:"
 
 #: src/Views/ShortcutsView.vala:43
 msgid "Select an area to grab:"
-msgstr "잡을 영역 선택:"
+msgstr "찍을 영역 선택:"
 
 #: src/Views/ShortcutsView.vala:46
 msgid "Cycle windows:"
