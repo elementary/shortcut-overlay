@@ -16,6 +16,8 @@
  */
 
 public class ShortcutOverlay.Application : Gtk.Application {
+    private MainWindow? main_window = null;
+
     public Application () {
         Object (
             application_id: "io.elementary.shortcut-overlay",
@@ -24,15 +26,14 @@ public class ShortcutOverlay.Application : Gtk.Application {
     }
 
     protected override void activate () {
-        unowned List<Gtk.Window> windows = get_windows ();
-        if (windows.length () > 0) {
-            windows.data.present ();
+        if (main_window != null && !main_window.visible) {
+            main_window.destroy ();
             return;
         }
 
         bool is_terminal = Posix.isatty (Posix.STDIN_FILENO);
 
-        var main_window = new MainWindow (this);
+        main_window = new MainWindow (this);
         main_window.show_all ();
 
         var quit_action = new SimpleAction ("quit", null);
@@ -42,7 +43,7 @@ public class ShortcutOverlay.Application : Gtk.Application {
 
         if (is_terminal == false) {
             main_window.focus_out_event.connect ((event) => {
-                quit_action.activate (null);
+                main_window.hide ();
                 return Gdk.EVENT_STOP;
             });
         }
