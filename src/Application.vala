@@ -25,8 +25,8 @@ public class ShortcutOverlay.Application : Gtk.Application {
 
     protected override void activate () {
         unowned List<Gtk.Window> windows = get_windows ();
-        if (windows.length () > 0) {
-            windows.data.present ();
+        if (windows.length () > 0 && !windows.data.visible) {
+            windows.data.destroy ();
             return;
         }
 
@@ -49,7 +49,14 @@ public class ShortcutOverlay.Application : Gtk.Application {
 
         quit_action.activate.connect (() => {
             if (main_window != null) {
-                main_window.destroy ();
+                main_window.hide ();
+                /* Retain the window for a short time so that the keybinding
+                 * listener does not instantiate a new one right after closing
+                 */
+                Timeout.add (500, () => {
+                    main_window.destroy ();
+                    return false;
+                });
             }
         });
     }
