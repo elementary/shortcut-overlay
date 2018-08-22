@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-13 16:43-0700\n"
-"PO-Revision-Date: 2018-07-03 18:58+0000\n"
+"PO-Revision-Date: 2018-08-22 00:02+0000\n"
 "Last-Translator: Jernej Virag <jernej@virag.si>\n"
 "Language-Team: Slovenian <https://weblate.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/sl/>\n"
@@ -34,7 +34,7 @@ msgstr "Prikaži sistemske bližnjice na tipkovnici"
 
 #: data/io.elementary.shortcut-overlay.desktop.in:8
 msgid "preferences-desktop-keyboard"
-msgstr "preferences-desktop-keyboard"
+msgstr ""
 
 #: data/io.elementary.shortcut-overlay.desktop.in:13
 msgid "cheatsheet;shortcut;overlay;"
