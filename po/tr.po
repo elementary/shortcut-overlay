@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-27 10:31-0700\n"
-"PO-Revision-Date: 2018-05-27 00:04+0000\n"
+"PO-Revision-Date: 2018-08-31 00:04+0000\n"
 "Last-Translator: İbrahim Ethem Göl <ethem578@gmail.com>\n"
 "Language-Team: Turkish <https://weblate.elementary.io/projects/desktop/"
 "shortcut-overlay/tr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.0.1\n"
 
 #: src/MainWindow.vala:23
 msgid "Keyboard Shortcuts"
@@ -41,7 +41,7 @@ msgstr "Alt"
 
 #: src/ShortcutLabel.vala:47
 msgid "Disabled"
-msgstr ""
+msgstr "Devre Dışı"
 
 #: src/Views/ShortcutsView.vala:33
 msgid "Applications Menu:"
@@ -73,11 +73,11 @@ msgstr ""
 
 #: src/Views/ShortcutsView.vala:42
 msgid "Grab the current window:"
-msgstr ""
+msgstr "Mevcut pencereyi yakala:"
 
 #: src/Views/ShortcutsView.vala:43
 msgid "Select an area to grab:"
-msgstr ""
+msgstr "Yakalamak için bir alan seç:"
 
 #: src/Views/ShortcutsView.vala:46
 msgid "Cycle windows:"
