@@ -1,3 +1,9 @@
+io.elementary.shortcut-overlay (1.0.1) bionic; urgency=medium
+
+  * New upstream release.
+
+ -- Cody Garver <cody@elementary.io>  Mon, 17 Sep 2018 17:45:53 -0500
+
 io.elementary.shortcut-overlay (1.0) bionic; urgency=medium
 
   * Initial release.
