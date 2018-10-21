@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-13 15:59-0700\n"
-"PO-Revision-Date: 2018-10-18 00:09+0000\n"
+"PO-Revision-Date: 2018-10-22 00:03+0000\n"
 "Last-Translator: Kaj Printz Madsen <kajprintz@gmail.com>\n"
 "Language-Team: Danish <https://weblate.elementary.io/projects/desktop/"
 "shortcut-overlay/da/>\n"
@@ -49,7 +49,7 @@ msgstr "Applikationsmenu:"
 
 #: src/Views/ShortcutsView.vala:34
 msgid "Cycle display mode:"
-msgstr "Skift mellem skærm tilstand:"
+msgstr "Skift mellem skærm opsætninger:"
 
 #: src/Views/ShortcutsView.vala:35
 msgid "Zoom in:"
