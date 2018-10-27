@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-13 15:59-0700\n"
-"PO-Revision-Date: 2018-10-27 22:52+0000\n"
+"PO-Revision-Date: 2018-10-28 00:05+0000\n"
 "Last-Translator: Sinan Decron <intenfinitia@gmail.com>\n"
 "Language-Team: Turkish <https://weblate.elementary.io/projects/desktop/"
 "shortcut-overlay/tr/>\n"
@@ -125,11 +125,11 @@ msgstr "Birinciye geç:"
 
 #: src/Views/ShortcutsView.vala:59
 msgid "Switch to new:"
-msgstr "Yenisine geç"
+msgstr "Yenisine geç:"
 
 #: src/Views/ShortcutsView.vala:60
 msgid "Cycle workspaces:"
-msgstr "Çalışma alanlarını değiştir"
+msgstr "Çalışma alanlarını değiştir:"
 
 #: src/Views/ShortcutsView.vala:71
 msgid "Windows"
