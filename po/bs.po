@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-13 15:59-0700\n"
-"PO-Revision-Date: 2018-11-03 12:57+0000\n"
+"PO-Revision-Date: 2018-11-04 00:03+0000\n"
 "Last-Translator: Elvis Mujanović <elvis.mujanovic@gmail.com>\n"
 "Language-Team: Bosnian <https://weblate.elementary.io/projects/desktop/"
 "shortcut-overlay/bs/>\n"
@@ -26,7 +26,7 @@ msgstr "Kratice na tastaturi"
 
 #: src/MainWindow.vala:34
 msgid "Keyboard Settings…"
-msgstr "Podešavanja tastature..."
+msgstr "Podešavanja tastature…"
 
 #: src/ShortcutEntry.vala:68
 msgid "Shift"
