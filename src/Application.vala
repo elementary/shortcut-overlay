@@ -59,6 +59,17 @@ public class ShortcutOverlay.Application : Gtk.Application {
                 });
             }
         });
+
+        const string DESKTOP_SCHEMA = "io.elementary.desktop";
+        const string DARK_KEY = "prefer-dark";
+
+        var lookup = SettingsSchemaSource.get_default ().lookup (DESKTOP_SCHEMA, false);
+
+        if (lookup != null) {
+            var desktop_settings = new Settings (DESKTOP_SCHEMA);
+            var gtk_settings = Gtk.Settings.get_default ();
+            desktop_settings.bind (DARK_KEY, gtk_settings, "gtk_application_prefer_dark_theme", SettingsBindFlags.DEFAULT);
+        }
     }
 }
 
