@@ -7,18 +7,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-03 09:07-0700\n"
-"PO-Revision-Date: 2018-05-05 08:34+0000\n"
+"POT-Creation-Date: 2018-10-13 15:59-0700\n"
+"PO-Revision-Date: 2018-11-08 00:06+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
-"Language-Team: Lithuanian <https://weblate.elementary.io/projects/desktop"
-"/shortcut-overlay/lt/>\n"
+"Language-Team: Lithuanian <https://weblate.elementary.io/projects/desktop/"
+"shortcut-overlay/lt/>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || "
 "n%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.0.1\n"
 
 #: src/MainWindow.vala:23
 msgid "Keyboard Shortcuts"
@@ -30,11 +30,11 @@ msgstr "Klaviatūros nustatymai…"
 
 #: src/ShortcutEntry.vala:68
 msgid "Shift"
-msgstr "Shift (Lyg2)"
+msgstr "Lyg2(Shift)"
 
 #: src/ShortcutEntry.vala:72
 msgid "Ctrl"
-msgstr "Ctrl (Vald)"
+msgstr "Vald(Ctrl)"
 
 #: src/ShortcutEntry.vala:76
 msgid "Alt"
@@ -44,106 +44,106 @@ msgstr "Alt"
 msgid "Disabled"
 msgstr "Išjungta"
 
-#: src/Views/ShortcutsView.vala:31
+#: src/Views/ShortcutsView.vala:33
 msgid "Applications Menu:"
 msgstr "Programų meniu:"
 
-#: src/Views/ShortcutsView.vala:32
+#: src/Views/ShortcutsView.vala:34
 msgid "Cycle display mode:"
 msgstr "Perjunginėti rodymo veikseną:"
 
-#: src/Views/ShortcutsView.vala:33
+#: src/Views/ShortcutsView.vala:35
 msgid "Zoom in:"
 msgstr "Didinti:"
 
-#: src/Views/ShortcutsView.vala:34
+#: src/Views/ShortcutsView.vala:36
 msgid "Zoom out:"
 msgstr "Mažinti:"
 
-#: src/Views/ShortcutsView.vala:35
+#: src/Views/ShortcutsView.vala:37
 msgid "Lock screen:"
 msgstr "Užrakinti ekraną:"
 
-#: src/Views/ShortcutsView.vala:36
+#: src/Views/ShortcutsView.vala:38
 msgid "Log out:"
 msgstr "Atsijungti:"
 
-#: src/Views/ShortcutsView.vala:39
+#: src/Views/ShortcutsView.vala:41
 msgid "Grab the whole screen:"
 msgstr "Fotografuoti visą ekraną:"
 
-#: src/Views/ShortcutsView.vala:40
+#: src/Views/ShortcutsView.vala:42
 msgid "Grab the current window:"
 msgstr "Fotografuoti esamą langą:"
 
-#: src/Views/ShortcutsView.vala:41
+#: src/Views/ShortcutsView.vala:43
 msgid "Select an area to grab:"
 msgstr "Pasirinkti fotografuojamą sritį:"
 
-#: src/Views/ShortcutsView.vala:44
+#: src/Views/ShortcutsView.vala:46
 msgid "Cycle windows:"
 msgstr "Perjunginėti langus:"
 
-#: src/Views/ShortcutsView.vala:45
+#: src/Views/ShortcutsView.vala:47
 msgid "Toggle maximized:"
 msgstr "Perjungti išskleidimą:"
 
-#: src/Views/ShortcutsView.vala:46
+#: src/Views/ShortcutsView.vala:48
 msgid "Tile left:"
 msgstr "Iškloti kairėje:"
 
-#: src/Views/ShortcutsView.vala:47
+#: src/Views/ShortcutsView.vala:49
 msgid "Tile right:"
 msgstr "Iškloti dešinėje:"
 
-#: src/Views/ShortcutsView.vala:48
+#: src/Views/ShortcutsView.vala:50
 msgid "Move to left workspace:"
 msgstr "Perkelti į darbo sritį kairėje:"
 
-#: src/Views/ShortcutsView.vala:49
+#: src/Views/ShortcutsView.vala:51
 msgid "Move to right workspace:"
 msgstr "Perkelti į darbo sritį dešinėje:"
 
-#: src/Views/ShortcutsView.vala:50
+#: src/Views/ShortcutsView.vala:52
 msgid "Picture in Picture Mode:"
 msgstr "Paveikslas paveikslo veiksenoje:"
 
-#: src/Views/ShortcutsView.vala:53
+#: src/Views/ShortcutsView.vala:55
 msgid "Multitasking View:"
 msgstr "Daugiaprogramio apdorojimo rodinys:"
 
-#: src/Views/ShortcutsView.vala:54
+#: src/Views/ShortcutsView.vala:56
 msgid "Switch left:"
 msgstr "Perjungti kairėn:"
 
-#: src/Views/ShortcutsView.vala:55
+#: src/Views/ShortcutsView.vala:57
 msgid "Switch right:"
 msgstr "Perjungti dešinėn:"
 
-#: src/Views/ShortcutsView.vala:56
+#: src/Views/ShortcutsView.vala:58
 msgid "Switch to first:"
 msgstr "Perjungti į pirmą:"
 
-#: src/Views/ShortcutsView.vala:57
+#: src/Views/ShortcutsView.vala:59
 msgid "Switch to new:"
 msgstr "Perjungti į naują:"
 
-#: src/Views/ShortcutsView.vala:58
+#: src/Views/ShortcutsView.vala:60
 msgid "Cycle workspaces:"
 msgstr "Perjunginėti darbo sritis:"
 
-#: src/Views/ShortcutsView.vala:69
+#: src/Views/ShortcutsView.vala:71
 msgid "Windows"
 msgstr "Langai"
 
-#: src/Views/ShortcutsView.vala:80
+#: src/Views/ShortcutsView.vala:75
 msgid "Workspaces"
 msgstr "Darbo sritys"
 
-#: src/Views/ShortcutsView.vala:97
+#: src/Views/ShortcutsView.vala:85
 msgid "System"
 msgstr "Sistema"
 
-#: src/Views/ShortcutsView.vala:108
+#: src/Views/ShortcutsView.vala:89
 msgid "Screenshots"
 msgstr "Ekrano kopijos"

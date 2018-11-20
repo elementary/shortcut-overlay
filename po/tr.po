@@ -7,140 +7,142 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-03 09:07-0700\n"
-"PO-Revision-Date: 2018-03-07 10:56-0800\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2018-10-13 15:59-0700\n"
+"PO-Revision-Date: 2018-10-28 00:05+0000\n"
+"Last-Translator: Sinan Decron <intenfinitia@gmail.com>\n"
+"Language-Team: Turkish <https://weblate.elementary.io/projects/desktop/"
+"shortcut-overlay/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.0.1\n"
 
 #: src/MainWindow.vala:23
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Klavye Kısayolları"
 
 #: src/MainWindow.vala:34
 msgid "Keyboard Settings…"
-msgstr ""
+msgstr "Klavye Ayarları…"
 
 #: src/ShortcutEntry.vala:68
 msgid "Shift"
-msgstr ""
+msgstr "Shift"
 
 #: src/ShortcutEntry.vala:72
 msgid "Ctrl"
-msgstr ""
+msgstr "Ctrl"
 
 #: src/ShortcutEntry.vala:76
 msgid "Alt"
-msgstr ""
+msgstr "Alt"
 
 #: src/ShortcutLabel.vala:47
 msgid "Disabled"
-msgstr ""
-
-#: src/Views/ShortcutsView.vala:31
-msgid "Applications Menu:"
-msgstr ""
-
-#: src/Views/ShortcutsView.vala:32
-msgid "Cycle display mode:"
-msgstr ""
+msgstr "Devre Dışı"
 
 #: src/Views/ShortcutsView.vala:33
-msgid "Zoom in:"
-msgstr ""
+msgid "Applications Menu:"
+msgstr "Uygulamalar Menüsü:"
 
 #: src/Views/ShortcutsView.vala:34
-msgid "Zoom out:"
-msgstr ""
+msgid "Cycle display mode:"
+msgstr "Ekran kipleri arasında geçiş yap:"
 
 #: src/Views/ShortcutsView.vala:35
-msgid "Lock screen:"
-msgstr ""
+msgid "Zoom in:"
+msgstr "Yakınlaştır:"
 
 #: src/Views/ShortcutsView.vala:36
+msgid "Zoom out:"
+msgstr "Uzaklaştır:"
+
+#: src/Views/ShortcutsView.vala:37
+msgid "Lock screen:"
+msgstr "Kilit ekranı:"
+
+#: src/Views/ShortcutsView.vala:38
 msgid "Log out:"
-msgstr ""
-
-#: src/Views/ShortcutsView.vala:39
-msgid "Grab the whole screen:"
-msgstr ""
-
-#: src/Views/ShortcutsView.vala:40
-msgid "Grab the current window:"
-msgstr ""
+msgstr "Çıkış yap:"
 
 #: src/Views/ShortcutsView.vala:41
+msgid "Grab the whole screen:"
+msgstr "Bütün ekranı yakala:"
+
+#: src/Views/ShortcutsView.vala:42
+msgid "Grab the current window:"
+msgstr "Mevcut pencereyi yakala:"
+
+#: src/Views/ShortcutsView.vala:43
 msgid "Select an area to grab:"
-msgstr ""
-
-#: src/Views/ShortcutsView.vala:44
-msgid "Cycle windows:"
-msgstr ""
-
-#: src/Views/ShortcutsView.vala:45
-msgid "Toggle maximized:"
-msgstr ""
+msgstr "Yakalamak için bir alan seç:"
 
 #: src/Views/ShortcutsView.vala:46
-msgid "Tile left:"
-msgstr ""
+msgid "Cycle windows:"
+msgstr "Pencereler arasında geçiş yap:"
 
 #: src/Views/ShortcutsView.vala:47
-msgid "Tile right:"
-msgstr ""
+msgid "Toggle maximized:"
+msgstr "Büyüt/Eski haline döndür:"
 
 #: src/Views/ShortcutsView.vala:48
-msgid "Move to left workspace:"
-msgstr ""
+msgid "Tile left:"
+msgstr "Sola döşe:"
 
 #: src/Views/ShortcutsView.vala:49
-msgid "Move to right workspace:"
-msgstr ""
+msgid "Tile right:"
+msgstr "Sağa döşe:"
 
 #: src/Views/ShortcutsView.vala:50
+msgid "Move to left workspace:"
+msgstr "Soldaki çalışma alanına taşı:"
+
+#: src/Views/ShortcutsView.vala:51
+msgid "Move to right workspace:"
+msgstr "Sağdaki çalışma alanına taşı:"
+
+#: src/Views/ShortcutsView.vala:52
 msgid "Picture in Picture Mode:"
-msgstr ""
-
-#: src/Views/ShortcutsView.vala:53
-msgid "Multitasking View:"
-msgstr ""
-
-#: src/Views/ShortcutsView.vala:54
-msgid "Switch left:"
-msgstr ""
+msgstr "Resim İçinde Resim Modu (PIP):"
 
 #: src/Views/ShortcutsView.vala:55
-msgid "Switch right:"
-msgstr ""
+msgid "Multitasking View:"
+msgstr "Çoklu Görev Görünümü:"
 
 #: src/Views/ShortcutsView.vala:56
-msgid "Switch to first:"
-msgstr ""
+msgid "Switch left:"
+msgstr "Sola geç:"
 
 #: src/Views/ShortcutsView.vala:57
-msgid "Switch to new:"
-msgstr ""
+msgid "Switch right:"
+msgstr "Sağa geç:"
 
 #: src/Views/ShortcutsView.vala:58
+msgid "Switch to first:"
+msgstr "Birinciye geç:"
+
+#: src/Views/ShortcutsView.vala:59
+msgid "Switch to new:"
+msgstr "Yenisine geç:"
+
+#: src/Views/ShortcutsView.vala:60
 msgid "Cycle workspaces:"
-msgstr ""
+msgstr "Çalışma alanlarını değiştir:"
 
-#: src/Views/ShortcutsView.vala:69
+#: src/Views/ShortcutsView.vala:71
 msgid "Windows"
-msgstr ""
+msgstr "Pencereler"
 
-#: src/Views/ShortcutsView.vala:80
+#: src/Views/ShortcutsView.vala:75
 msgid "Workspaces"
-msgstr ""
+msgstr "Çalışma Alanları"
 
-#: src/Views/ShortcutsView.vala:97
+#: src/Views/ShortcutsView.vala:85
 msgid "System"
-msgstr ""
+msgstr "Sistem"
 
-#: src/Views/ShortcutsView.vala:108
+#: src/Views/ShortcutsView.vala:89
 msgid "Screenshots"
-msgstr ""
+msgstr "Ekran Görüntüleri"

@@ -7,17 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-13 16:43-0700\n"
-"PO-Revision-Date: 2018-03-26 00:08+0000\n"
+"POT-Creation-Date: 2018-10-13 15:59-0700\n"
+"PO-Revision-Date: 2018-07-04 18:14+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
-"Language-Team: Finnish <https://weblate.elementary.io/projects/desktop"
-"/shortcut-overlay-extra/fi/>\n"
+"Language-Team: Finnish <https://weblate.elementary.io/projects/desktop/"
+"shortcut-overlay-extra/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.0.1\n"
 
 #: data/io.elementary.shortcut-overlay.desktop.in:3
 msgid "Keyboard Shortcuts"
@@ -25,7 +25,7 @@ msgstr "Pikanäppäimet"
 
 #: data/io.elementary.shortcut-overlay.desktop.in:4
 msgid "Shortcut Overlay"
-msgstr ""
+msgstr "Pikanäppäinten esittely"
 
 #: data/io.elementary.shortcut-overlay.desktop.in:5
 msgid "View system keyboard shortcuts"
@@ -37,4 +37,4 @@ msgstr "preferences-desktop-keyboard"
 
 #: data/io.elementary.shortcut-overlay.desktop.in:13
 msgid "cheatsheet;shortcut;overlay;"
-msgstr ""
+msgstr "cheatsheet;shortcut;overlay;pikanäppäimet;"

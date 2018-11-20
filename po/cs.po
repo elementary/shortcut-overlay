@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-03 09:07-0700\n"
-"PO-Revision-Date: 2018-04-20 20:26+0000\n"
+"POT-Creation-Date: 2018-10-13 15:59-0700\n"
+"PO-Revision-Date: 2018-08-03 00:03+0000\n"
 "Last-Translator: Jan Marek <janmarek28@gmail.com>\n"
 "Language-Team: Czech <https://weblate.elementary.io/projects/desktop/"
 "shortcut-overlay/cs/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.0.1\n"
 
 #: src/MainWindow.vala:23
 msgid "Keyboard Shortcuts"
@@ -41,108 +41,108 @@ msgstr "Alt"
 
 #: src/ShortcutLabel.vala:47
 msgid "Disabled"
-msgstr ""
+msgstr "Vypnuto"
 
-#: src/Views/ShortcutsView.vala:31
+#: src/Views/ShortcutsView.vala:33
 msgid "Applications Menu:"
-msgstr "Menu aplikací:"
+msgstr "Nabídka aplikací:"
 
-#: src/Views/ShortcutsView.vala:32
+#: src/Views/ShortcutsView.vala:34
 msgid "Cycle display mode:"
 msgstr "Přepínat mód zobrazení:"
 
-#: src/Views/ShortcutsView.vala:33
+#: src/Views/ShortcutsView.vala:35
 msgid "Zoom in:"
 msgstr "Přiblížit:"
 
-#: src/Views/ShortcutsView.vala:34
+#: src/Views/ShortcutsView.vala:36
 msgid "Zoom out:"
 msgstr "Oddálit:"
 
-#: src/Views/ShortcutsView.vala:35
+#: src/Views/ShortcutsView.vala:37
 msgid "Lock screen:"
 msgstr "Zamknout obrazovku:"
 
-#: src/Views/ShortcutsView.vala:36
+#: src/Views/ShortcutsView.vala:38
 msgid "Log out:"
 msgstr "Odhlásit se:"
 
-#: src/Views/ShortcutsView.vala:39
+#: src/Views/ShortcutsView.vala:41
 msgid "Grab the whole screen:"
 msgstr "Zachytit celou obrazovku:"
 
-#: src/Views/ShortcutsView.vala:40
+#: src/Views/ShortcutsView.vala:42
 msgid "Grab the current window:"
 msgstr "Zachytit aktuální okno:"
 
-#: src/Views/ShortcutsView.vala:41
+#: src/Views/ShortcutsView.vala:43
 msgid "Select an area to grab:"
 msgstr "Vyberte oblast k zachycení:"
 
-#: src/Views/ShortcutsView.vala:44
+#: src/Views/ShortcutsView.vala:46
 msgid "Cycle windows:"
 msgstr "Cyklicky přepínat okna:"
 
-#: src/Views/ShortcutsView.vala:45
+#: src/Views/ShortcutsView.vala:47
 msgid "Toggle maximized:"
 msgstr "Přepínat maximalizaci:"
 
-#: src/Views/ShortcutsView.vala:46
+#: src/Views/ShortcutsView.vala:48
 msgid "Tile left:"
 msgstr "Vyplnit vlevo:"
 
-#: src/Views/ShortcutsView.vala:47
+#: src/Views/ShortcutsView.vala:49
 msgid "Tile right:"
 msgstr "Vyplnit vpravo:"
 
-#: src/Views/ShortcutsView.vala:48
+#: src/Views/ShortcutsView.vala:50
 msgid "Move to left workspace:"
 msgstr "Přejít na levou pracovní plochu:"
 
-#: src/Views/ShortcutsView.vala:49
+#: src/Views/ShortcutsView.vala:51
 msgid "Move to right workspace:"
 msgstr "Přejít na pravou pracovní plochu:"
 
-#: src/Views/ShortcutsView.vala:50
+#: src/Views/ShortcutsView.vala:52
 msgid "Picture in Picture Mode:"
-msgstr ""
+msgstr "Režim obraz v obrazu:"
 
-#: src/Views/ShortcutsView.vala:53
+#: src/Views/ShortcutsView.vala:55
 msgid "Multitasking View:"
 msgstr "Zobrazení multitaskingu:"
 
-#: src/Views/ShortcutsView.vala:54
+#: src/Views/ShortcutsView.vala:56
 msgid "Switch left:"
 msgstr "Přepnout do leva:"
 
-#: src/Views/ShortcutsView.vala:55
+#: src/Views/ShortcutsView.vala:57
 msgid "Switch right:"
 msgstr "Přepnout do prava:"
 
-#: src/Views/ShortcutsView.vala:56
+#: src/Views/ShortcutsView.vala:58
 msgid "Switch to first:"
 msgstr "Přepnout na první:"
 
-#: src/Views/ShortcutsView.vala:57
+#: src/Views/ShortcutsView.vala:59
 msgid "Switch to new:"
 msgstr "Přepnout na novou:"
 
-#: src/Views/ShortcutsView.vala:58
+#: src/Views/ShortcutsView.vala:60
 msgid "Cycle workspaces:"
 msgstr "Cyklicky přepínat pracovní plochy:"
 
-#: src/Views/ShortcutsView.vala:69
+#: src/Views/ShortcutsView.vala:71
 msgid "Windows"
 msgstr "Okna"
 
-#: src/Views/ShortcutsView.vala:80
+#: src/Views/ShortcutsView.vala:75
 msgid "Workspaces"
 msgstr "Pracovní plochy"
 
-#: src/Views/ShortcutsView.vala:97
+#: src/Views/ShortcutsView.vala:85
 msgid "System"
 msgstr "Systém"
 
-#: src/Views/ShortcutsView.vala:108
+#: src/Views/ShortcutsView.vala:89
 msgid "Screenshots"
 msgstr "Snímky obrazovky"
