@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-27 10:31-0700\n"
-"PO-Revision-Date: 2018-04-12 00:11+0000\n"
-"Last-Translator: Tiago de Oliveira <deoliveiratiago@outlook.com>\n"
+"POT-Creation-Date: 2018-10-13 15:59-0700\n"
+"PO-Revision-Date: 2018-08-30 00:07+0000\n"
+"Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://weblate.elementary.io/projects/"
 "desktop/shortcut-overlay/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -17,15 +17,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.0.1\n"
 
 #: src/MainWindow.vala:23
 msgid "Keyboard Shortcuts"
-msgstr "Atalhos de Teclado"
+msgstr "Atalhos do teclado"
 
 #: src/MainWindow.vala:34
 msgid "Keyboard Settings…"
-msgstr "Configurações de Teclado..."
+msgstr "Configurações de Teclado…"
 
 #: src/ShortcutEntry.vala:68
 msgid "Shift"
@@ -41,7 +41,7 @@ msgstr "Alt"
 
 #: src/ShortcutLabel.vala:47
 msgid "Disabled"
-msgstr ""
+msgstr "Desabilitado"
 
 #: src/Views/ShortcutsView.vala:33
 msgid "Applications Menu:"
@@ -85,7 +85,7 @@ msgstr "Trocar janela:"
 
 #: src/Views/ShortcutsView.vala:47
 msgid "Toggle maximized:"
-msgstr ""
+msgstr "Alternar maximizado:"
 
 #: src/Views/ShortcutsView.vala:48
 msgid "Tile left:"
@@ -105,7 +105,7 @@ msgstr "Mover para a área de trabalho à direita:"
 
 #: src/Views/ShortcutsView.vala:52
 msgid "Picture in Picture Mode:"
-msgstr ""
+msgstr "Modo Picture in Picture:"
 
 #: src/Views/ShortcutsView.vala:55
 msgid "Multitasking View:"

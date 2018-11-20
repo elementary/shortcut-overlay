@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-27 10:31-0700\n"
-"PO-Revision-Date: 2018-05-05 08:34+0000\n"
+"POT-Creation-Date: 2018-10-13 15:59-0700\n"
+"PO-Revision-Date: 2018-11-08 00:06+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://weblate.elementary.io/projects/desktop/"
 "shortcut-overlay/lt/>\n"
@@ -16,9 +16,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || n"
-"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
-"X-Generator: Weblate 2.18\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || "
+"n%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
+"X-Generator: Weblate 3.0.1\n"
 
 #: src/MainWindow.vala:23
 msgid "Keyboard Shortcuts"
@@ -30,11 +30,11 @@ msgstr "Klaviatūros nustatymai…"
 
 #: src/ShortcutEntry.vala:68
 msgid "Shift"
-msgstr "Shift (Lyg2)"
+msgstr "Lyg2(Shift)"
 
 #: src/ShortcutEntry.vala:72
 msgid "Ctrl"
-msgstr "Ctrl (Vald)"
+msgstr "Vald(Ctrl)"
 
 #: src/ShortcutEntry.vala:76
 msgid "Alt"

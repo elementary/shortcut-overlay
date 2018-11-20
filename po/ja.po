@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-27 10:31-0700\n"
-"PO-Revision-Date: 2018-05-05 08:13+0000\n"
-"Last-Translator: Ryo Nakano <ryonakaknock@gmail.com>\n"
+"POT-Creation-Date: 2018-10-13 15:59-0700\n"
+"PO-Revision-Date: 2018-11-04 00:03+0000\n"
+"Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/desktop/"
 "shortcut-overlay/ja/>\n"
 "Language: ja\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.0.1\n"
 
 #: src/MainWindow.vala:23
 msgid "Keyboard Shortcuts"
@@ -49,7 +49,7 @@ msgstr "アプリケーションメニュー:"
 
 #: src/Views/ShortcutsView.vala:34
 msgid "Cycle display mode:"
-msgstr "ディスプレイモードの切り替え:"
+msgstr "ディスプレイモードを切り替え:"
 
 #: src/Views/ShortcutsView.vala:35
 msgid "Zoom in:"
@@ -77,23 +77,23 @@ msgstr "現在のウィンドウを取得:"
 
 #: src/Views/ShortcutsView.vala:43
 msgid "Select an area to grab:"
-msgstr "エリアを選択して取得:"
+msgstr "範囲を選択して取得:"
 
 #: src/Views/ShortcutsView.vala:46
 msgid "Cycle windows:"
-msgstr "ウィンドウの切り替え:"
+msgstr "ウィンドウを切り替え:"
 
 #: src/Views/ShortcutsView.vala:47
 msgid "Toggle maximized:"
-msgstr "最大化の切り替え:"
+msgstr "最大化を切り替え:"
 
 #: src/Views/ShortcutsView.vala:48
 msgid "Tile left:"
-msgstr "左にタイル:"
+msgstr "左に整列:"
 
 #: src/Views/ShortcutsView.vala:49
 msgid "Tile right:"
-msgstr "右にタイル:"
+msgstr "右に整列:"
 
 #: src/Views/ShortcutsView.vala:50
 msgid "Move to left workspace:"
