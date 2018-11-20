@@ -26,3 +26,7 @@ install:
 
 script:
   - houston ci
+    --type system-app
+    --name-appstream io.elementary.shortcut-overlay
+    --name-domain io.elementary.shortcut-overlay
+    --name-human Shortcut Overlay
