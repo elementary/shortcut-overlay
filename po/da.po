@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-13 15:59-0700\n"
-"PO-Revision-Date: 2018-10-22 00:03+0000\n"
+"PO-Revision-Date: 2018-12-13 00:06+0000\n"
 "Last-Translator: Kaj Printz Madsen <kajprintz@gmail.com>\n"
 "Language-Team: Danish <https://weblate.elementary.io/projects/desktop/"
 "shortcut-overlay/da/>\n"
@@ -109,7 +109,7 @@ msgstr "Billede i Billede Tilstand:"
 
 #: src/Views/ShortcutsView.vala:55
 msgid "Multitasking View:"
-msgstr "Vinduesoversigt:"
+msgstr "Multitasking Oversigt:"
 
 #: src/Views/ShortcutsView.vala:56
 msgid "Switch left:"
@@ -129,7 +129,7 @@ msgstr "Skift til nyt:"
 
 #: src/Views/ShortcutsView.vala:60
 msgid "Cycle workspaces:"
-msgstr "Skift mellem skriveborde:"
+msgstr "Cirkuler mellem skriveborde:"
 
 #: src/Views/ShortcutsView.vala:71
 msgid "Windows"
