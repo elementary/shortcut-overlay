@@ -82,68 +82,68 @@ msgstr "Выбрать область для снимка:"
 
 #: src/Views/ShortcutsView.vala:46
 msgid "Cycle windows:"
-msgstr ""
+msgstr "Переключение между окнами"
 
 #: src/Views/ShortcutsView.vala:47
 msgid "Toggle maximized:"
-msgstr ""
+msgstr "Свернуть/развернуть окно"
 
 #: src/Views/ShortcutsView.vala:48
 msgid "Tile left:"
-msgstr ""
+msgstr "Прижать окно к левой стороне"
 
 #: src/Views/ShortcutsView.vala:49
 msgid "Tile right:"
-msgstr ""
+msgstr "Прижать окно к правой стороне"
 
 #: src/Views/ShortcutsView.vala:50
 msgid "Move to left workspace:"
-msgstr ""
+msgstr "Переместить рабочий стол влево"
 
 #: src/Views/ShortcutsView.vala:51
 msgid "Move to right workspace:"
-msgstr ""
+msgstr "Переместить рабочий стол вправо"
 
 #: src/Views/ShortcutsView.vala:52
 msgid "Picture in Picture Mode:"
-msgstr ""
+msgstr "Картинка в картинке"
 
 #: src/Views/ShortcutsView.vala:55
 msgid "Multitasking View:"
-msgstr ""
+msgstr "Многозадачный вид"
 
 #: src/Views/ShortcutsView.vala:56
 msgid "Switch left:"
-msgstr ""
+msgstr "Переключиться на следующий рабочий стол"
 
 #: src/Views/ShortcutsView.vala:57
 msgid "Switch right:"
-msgstr ""
+msgstr "Переключиться на предыдущий рабочий стол"
 
 #: src/Views/ShortcutsView.vala:58
 msgid "Switch to first:"
-msgstr ""
+msgstr "Переключиться на первый рабочий стол"
 
 #: src/Views/ShortcutsView.vala:59
 msgid "Switch to new:"
-msgstr ""
+msgstr "Переключиться на новый рабочий стол"
 
 #: src/Views/ShortcutsView.vala:60
 msgid "Cycle workspaces:"
-msgstr ""
+msgstr "Переключение между рабочими столами"
 
 #: src/Views/ShortcutsView.vala:71
 msgid "Windows"
-msgstr ""
+msgstr "Окна"
 
 #: src/Views/ShortcutsView.vala:75
 msgid "Workspaces"
-msgstr ""
+msgstr "Рабочие столы"
 
 #: src/Views/ShortcutsView.vala:85
 msgid "System"
-msgstr ""
+msgstr "Система"
 
 #: src/Views/ShortcutsView.vala:89
 msgid "Screenshots"
-msgstr ""
+msgstr "Захват экрана"
