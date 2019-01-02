@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-13 15:59-0700\n"
 "PO-Revision-Date: 2019-01-02 18:42+0000\n"
-"Last-Translator: Jörg Arnold <j.ar@mailbox.org>\n"
+"Last-Translator: glitzaf <glitzaf@gmail.com>\n"
 "Language-Team: German <https://weblate.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/de/>\n"
 "Language: de\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: data/io.elementary.shortcut-overlay.desktop.in:3
 msgid "Keyboard Shortcuts"
-msgstr "Tastaturkürzel"
+msgstr "Tastenkombinationen"
 
 #: data/io.elementary.shortcut-overlay.desktop.in:4
 msgid "Shortcut Overlay"
