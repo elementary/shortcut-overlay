@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-13 15:59-0700\n"
-"PO-Revision-Date: 2018-06-02 19:05+0000\n"
+"PO-Revision-Date: 2019-01-02 22:20+0000\n"
 "Last-Translator: Jörg Arnold <j.ar@mailbox.org>\n"
 "Language-Team: German <https://weblate.elementary.io/projects/desktop/"
 "shortcut-overlay/de/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.0.1\n"
 
 #: src/MainWindow.vala:23
 msgid "Keyboard Shortcuts"
@@ -29,7 +29,7 @@ msgstr "Tastatureinstellungen…"
 
 #: src/ShortcutEntry.vala:68
 msgid "Shift"
-msgstr "Umschalt"
+msgstr "Umschalttaste"
 
 #: src/ShortcutEntry.vala:72
 msgid "Ctrl"
