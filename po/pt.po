@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-13 15:59-0700\n"
-"PO-Revision-Date: 2018-05-12 00:11+0000\n"
-"Last-Translator: Pedro Ferreira <pmaf.ferreira@gmail.com>\n"
+"PO-Revision-Date: 2019-01-09 00:05+0000\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://weblate.elementary.io/projects/desktop/"
 "shortcut-overlay/pt/>\n"
 "Language: pt\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.0.1\n"
 
 #: src/MainWindow.vala:23
 msgid "Keyboard Shortcuts"
@@ -45,7 +45,7 @@ msgstr "Desativado"
 
 #: src/Views/ShortcutsView.vala:33
 msgid "Applications Menu:"
-msgstr "Menu de Aplicativos:"
+msgstr "Menu de Aplicações:"
 
 #: src/Views/ShortcutsView.vala:34
 msgid "Cycle display mode:"
@@ -61,7 +61,7 @@ msgstr "Diminuir zoom:"
 
 #: src/Views/ShortcutsView.vala:37
 msgid "Lock screen:"
-msgstr "Tela de bloqueio:"
+msgstr "Ecrã de bloqueio:"
 
 #: src/Views/ShortcutsView.vala:38
 msgid "Log out:"
@@ -69,7 +69,7 @@ msgstr "Sair da Sessão:"
 
 #: src/Views/ShortcutsView.vala:41
 msgid "Grab the whole screen:"
-msgstr "Capturar toda a tela:"
+msgstr "Capturar todo o ecrã:"
 
 #: src/Views/ShortcutsView.vala:42
 msgid "Grab the current window:"
@@ -105,11 +105,11 @@ msgstr "Mover para a área de trabalho à direita:"
 
 #: src/Views/ShortcutsView.vala:52
 msgid "Picture in Picture Mode:"
-msgstr "Modo Picture in Picture:"
+msgstr "Modo Imagem em Imagem:"
 
 #: src/Views/ShortcutsView.vala:55
 msgid "Multitasking View:"
-msgstr "Visão Multitarefa:"
+msgstr "Visão Multi-tarefa:"
 
 #: src/Views/ShortcutsView.vala:56
 msgid "Switch left:"
@@ -145,4 +145,4 @@ msgstr "Sistema"
 
 #: src/Views/ShortcutsView.vala:89
 msgid "Screenshots"
-msgstr "Captura de Tela"
+msgstr "Capturas de ecrã"
