@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-13 15:59-0700\n"
-"PO-Revision-Date: 2018-09-25 00:01+0000\n"
+"PO-Revision-Date: 2019-01-14 00:08+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://weblate.elementary.io/projects/desktop/"
 "shortcut-overlay/fr/>\n"
@@ -97,15 +97,15 @@ msgstr "Tuiler à droite :"
 
 #: src/Views/ShortcutsView.vala:50
 msgid "Move to left workspace:"
-msgstr "Déplacer sur l'espace de travail de gauche :"
+msgstr "Déplacer vers l'espace de travail de gauche :"
 
 #: src/Views/ShortcutsView.vala:51
 msgid "Move to right workspace:"
-msgstr "Déplacer sur l'espace de travail de droite :"
+msgstr "Déplacer vers l'espace de travail de droite :"
 
 #: src/Views/ShortcutsView.vala:52
 msgid "Picture in Picture Mode:"
-msgstr "Mode image dans l'image :"
+msgstr "Mode Picture-In-Picture :"
 
 #: src/Views/ShortcutsView.vala:55
 msgid "Multitasking View:"
