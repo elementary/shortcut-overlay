@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-13 15:59-0700\n"
+"POT-Creation-Date: 2019-01-29 02:51-0600\n"
 "PO-Revision-Date: 2018-12-08 00:04+0000\n"
 "Last-Translator: Veli-Pekka Samuli Finnilä <vpf@tuta.io>\n"
 "Language-Team: Finnish <https://weblate.elementary.io/projects/desktop/"
@@ -80,69 +80,74 @@ msgid "Select an area to grab:"
 msgstr "Valitse kaapattava alue:"
 
 #: src/Views/ShortcutsView.vala:46
-msgid "Cycle windows:"
+#, fuzzy
+msgid "Close window:"
 msgstr "Vaihda ikkunoiden välillä:"
 
 #: src/Views/ShortcutsView.vala:47
+msgid "Cycle windows:"
+msgstr "Vaihda ikkunoiden välillä:"
+
+#: src/Views/ShortcutsView.vala:48
 msgid "Toggle maximized:"
 msgstr "Suurenna tai palauta koko:"
 
-#: src/Views/ShortcutsView.vala:48
+#: src/Views/ShortcutsView.vala:49
 msgid "Tile left:"
 msgstr "Laatoita vasemmalle:"
 
-#: src/Views/ShortcutsView.vala:49
+#: src/Views/ShortcutsView.vala:50
 msgid "Tile right:"
 msgstr "Laatoita oikealle:"
 
-#: src/Views/ShortcutsView.vala:50
+#: src/Views/ShortcutsView.vala:51
 msgid "Move to left workspace:"
 msgstr "Siirrä vasemmalla olevaan työtilaan:"
 
-#: src/Views/ShortcutsView.vala:51
+#: src/Views/ShortcutsView.vala:52
 msgid "Move to right workspace:"
 msgstr "Siirrä oikealla olevaan työtilaan:"
 
-#: src/Views/ShortcutsView.vala:52
+#: src/Views/ShortcutsView.vala:53
 msgid "Picture in Picture Mode:"
 msgstr "Kuva kuvassa -tila (PIP):"
 
-#: src/Views/ShortcutsView.vala:55
+#: src/Views/ShortcutsView.vala:56
 msgid "Multitasking View:"
 msgstr "Moniajonäkymä:"
 
-#: src/Views/ShortcutsView.vala:56
+#: src/Views/ShortcutsView.vala:57
 msgid "Switch left:"
 msgstr "Vaihda vasemmalle:"
 
-#: src/Views/ShortcutsView.vala:57
+#: src/Views/ShortcutsView.vala:58
 msgid "Switch right:"
 msgstr "Vaihda oikealle:"
 
-#: src/Views/ShortcutsView.vala:58
+#: src/Views/ShortcutsView.vala:59
 msgid "Switch to first:"
 msgstr "Vaihda ensimmäiseen:"
 
-#: src/Views/ShortcutsView.vala:59
+#: src/Views/ShortcutsView.vala:60
 msgid "Switch to new:"
 msgstr "Vaihda uuteen:"
 
-#: src/Views/ShortcutsView.vala:60
+#: src/Views/ShortcutsView.vala:61
 msgid "Cycle workspaces:"
 msgstr "Vaihda työtilojen välillä:"
 
-#: src/Views/ShortcutsView.vala:71
+#: src/Views/ShortcutsView.vala:72
 msgid "Windows"
 msgstr "Ikkunat"
 
-#: src/Views/ShortcutsView.vala:75
+#: src/Views/ShortcutsView.vala:76
 msgid "Workspaces"
 msgstr "Työtilat"
 
-#: src/Views/ShortcutsView.vala:85
+#: src/Views/ShortcutsView.vala:86
 msgid "System"
 msgstr "Järjestelmä"
 
-#: src/Views/ShortcutsView.vala:89
+#: src/Views/ShortcutsView.vala:90
 msgid "Screenshots"
 msgstr "Kuvakaappaukset"

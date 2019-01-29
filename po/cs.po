@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-13 15:59-0700\n"
+"POT-Creation-Date: 2019-01-29 02:51-0600\n"
 "PO-Revision-Date: 2018-08-03 00:03+0000\n"
 "Last-Translator: Jan Marek <janmarek28@gmail.com>\n"
 "Language-Team: Czech <https://weblate.elementary.io/projects/desktop/"
@@ -80,69 +80,74 @@ msgid "Select an area to grab:"
 msgstr "Vyberte oblast k zachycení:"
 
 #: src/Views/ShortcutsView.vala:46
-msgid "Cycle windows:"
+#, fuzzy
+msgid "Close window:"
 msgstr "Cyklicky přepínat okna:"
 
 #: src/Views/ShortcutsView.vala:47
+msgid "Cycle windows:"
+msgstr "Cyklicky přepínat okna:"
+
+#: src/Views/ShortcutsView.vala:48
 msgid "Toggle maximized:"
 msgstr "Přepínat maximalizaci:"
 
-#: src/Views/ShortcutsView.vala:48
+#: src/Views/ShortcutsView.vala:49
 msgid "Tile left:"
 msgstr "Vyplnit vlevo:"
 
-#: src/Views/ShortcutsView.vala:49
+#: src/Views/ShortcutsView.vala:50
 msgid "Tile right:"
 msgstr "Vyplnit vpravo:"
 
-#: src/Views/ShortcutsView.vala:50
+#: src/Views/ShortcutsView.vala:51
 msgid "Move to left workspace:"
 msgstr "Přejít na levou pracovní plochu:"
 
-#: src/Views/ShortcutsView.vala:51
+#: src/Views/ShortcutsView.vala:52
 msgid "Move to right workspace:"
 msgstr "Přejít na pravou pracovní plochu:"
 
-#: src/Views/ShortcutsView.vala:52
+#: src/Views/ShortcutsView.vala:53
 msgid "Picture in Picture Mode:"
 msgstr "Režim obraz v obrazu:"
 
-#: src/Views/ShortcutsView.vala:55
+#: src/Views/ShortcutsView.vala:56
 msgid "Multitasking View:"
 msgstr "Zobrazení multitaskingu:"
 
-#: src/Views/ShortcutsView.vala:56
+#: src/Views/ShortcutsView.vala:57
 msgid "Switch left:"
 msgstr "Přepnout do leva:"
 
-#: src/Views/ShortcutsView.vala:57
+#: src/Views/ShortcutsView.vala:58
 msgid "Switch right:"
 msgstr "Přepnout do prava:"
 
-#: src/Views/ShortcutsView.vala:58
+#: src/Views/ShortcutsView.vala:59
 msgid "Switch to first:"
 msgstr "Přepnout na první:"
 
-#: src/Views/ShortcutsView.vala:59
+#: src/Views/ShortcutsView.vala:60
 msgid "Switch to new:"
 msgstr "Přepnout na novou:"
 
-#: src/Views/ShortcutsView.vala:60
+#: src/Views/ShortcutsView.vala:61
 msgid "Cycle workspaces:"
 msgstr "Cyklicky přepínat pracovní plochy:"
 
-#: src/Views/ShortcutsView.vala:71
+#: src/Views/ShortcutsView.vala:72
 msgid "Windows"
 msgstr "Okna"
 
-#: src/Views/ShortcutsView.vala:75
+#: src/Views/ShortcutsView.vala:76
 msgid "Workspaces"
 msgstr "Pracovní plochy"
 
-#: src/Views/ShortcutsView.vala:85
+#: src/Views/ShortcutsView.vala:86
 msgid "System"
 msgstr "Systém"
 
-#: src/Views/ShortcutsView.vala:89
+#: src/Views/ShortcutsView.vala:90
 msgid "Screenshots"
 msgstr "Snímky obrazovky"
