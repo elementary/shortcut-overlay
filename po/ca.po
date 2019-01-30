@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-29 02:51-0600\n"
-"PO-Revision-Date: 2018-11-08 00:06+0000\n"
+"PO-Revision-Date: 2019-01-30 14:56+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://weblate.elementary.io/projects/desktop/"
 "shortcut-overlay/ca/>\n"
@@ -80,9 +80,8 @@ msgid "Select an area to grab:"
 msgstr "Seleccioneu una àrea per capturar:"
 
 #: src/Views/ShortcutsView.vala:46
-#, fuzzy
 msgid "Close window:"
-msgstr "Cicle de finestres:"
+msgstr "Tanca la finestra:"
 
 #: src/Views/ShortcutsView.vala:47
 msgid "Cycle windows:"
