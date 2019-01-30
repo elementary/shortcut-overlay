@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-29 02:51-0600\n"
-"PO-Revision-Date: 2018-12-02 06:22+0000\n"
+"PO-Revision-Date: 2019-01-30 00:49+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/desktop/"
 "shortcut-overlay/ja/>\n"
@@ -80,9 +80,8 @@ msgid "Select an area to grab:"
 msgstr "範囲を選択して取得:"
 
 #: src/Views/ShortcutsView.vala:46
-#, fuzzy
 msgid "Close window:"
-msgstr "ウィンドウを切り替え:"
+msgstr "ウィンドウを閉じる:"
 
 #: src/Views/ShortcutsView.vala:47
 msgid "Cycle windows:"
