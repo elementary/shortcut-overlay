@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-29 02:51-0600\n"
-"PO-Revision-Date: 2018-07-21 00:07+0000\n"
+"PO-Revision-Date: 2019-01-31 20:14+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://weblate.elementary.io/projects/desktop/"
 "shortcut-overlay/ko/>\n"
@@ -80,9 +80,8 @@ msgid "Select an area to grab:"
 msgstr "찍을 영역 선택:"
 
 #: src/Views/ShortcutsView.vala:46
-#, fuzzy
 msgid "Close window:"
-msgstr "창 전환:"
+msgstr "창 닫기:"
 
 #: src/Views/ShortcutsView.vala:47
 msgid "Cycle windows:"
