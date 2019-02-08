@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-29 02:51-0600\n"
-"PO-Revision-Date: 2018-10-27 17:03+0000\n"
+"PO-Revision-Date: 2019-02-08 05:33+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://weblate.elementary.io/projects/desktop/"
 "shortcut-overlay/mr/>\n"
@@ -80,9 +80,8 @@ msgid "Select an area to grab:"
 msgstr "पकडण्यासाठी एक क्षेत्र निवडा:"
 
 #: src/Views/ShortcutsView.vala:46
-#, fuzzy
 msgid "Close window:"
-msgstr "चक्रीय विंडोज:"
+msgstr "विंडो बंद करा:"
 
 #: src/Views/ShortcutsView.vala:47
 msgid "Cycle windows:"
