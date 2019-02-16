@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-29 02:51-0600\n"
-"PO-Revision-Date: 2019-01-14 00:08+0000\n"
+"PO-Revision-Date: 2019-02-16 18:06+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://weblate.elementary.io/projects/desktop/"
 "shortcut-overlay/fr/>\n"
@@ -80,9 +80,8 @@ msgid "Select an area to grab:"
 msgstr "Sélectionner une zone à récupérer :"
 
 #: src/Views/ShortcutsView.vala:46
-#, fuzzy
 msgid "Close window:"
-msgstr "Faire défiler les fenêtres :"
+msgstr "Fermer la fenêtre :"
 
 #: src/Views/ShortcutsView.vala:47
 msgid "Cycle windows:"
