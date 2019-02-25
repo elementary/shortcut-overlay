@@ -43,6 +43,7 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
         screenshot_entries.add (new ShortcutEntry (_("Select an area to grab:"), SCHEMA_MEDIA, "area-screenshot"));
 
         window_entries = new Gee.ArrayList<ShortcutEntry> ();
+        window_entries.add (new ShortcutEntry (_("Close window:"), SCHEMA_WM, "close"));
         window_entries.add (new ShortcutEntry (_("Cycle windows:"), SCHEMA_WM, "switch-windows"));
         window_entries.add (new ShortcutEntry (_("Toggle maximized:"), SCHEMA_WM, "toggle-maximized"));
         window_entries.add (new ShortcutEntry (_("Tile left:"), SCHEMA_MUTTER, "toggle-tiled-left"));
