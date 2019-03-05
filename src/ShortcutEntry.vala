@@ -39,15 +39,15 @@ public class ShortcutEntry : Object {
 
     public ShortcutEntry (string name, string schema_id, string key) {
         Object (name: name);
-        accels = {""};
 
         var settings = get_settings_for_schema (schema_id);
         var key_value = settings.get_value (key);
 
+        accels = {""};
         if (key_value.is_of_type (VariantType.ARRAY)) {
-            string[] accels = key_value.get_strv ();
-            if (accels.length > 0) {
-                accels = Granite.accel_to_string (accels[0]).split (" + ");
+            var key_value_strv = key_value.get_strv ();
+            if (key_value_strv.length > 0) {
+                accels = Granite.accel_to_string (key_value_strv[0]).split (" + ");
             }
         } else {
             accels = Granite.accel_to_string (key_value.dup_string ()).split (" + ");
