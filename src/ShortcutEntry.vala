@@ -16,8 +16,10 @@
  */
 
 public class ShortcutEntry : Object {
-    public string name { get; construct; }
     public string[] accels { get; private set; }
+    public string key { get; construct; }
+    public string name { get; construct; }
+    public string schema_id { get; construct; }
 
     private static Gee.ArrayList<Settings> settings_list;
     private static Settings get_settings_for_schema (string schema_id) {
@@ -33,13 +35,19 @@ public class ShortcutEntry : Object {
         return settings;
     }
 
+    public ShortcutEntry (string name, string schema_id, string key) {
+        Object (
+            key: key,
+            name: name,
+            schema_id: schema_id
+        );
+    }
+
     static construct {
         settings_list = new Gee.ArrayList<Settings> ();
     }
 
-    public ShortcutEntry (string name, string schema_id, string key) {
-        Object (name: name);
-
+    construct {
         var settings = get_settings_for_schema (schema_id);
         var key_value = settings.get_value (key);
 
