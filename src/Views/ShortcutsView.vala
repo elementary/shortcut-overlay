@@ -103,9 +103,20 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
 
     private void add_shortcut_entries (Gee.ArrayList<ShortcutEntry> entries, Gtk.Grid column) {
         foreach (var entry in entries) {
-            var label = new ShortcutLabel (entry);
-            column.add (label);
-            size_group.add_widget (label.name_label);
+            var name_label = new Gtk.Label (entry.name);
+            name_label.halign = Gtk.Align.END;
+            name_label.xalign = 1;
+
+            var shortcut_label = new ShortcutLabel (entry.accels);
+
+            var grid = new Gtk.Grid ();
+            grid.orientation = Gtk.Orientation.HORIZONTAL;
+            grid.column_spacing = 12;
+            grid.add (name_label);
+            grid.add (shortcut_label);
+
+            column.add (grid);
+            size_group.add_widget (name_label);
         }
     }
 }
