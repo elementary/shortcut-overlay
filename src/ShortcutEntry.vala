@@ -39,61 +39,18 @@ public class ShortcutEntry : Object {
 
     public ShortcutEntry (string name, string schema_id, string key) {
         Object (name: name);
-        accels = {""};
 
         var settings = get_settings_for_schema (schema_id);
         var key_value = settings.get_value (key);
 
+        accels = {""};
         if (key_value.is_of_type (VariantType.ARRAY)) {
-            string[] accels = key_value.get_strv ();
-            if (accels.length > 0) {
-                parse_accelerator (accels[0]);
+            var key_value_strv = key_value.get_strv ();
+            if (key_value_strv.length > 0) {
+                accels = Granite.accel_to_string (key_value_strv[0]).split (" + ");
             }
         } else {
-            parse_accelerator (key_value.dup_string ());
+            accels = Granite.accel_to_string (key_value.dup_string ()).split (" + ");
         }
-    }
-
-    private void parse_accelerator (string accel) {
-        uint accel_key;
-        Gdk.ModifierType accel_mods;
-        Gtk.accelerator_parse (accel, out accel_key, out accel_mods);
-
-        string[] arr = {};
-        if (Gdk.ModifierType.SUPER_MASK in accel_mods) {
-            arr += "⌘";
-        }
-
-        if (Gdk.ModifierType.SHIFT_MASK in accel_mods) {
-            arr += _("Shift");
-        }
-
-        if (Gdk.ModifierType.CONTROL_MASK in accel_mods) {
-            arr += _("Ctrl");
-        }
-
-        if (Gdk.ModifierType.MOD1_MASK in accel_mods) {
-            arr += _("Alt");
-        }
-
-        switch (accel_key) {
-            case Gdk.Key.Up:
-                arr += "↑";
-                break;
-            case Gdk.Key.Down:
-                arr += "↓";
-                break;
-            case Gdk.Key.Left:
-                arr += "←";
-                break;
-            case Gdk.Key.Right:
-                arr += "→";
-                break;
-            default:
-                arr += Gtk.accelerator_get_label (accel_key, 0);
-                break;
-        }
-
-        accels = arr;
     }
 }
