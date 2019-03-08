@@ -45,10 +45,28 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
         headerbar_style_context.add_class ("default-decoration");
 
         var shortcuts_view = new ShortcutsView ();
-        shortcuts_view.margin = 12;
-        shortcuts_view.margin_bottom = 32;
 
-        add (shortcuts_view);
+        var compose_view = new ComposeView ();
+
+        var stack = new Gtk.Stack ();
+        stack.add_titled (shortcuts_view, "shortcuts", _("Shortcuts"));
+        stack.add_titled (compose_view, "compose", _("Compose Key"));
+
+        var stack_switcher = new Gtk.StackSwitcher ();
+        stack_switcher.halign = Gtk.Align.CENTER;
+        stack_switcher.homogeneous = true;
+        stack_switcher.margin = 12;
+        stack_switcher.stack = stack;
+
+        var grid = new Gtk.Grid ();
+        grid.margin_start = grid.margin_end = 12;
+        grid.margin_bottom = 32;
+        grid.orientation = Gtk.Orientation.VERTICAL;
+        grid.add (stack_switcher);
+        grid.add (stack);
+
+        add (grid);
+
         get_style_context ().add_class ("rounded");
         set_titlebar (headerbar);
         skip_taskbar_hint = true;
