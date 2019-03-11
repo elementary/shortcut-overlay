@@ -88,6 +88,54 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
         column_y_value ++;
         add_shortcut_entries (system_entries, column_end);
 
+        var input_settings = new GLib.Settings ("org.gnome.desktop.input-sources");
+        var xkb_options = input_settings.get_strv ("xkb-options");
+
+        string[] input_accels = null;
+        foreach (unowned string xkb_command in xkb_options) {
+            switch (xkb_command) {
+                case "grp:alt_caps_toggle":
+                    input_accels = {"Alt", "Caps_Lock"};
+                    break;
+                case "grp:alt_shift_toggle":
+                    input_accels = {"Alt", "Shift"};
+                    break;
+                case "grp:alt_space_toggle":
+                    input_accels = {"Alt", "Space"};
+                    break;
+                case "grp:shifts_toggle":
+                    input_accels = {"Alt_L", "Alt_R"};
+                    break;
+                case "grp:caps_toggle":
+                    input_accels = {"Caps_Lock"};
+                    break;
+                case "grp:ctrl_alt_toggle":
+                    input_accels = {"Ctrl", "Alt"};
+                    break;
+                case "grp:ctrl_shift_toggle":
+                    input_accels = {"Ctrl", "Shift"};
+                    break;
+                case "grp:shift_caps_toggle":
+                    input_accels = {"Shift", "Caps_Lock"};
+                    break;
+            }
+
+            if (input_accels!= null) {
+                break;
+            }
+        }
+
+        var name_label = new Gtk.Label (_("Switch layout:"));
+        name_label.halign = Gtk.Align.END;
+        name_label.xalign = 1;
+
+        var shortcut_label = new ShortcutLabel (input_accels);
+
+        column_end.attach (name_label, 0, column_y_value);
+        column_end.attach (shortcut_label, 1, column_y_value);
+
+        column_y_value++;
+
         column_end.add (new Granite.HeaderLabel (_("Screenshots")));
         column_y_value ++;
         add_shortcut_entries (screenshot_entries, column_end);
