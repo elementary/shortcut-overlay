@@ -96,7 +96,7 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
         column_size_group.add_widget (column_start);
         column_size_group.add_widget (column_end);
 
-        column_spacing = 24;
+        column_spacing = 48;
         add (column_start);
         add (new Gtk.Separator (Gtk.Orientation.VERTICAL));
         add (column_end);
