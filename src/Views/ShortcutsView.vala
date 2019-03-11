@@ -25,8 +25,6 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
     private const string SCHEMA_GALA = "org.pantheon.desktop.gala.keybindings";
     private const string SCHEMA_MEDIA = "org.gnome.settings-daemon.plugins.media-keys";
     private const string SCHEMA_MUTTER = "org.gnome.mutter.keybindings";
-
-    private static Gtk.SizeGroup size_group;
     private int column_y_value = 0;
 
     static construct {
