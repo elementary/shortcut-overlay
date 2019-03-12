@@ -19,8 +19,43 @@
 public class ShortcutLabel : Gtk.Grid {
     public string[] accels { get; construct; }
 
+    private static Gee.ArrayList<Settings> settings_list;
+    private static Settings get_settings_for_schema (string schema_id) {
+        foreach (var settings in settings_list) {
+            if (settings.schema_id == schema_id) {
+                return settings;
+            }
+        }
+
+        var settings = new Settings (schema_id);
+        settings_list.add (settings);
+
+        return settings;
+    }
+
     public ShortcutLabel (string[] accels ) {
         Object (accels: accels);
+    }
+
+    public ShortcutLabel.from_gsettings (string schema_id, string key) {
+        var settings = get_settings_for_schema (schema_id);
+        var key_value = settings.get_value (key);
+
+        string[] accels = {""};
+        if (key_value.is_of_type (VariantType.ARRAY)) {
+            var key_value_strv = key_value.get_strv ();
+            if (key_value_strv.length > 0) {
+                accels = Granite.accel_to_string (key_value_strv[0]).split (" + ");
+            }
+        } else {
+            accels = Granite.accel_to_string (key_value.dup_string ()).split (" + ");
+        }
+
+        Object (accels: accels);
+    }
+
+    static construct {
+        settings_list = new Gee.ArrayList<Settings> ();
     }
 
     construct {
