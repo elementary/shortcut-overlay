@@ -75,7 +75,7 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
                     xkb_input_accels = {"Alt", "Space"};
                     break;
                 case "grp:shifts_toggle":
-                    xkb_input_accels = {"Alt_L", "Alt_R"};
+                    xkb_input_accels = {"Shift_L", "Shift_R"};
                     break;
                 case "grp:caps_toggle":
                     xkb_input_accels = {"Caps_Lock"};
