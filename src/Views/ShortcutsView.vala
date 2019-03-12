@@ -114,7 +114,7 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
         column_end.attach (new ShortcutLabel.from_gsettings (SCHEMA_MEDIA, "screensaver"), 1, 5);
         column_end.attach (new NameLabel (_("Log out:")), 0, 6);
         column_end.attach (new ShortcutLabel.from_gsettings (SCHEMA_MEDIA, "logout"), 1, 6);
-        column_end.attach (new NameLabel (_("Switch layout:")), 0, 7);
+        column_end.attach (new NameLabel (_("Switch keyboard layout:")), 0, 7);
         column_end.attach (new ShortcutLabel (xkb_input_accels), 1, 7);
 
         column_end.attach (new Granite.HeaderLabel (_("Screenshots")), 0, 8, 2);
