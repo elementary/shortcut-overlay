@@ -62,7 +62,7 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
         var input_settings = new GLib.Settings ("org.gnome.desktop.input-sources");
         var xkb_options = input_settings.get_strv ("xkb-options");
 
-        string[] xkb_input_accels = null;
+        string[] xkb_input_accels = {""};
         foreach (unowned string xkb_command in xkb_options) {
             switch (xkb_command) {
                 case "grp:alt_caps_toggle":
