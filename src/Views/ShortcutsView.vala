@@ -25,8 +25,7 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
     private const string SCHEMA_GALA = "org.pantheon.desktop.gala.keybindings";
     private const string SCHEMA_MEDIA = "org.gnome.settings-daemon.plugins.media-keys";
     private const string SCHEMA_MUTTER = "org.gnome.mutter.keybindings";
-
-    private static Gtk.SizeGroup size_group;
+    private int column_y_value = 0;
 
     static construct {
         system_entries = new Gee.ArrayList<ShortcutEntry> ();
@@ -63,39 +62,41 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
 
     construct {
         var column_start = new Gtk.Grid ();
+        column_start.column_spacing = 12;
         column_start.hexpand = true;
         column_start.orientation = Gtk.Orientation.VERTICAL;
         column_start.row_spacing = 12;
 
-        size_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.HORIZONTAL);
-
-        var window_header = new Granite.HeaderLabel (_("Windows"));
-        column_start.add (window_header);
+        column_start.add (new Granite.HeaderLabel (_("Windows")));
+        column_y_value ++;
         add_shortcut_entries (window_entries, column_start);
 
-        var workspace_header = new Granite.HeaderLabel (_("Workspaces"));
-        column_start.add (workspace_header);
+        column_start.add (new Granite.HeaderLabel (_("Workspaces")));
+        column_y_value ++;
         add_shortcut_entries (workspace_entries, column_start);
 
+        column_y_value = 0;
+
         var column_end = new Gtk.Grid ();
+        column_end.column_spacing = 12;
         column_end.halign = Gtk.Align.START;
         column_end.hexpand = true;
         column_end.orientation = Gtk.Orientation.VERTICAL;
         column_end.row_spacing = 12;
 
-        var system_header = new Granite.HeaderLabel (_("System"));
-        column_end.add (system_header);
+        column_end.add (new Granite.HeaderLabel (_("System")));
+        column_y_value ++;
         add_shortcut_entries (system_entries, column_end);
 
-        var screenshot_header = new Granite.HeaderLabel (_("Screenshots"));
-        column_end.add (screenshot_header);
+        column_end.add (new Granite.HeaderLabel (_("Screenshots")));
+        column_y_value ++;
         add_shortcut_entries (screenshot_entries, column_end);
 
         var column_size_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.HORIZONTAL);
         column_size_group.add_widget (column_start);
         column_size_group.add_widget (column_end);
 
-        column_spacing = 24;
+        column_spacing = 48;
         add (column_start);
         add (new Gtk.Separator (Gtk.Orientation.VERTICAL));
         add (column_end);
@@ -103,9 +104,16 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
 
     private void add_shortcut_entries (Gee.ArrayList<ShortcutEntry> entries, Gtk.Grid column) {
         foreach (var entry in entries) {
-            var label = new ShortcutLabel (entry);
-            column.add (label);
-            size_group.add_widget (label.name_label);
+            var name_label = new Gtk.Label (entry.name);
+            name_label.halign = Gtk.Align.END;
+            name_label.xalign = 1;
+
+            var shortcut_label = new ShortcutLabel (entry.accels);
+
+            column.attach (name_label, 0, column_y_value);
+            column.attach (shortcut_label, 1, column_y_value);
+
+            column_y_value++;
         }
     }
 }

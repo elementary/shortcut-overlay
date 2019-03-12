@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-13 15:59-0700\n"
-"PO-Revision-Date: 2018-11-08 00:06+0000\n"
+"POT-Creation-Date: 2019-01-29 02:51-0600\n"
+"PO-Revision-Date: 2019-01-30 13:39+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://weblate.elementary.io/projects/desktop/"
 "shortcut-overlay/lt/>\n"
@@ -81,69 +81,73 @@ msgid "Select an area to grab:"
 msgstr "Pasirinkti fotografuojamą sritį:"
 
 #: src/Views/ShortcutsView.vala:46
+msgid "Close window:"
+msgstr "Užverti langą:"
+
+#: src/Views/ShortcutsView.vala:47
 msgid "Cycle windows:"
 msgstr "Perjunginėti langus:"
 
-#: src/Views/ShortcutsView.vala:47
+#: src/Views/ShortcutsView.vala:48
 msgid "Toggle maximized:"
 msgstr "Perjungti išskleidimą:"
 
-#: src/Views/ShortcutsView.vala:48
+#: src/Views/ShortcutsView.vala:49
 msgid "Tile left:"
 msgstr "Iškloti kairėje:"
 
-#: src/Views/ShortcutsView.vala:49
+#: src/Views/ShortcutsView.vala:50
 msgid "Tile right:"
 msgstr "Iškloti dešinėje:"
 
-#: src/Views/ShortcutsView.vala:50
+#: src/Views/ShortcutsView.vala:51
 msgid "Move to left workspace:"
 msgstr "Perkelti į darbo sritį kairėje:"
 
-#: src/Views/ShortcutsView.vala:51
+#: src/Views/ShortcutsView.vala:52
 msgid "Move to right workspace:"
 msgstr "Perkelti į darbo sritį dešinėje:"
 
-#: src/Views/ShortcutsView.vala:52
+#: src/Views/ShortcutsView.vala:53
 msgid "Picture in Picture Mode:"
 msgstr "Paveikslas paveikslo veiksenoje:"
 
-#: src/Views/ShortcutsView.vala:55
+#: src/Views/ShortcutsView.vala:56
 msgid "Multitasking View:"
 msgstr "Daugiaprogramio apdorojimo rodinys:"
 
-#: src/Views/ShortcutsView.vala:56
+#: src/Views/ShortcutsView.vala:57
 msgid "Switch left:"
 msgstr "Perjungti kairėn:"
 
-#: src/Views/ShortcutsView.vala:57
+#: src/Views/ShortcutsView.vala:58
 msgid "Switch right:"
 msgstr "Perjungti dešinėn:"
 
-#: src/Views/ShortcutsView.vala:58
+#: src/Views/ShortcutsView.vala:59
 msgid "Switch to first:"
 msgstr "Perjungti į pirmą:"
 
-#: src/Views/ShortcutsView.vala:59
+#: src/Views/ShortcutsView.vala:60
 msgid "Switch to new:"
 msgstr "Perjungti į naują:"
 
-#: src/Views/ShortcutsView.vala:60
+#: src/Views/ShortcutsView.vala:61
 msgid "Cycle workspaces:"
 msgstr "Perjunginėti darbo sritis:"
 
-#: src/Views/ShortcutsView.vala:71
+#: src/Views/ShortcutsView.vala:72
 msgid "Windows"
 msgstr "Langai"
 
-#: src/Views/ShortcutsView.vala:75
+#: src/Views/ShortcutsView.vala:76
 msgid "Workspaces"
 msgstr "Darbo sritys"
 
-#: src/Views/ShortcutsView.vala:85
+#: src/Views/ShortcutsView.vala:86
 msgid "System"
 msgstr "Sistema"
 
-#: src/Views/ShortcutsView.vala:89
+#: src/Views/ShortcutsView.vala:90
 msgid "Screenshots"
 msgstr "Ekrano kopijos"

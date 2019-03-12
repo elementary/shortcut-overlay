@@ -17,38 +17,25 @@
 
 
 public class ShortcutLabel : Gtk.Grid {
-    public Gtk.Label name_label { get; private set; }
-    public ShortcutEntry entry { get; construct; }
+    public string[] accels { get; construct; }
 
-    public ShortcutLabel (ShortcutEntry entry) {
-        Object (entry: entry);
+    public ShortcutLabel (string[] accels ) {
+        Object (accels: accels);
     }
 
     construct {
-        orientation = Gtk.Orientation.HORIZONTAL;
-        column_spacing = 12;
+        column_spacing = 6;
 
-        name_label = new Gtk.Label (entry.name);
-        name_label.halign = Gtk.Align.END;
-        name_label.xalign = 1;
-        add (name_label);
-
-        var accel_grid = new Gtk.Grid ();
-        accel_grid.orientation = Gtk.Orientation.HORIZONTAL;
-        accel_grid.column_spacing = 6;
-
-        if (entry.accels[0] != "") {
-            foreach (string accel in entry.accels) {
+        if (accels[0] != "") {
+            foreach (unowned string accel in accels) {
                 var label = new Gtk.Label (accel);
                 label.get_style_context ().add_class ("keycap");
-                accel_grid.add (label);
+                add (label);
             }
         } else {
             var label = new Gtk.Label (_("Disabled"));
             label.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
-            accel_grid.add (label);
+            add (label);
         }
-
-        add (accel_grid);
     }
 }
