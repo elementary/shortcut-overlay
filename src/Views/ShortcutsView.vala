@@ -59,6 +59,43 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
         column_start.attach (new NameLabel (_("Cycle workspaces:")), 0, 15);
         column_start.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "cycle-workspaces-next"), 1, 15);
 
+        var input_settings = new GLib.Settings ("org.gnome.desktop.input-sources");
+        var xkb_options = input_settings.get_strv ("xkb-options");
+
+        string[] xkb_input_accels = {""};
+        foreach (unowned string xkb_command in xkb_options) {
+            switch (xkb_command) {
+                case "grp:alt_caps_toggle":
+                    xkb_input_accels = {"Alt", "Caps_Lock"};
+                    break;
+                case "grp:alt_shift_toggle":
+                    xkb_input_accels = {"Alt", "Shift"};
+                    break;
+                case "grp:alt_space_toggle":
+                    xkb_input_accels = {"Alt", "Space"};
+                    break;
+                case "grp:shifts_toggle":
+                    xkb_input_accels = {"Shift_L", "Shift_R"};
+                    break;
+                case "grp:caps_toggle":
+                    xkb_input_accels = {"Caps_Lock"};
+                    break;
+                case "grp:ctrl_alt_toggle":
+                    xkb_input_accels = {"Ctrl", "Alt"};
+                    break;
+                case "grp:ctrl_shift_toggle":
+                    xkb_input_accels = {"Ctrl", "Shift"};
+                    break;
+                case "grp:shift_caps_toggle":
+                    xkb_input_accels = {"Shift", "Caps_Lock"};
+                    break;
+            }
+
+            if (xkb_input_accels[0] != "") {
+                break;
+            }
+        }
+
         var column_end = new Gtk.Grid ();
         column_end.column_spacing = 12;
         column_end.hexpand = true;
@@ -77,14 +114,16 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
         column_end.attach (new ShortcutLabel.from_gsettings (SCHEMA_MEDIA, "screensaver"), 1, 5);
         column_end.attach (new NameLabel (_("Log out:")), 0, 6);
         column_end.attach (new ShortcutLabel.from_gsettings (SCHEMA_MEDIA, "logout"), 1, 6);
+        column_end.attach (new NameLabel (_("Switch keyboard layout:")), 0, 7);
+        column_end.attach (new ShortcutLabel (xkb_input_accels), 1, 7);
 
-        column_end.attach (new Granite.HeaderLabel (_("Screenshots")), 0, 7, 2);
-        column_end.attach (new NameLabel (_("Grab the whole screen:")), 0, 8);
-        column_end.attach (new ShortcutLabel.from_gsettings (SCHEMA_MEDIA, "screenshot"), 1, 8);
-        column_end.attach (new NameLabel (_("Grab the current window:")), 0, 9);
-        column_end.attach (new ShortcutLabel.from_gsettings (SCHEMA_MEDIA, "window-screenshot"), 1, 9);
-        column_end.attach (new NameLabel (_("Select an area to grab:")), 0, 10);
-        column_end.attach (new ShortcutLabel.from_gsettings (SCHEMA_MEDIA, "area-screenshot"), 1, 10);
+        column_end.attach (new Granite.HeaderLabel (_("Screenshots")), 0, 8, 2);
+        column_end.attach (new NameLabel (_("Grab the whole screen:")), 0, 9);
+        column_end.attach (new ShortcutLabel.from_gsettings (SCHEMA_MEDIA, "screenshot"), 1, 9);
+        column_end.attach (new NameLabel (_("Grab the current window:")), 0, 10);
+        column_end.attach (new ShortcutLabel.from_gsettings (SCHEMA_MEDIA, "window-screenshot"), 1, 10);
+        column_end.attach (new NameLabel (_("Select an area to grab:")), 0, 11);
+        column_end.attach (new ShortcutLabel.from_gsettings (SCHEMA_MEDIA, "area-screenshot"), 1, 11);
 
         var column_size_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.HORIZONTAL);
         column_size_group.add_widget (column_start);
