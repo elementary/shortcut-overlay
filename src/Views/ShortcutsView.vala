@@ -66,28 +66,31 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
         foreach (unowned string xkb_command in xkb_options) {
             switch (xkb_command) {
                 case "grp:alt_caps_toggle":
-                    xkb_input_accels = {"Alt", "Caps_Lock"};
+                    xkb_input_accels = Granite.accel_to_string ("<Alt>Caps_Lock").split (" + ");
                     break;
                 case "grp:alt_shift_toggle":
-                    xkb_input_accels = {"Alt", "Shift"};
+                    xkb_input_accels = Granite.accel_to_string ("<Alt><Shift>").split (" + ");
                     break;
                 case "grp:alt_space_toggle":
-                    xkb_input_accels = {"Alt", "Space"};
+                    xkb_input_accels = Granite.accel_to_string ("<Alt>space").split (" + ");
                     break;
                 case "grp:shifts_toggle":
-                    xkb_input_accels = {"Shift_L", "Shift_R"};
+                    xkb_input_accels = {
+                        Granite.accel_to_string ("Shift_L"),
+                        Granite.accel_to_string ("Shift_R")
+                    };
                     break;
                 case "grp:caps_toggle":
-                    xkb_input_accels = {"Caps_Lock"};
+                    xkb_input_accels = {Gtk.accelerator_get_label (Gdk.Key.Caps_Lock, 0)};
                     break;
                 case "grp:ctrl_alt_toggle":
-                    xkb_input_accels = {"Ctrl", "Alt"};
+                    xkb_input_accels = Granite.accel_to_string ("<Ctrl><Alt>").split (" + ");
                     break;
                 case "grp:ctrl_shift_toggle":
-                    xkb_input_accels = {"Ctrl", "Shift"};
+                    xkb_input_accels = Granite.accel_to_string ("<Ctrl><Shift>").split (" + ");
                     break;
                 case "grp:shift_caps_toggle":
-                    xkb_input_accels = {"Shift", "Caps_Lock"};
+                    xkb_input_accels = Granite.accel_to_string ("<Shift>Caps_Lock").split (" + ");
                     break;
             }
 
