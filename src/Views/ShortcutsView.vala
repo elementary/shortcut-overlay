@@ -25,10 +25,9 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
         var column_start = new Gtk.Grid ();
         column_start.column_spacing = 12;
         column_start.hexpand = true;
-        column_start.orientation = Gtk.Orientation.VERTICAL;
         column_start.row_spacing = 12;
 
-        column_start.add (new Granite.HeaderLabel (_("Windows")));
+        column_start.attach (new Granite.HeaderLabel (_("Windows")), 0, 0, 2);
         column_start.attach (new NameLabel (_("Close window:")), 0, 1);
         column_start.attach (new ShortcutLabel.from_gsettings (SCHEMA_WM, "close"), 1, 1);
         column_start.attach (new NameLabel (_("Cycle windows:")), 0, 2);
@@ -46,28 +45,26 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
         column_start.attach (new NameLabel (_("Picture in Picture Mode:")), 0, 8);
         column_start.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "pip"), 1, 8);
 
-        column_start.add (new Granite.HeaderLabel (_("Workspaces")));
-        column_start.attach (new NameLabel (_("Multitasking View:")), 0, 11);
-        column_start.attach (new ShortcutLabel.from_gsettings (SCHEMA_WM, "show-desktop"), 1, 11);
-        column_start.attach (new NameLabel (_("Switch left:")), 0, 12);
-        column_start.attach (new ShortcutLabel.from_gsettings (SCHEMA_WM, "switch-to-workspace-left"), 1, 12);
-        column_start.attach (new NameLabel (_("Switch right:")), 0, 13);
-        column_start.attach (new ShortcutLabel.from_gsettings (SCHEMA_WM, "switch-to-workspace-right"), 1, 13);
-        column_start.attach (new NameLabel (_("Switch to first:")), 0, 14);
-        column_start.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "switch-to-workspace-first"), 1, 14);
-        column_start.attach (new NameLabel (_("Switch to new:")), 0, 15);
-        column_start.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "switch-to-workspace-last"), 1, 15);
-        column_start.attach (new NameLabel (_("Cycle workspaces:")), 0, 16);
-        column_start.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "cycle-workspaces-next"), 1, 16);
+        column_start.attach (new Granite.HeaderLabel (_("Workspaces")), 0, 9, 2);
+        column_start.attach (new NameLabel (_("Multitasking View:")), 0, 10);
+        column_start.attach (new ShortcutLabel.from_gsettings (SCHEMA_WM, "show-desktop"), 1, 10);
+        column_start.attach (new NameLabel (_("Switch left:")), 0, 11);
+        column_start.attach (new ShortcutLabel.from_gsettings (SCHEMA_WM, "switch-to-workspace-left"), 1, 11);
+        column_start.attach (new NameLabel (_("Switch right:")), 0, 12);
+        column_start.attach (new ShortcutLabel.from_gsettings (SCHEMA_WM, "switch-to-workspace-right"), 1, 12);
+        column_start.attach (new NameLabel (_("Switch to first:")), 0, 13);
+        column_start.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "switch-to-workspace-first"), 1, 13);
+        column_start.attach (new NameLabel (_("Switch to new:")), 0, 14);
+        column_start.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "switch-to-workspace-last"), 1, 14);
+        column_start.attach (new NameLabel (_("Cycle workspaces:")), 0, 15);
+        column_start.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "cycle-workspaces-next"), 1, 15);
 
         var column_end = new Gtk.Grid ();
         column_end.column_spacing = 12;
-        column_end.halign = Gtk.Align.START;
         column_end.hexpand = true;
-        column_end.orientation = Gtk.Orientation.VERTICAL;
         column_end.row_spacing = 12;
 
-        column_end.add (new Granite.HeaderLabel (_("System")));
+        column_end.attach (new Granite.HeaderLabel (_("System")), 0, 0, 2);
         column_end.attach (new NameLabel (_("Applications Menu:")), 0, 1);
         column_end.attach (new ShortcutLabel.from_gsettings (SCHEMA_WM, "panel-main-menu"), 1, 1);
         column_end.attach (new NameLabel (_("Cycle display mode:")), 0, 2);
@@ -81,7 +78,7 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
         column_end.attach (new NameLabel (_("Log out:")), 0, 6);
         column_end.attach (new ShortcutLabel.from_gsettings (SCHEMA_MEDIA, "logout"), 1, 6);
 
-        column_end.add (new Granite.HeaderLabel (_("Screenshots")));
+        column_end.attach (new Granite.HeaderLabel (_("Screenshots")), 0, 7, 2);
         column_end.attach (new NameLabel (_("Grab the whole screen:")), 0, 8);
         column_end.attach (new ShortcutLabel.from_gsettings (SCHEMA_MEDIA, "screenshot"), 1, 8);
         column_end.attach (new NameLabel (_("Grab the current window:")), 0, 9);
