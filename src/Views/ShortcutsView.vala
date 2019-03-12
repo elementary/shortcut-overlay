@@ -91,7 +91,7 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
                     break;
             }
 
-            if (xkb_input_accels!= null) {
+            if (xkb_input_accels[0] != "") {
                 break;
             }
         }
