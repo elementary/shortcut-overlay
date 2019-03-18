@@ -63,6 +63,9 @@ public class ShortcutLabel : Gtk.Grid {
 
         if (accels[0] != "") {
             foreach (unowned string accel in accels) {
+                if (accel == "") {
+                    continue;
+                }
                 var label = new Gtk.Label (accel);
                 label.get_style_context ().add_class ("keycap");
                 add (label);
