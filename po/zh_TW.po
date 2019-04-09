@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-29 02:51-0600\n"
+"POT-Creation-Date: 2019-03-11 22:44-0700\n"
 "PO-Revision-Date: 2018-10-19 00:07+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.elementary.io/projects/"
@@ -23,131 +23,132 @@ msgstr ""
 msgid "Keyboard Shortcuts"
 msgstr "鍵盤快捷鍵"
 
-#: src/MainWindow.vala:34
+#: src/MainWindow.vala:33
 msgid "Keyboard Settings…"
 msgstr "鍵盤設定值…"
 
-#: src/ShortcutEntry.vala:68
-msgid "Shift"
-msgstr "Shift"
-
-#: src/ShortcutEntry.vala:72
-msgid "Ctrl"
-msgstr "Ctrl"
-
-#: src/ShortcutEntry.vala:76
-msgid "Alt"
-msgstr "Alt"
-
-#: src/ShortcutLabel.vala:47
+#: src/ShortcutLabel.vala:71
 msgid "Disabled"
 msgstr "已停用"
 
-#: src/Views/ShortcutsView.vala:33
-msgid "Applications Menu:"
-msgstr "應用程式選單："
+#: src/Views/ShortcutsView.vala:30
+msgid "Windows"
+msgstr "視窗"
 
-#: src/Views/ShortcutsView.vala:34
-msgid "Cycle display mode:"
-msgstr "循環切換顯示模式："
-
-#: src/Views/ShortcutsView.vala:35
-msgid "Zoom in:"
-msgstr "拉近："
-
-#: src/Views/ShortcutsView.vala:36
-msgid "Zoom out:"
-msgstr "拉遠："
-
-#: src/Views/ShortcutsView.vala:37
-msgid "Lock screen:"
-msgstr "鎖定螢幕："
-
-#: src/Views/ShortcutsView.vala:38
-msgid "Log out:"
-msgstr "登出："
-
-#: src/Views/ShortcutsView.vala:41
-msgid "Grab the whole screen:"
-msgstr "抓取整個螢幕："
-
-#: src/Views/ShortcutsView.vala:42
-msgid "Grab the current window:"
-msgstr "抓取目前視窗："
-
-#: src/Views/ShortcutsView.vala:43
-msgid "Select an area to grab:"
-msgstr "選取要擷取的區域："
-
-#: src/Views/ShortcutsView.vala:46
+#: src/Views/ShortcutsView.vala:31
 #, fuzzy
 msgid "Close window:"
 msgstr "循環切換視窗："
 
-#: src/Views/ShortcutsView.vala:47
+#: src/Views/ShortcutsView.vala:33
 msgid "Cycle windows:"
 msgstr "循環切換視窗："
 
-#: src/Views/ShortcutsView.vala:48
+#: src/Views/ShortcutsView.vala:35
 msgid "Toggle maximized:"
 msgstr "視窗最大化切換："
 
-#: src/Views/ShortcutsView.vala:49
+#: src/Views/ShortcutsView.vala:37
 msgid "Tile left:"
 msgstr "向左舖排："
 
-#: src/Views/ShortcutsView.vala:50
+#: src/Views/ShortcutsView.vala:39
 msgid "Tile right:"
 msgstr "向右舖排："
 
-#: src/Views/ShortcutsView.vala:51
+#: src/Views/ShortcutsView.vala:41
 msgid "Move to left workspace:"
 msgstr "移至左方工作空間："
 
-#: src/Views/ShortcutsView.vala:52
+#: src/Views/ShortcutsView.vala:43
 msgid "Move to right workspace:"
 msgstr "移至右方工作空間："
 
-#: src/Views/ShortcutsView.vala:53
+#: src/Views/ShortcutsView.vala:45
 msgid "Picture in Picture Mode:"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:56
-msgid "Multitasking View:"
-msgstr "多工檢視："
-
-#: src/Views/ShortcutsView.vala:57
-msgid "Switch left:"
-msgstr "向左切換："
-
-#: src/Views/ShortcutsView.vala:58
-msgid "Switch right:"
-msgstr "向右切換："
-
-#: src/Views/ShortcutsView.vala:59
-msgid "Switch to first:"
-msgstr "切換至第一項："
-
-#: src/Views/ShortcutsView.vala:60
-msgid "Switch to new:"
-msgstr "切換至新一項："
-
-#: src/Views/ShortcutsView.vala:61
-msgid "Cycle workspaces:"
-msgstr "循環切換工作空間："
-
-#: src/Views/ShortcutsView.vala:72
-msgid "Windows"
-msgstr "視窗"
-
-#: src/Views/ShortcutsView.vala:76
+#: src/Views/ShortcutsView.vala:48
 msgid "Workspaces"
 msgstr "工作空間"
 
-#: src/Views/ShortcutsView.vala:86
+#: src/Views/ShortcutsView.vala:49
+msgid "Multitasking View:"
+msgstr "多工檢視："
+
+#: src/Views/ShortcutsView.vala:51
+msgid "Switch left:"
+msgstr "向左切換："
+
+#: src/Views/ShortcutsView.vala:53
+msgid "Switch right:"
+msgstr "向右切換："
+
+#: src/Views/ShortcutsView.vala:55
+msgid "Switch to first:"
+msgstr "切換至第一項："
+
+#: src/Views/ShortcutsView.vala:57
+msgid "Switch to new:"
+msgstr "切換至新一項："
+
+#: src/Views/ShortcutsView.vala:59
+msgid "Cycle workspaces:"
+msgstr "循環切換工作空間："
+
+#: src/Views/ShortcutsView.vala:104
 msgid "System"
 msgstr "系統"
 
-#: src/Views/ShortcutsView.vala:90
+#: src/Views/ShortcutsView.vala:105
+msgid "Applications Menu:"
+msgstr "應用程式選單："
+
+#: src/Views/ShortcutsView.vala:107
+msgid "Cycle display mode:"
+msgstr "循環切換顯示模式："
+
+#: src/Views/ShortcutsView.vala:109
+msgid "Zoom in:"
+msgstr "拉近："
+
+#: src/Views/ShortcutsView.vala:111
+msgid "Zoom out:"
+msgstr "拉遠："
+
+#: src/Views/ShortcutsView.vala:113
+msgid "Lock screen:"
+msgstr "鎖定螢幕："
+
+#: src/Views/ShortcutsView.vala:115
+msgid "Log out:"
+msgstr "登出："
+
+#: src/Views/ShortcutsView.vala:117
+msgid "Switch keyboard layout:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:120
 msgid "Screenshots"
 msgstr "螢幕快照"
+
+#: src/Views/ShortcutsView.vala:121
+msgid "Grab the whole screen:"
+msgstr "抓取整個螢幕："
+
+#: src/Views/ShortcutsView.vala:123
+msgid "Grab the current window:"
+msgstr "抓取目前視窗："
+
+#: src/Views/ShortcutsView.vala:125
+msgid "Select an area to grab:"
+msgstr "選取要擷取的區域："
+
+#~ msgid "Shift"
+#~ msgstr "Shift"
+
+#~ msgid "Ctrl"
+#~ msgstr "Ctrl"
+
+#~ msgid "Alt"
+#~ msgstr "Alt"
