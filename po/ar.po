@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-11 22:44-0700\n"
-"PO-Revision-Date: 2019-04-10 00:53+0000\n"
+"PO-Revision-Date: 2019-04-18 00:31+0000\n"
 "Last-Translator: nasserbinlaboun <nasser1990com@gmail.com>\n"
 "Language-Team: Arabic <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/ar/>\n"
@@ -38,7 +38,7 @@ msgstr "نوافذ"
 
 #: src/Views/ShortcutsView.vala:31
 msgid "Close window:"
-msgstr ""
+msgstr "أغلق النافذة:"
 
 #: src/Views/ShortcutsView.vala:33
 msgid "Cycle windows:"
@@ -94,52 +94,52 @@ msgstr "أنقل لجديد:"
 
 #: src/Views/ShortcutsView.vala:59
 msgid "Cycle workspaces:"
-msgstr ""
+msgstr "تدوير مساحة العمل:"
 
 #: src/Views/ShortcutsView.vala:104
 msgid "System"
-msgstr ""
+msgstr "النظام"
 
 #: src/Views/ShortcutsView.vala:105
 msgid "Applications Menu:"
-msgstr ""
+msgstr "قائمة التطبيقات:"
 
 #: src/Views/ShortcutsView.vala:107
 msgid "Cycle display mode:"
-msgstr ""
+msgstr "تبديل طريقة عرض الشاشة:"
 
 #: src/Views/ShortcutsView.vala:109
 msgid "Zoom in:"
-msgstr ""
+msgstr "تكبير:"
 
 #: src/Views/ShortcutsView.vala:111
 msgid "Zoom out:"
-msgstr ""
+msgstr "تصغير:"
 
 #: src/Views/ShortcutsView.vala:113
 msgid "Lock screen:"
-msgstr ""
+msgstr "إقفل الشاشة:"
 
 #: src/Views/ShortcutsView.vala:115
 msgid "Log out:"
-msgstr ""
+msgstr "تسجيل خروج:"
 
 #: src/Views/ShortcutsView.vala:117
 msgid "Switch keyboard layout:"
-msgstr ""
+msgstr "تبديل مخطط لوحة المفاتيح:"
 
 #: src/Views/ShortcutsView.vala:120
 msgid "Screenshots"
-msgstr ""
+msgstr "صور الشاشة الملتقطة"
 
 #: src/Views/ShortcutsView.vala:121
 msgid "Grab the whole screen:"
-msgstr ""
+msgstr "إلتقط كامل الشاشة:"
 
 #: src/Views/ShortcutsView.vala:123
 msgid "Grab the current window:"
-msgstr ""
+msgstr "إلتقط النافذة الحالية:"
 
 #: src/Views/ShortcutsView.vala:125
 msgid "Select an area to grab:"
-msgstr ""
+msgstr "حدد مساحة لإلتقاطها:"
