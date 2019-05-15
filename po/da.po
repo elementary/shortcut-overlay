@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-11 22:44-0700\n"
-"PO-Revision-Date: 2018-12-13 00:06+0000\n"
-"Last-Translator: Kaj Printz Madsen <kajprintz@gmail.com>\n"
-"Language-Team: Danish <https://weblate.elementary.io/projects/desktop/"
+"PO-Revision-Date: 2019-05-16 02:14+0000\n"
+"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"Language-Team: Danish <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #: src/MainWindow.vala:23
 msgid "Keyboard Shortcuts"
@@ -36,7 +36,6 @@ msgid "Windows"
 msgstr "Vinduer"
 
 #: src/Views/ShortcutsView.vala:31
-#, fuzzy
 msgid "Close window:"
 msgstr "Skift mellem åbne vinduer:"
 
