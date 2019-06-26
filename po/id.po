@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-11 22:44-0700\n"
+"POT-Creation-Date: 2019-06-26 22:44+0200\n"
 "PO-Revision-Date: 2018-06-13 16:14+0000\n"
 "Last-Translator: Eri Hidayat <eriwhidayat@gmail.com>\n"
 "Language-Team: Indonesian <https://weblate.elementary.io/projects/desktop/"
@@ -27,7 +27,7 @@ msgstr "Pintasan Papan Ketik"
 msgid "Keyboard Settings…"
 msgstr "Pengaturan Papan Ketik…"
 
-#: src/ShortcutLabel.vala:71
+#: src/ShortcutLabel.vala:74
 msgid "Disabled"
 msgstr "Dinonaktifkan"
 
@@ -96,51 +96,51 @@ msgstr "Beralih ke yang baru:"
 msgid "Cycle workspaces:"
 msgstr "Ruang kerja siklus:"
 
-#: src/Views/ShortcutsView.vala:104
+#: src/Views/ShortcutsView.vala:107
 msgid "System"
 msgstr "Sistem"
 
-#: src/Views/ShortcutsView.vala:105
+#: src/Views/ShortcutsView.vala:108
 msgid "Applications Menu:"
 msgstr "Menu Aplikasi:"
 
-#: src/Views/ShortcutsView.vala:107
+#: src/Views/ShortcutsView.vala:110
 msgid "Cycle display mode:"
 msgstr "Mode tampilan siklus:"
 
-#: src/Views/ShortcutsView.vala:109
+#: src/Views/ShortcutsView.vala:112
 msgid "Zoom in:"
 msgstr "Perbesar:"
 
-#: src/Views/ShortcutsView.vala:111
+#: src/Views/ShortcutsView.vala:114
 msgid "Zoom out:"
 msgstr "Perkecil:"
 
-#: src/Views/ShortcutsView.vala:113
+#: src/Views/ShortcutsView.vala:116
 msgid "Lock screen:"
 msgstr "Layar kunci:"
 
-#: src/Views/ShortcutsView.vala:115
+#: src/Views/ShortcutsView.vala:118
 msgid "Log out:"
 msgstr "Keluar:"
 
-#: src/Views/ShortcutsView.vala:117
+#: src/Views/ShortcutsView.vala:120
 msgid "Switch keyboard layout:"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:120
+#: src/Views/ShortcutsView.vala:123
 msgid "Screenshots"
 msgstr "Tangkapan layar"
 
-#: src/Views/ShortcutsView.vala:121
+#: src/Views/ShortcutsView.vala:124
 msgid "Grab the whole screen:"
 msgstr "Ambil keseluruhan layar:"
 
-#: src/Views/ShortcutsView.vala:123
+#: src/Views/ShortcutsView.vala:126
 msgid "Grab the current window:"
 msgstr "Ambil jendela saat ini:"
 
-#: src/Views/ShortcutsView.vala:125
+#: src/Views/ShortcutsView.vala:128
 msgid "Select an area to grab:"
 msgstr "Pilih area untuk diambil:"
 

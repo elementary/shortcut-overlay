@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-11 22:44-0700\n"
+"POT-Creation-Date: 2019-06-26 22:44+0200\n"
 "PO-Revision-Date: 2019-02-22 00:04+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://weblate.elementary.io/projects/"
@@ -27,7 +27,7 @@ msgstr "Tastatursnarveier"
 msgid "Keyboard Settings…"
 msgstr "Tastaturinnstillinger…"
 
-#: src/ShortcutLabel.vala:71
+#: src/ShortcutLabel.vala:74
 msgid "Disabled"
 msgstr "Avskrudd"
 
@@ -95,51 +95,51 @@ msgstr "Bytt til nytt:"
 msgid "Cycle workspaces:"
 msgstr "Veksle arbeidsområder:"
 
-#: src/Views/ShortcutsView.vala:104
+#: src/Views/ShortcutsView.vala:107
 msgid "System"
 msgstr "System"
 
-#: src/Views/ShortcutsView.vala:105
+#: src/Views/ShortcutsView.vala:108
 msgid "Applications Menu:"
 msgstr "Programmeny:"
 
-#: src/Views/ShortcutsView.vala:107
+#: src/Views/ShortcutsView.vala:110
 msgid "Cycle display mode:"
 msgstr "Veksle visningsmodus:"
 
-#: src/Views/ShortcutsView.vala:109
+#: src/Views/ShortcutsView.vala:112
 msgid "Zoom in:"
 msgstr "Forstørr:"
 
-#: src/Views/ShortcutsView.vala:111
+#: src/Views/ShortcutsView.vala:114
 msgid "Zoom out:"
 msgstr "Forminsk:"
 
-#: src/Views/ShortcutsView.vala:113
+#: src/Views/ShortcutsView.vala:116
 msgid "Lock screen:"
 msgstr "Lås skjerm:"
 
-#: src/Views/ShortcutsView.vala:115
+#: src/Views/ShortcutsView.vala:118
 msgid "Log out:"
 msgstr "Logg ut:"
 
-#: src/Views/ShortcutsView.vala:117
+#: src/Views/ShortcutsView.vala:120
 msgid "Switch keyboard layout:"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:120
+#: src/Views/ShortcutsView.vala:123
 msgid "Screenshots"
 msgstr "Skjermavbildninger"
 
-#: src/Views/ShortcutsView.vala:121
+#: src/Views/ShortcutsView.vala:124
 msgid "Grab the whole screen:"
 msgstr "Ta med hele skjermen:"
 
-#: src/Views/ShortcutsView.vala:123
+#: src/Views/ShortcutsView.vala:126
 msgid "Grab the current window:"
 msgstr "Ta gjeldende vindu:"
 
-#: src/Views/ShortcutsView.vala:125
+#: src/Views/ShortcutsView.vala:128
 msgid "Select an area to grab:"
 msgstr "Velg eget område:"
 
