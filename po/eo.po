@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-11 22:44-0700\n"
-"PO-Revision-Date: 2019-07-03 14:49+0000\n"
+"PO-Revision-Date: 2019-07-09 20:03+0000\n"
 "Last-Translator: Shtonchjo <shtonchjo@gmail.com>\n"
 "Language-Team: Esperanto <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/eo/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: src/MainWindow.vala:23
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Fulmklavoj"
 
 #: src/MainWindow.vala:33
 msgid "Keyboard Settings…"
