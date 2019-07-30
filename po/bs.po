@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-11 22:44-0700\n"
+"POT-Creation-Date: 2019-06-26 22:44+0200\n"
 "PO-Revision-Date: 2018-11-04 00:03+0000\n"
 "Last-Translator: Elvis Mujanović <elvis.mujanovic@gmail.com>\n"
 "Language-Team: Bosnian <https://weblate.elementary.io/projects/desktop/"
@@ -28,7 +28,7 @@ msgstr "Kratice na tastaturi"
 msgid "Keyboard Settings…"
 msgstr "Podešavanja tastature…"
 
-#: src/ShortcutLabel.vala:71
+#: src/ShortcutLabel.vala:74
 msgid "Disabled"
 msgstr "Deaktivirano"
 
@@ -97,51 +97,51 @@ msgstr "Prebaci na novu površinu:"
 msgid "Cycle workspaces:"
 msgstr "Kruži radnim prostorima:"
 
-#: src/Views/ShortcutsView.vala:104
+#: src/Views/ShortcutsView.vala:107
 msgid "System"
 msgstr "Sistem"
 
-#: src/Views/ShortcutsView.vala:105
+#: src/Views/ShortcutsView.vala:108
 msgid "Applications Menu:"
 msgstr "Meni aplikacija:"
 
-#: src/Views/ShortcutsView.vala:107
+#: src/Views/ShortcutsView.vala:110
 msgid "Cycle display mode:"
 msgstr "Izaberi način rada ekrana:"
 
-#: src/Views/ShortcutsView.vala:109
+#: src/Views/ShortcutsView.vala:112
 msgid "Zoom in:"
 msgstr "Povećaj:"
 
-#: src/Views/ShortcutsView.vala:111
+#: src/Views/ShortcutsView.vala:114
 msgid "Zoom out:"
 msgstr "Umanji:"
 
-#: src/Views/ShortcutsView.vala:113
+#: src/Views/ShortcutsView.vala:116
 msgid "Lock screen:"
 msgstr "Zaključaj ekran:"
 
-#: src/Views/ShortcutsView.vala:115
+#: src/Views/ShortcutsView.vala:118
 msgid "Log out:"
 msgstr "Odjavi se:"
 
-#: src/Views/ShortcutsView.vala:117
+#: src/Views/ShortcutsView.vala:120
 msgid "Switch keyboard layout:"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:120
+#: src/Views/ShortcutsView.vala:123
 msgid "Screenshots"
 msgstr "Snimke ekrana"
 
-#: src/Views/ShortcutsView.vala:121
+#: src/Views/ShortcutsView.vala:124
 msgid "Grab the whole screen:"
 msgstr "Obuhvati cijeli ekran:"
 
-#: src/Views/ShortcutsView.vala:123
+#: src/Views/ShortcutsView.vala:126
 msgid "Grab the current window:"
 msgstr "Obuhvati trenutni prozor:"
 
-#: src/Views/ShortcutsView.vala:125
+#: src/Views/ShortcutsView.vala:128
 msgid "Select an area to grab:"
 msgstr "Odaberi prostor koji će biti obuhvaćen:"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-11 22:44-0700\n"
+"POT-Creation-Date: 2019-06-26 22:44+0200\n"
 "PO-Revision-Date: 2018-12-24 00:06+0000\n"
 "Last-Translator: Varesh Mishra <vareshmishra@gmail.com>\n"
 "Language-Team: Hindi <https://weblate.elementary.io/projects/desktop/"
@@ -27,7 +27,7 @@ msgstr "कुंजीपटल अल्पमार्ग"
 msgid "Keyboard Settings…"
 msgstr ""
 
-#: src/ShortcutLabel.vala:71
+#: src/ShortcutLabel.vala:74
 msgid "Disabled"
 msgstr ""
 
@@ -95,50 +95,50 @@ msgstr ""
 msgid "Cycle workspaces:"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:104
+#: src/Views/ShortcutsView.vala:107
 msgid "System"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:105
+#: src/Views/ShortcutsView.vala:108
 msgid "Applications Menu:"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:107
+#: src/Views/ShortcutsView.vala:110
 msgid "Cycle display mode:"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:109
+#: src/Views/ShortcutsView.vala:112
 msgid "Zoom in:"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:111
+#: src/Views/ShortcutsView.vala:114
 msgid "Zoom out:"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:113
+#: src/Views/ShortcutsView.vala:116
 msgid "Lock screen:"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:115
+#: src/Views/ShortcutsView.vala:118
 msgid "Log out:"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:117
+#: src/Views/ShortcutsView.vala:120
 msgid "Switch keyboard layout:"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:120
+#: src/Views/ShortcutsView.vala:123
 msgid "Screenshots"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:121
+#: src/Views/ShortcutsView.vala:124
 msgid "Grab the whole screen:"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:123
+#: src/Views/ShortcutsView.vala:126
 msgid "Grab the current window:"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:125
+#: src/Views/ShortcutsView.vala:128
 msgid "Select an area to grab:"
 msgstr ""

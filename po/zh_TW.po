@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-11 22:44-0700\n"
+"POT-Creation-Date: 2019-06-26 22:44+0200\n"
 "PO-Revision-Date: 2018-10-19 00:07+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.elementary.io/projects/"
@@ -27,7 +27,7 @@ msgstr "鍵盤快捷鍵"
 msgid "Keyboard Settings…"
 msgstr "鍵盤設定值…"
 
-#: src/ShortcutLabel.vala:71
+#: src/ShortcutLabel.vala:74
 msgid "Disabled"
 msgstr "已停用"
 
@@ -96,51 +96,51 @@ msgstr "切換至新一項："
 msgid "Cycle workspaces:"
 msgstr "循環切換工作空間："
 
-#: src/Views/ShortcutsView.vala:104
+#: src/Views/ShortcutsView.vala:107
 msgid "System"
 msgstr "系統"
 
-#: src/Views/ShortcutsView.vala:105
+#: src/Views/ShortcutsView.vala:108
 msgid "Applications Menu:"
 msgstr "應用程式選單："
 
-#: src/Views/ShortcutsView.vala:107
+#: src/Views/ShortcutsView.vala:110
 msgid "Cycle display mode:"
 msgstr "循環切換顯示模式："
 
-#: src/Views/ShortcutsView.vala:109
+#: src/Views/ShortcutsView.vala:112
 msgid "Zoom in:"
 msgstr "拉近："
 
-#: src/Views/ShortcutsView.vala:111
+#: src/Views/ShortcutsView.vala:114
 msgid "Zoom out:"
 msgstr "拉遠："
 
-#: src/Views/ShortcutsView.vala:113
+#: src/Views/ShortcutsView.vala:116
 msgid "Lock screen:"
 msgstr "鎖定螢幕："
 
-#: src/Views/ShortcutsView.vala:115
+#: src/Views/ShortcutsView.vala:118
 msgid "Log out:"
 msgstr "登出："
 
-#: src/Views/ShortcutsView.vala:117
+#: src/Views/ShortcutsView.vala:120
 msgid "Switch keyboard layout:"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:120
+#: src/Views/ShortcutsView.vala:123
 msgid "Screenshots"
 msgstr "螢幕快照"
 
-#: src/Views/ShortcutsView.vala:121
+#: src/Views/ShortcutsView.vala:124
 msgid "Grab the whole screen:"
 msgstr "抓取整個螢幕："
 
-#: src/Views/ShortcutsView.vala:123
+#: src/Views/ShortcutsView.vala:126
 msgid "Grab the current window:"
 msgstr "抓取目前視窗："
 
-#: src/Views/ShortcutsView.vala:125
+#: src/Views/ShortcutsView.vala:128
 msgid "Select an area to grab:"
 msgstr "選取要擷取的區域："
 
