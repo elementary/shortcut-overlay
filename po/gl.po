@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-26 22:44+0200\n"
-"PO-Revision-Date: 2019-09-19 18:27+0000\n"
+"PO-Revision-Date: 2019-09-22 14:23+0000\n"
 "Last-Translator: Daniel R. <riesp@pm.me>\n"
 "Language-Team: Galician <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/gl/>\n"
@@ -25,120 +25,120 @@ msgstr "Atallos de teclado"
 
 #: src/MainWindow.vala:33
 msgid "Keyboard Settings…"
-msgstr ""
+msgstr "Configuración do teclado…"
 
 #: src/ShortcutLabel.vala:74
 msgid "Disabled"
-msgstr ""
+msgstr "Desactivado"
 
 #: src/Views/ShortcutsView.vala:30
 msgid "Windows"
-msgstr ""
+msgstr "Xanelas"
 
 #: src/Views/ShortcutsView.vala:31
 msgid "Close window:"
-msgstr ""
+msgstr "Pechar xanela:"
 
 #: src/Views/ShortcutsView.vala:33
 msgid "Cycle windows:"
-msgstr ""
+msgstr "Cambiar aplicación:"
 
 #: src/Views/ShortcutsView.vala:35
 msgid "Toggle maximized:"
-msgstr ""
+msgstr "Maximizar:"
 
 #: src/Views/ShortcutsView.vala:37
 msgid "Tile left:"
-msgstr ""
+msgstr "Cuadrícula esquerda:"
 
 #: src/Views/ShortcutsView.vala:39
 msgid "Tile right:"
-msgstr ""
+msgstr "Cuadrícula dereita:"
 
 #: src/Views/ShortcutsView.vala:41
 msgid "Move to left workspace:"
-msgstr ""
+msgstr "Mover o espazo de traballo esquerdo:"
 
 #: src/Views/ShortcutsView.vala:43
 msgid "Move to right workspace:"
-msgstr ""
+msgstr "Mover o espazo de traballo dereito:"
 
 #: src/Views/ShortcutsView.vala:45
 msgid "Picture in Picture Mode:"
-msgstr ""
+msgstr "Modo mini pantalla:"
 
 #: src/Views/ShortcutsView.vala:48
 msgid "Workspaces"
-msgstr ""
+msgstr "Espazos de traballo"
 
 #: src/Views/ShortcutsView.vala:49
 msgid "Multitasking View:"
-msgstr ""
+msgstr "Vista multitarefa:"
 
 #: src/Views/ShortcutsView.vala:51
 msgid "Switch left:"
-msgstr ""
+msgstr "Cambiar á esquerda:"
 
 #: src/Views/ShortcutsView.vala:53
 msgid "Switch right:"
-msgstr ""
+msgstr "Cambiar á dereita:"
 
 #: src/Views/ShortcutsView.vala:55
 msgid "Switch to first:"
-msgstr ""
+msgstr "Cambiar ao primeiro espazo de traballo:"
 
 #: src/Views/ShortcutsView.vala:57
 msgid "Switch to new:"
-msgstr ""
+msgstr "Cambiar ao novo espazo de traballo:"
 
 #: src/Views/ShortcutsView.vala:59
 msgid "Cycle workspaces:"
-msgstr ""
+msgstr "Cambiar entre espazos de traballo:"
 
 #: src/Views/ShortcutsView.vala:107
 msgid "System"
-msgstr ""
+msgstr "Sistema"
 
 #: src/Views/ShortcutsView.vala:108
 msgid "Applications Menu:"
-msgstr ""
+msgstr "Menú de aplicativos:"
 
 #: src/Views/ShortcutsView.vala:110
 msgid "Cycle display mode:"
-msgstr ""
+msgstr "Cambiar o modo de visualización:"
 
 #: src/Views/ShortcutsView.vala:112
 msgid "Zoom in:"
-msgstr ""
+msgstr "Achegar:"
 
 #: src/Views/ShortcutsView.vala:114
 msgid "Zoom out:"
-msgstr ""
+msgstr "Afastar:"
 
 #: src/Views/ShortcutsView.vala:116
 msgid "Lock screen:"
-msgstr ""
+msgstr "Pantalla de bloqueo:"
 
 #: src/Views/ShortcutsView.vala:118
 msgid "Log out:"
-msgstr ""
+msgstr "Pechar sesión:"
 
 #: src/Views/ShortcutsView.vala:120
 msgid "Switch keyboard layout:"
-msgstr ""
+msgstr "Cambiar a distribución do teclado:"
 
 #: src/Views/ShortcutsView.vala:123
 msgid "Screenshots"
-msgstr ""
+msgstr "Capturas de pantalla"
 
 #: src/Views/ShortcutsView.vala:124
 msgid "Grab the whole screen:"
-msgstr ""
+msgstr "Capturar toda a pantalla:"
 
 #: src/Views/ShortcutsView.vala:126
 msgid "Grab the current window:"
-msgstr ""
+msgstr "Capturar a xanela actual:"
 
 #: src/Views/ShortcutsView.vala:128
 msgid "Select an area to grab:"
-msgstr ""
+msgstr "Seleccionar unha área para capturar:"
