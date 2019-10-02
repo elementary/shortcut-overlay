@@ -39,7 +39,7 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
         headerbar.set_show_close_button (true);
         headerbar.pack_end (settings_button);
 
-        var headerbar_style_context =  headerbar.get_style_context ();
+        unowned Gtk.StyleContext headerbar_style_context = headerbar.get_style_context ();
         headerbar_style_context.add_class (Gtk.STYLE_CLASS_FLAT);
         headerbar_style_context.add_class ("default-decoration");
 
