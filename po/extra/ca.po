@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:44+0200\n"
+"POT-Creation-Date: 2019-10-30 15:51-0700\n"
 "PO-Revision-Date: 2018-03-15 14:40+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://weblate.elementary.io/projects/desktop/"
@@ -19,22 +19,34 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2.18\n"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:3
+#: data/shortcut-overlay.desktop.in:3
 msgid "Keyboard Shortcuts"
 msgstr "Dreceres de teclat"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:4
+#: data/shortcut-overlay.desktop.in:4 data/shortcut-overlay.appdata.xml.in:7
 msgid "Shortcut Overlay"
 msgstr "Superposició de dreceres"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:5
+#: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
 msgid "View system keyboard shortcuts"
 msgstr "Visualitza les dreceres de teclat del sistema"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:8
+#: data/shortcut-overlay.desktop.in:8
 msgid "preferences-desktop-keyboard"
 msgstr "preferències-escriptori-teclat"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:13
+#: data/shortcut-overlay.desktop.in:13
 msgid "cheatsheet;shortcut;overlay;"
 msgstr "trucs;drecera;overlay;"
+
+#: data/shortcut-overlay.appdata.xml.in:16
+msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
+msgstr ""
+
+#: data/shortcut-overlay.appdata.xml.in:17
+msgid "Updated translations"
+msgstr ""
+
+#: data/shortcut-overlay.appdata.xml.in:60
+msgid "elementary, Inc."
+msgstr ""
