@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-30 15:51-0700\n"
-"PO-Revision-Date: 2019-11-04 14:24+0000\n"
+"PO-Revision-Date: 2019-11-08 16:24+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/pt/>\n"
@@ -29,7 +29,7 @@ msgstr "Visualização de Atalhos"
 
 #: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
 msgid "View system keyboard shortcuts"
-msgstr "Ver atalhos de teclado do sistema"
+msgstr "Ver atalhos do teclado do sistema"
 
 #: data/shortcut-overlay.desktop.in:8
 msgid "preferences-desktop-keyboard"
@@ -41,7 +41,7 @@ msgstr "cheatsheet;shortcut;overlay;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
-msgstr "Adicionar atalhos \"Trocar Esquema\" e \"Fechar Janela\""
+msgstr "Adicionar os atalhos \"Trocar Esquema\" e \"Fechar Janela\""
 
 #: data/shortcut-overlay.appdata.xml.in:17
 msgid "Updated translations"
