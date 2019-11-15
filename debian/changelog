@@ -1,3 +1,30 @@
+io.elementary.shortcut-overlay (1.1.0) bionic; urgency=medium
+
+  * Release 1.1.0 (#76)
+  * Add Gettext Updates to Actions
+  * Update .travis.yml (#75)
+  * Add Release to Actions
+  * Update translation files
+  * Add AppData (#74)
+  * Add Lint to CI (#73)
+  * MainWindow: make style context unowned
+  * Add Silesian and update translation template
+  * Remove unused po files and update LINGUAS
+  * Parse accel strings and skip empty strings (#66)
+  * Update translation files
+  * ShortcutsView: Display switch layout shortcut (#63)
+  * Remove shortcut entry class (#64)
+  * More whitespace (#62)
+  * Make shortcut label do less (#61)
+  * ShortcutEntry: GObject-style construction (#60)
+  * ShortcutEntry: pass shortcut parsing off to Granite (#59)
+  * Update translation files
+  * Adds close to windows entries (#56)
+  * Update Travis for Houston (#57)
+  * Meson: Use GLib preset for l10n
+
+ -- elementary LLC. <builds@elementary.io>  Fri, 15 Nov 2019 21:53:24 +0000
+
 io.elementary.shortcut-overlay (1.0.1) bionic; urgency=medium
 
   * New upstream release.
