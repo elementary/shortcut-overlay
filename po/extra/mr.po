@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-30 15:51-0700\n"
-"PO-Revision-Date: 2018-10-11 13:48+0000\n"
+"PO-Revision-Date: 2019-11-28 16:24+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
-"Language-Team: Marathi <https://weblate.elementary.io/projects/desktop/"
+"Language-Team: Marathi <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/mr/>\n"
 "Language: mr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 3.7.1\n"
 
 #: data/shortcut-overlay.desktop.in:3
 msgid "Keyboard Shortcuts"
@@ -41,12 +41,12 @@ msgstr "युक्तीतक्ता;शॉर्टकट;आच्छा�
 
 #: data/shortcut-overlay.appdata.xml.in:16
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
-msgstr ""
+msgstr "\"स्विच लेआउट\" आणि \"विंडो बंद करा\", शॉर्टकट जोडा"
 
 #: data/shortcut-overlay.appdata.xml.in:17
 msgid "Updated translations"
-msgstr ""
+msgstr "अद्ययावत भाषांतर"
 
 #: data/shortcut-overlay.appdata.xml.in:60
 msgid "elementary, Inc."
-msgstr ""
+msgstr "एलिमेंटरी, Inc."
