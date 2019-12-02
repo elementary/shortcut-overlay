@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-30 15:51-0700\n"
-"PO-Revision-Date: 2019-10-05 02:23+0000\n"
+"PO-Revision-Date: 2019-12-03 09:24+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "desktop/shortcut-overlay/zh_Hans/>\n"
@@ -57,11 +57,11 @@ msgstr "向右平铺："
 
 #: src/Views/ShortcutsView.vala:41
 msgid "Move to left workspace:"
-msgstr "移至左侧工作区："
+msgstr "移至左侧工作空间："
 
 #: src/Views/ShortcutsView.vala:43
 msgid "Move to right workspace:"
-msgstr "移至右侧工作区："
+msgstr "移至右侧工作区间："
 
 #: src/Views/ShortcutsView.vala:45
 msgid "Picture in Picture Mode:"
