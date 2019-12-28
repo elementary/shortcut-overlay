@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-30 15:51-0700\n"
-"PO-Revision-Date: 2019-12-27 10:07+0000\n"
+"PO-Revision-Date: 2019-12-28 10:28+0000\n"
 "Last-Translator: Jaimie85 <alsemgeest@gmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/nl/>\n"
@@ -21,27 +21,27 @@ msgstr ""
 
 #: data/shortcut-overlay.desktop.in:3
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Toetsenbord sneltoetsen"
 
 #: data/shortcut-overlay.desktop.in:4 data/shortcut-overlay.appdata.xml.in:7
 msgid "Shortcut Overlay"
-msgstr ""
+msgstr "Sneltoets overlapping"
 
 #: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
 msgid "View system keyboard shortcuts"
-msgstr ""
+msgstr "Bekijk de sneltoetsen van het systeemtoetsenbord"
 
 #: data/shortcut-overlay.desktop.in:8
 msgid "preferences-desktop-keyboard"
-msgstr ""
+msgstr "preferences-desktop-keyboard"
 
 #: data/shortcut-overlay.desktop.in:13
 msgid "cheatsheet;shortcut;overlay;"
-msgstr ""
+msgstr "spiekbriefje;sneltoets;overlapping;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
-msgstr ""
+msgstr "Voeg “verander layout” en “sluit venster” sneltoetsen toe"
 
 #: data/shortcut-overlay.appdata.xml.in:17
 msgid "Updated translations"
