@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-30 15:51-0700\n"
-"PO-Revision-Date: 2018-08-22 00:02+0000\n"
-"Last-Translator: Jernej Virag <jernej@virag.si>\n"
-"Language-Team: Slovenian <https://weblate.elementary.io/projects/desktop/"
+"PO-Revision-Date: 2019-12-29 05:21+0000\n"
+"Last-Translator: Marko <marko.dolar@gmail.com>\n"
+"Language-Team: Slovenian <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/sl/>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 3.0.1\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: data/shortcut-overlay.desktop.in:3
 msgid "Keyboard Shortcuts"
@@ -34,7 +34,7 @@ msgstr "Prikaži sistemske bližnjice na tipkovnici"
 
 #: data/shortcut-overlay.desktop.in:8
 msgid "preferences-desktop-keyboard"
-msgstr ""
+msgstr "preferences-desktop-keyboard"
 
 #: data/shortcut-overlay.desktop.in:13
 msgid "cheatsheet;shortcut;overlay;"
@@ -42,12 +42,13 @@ msgstr "shortcut;cheatsheet;pomoč;bližnjice;tipkovnica;tipke;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
-msgstr ""
+msgstr "Dodane nove bližnjice"
 
 #: data/shortcut-overlay.appdata.xml.in:17
 msgid "Updated translations"
-msgstr ""
+msgstr "Posodobljeni prevodi"
 
 #: data/shortcut-overlay.appdata.xml.in:60
+#, fuzzy
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."
