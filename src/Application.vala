@@ -25,7 +25,7 @@ public class ShortcutOverlay.Application : Gtk.Application {
 
     protected override void activate () {
         unowned List<Gtk.Window> windows = get_windows ();
-        if (windows.length () > 0 && !windows.data.visible) {
+        if (windows.length () > 0) {
             windows.data.destroy ();
             return;
         }
