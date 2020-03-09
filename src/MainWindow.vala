@@ -16,6 +16,7 @@
  */
 
 public class ShortcutOverlay.MainWindow : Gtk.Window {
+    public bool can_destroy { get; set; default = false; }
     public MainWindow (Gtk.Application application) {
         Object (
             application: application,

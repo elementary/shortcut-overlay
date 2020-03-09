@@ -25,9 +25,19 @@ public class ShortcutOverlay.Application : Gtk.Application {
 
     protected override void activate () {
         unowned List<Gtk.Window> windows = get_windows ();
-        if (windows.length () > 0 && !windows.data.visible) {
-            windows.data.destroy ();
-            return;
+        assert (windows.length () <= 1);
+
+        if (windows.length () == 1) {
+            var win = windows.data as MainWindow;
+            if (win.visible) {
+                win.hide ();
+                win.can_destroy = true;
+                return;
+            } else if (win.can_destroy) {
+                win.destroy ();
+            } else {
+                return;
+            }
         }
 
         bool is_terminal = Posix.isatty (Posix.STDIN_FILENO);
