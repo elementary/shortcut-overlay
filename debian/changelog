@@ -1,3 +1,14 @@
+io.elementary.shortcut-overlay (1.1.1) bionic; urgency=medium
+
+  * Release 1.1.1 (#80)
+  * Update translation files
+  * Update translation template
+  * Update shortcut-overlay.appdata.xml.in
+  * Update translation files
+  * Travis: set node to 10.17.0 to fix builds
+
+ -- elementary LLC. <builds@elementary.io>  Fri, 03 Apr 2020 18:44:27 +0000
+
 io.elementary.shortcut-overlay (1.1.0) bionic; urgency=medium
 
   * Release 1.1.0 (#76)
