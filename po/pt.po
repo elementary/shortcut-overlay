@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-30 15:51-0700\n"
-"PO-Revision-Date: 2019-04-06 21:52+0000\n"
+"PO-Revision-Date: 2020-04-23 19:10+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/pt/>\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.5.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: src/MainWindow.vala:23
 msgid "Keyboard Shortcuts"
-msgstr "Atalhos do Teclado"
+msgstr "Teclas de atalho"
 
 #: src/MainWindow.vala:33
 msgid "Keyboard Settings…"
@@ -65,7 +65,7 @@ msgstr "Mover para a área de trabalho à direita:"
 
 #: src/Views/ShortcutsView.vala:45
 msgid "Picture in Picture Mode:"
-msgstr "Modo Picture in Picture:"
+msgstr "Modo Imagem sobre Imagem:"
 
 #: src/Views/ShortcutsView.vala:48
 msgid "Workspaces"
@@ -73,7 +73,7 @@ msgstr "Áreas de Trabalho"
 
 #: src/Views/ShortcutsView.vala:49
 msgid "Multitasking View:"
-msgstr "Visão Multi-tarefa:"
+msgstr "Vista de tarefas:"
 
 #: src/Views/ShortcutsView.vala:51
 msgid "Switch left:"
@@ -109,11 +109,11 @@ msgstr "Percorrer modo de visualização:"
 
 #: src/Views/ShortcutsView.vala:112
 msgid "Zoom in:"
-msgstr "Aumentar zoom:"
+msgstr "Aumentar:"
 
 #: src/Views/ShortcutsView.vala:114
 msgid "Zoom out:"
-msgstr "Diminuir zoom:"
+msgstr "Diminuir:"
 
 #: src/Views/ShortcutsView.vala:116
 msgid "Lock screen:"
@@ -121,11 +121,11 @@ msgstr "Ecrã de bloqueio:"
 
 #: src/Views/ShortcutsView.vala:118
 msgid "Log out:"
-msgstr "Sair da Sessão:"
+msgstr "Sair da sessão:"
 
 #: src/Views/ShortcutsView.vala:120
 msgid "Switch keyboard layout:"
-msgstr "Mudar a disposição do teclado:"
+msgstr "Mudar esquema do teclado:"
 
 #: src/Views/ShortcutsView.vala:123
 msgid "Screenshots"
