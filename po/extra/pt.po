@@ -7,34 +7,47 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:44+0200\n"
-"PO-Revision-Date: 2018-05-12 00:11+0000\n"
-"Last-Translator: Pedro Ferreira <pmaf.ferreira@gmail.com>\n"
-"Language-Team: Portuguese <https://weblate.elementary.io/projects/desktop/"
+"POT-Creation-Date: 2020-04-01 21:38+0000\n"
+"PO-Revision-Date: 2020-04-23 19:10+0000\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
+"Language-Team: Portuguese <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.9.1\n"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:3
+#: data/shortcut-overlay.desktop.in:3
 msgid "Keyboard Shortcuts"
-msgstr "Atalhos do Teclado"
+msgstr "Teclas de atalho"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:4
+#: data/shortcut-overlay.desktop.in:4 data/shortcut-overlay.appdata.xml.in:7
 msgid "Shortcut Overlay"
-msgstr "Visualização de Atalhos"
+msgstr "Visualização de atalhos"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:5
+#: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
 msgid "View system keyboard shortcuts"
-msgstr "Ver atalhos de teclado do sistema"
+msgstr "Ver teclas de atalho do sistema"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:8
+#: data/shortcut-overlay.desktop.in:8
 msgid "preferences-desktop-keyboard"
 msgstr "preferences-desktop-keyboard"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:13
+#: data/shortcut-overlay.desktop.in:13
 msgid "cheatsheet;shortcut;overlay;"
 msgstr "cheatsheet;shortcut;overlay;"
+
+#: data/shortcut-overlay.appdata.xml.in:16
+#: data/shortcut-overlay.appdata.xml.in:24
+msgid "Updated translations"
+msgstr "Traduções atualizadas"
+
+#: data/shortcut-overlay.appdata.xml.in:23
+msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
+msgstr "Adicionar os atalhos \"Trocar esquema\" e \"Fechar janela\""
+
+#: data/shortcut-overlay.appdata.xml.in:67
+msgid "elementary, Inc."
+msgstr "elementary, Inc."

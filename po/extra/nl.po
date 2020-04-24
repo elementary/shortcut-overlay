@@ -7,32 +7,47 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:44+0200\n"
-"PO-Revision-Date: 2018-03-13 16:43-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2020-04-01 21:38+0000\n"
+"PO-Revision-Date: 2019-12-28 10:28+0000\n"
+"Last-Translator: Jaimie85 <alsemgeest@gmail.com>\n"
+"Language-Team: Dutch <https://l10n.elementary.io/projects/desktop/shortcut-"
+"overlay-extra/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:3
+#: data/shortcut-overlay.desktop.in:3
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Toetsenbord sneltoetsen"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:4
+#: data/shortcut-overlay.desktop.in:4 data/shortcut-overlay.appdata.xml.in:7
 msgid "Shortcut Overlay"
-msgstr ""
+msgstr "Sneltoets overlapping"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:5
+#: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
 msgid "View system keyboard shortcuts"
-msgstr ""
+msgstr "Bekijk de sneltoetsen van het systeemtoetsenbord"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:8
+#: data/shortcut-overlay.desktop.in:8
 msgid "preferences-desktop-keyboard"
-msgstr ""
+msgstr "preferences-desktop-keyboard"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:13
+#: data/shortcut-overlay.desktop.in:13
 msgid "cheatsheet;shortcut;overlay;"
-msgstr ""
+msgstr "spiekbriefje;sneltoets;overlapping;"
+
+#: data/shortcut-overlay.appdata.xml.in:16
+#: data/shortcut-overlay.appdata.xml.in:24
+msgid "Updated translations"
+msgstr "Bijgewerkte vertalingen"
+
+#: data/shortcut-overlay.appdata.xml.in:23
+msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
+msgstr "Voeg “verander layout” en “sluit venster” sneltoetsen toe"
+
+#: data/shortcut-overlay.appdata.xml.in:67
+msgid "elementary, Inc."
+msgstr "elementary, Inc."

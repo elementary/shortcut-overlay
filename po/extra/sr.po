@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:44+0200\n"
+"POT-Creation-Date: 2020-04-01 21:38+0000\n"
 "PO-Revision-Date: 2018-03-13 16:43-0700\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -18,22 +18,35 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:3
+#: data/shortcut-overlay.desktop.in:3
 msgid "Keyboard Shortcuts"
 msgstr ""
 
-#: data/io.elementary.shortcut-overlay.desktop.in:4
+#: data/shortcut-overlay.desktop.in:4 data/shortcut-overlay.appdata.xml.in:7
 msgid "Shortcut Overlay"
 msgstr ""
 
-#: data/io.elementary.shortcut-overlay.desktop.in:5
+#: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
 msgid "View system keyboard shortcuts"
 msgstr ""
 
-#: data/io.elementary.shortcut-overlay.desktop.in:8
+#: data/shortcut-overlay.desktop.in:8
 msgid "preferences-desktop-keyboard"
 msgstr ""
 
-#: data/io.elementary.shortcut-overlay.desktop.in:13
+#: data/shortcut-overlay.desktop.in:13
 msgid "cheatsheet;shortcut;overlay;"
+msgstr ""
+
+#: data/shortcut-overlay.appdata.xml.in:16
+#: data/shortcut-overlay.appdata.xml.in:24
+msgid "Updated translations"
+msgstr ""
+
+#: data/shortcut-overlay.appdata.xml.in:23
+msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
+msgstr ""
+
+#: data/shortcut-overlay.appdata.xml.in:67
+msgid "elementary, Inc."
 msgstr ""

@@ -1,1 +1,2 @@
-data/io.elementary.shortcut-overlay.desktop.in
+data/shortcut-overlay.desktop.in
+data/shortcut-overlay.appdata.xml.in

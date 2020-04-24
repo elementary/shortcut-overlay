@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:44+0200\n"
+"POT-Creation-Date: 2020-04-01 21:38+0000\n"
 "PO-Revision-Date: 2018-05-26 08:06+0000\n"
 "Last-Translator: Romanic Ion Nicușor <contact.romanic@gmail.com>\n"
 "Language-Team: Moldovan <https://weblate.elementary.io/projects/desktop/"
@@ -19,22 +19,35 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2.18\n"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:3
+#: data/shortcut-overlay.desktop.in:3
 msgid "Keyboard Shortcuts"
 msgstr "Comenzi rapide pe tastatură"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:4
+#: data/shortcut-overlay.desktop.in:4 data/shortcut-overlay.appdata.xml.in:7
 msgid "Shortcut Overlay"
 msgstr "Superpoziție de acces direct"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:5
+#: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
 msgid "View system keyboard shortcuts"
 msgstr "Vedeți comenzile rapide de la tastatură de sistem"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:8
+#: data/shortcut-overlay.desktop.in:8
 msgid "preferences-desktop-keyboard"
 msgstr "Preferințe-spațiul de lucru-tastatură"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:13
+#: data/shortcut-overlay.desktop.in:13
 msgid "cheatsheet;shortcut;overlay;"
 msgstr "Cheatsheet; comenzi rapide; suprapunere;"
+
+#: data/shortcut-overlay.appdata.xml.in:16
+#: data/shortcut-overlay.appdata.xml.in:24
+msgid "Updated translations"
+msgstr ""
+
+#: data/shortcut-overlay.appdata.xml.in:23
+msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
+msgstr ""
+
+#: data/shortcut-overlay.appdata.xml.in:67
+msgid "elementary, Inc."
+msgstr ""

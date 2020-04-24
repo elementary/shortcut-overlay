@@ -1,5 +1,5 @@
 # Shortcut Overlay
-[![l10n](https://l10n.elementary.io/widgets/desktop/shortcut-overlay/svg-badge.svg)](https://l10n.elementary.io/projects/desktop/shortcut-overlay)
+[![Translation status](https://l10n.elementary.io/widgets/desktop/-/shortcut-overlay/svg-badge.svg)](https://l10n.elementary.io/engage/desktop/?utm_source=widget)
 
 A native OS-wide shortcut overlay to be launched by Gala.
 

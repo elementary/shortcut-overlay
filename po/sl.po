@@ -7,18 +7,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:44+0200\n"
-"PO-Revision-Date: 2018-07-05 19:43+0000\n"
-"Last-Translator: Jernej Virag <jernej@virag.si>\n"
-"Language-Team: Slovenian <https://weblate.elementary.io/projects/desktop/"
+"POT-Creation-Date: 2019-10-30 15:51-0700\n"
+"PO-Revision-Date: 2019-12-29 05:21+0000\n"
+"Last-Translator: Marko <marko.dolar@gmail.com>\n"
+"Language-Team: Slovenian <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/sl/>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 3.0.1\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: src/MainWindow.vala:23
 msgid "Keyboard Shortcuts"
@@ -37,9 +37,8 @@ msgid "Windows"
 msgstr "Okna"
 
 #: src/Views/ShortcutsView.vala:31
-#, fuzzy
 msgid "Close window:"
-msgstr "Preklapljaj med okni:"
+msgstr "Zapri okno:"
 
 #: src/Views/ShortcutsView.vala:33
 msgid "Cycle windows:"
@@ -127,7 +126,7 @@ msgstr "Odjava:"
 
 #: src/Views/ShortcutsView.vala:120
 msgid "Switch keyboard layout:"
-msgstr ""
+msgstr "Preklopi razporeditev tipkovnice:"
 
 #: src/Views/ShortcutsView.vala:123
 msgid "Screenshots"
