@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-30 15:51-0700\n"
-"PO-Revision-Date: 2020-03-25 02:09+0000\n"
+"PO-Revision-Date: 2020-05-01 04:10+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/es/>\n"
@@ -57,11 +57,11 @@ msgstr "Encajar a la derecha:"
 
 #: src/Views/ShortcutsView.vala:41
 msgid "Move to left workspace:"
-msgstr "Mover al espacio de trabajo izquierdo:"
+msgstr "Mover al área de trabajo izquierda:"
 
 #: src/Views/ShortcutsView.vala:43
 msgid "Move to right workspace:"
-msgstr "Mover al espacio de trabajo derecho:"
+msgstr "Mover al área de trabajo derecha:"
 
 #: src/Views/ShortcutsView.vala:45
 msgid "Picture in Picture Mode:"
@@ -85,15 +85,15 @@ msgstr "Cambiar a la derecha:"
 
 #: src/Views/ShortcutsView.vala:55
 msgid "Switch to first:"
-msgstr "Cambiar al primer espacio de trabajo:"
+msgstr "Cambiar a la primera:"
 
 #: src/Views/ShortcutsView.vala:57
 msgid "Switch to new:"
-msgstr "Cambiar al nuevo espacio de trabajo:"
+msgstr "Cambiar a la nueva:"
 
 #: src/Views/ShortcutsView.vala:59
 msgid "Cycle workspaces:"
-msgstr "Cambiar entre espacios de trabajo:"
+msgstr "Cambiar entre áreas de trabajo:"
 
 #: src/Views/ShortcutsView.vala:107
 msgid "System"
