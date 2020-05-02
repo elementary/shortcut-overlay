@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-30 15:51-0700\n"
-"PO-Revision-Date: 2020-04-23 19:10+0000\n"
+"PO-Revision-Date: 2020-05-03 15:10+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/pt/>\n"
@@ -69,7 +69,7 @@ msgstr "Modo Imagem sobre Imagem:"
 
 #: src/Views/ShortcutsView.vala:48
 msgid "Workspaces"
-msgstr "Áreas de Trabalho"
+msgstr "Áreas de trabalho"
 
 #: src/Views/ShortcutsView.vala:49
 msgid "Multitasking View:"
