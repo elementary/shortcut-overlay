@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-01 21:38+0000\n"
-"PO-Revision-Date: 2020-01-18 01:07+0000\n"
-"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
-"Language-Team: Czech <https://l10n.elementary.io/projects/desktop/shortcut-"
-"overlay-extra/cs/>\n"
+"PO-Revision-Date: 2020-05-11 13:10+0000\n"
+"Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
+"Language-Team: Czech <https://l10n.elementary.io/projects/desktop/"
+"shortcut-overlay-extra/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,7 +33,7 @@ msgstr "Prohlédněte si systémové klávesové zkratky"
 
 #: data/shortcut-overlay.desktop.in:8
 msgid "preferences-desktop-keyboard"
-msgstr "preferences-desktop-keyboard"
+msgstr ""
 
 #: data/shortcut-overlay.desktop.in:13
 msgid "cheatsheet;shortcut;overlay;"
@@ -42,11 +42,13 @@ msgstr "cheatsheet;shortcut;overlay;zkratka;přehled;nápověda;"
 #: data/shortcut-overlay.appdata.xml.in:16
 #: data/shortcut-overlay.appdata.xml.in:24
 msgid "Updated translations"
-msgstr ""
+msgstr "Aktualizovány překlady"
 
 #: data/shortcut-overlay.appdata.xml.in:23
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
 msgstr ""
+"Přidány klávesové zkratky pro „Přepínání rozvržení klávesnice“ a „Zavření "
+"okna“"
 
 #: data/shortcut-overlay.appdata.xml.in:67
 msgid "elementary, Inc."
