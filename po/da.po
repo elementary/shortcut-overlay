@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-30 15:51-0700\n"
-"PO-Revision-Date: 2019-05-16 02:14+0000\n"
-"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
-"Language-Team: Danish <https://l10n.elementary.io/projects/desktop/shortcut-"
-"overlay/da/>\n"
+"PO-Revision-Date: 2020-05-25 19:11+0000\n"
+"Last-Translator: Rantyrant <diseasemonger@gmail.com>\n"
+"Language-Team: Danish <https://l10n.elementary.io/projects/desktop/"
+"shortcut-overlay/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: src/MainWindow.vala:23
 msgid "Keyboard Shortcuts"
@@ -125,11 +125,11 @@ msgstr "Log ud:"
 
 #: src/Views/ShortcutsView.vala:120
 msgid "Switch keyboard layout:"
-msgstr ""
+msgstr "Skift tastatur  layout:"
 
 #: src/Views/ShortcutsView.vala:123
 msgid "Screenshots"
-msgstr "Screenshots"
+msgstr "Skærmbilleder"
 
 #: src/Views/ShortcutsView.vala:124
 msgid "Grab the whole screen:"
