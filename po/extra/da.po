@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-01 21:38+0000\n"
-"PO-Revision-Date: 2020-05-25 19:11+0000\n"
+"PO-Revision-Date: 2020-05-26 20:11+0000\n"
 "Last-Translator: Rantyrant <diseasemonger@gmail.com>\n"
 "Language-Team: Danish <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/da/>\n"
@@ -46,8 +46,8 @@ msgstr "Opdaterede oversættelser"
 
 #: data/shortcut-overlay.appdata.xml.in:23
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
-msgstr ""
+msgstr "Tilføj \"Skift Layout\" og \"Luk Vindue\" genveje"
 
 #: data/shortcut-overlay.appdata.xml.in:67
 msgid "elementary, Inc."
-msgstr "elementary, Inc."
+msgstr "elementary, Incorporated."
