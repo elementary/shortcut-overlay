@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-01 21:38+0000\n"
-"PO-Revision-Date: 2020-05-11 13:10+0000\n"
+"PO-Revision-Date: 2020-05-28 18:52+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/cs/>\n"
@@ -33,7 +33,7 @@ msgstr "Prohlédněte si systémové klávesové zkratky"
 
 #: data/shortcut-overlay.desktop.in:8
 msgid "preferences-desktop-keyboard"
-msgstr ""
+msgstr "preferences-desktop-keyboard"
 
 #: data/shortcut-overlay.desktop.in:13
 msgid "cheatsheet;shortcut;overlay;"
