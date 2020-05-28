@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-30 15:51-0700\n"
-"PO-Revision-Date: 2020-05-11 13:10+0000\n"
+"PO-Revision-Date: 2020-05-28 18:52+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/cs/>\n"
@@ -41,7 +41,7 @@ msgstr "Zavřít okno:"
 
 #: src/Views/ShortcutsView.vala:33
 msgid "Cycle windows:"
-msgstr "Cyklicky přepínat okna:"
+msgstr "Dokola přepínat okna:"
 
 #: src/Views/ShortcutsView.vala:35
 msgid "Toggle maximized:"
@@ -57,11 +57,11 @@ msgstr "Vyplnit vpravo:"
 
 #: src/Views/ShortcutsView.vala:41
 msgid "Move to left workspace:"
-msgstr "Přejít na levou pracovní plochu:"
+msgstr "Přesunout vlevo na pracovní plochu:"
 
 #: src/Views/ShortcutsView.vala:43
 msgid "Move to right workspace:"
-msgstr "Přejít na pravou pracovní plochu:"
+msgstr "Přesunout vpravo na pracovní plochu:"
 
 #: src/Views/ShortcutsView.vala:45
 msgid "Picture in Picture Mode:"
@@ -73,15 +73,15 @@ msgstr "Pracovní plochy"
 
 #: src/Views/ShortcutsView.vala:49
 msgid "Multitasking View:"
-msgstr "Zobrazení multitaskingu:"
+msgstr "Víceúlohové zobrazení:"
 
 #: src/Views/ShortcutsView.vala:51
 msgid "Switch left:"
-msgstr "Přepnout do leva:"
+msgstr "Přepnout vlevo:"
 
 #: src/Views/ShortcutsView.vala:53
 msgid "Switch right:"
-msgstr "Přepnout do prava:"
+msgstr "Přepnout vpravo:"
 
 #: src/Views/ShortcutsView.vala:55
 msgid "Switch to first:"
@@ -93,7 +93,7 @@ msgstr "Přepnout na novou:"
 
 #: src/Views/ShortcutsView.vala:59
 msgid "Cycle workspaces:"
-msgstr "Cyklicky přepínat pracovní plochy:"
+msgstr "Dokola přepínat pracovní plochy:"
 
 #: src/Views/ShortcutsView.vala:107
 msgid "System"
@@ -105,7 +105,7 @@ msgstr "Nabídka aplikací:"
 
 #: src/Views/ShortcutsView.vala:110
 msgid "Cycle display mode:"
-msgstr "Přepínat mód zobrazení:"
+msgstr "Přepínat režim zobrazení:"
 
 #: src/Views/ShortcutsView.vala:112
 msgid "Zoom in:"
@@ -137,7 +137,7 @@ msgstr "Zachytit celou obrazovku:"
 
 #: src/Views/ShortcutsView.vala:126
 msgid "Grab the current window:"
-msgstr "Zachytit aktuální okno:"
+msgstr "Zachytit právě zaměřené okno:"
 
 #: src/Views/ShortcutsView.vala:128
 msgid "Select an area to grab:"
