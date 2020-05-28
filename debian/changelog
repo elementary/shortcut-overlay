@@ -1,3 +1,10 @@
+io.elementary.shortcut-overlay (1.1.2) bionic; urgency=medium
+
+  * Release 1.1.2 (#81)
+  * Respect an OS-wide dark preference (#65)
+
+ -- elementary LLC. <builds@elementary.io>  Thu, 28 May 2020 18:53:51 +0000
+
 io.elementary.shortcut-overlay (1.1.1) bionic; urgency=medium
 
   * Release 1.1.1 (#80)
