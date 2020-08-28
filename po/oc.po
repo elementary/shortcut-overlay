@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-30 15:51-0700\n"
-"PO-Revision-Date: 2020-08-28 20:02+0000\n"
+"PO-Revision-Date: 2020-08-29 20:13+0000\n"
 "Last-Translator: Mejans <farga@mejans.fr>\n"
 "Language-Team: Occitan <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/oc/>\n"
@@ -29,15 +29,15 @@ msgstr ""
 
 #: src/ShortcutLabel.vala:74
 msgid "Disabled"
-msgstr ""
+msgstr "Desactivat"
 
 #: src/Views/ShortcutsView.vala:30
 msgid "Windows"
-msgstr ""
+msgstr "Fenèstras"
 
 #: src/Views/ShortcutsView.vala:31
 msgid "Close window:"
-msgstr ""
+msgstr "Tampar la fenèstra :"
 
 #: src/Views/ShortcutsView.vala:33
 msgid "Cycle windows:"
@@ -69,7 +69,7 @@ msgstr ""
 
 #: src/Views/ShortcutsView.vala:48
 msgid "Workspaces"
-msgstr ""
+msgstr "Espacis de trabalh"
 
 #: src/Views/ShortcutsView.vala:49
 msgid "Multitasking View:"
@@ -97,7 +97,7 @@ msgstr ""
 
 #: src/Views/ShortcutsView.vala:107
 msgid "System"
-msgstr ""
+msgstr "Sistèma"
 
 #: src/Views/ShortcutsView.vala:108
 msgid "Applications Menu:"
@@ -121,7 +121,7 @@ msgstr ""
 
 #: src/Views/ShortcutsView.vala:118
 msgid "Log out:"
-msgstr ""
+msgstr "Desconnexion :"
 
 #: src/Views/ShortcutsView.vala:120
 msgid "Switch keyboard layout:"
@@ -129,7 +129,7 @@ msgstr ""
 
 #: src/Views/ShortcutsView.vala:123
 msgid "Screenshots"
-msgstr ""
+msgstr "Capturas d’ecran"
 
 #: src/Views/ShortcutsView.vala:124
 msgid "Grab the whole screen:"
