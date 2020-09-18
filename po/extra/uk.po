@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-01 21:38+0000\n"
-"PO-Revision-Date: 2020-09-11 19:31+0000\n"
+"PO-Revision-Date: 2020-09-19 01:14+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/uk/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: data/shortcut-overlay.desktop.in:3
 msgid "Keyboard Shortcuts"
-msgstr "Клавішні скорочення"
+msgstr "Комбінації клавіш"
 
 #: data/shortcut-overlay.desktop.in:4 data/shortcut-overlay.appdata.xml.in:7
 msgid "Shortcut Overlay"
@@ -30,15 +30,15 @@ msgstr ""
 
 #: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
 msgid "View system keyboard shortcuts"
-msgstr ""
+msgstr "Глянути системні комбінації клавіш"
 
 #: data/shortcut-overlay.desktop.in:8
 msgid "preferences-desktop-keyboard"
-msgstr ""
+msgstr "preferences-desktop-keyboard"
 
 #: data/shortcut-overlay.desktop.in:13
 msgid "cheatsheet;shortcut;overlay;"
-msgstr ""
+msgstr "скорочення;комбінація;клавіші;шорткат;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
 #: data/shortcut-overlay.appdata.xml.in:24
