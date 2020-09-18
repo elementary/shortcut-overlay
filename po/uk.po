@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-30 15:51-0700\n"
-"PO-Revision-Date: 2020-03-22 16:09+0000\n"
-"Last-Translator: Andrii Priadko <mendeleev.ua@gmail.com>\n"
+"PO-Revision-Date: 2020-09-19 01:14+0000\n"
+"Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/uk/>\n"
 "Language: uk\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: src/MainWindow.vala:23
 msgid "Keyboard Shortcuts"
-msgstr "Клавішні скорочення"
+msgstr "Комбінації клавіш"
 
 #: src/MainWindow.vala:33
 msgid "Keyboard Settings…"
