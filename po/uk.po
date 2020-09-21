@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-30 15:51-0700\n"
-"PO-Revision-Date: 2020-09-20 20:14+0000\n"
+"PO-Revision-Date: 2020-09-22 14:23+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/uk/>\n"
@@ -70,11 +70,11 @@ msgstr "Режим зображення в зображенні:"
 
 #: src/Views/ShortcutsView.vala:48
 msgid "Workspaces"
-msgstr "Робочі області"
+msgstr "Робочі простори"
 
 #: src/Views/ShortcutsView.vala:49
 msgid "Multitasking View:"
-msgstr "Мультизадачний вигляд:"
+msgstr "Багатозадачний вигляд:"
 
 #: src/Views/ShortcutsView.vala:51
 msgid "Switch left:"
@@ -94,7 +94,7 @@ msgstr "Перейти до нового:"
 
 #: src/Views/ShortcutsView.vala:59
 msgid "Cycle workspaces:"
-msgstr "Перемикання робочих областей:"
+msgstr "Перемикання робочих просторів:"
 
 #: src/Views/ShortcutsView.vala:107
 msgid "System"
@@ -102,11 +102,11 @@ msgstr "Система"
 
 #: src/Views/ShortcutsView.vala:108
 msgid "Applications Menu:"
-msgstr "Додатки:"
+msgstr "Меню застосунків:"
 
 #: src/Views/ShortcutsView.vala:110
 msgid "Cycle display mode:"
-msgstr "Циклічний режим відображення:"
+msgstr "Перемикання режиму перегляду:"
 
 #: src/Views/ShortcutsView.vala:112
 msgid "Zoom in:"
@@ -118,7 +118,7 @@ msgstr "Зменшити:"
 
 #: src/Views/ShortcutsView.vala:116
 msgid "Lock screen:"
-msgstr "Блокування екрану:"
+msgstr "Заблокувати екран:"
 
 #: src/Views/ShortcutsView.vala:118
 msgid "Log out:"
@@ -126,11 +126,11 @@ msgstr "Вийти із системи:"
 
 #: src/Views/ShortcutsView.vala:120
 msgid "Switch keyboard layout:"
-msgstr "Зміна розкладки клавіатури:"
+msgstr "Змінити розкладку клавіатури:"
 
 #: src/Views/ShortcutsView.vala:123
 msgid "Screenshots"
-msgstr "Скріншоти"
+msgstr "Знімки екрана"
 
 #: src/Views/ShortcutsView.vala:124
 msgid "Grab the whole screen:"
@@ -142,4 +142,4 @@ msgstr "Захопити поточне вікно:"
 
 #: src/Views/ShortcutsView.vala:128
 msgid "Select an area to grab:"
-msgstr "Виділіть область для захоплення:"
+msgstr "Вибрати область захоплення:"
