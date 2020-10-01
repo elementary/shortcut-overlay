@@ -34,9 +34,10 @@ public class ShortcutOverlay.MainWindow : Hdy.Window {
         settings_button.valign = Gtk.Align.CENTER;
         settings_button.get_style_context ().add_class ("titlebutton");
 
-        var headerbar = new Gtk.HeaderBar ();
-        headerbar.title = _("Keyboard Shortcuts");
-        headerbar.has_subtitle = false;
+        var headerbar = new Gtk.HeaderBar () {
+            title = _("Keyboard Shortcuts"),
+            has_subtitle = false
+        };
         headerbar.set_show_close_button (true);
         headerbar.pack_end (settings_button);
 
