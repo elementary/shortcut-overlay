@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-30 15:51-0700\n"
-"PO-Revision-Date: 2019-04-06 21:52+0000\n"
+"PO-Revision-Date: 2020-05-08 10:10+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
-"Language-Team: Catalan <https://l10n.elementary.io/projects/desktop/shortcut-"
-"overlay/ca/>\n"
+"Language-Team: Catalan <https://l10n.elementary.io/projects/desktop/"
+"shortcut-overlay/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.5.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: src/MainWindow.vala:23
 msgid "Keyboard Shortcuts"
@@ -65,7 +65,7 @@ msgstr "Ves a l'espai de treball de la dreta:"
 
 #: src/Views/ShortcutsView.vala:45
 msgid "Picture in Picture Mode:"
-msgstr "Imatge en mode d'imatge:"
+msgstr "Mode d'Imatge en imatge:"
 
 #: src/Views/ShortcutsView.vala:48
 msgid "Workspaces"

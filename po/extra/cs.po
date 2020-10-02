@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-30 15:51-0700\n"
-"PO-Revision-Date: 2020-01-18 01:07+0000\n"
-"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"POT-Creation-Date: 2020-04-01 21:38+0000\n"
+"PO-Revision-Date: 2020-05-28 18:52+0000\n"
+"Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/cs/>\n"
 "Language: cs\n"
@@ -40,13 +40,16 @@ msgid "cheatsheet;shortcut;overlay;"
 msgstr "cheatsheet;shortcut;overlay;zkratka;přehled;nápověda;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
+#: data/shortcut-overlay.appdata.xml.in:24
+msgid "Updated translations"
+msgstr "Aktualizovány překlady"
+
+#: data/shortcut-overlay.appdata.xml.in:23
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
 msgstr ""
+"Přidány klávesové zkratky pro „Přepínání rozvržení klávesnice“ a „Zavření "
+"okna“"
 
-#: data/shortcut-overlay.appdata.xml.in:17
-msgid "Updated translations"
-msgstr ""
-
-#: data/shortcut-overlay.appdata.xml.in:60
+#: data/shortcut-overlay.appdata.xml.in:67
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
