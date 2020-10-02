@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-public class ShortcutOverlay.MainWindow : Gtk.Window {
+public class ShortcutOverlay.MainWindow : Hdy.Window {
     public MainWindow (Gtk.Application application) {
         Object (
             application: application,
@@ -34,23 +34,23 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
         settings_button.valign = Gtk.Align.CENTER;
         settings_button.get_style_context ().add_class ("titlebutton");
 
-        var headerbar = new Gtk.HeaderBar ();
-        headerbar.has_subtitle = false;
+        var headerbar = new Gtk.HeaderBar () {
+            title = _("Keyboard Shortcuts"),
+            has_subtitle = false
+        };
         headerbar.set_show_close_button (true);
         headerbar.pack_end (settings_button);
-
-        unowned Gtk.StyleContext headerbar_style_context = headerbar.get_style_context ();
-        headerbar_style_context.add_class (Gtk.STYLE_CLASS_FLAT);
-        headerbar_style_context.add_class ("default-decoration");
 
         var shortcuts_view = new ShortcutsView ();
         shortcuts_view.margin = 36;
         shortcuts_view.margin_top = 12;
 
-        add (shortcuts_view);
-        get_style_context ().add_class ("rounded");
-        set_titlebar (headerbar);
+        var grid = new Gtk.Grid ();
+        grid.attach (headerbar, 0, 0);
+        grid.attach (shortcuts_view, 0, 1);
+
         skip_taskbar_hint = true;
+        add (grid);
 
         settings_button.clicked.connect (() => {
             try {

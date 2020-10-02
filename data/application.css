@@ -1,16 +1,7 @@
 decoration {
     box-shadow:
-        0 0 0 1px alpha (#000, 0.2),
-        0 8px 10px 1px alpha (#000, 0.14),
-        0 3px 14px 2px alpha (#000, 0.12),
-        0 5px 5px -3px alpha (#000, 0.4),
-        0 14px 28px transparent;
-}
-
-decoration:backdrop {
-    box-shadow:
-        0 0 0 1px alpha (#000, 0.2),
-        0 3px 6px alpha (#000, 0.16),
-        0 3px 6px alpha (#000, 0.23),
-        0 14px 28px transparent;
+        0 0 0 1px @borders,
+        0 3px 8px 2px alpha(black, 0.1),
+        0 5px 5px -3px alpha(black, 0.4),
+        0 8px 5px 1px alpha(black, 0.1);
 }
