@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-30 15:51-0700\n"
+"POT-Creation-Date: 2020-04-01 21:38+0000\n"
 "PO-Revision-Date: 2018-03-13 16:43-0700\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -38,13 +38,14 @@ msgid "cheatsheet;shortcut;overlay;"
 msgstr ""
 
 #: data/shortcut-overlay.appdata.xml.in:16
-msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
-msgstr ""
-
-#: data/shortcut-overlay.appdata.xml.in:17
+#: data/shortcut-overlay.appdata.xml.in:24
 msgid "Updated translations"
 msgstr ""
 
-#: data/shortcut-overlay.appdata.xml.in:60
+#: data/shortcut-overlay.appdata.xml.in:23
+msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
+msgstr ""
+
+#: data/shortcut-overlay.appdata.xml.in:67
 msgid "elementary, Inc."
 msgstr ""
