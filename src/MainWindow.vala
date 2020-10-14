@@ -41,6 +41,11 @@ public class ShortcutOverlay.MainWindow : Hdy.Window {
         headerbar.set_show_close_button (true);
         headerbar.pack_end (settings_button);
 
+        unowned Gtk.StyleContext headerbar_context = headerbar.get_style_context ();
+        headerbar_context.add_class ("default-decoration");
+        headerbar_context.add_class (Gtk.STYLE_CLASS_FLAT);
+        headerbar_context.add_class (Gtk.STYLE_CLASS_TITLEBAR);
+
         var shortcuts_view = new ShortcutsView ();
         shortcuts_view.margin = 36;
         shortcuts_view.margin_top = 12;
