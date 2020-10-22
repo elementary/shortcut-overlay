@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-01 21:38+0000\n"
-"PO-Revision-Date: 2020-10-13 20:38+0000\n"
+"PO-Revision-Date: 2020-10-23 18:15+0000\n"
 "Last-Translator: Fabio Zaramella <fabiozaramella@hotmail.it>\n"
 "Language-Team: Italian <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/it/>\n"
@@ -47,6 +47,8 @@ msgstr "Traduzioni aggiornate"
 #: data/shortcut-overlay.appdata.xml.in:23
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
 msgstr ""
+"Aggiunte le scorciatoie \"Cambia disposizione della tastiera\" e \"Chiudi "
+"finestra\""
 
 #: data/shortcut-overlay.appdata.xml.in:67
 msgid "elementary, Inc."
