@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-30 15:51-0700\n"
-"PO-Revision-Date: 2020-10-01 22:30+0000\n"
+"PO-Revision-Date: 2020-10-29 12:15+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "desktop/shortcut-overlay/zh_Hans/>\n"
@@ -57,7 +57,7 @@ msgstr "向右平铺："
 
 #: src/Views/ShortcutsView.vala:41
 msgid "Move to left workspace:"
-msgstr "移至左侧工作空间："
+msgstr "移至左侧工作区间："
 
 #: src/Views/ShortcutsView.vala:43
 msgid "Move to right workspace:"
@@ -105,7 +105,7 @@ msgstr "应用程序菜单："
 
 #: src/Views/ShortcutsView.vala:110
 msgid "Cycle display mode:"
-msgstr "循环切换显示模式："
+msgstr "循环显示模式："
 
 #: src/Views/ShortcutsView.vala:112
 msgid "Zoom in:"
