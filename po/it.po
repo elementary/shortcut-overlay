@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-30 15:51-0700\n"
-"PO-Revision-Date: 2020-10-23 18:15+0000\n"
+"PO-Revision-Date: 2020-11-07 11:15+0000\n"
 "Last-Translator: Fabio Zaramella <fabiozaramella@hotmail.it>\n"
 "Language-Team: Italian <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/it/>\n"
@@ -129,7 +129,7 @@ msgstr "Cambia disposizione della tastiera:"
 
 #: src/Views/ShortcutsView.vala:123
 msgid "Screenshots"
-msgstr "Schermate"
+msgstr "Catture dello schermo"
 
 #: src/Views/ShortcutsView.vala:124
 msgid "Grab the whole screen:"
