@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-30 15:51-0700\n"
-"PO-Revision-Date: 2019-04-15 16:25+0000\n"
-"Last-Translator: Jörg Arnold <j.ar@mailbox.org>\n"
-"Language-Team: German <https://l10n.elementary.io/projects/desktop/shortcut-"
-"overlay/de/>\n"
+"PO-Revision-Date: 2021-02-21 19:27+0000\n"
+"Last-Translator: Uwe S <saabisto@gmx.de>\n"
+"Language-Team: German <https://l10n.elementary.io/projects/desktop/"
+"shortcut-overlay/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.5.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:23
 msgid "Keyboard Shortcuts"
@@ -25,7 +25,7 @@ msgstr "Tastaturkürzel"
 
 #: src/MainWindow.vala:33
 msgid "Keyboard Settings…"
-msgstr "Tastatureinstellungen…"
+msgstr "Tastatureinstellungen …"
 
 #: src/ShortcutLabel.vala:74
 msgid "Disabled"
