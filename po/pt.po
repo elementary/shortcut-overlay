@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-30 15:51-0700\n"
-"PO-Revision-Date: 2021-04-22 00:22+0000\n"
+"PO-Revision-Date: 2021-05-02 16:01+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/pt/>\n"
@@ -73,7 +73,7 @@ msgstr "Áreas de trabalho"
 
 #: src/Views/ShortcutsView.vala:49
 msgid "Multitasking View:"
-msgstr "Vista de tarefas:"
+msgstr "Vista de Tarefas:"
 
 #: src/Views/ShortcutsView.vala:51
 msgid "Switch left:"
