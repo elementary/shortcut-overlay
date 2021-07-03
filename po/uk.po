@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-30 15:51-0700\n"
-"PO-Revision-Date: 2021-05-03 21:37+0000\n"
+"PO-Revision-Date: 2021-07-03 20:17+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/uk/>\n"
@@ -26,7 +26,7 @@ msgstr "Комбінації клавіш"
 
 #: src/MainWindow.vala:33
 msgid "Keyboard Settings…"
-msgstr "Параметри клавіатури…"
+msgstr "Налаштування клавіатури…"
 
 #: src/ShortcutLabel.vala:74
 msgid "Disabled"
