@@ -20,7 +20,7 @@ public class ShortcutOverlay.MainWindow : Hdy.Window {
         Object (
             application: application,
             resizable: false,
-            title: _("Keyboard Shortcuts")
+            title: _("Shortcuts")
         );
     }
 
@@ -35,7 +35,7 @@ public class ShortcutOverlay.MainWindow : Hdy.Window {
         settings_button.get_style_context ().add_class ("titlebutton");
 
         var headerbar = new Gtk.HeaderBar () {
-            title = _("Keyboard Shortcuts"),
+            title = _("Shortcuts"),
             has_subtitle = false
         };
         headerbar.set_show_close_button (true);
