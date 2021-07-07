@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-30 15:51-0700\n"
+"POT-Creation-Date: 2021-07-07 16:02+0000\n"
 "PO-Revision-Date: 2018-11-04 00:03+0000\n"
 "Last-Translator: Elvis Mujanović <elvis.mujanovic@gmail.com>\n"
 "Language-Team: Bosnian <https://weblate.elementary.io/projects/desktop/"
@@ -20,8 +20,10 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 3.0.1\n"
 
-#: src/MainWindow.vala:23
-msgid "Keyboard Shortcuts"
+#: src/MainWindow.vala:23 src/MainWindow.vala:38
+#, fuzzy
+#| msgid "Keyboard Shortcuts"
+msgid "Shortcuts"
 msgstr "Kratice na tastaturi"
 
 #: src/MainWindow.vala:33
@@ -138,12 +140,28 @@ msgid "Grab the whole screen:"
 msgstr "Obuhvati cijeli ekran:"
 
 #: src/Views/ShortcutsView.vala:126
+#, fuzzy
+#| msgid "Grab the whole screen:"
+msgid "Copy the whole screen to clipboard:"
+msgstr "Obuhvati cijeli ekran:"
+
+#: src/Views/ShortcutsView.vala:128
 msgid "Grab the current window:"
 msgstr "Obuhvati trenutni prozor:"
 
-#: src/Views/ShortcutsView.vala:128
+#: src/Views/ShortcutsView.vala:130
+#, fuzzy
+#| msgid "Grab the current window:"
+msgid "Copy the current window to clipboard:"
+msgstr "Obuhvati trenutni prozor:"
+
+#: src/Views/ShortcutsView.vala:132
 msgid "Select an area to grab:"
 msgstr "Odaberi prostor koji će biti obuhvaćen:"
+
+#: src/Views/ShortcutsView.vala:134
+msgid "Copy an area to clipboard:"
+msgstr ""
 
 #~ msgid "Shift"
 #~ msgstr "Shift"

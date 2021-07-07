@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-30 15:51-0700\n"
+"POT-Creation-Date: 2021-07-07 16:02+0000\n"
 "PO-Revision-Date: 2019-12-28 10:28+0000\n"
 "Last-Translator: Jaimie85 <alsemgeest@gmail.com>\n"
-"Language-Team: Dutch <https://l10n.elementary.io/projects/desktop/"
-"shortcut-overlay/nl/>\n"
+"Language-Team: Dutch <https://l10n.elementary.io/projects/desktop/shortcut-"
+"overlay/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,8 +19,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.9.1\n"
 
-#: src/MainWindow.vala:23
-msgid "Keyboard Shortcuts"
+#: src/MainWindow.vala:23 src/MainWindow.vala:38
+#, fuzzy
+#| msgid "Keyboard Shortcuts"
+msgid "Shortcuts"
 msgstr "Toetsenbord sneltoetsen"
 
 #: src/MainWindow.vala:33
@@ -136,9 +138,25 @@ msgid "Grab the whole screen:"
 msgstr "Leg het hele scherm vast:"
 
 #: src/Views/ShortcutsView.vala:126
+#, fuzzy
+#| msgid "Grab the whole screen:"
+msgid "Copy the whole screen to clipboard:"
+msgstr "Leg het hele scherm vast:"
+
+#: src/Views/ShortcutsView.vala:128
 msgid "Grab the current window:"
 msgstr "Leg het huidige venster vast:"
 
-#: src/Views/ShortcutsView.vala:128
+#: src/Views/ShortcutsView.vala:130
+#, fuzzy
+#| msgid "Grab the current window:"
+msgid "Copy the current window to clipboard:"
+msgstr "Leg het huidige venster vast:"
+
+#: src/Views/ShortcutsView.vala:132
 msgid "Select an area to grab:"
 msgstr "Selecteer een gebied om vast te leggen:"
+
+#: src/Views/ShortcutsView.vala:134
+msgid "Copy an area to clipboard:"
+msgstr ""

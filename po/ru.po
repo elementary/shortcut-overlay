@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-30 15:51-0700\n"
+"POT-Creation-Date: 2021-07-07 16:02+0000\n"
 "PO-Revision-Date: 2021-03-05 18:48+0000\n"
 "Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
-"Language-Team: Russian <https://l10n.elementary.io/projects/desktop/"
-"shortcut-overlay/ru/>\n"
+"Language-Team: Russian <https://l10n.elementary.io/projects/desktop/shortcut-"
+"overlay/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,8 +20,10 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: src/MainWindow.vala:23
-msgid "Keyboard Shortcuts"
+#: src/MainWindow.vala:23 src/MainWindow.vala:38
+#, fuzzy
+#| msgid "Keyboard Shortcuts"
+msgid "Shortcuts"
 msgstr "Горячие клавиши"
 
 #: src/MainWindow.vala:33
@@ -137,12 +139,28 @@ msgid "Grab the whole screen:"
 msgstr "Снять весь экран:"
 
 #: src/Views/ShortcutsView.vala:126
+#, fuzzy
+#| msgid "Grab the whole screen:"
+msgid "Copy the whole screen to clipboard:"
+msgstr "Снять весь экран:"
+
+#: src/Views/ShortcutsView.vala:128
 msgid "Grab the current window:"
 msgstr "Снять текущее окно:"
 
-#: src/Views/ShortcutsView.vala:128
+#: src/Views/ShortcutsView.vala:130
+#, fuzzy
+#| msgid "Grab the current window:"
+msgid "Copy the current window to clipboard:"
+msgstr "Снять текущее окно:"
+
+#: src/Views/ShortcutsView.vala:132
 msgid "Select an area to grab:"
 msgstr "Выбрать область для снимка:"
+
+#: src/Views/ShortcutsView.vala:134
+msgid "Copy an area to clipboard:"
+msgstr ""
 
 #~ msgid "Shift"
 #~ msgstr "Shift"

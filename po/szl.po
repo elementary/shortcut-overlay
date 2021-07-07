@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-30 15:51-0700\n"
+"POT-Creation-Date: 2021-07-07 16:02+0000\n"
 "PO-Revision-Date: 2020-02-25 22:08+0000\n"
 "Last-Translator: gkkulik <g.kulik@o2.pl>\n"
 "Language-Team: Silesian <https://l10n.elementary.io/projects/desktop/"
@@ -14,8 +14,10 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 3.9.1\n"
 
-#: src/MainWindow.vala:23
-msgid "Keyboard Shortcuts"
+#: src/MainWindow.vala:23 src/MainWindow.vala:38
+#, fuzzy
+#| msgid "Keyboard Shortcuts"
+msgid "Shortcuts"
 msgstr "Skrōty tastatury"
 
 #: src/MainWindow.vala:33
@@ -131,9 +133,25 @@ msgid "Grab the whole screen:"
 msgstr "Przechyć cołki ekran:"
 
 #: src/Views/ShortcutsView.vala:126
+#, fuzzy
+#| msgid "Grab the whole screen:"
+msgid "Copy the whole screen to clipboard:"
+msgstr "Przechyć cołki ekran:"
+
+#: src/Views/ShortcutsView.vala:128
 msgid "Grab the current window:"
 msgstr "Przechyć teroźne ôkno:"
 
-#: src/Views/ShortcutsView.vala:128
+#: src/Views/ShortcutsView.vala:130
+#, fuzzy
+#| msgid "Grab the current window:"
+msgid "Copy the current window to clipboard:"
+msgstr "Przechyć teroźne ôkno:"
+
+#: src/Views/ShortcutsView.vala:132
 msgid "Select an area to grab:"
 msgstr "Ôbier plac do przechytu:"
+
+#: src/Views/ShortcutsView.vala:134
+msgid "Copy an area to clipboard:"
+msgstr ""

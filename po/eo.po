@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-30 15:51-0700\n"
+"POT-Creation-Date: 2021-07-07 16:02+0000\n"
 "PO-Revision-Date: 2019-07-12 22:28+0000\n"
 "Last-Translator: Shtonchjo <shtonchjo@gmail.com>\n"
 "Language-Team: Esperanto <https://l10n.elementary.io/projects/desktop/"
@@ -19,8 +19,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.6.1\n"
 
-#: src/MainWindow.vala:23
-msgid "Keyboard Shortcuts"
+#: src/MainWindow.vala:23 src/MainWindow.vala:38
+#, fuzzy
+#| msgid "Keyboard Shortcuts"
+msgid "Shortcuts"
 msgstr "Fulmklavoj"
 
 #: src/MainWindow.vala:33
@@ -136,9 +138,25 @@ msgid "Grab the whole screen:"
 msgstr "Kapti la tutan ekranon:"
 
 #: src/Views/ShortcutsView.vala:126
+#, fuzzy
+#| msgid "Grab the whole screen:"
+msgid "Copy the whole screen to clipboard:"
+msgstr "Kapti la tutan ekranon:"
+
+#: src/Views/ShortcutsView.vala:128
 msgid "Grab the current window:"
 msgstr "Kapti la nunan fenestron:"
 
-#: src/Views/ShortcutsView.vala:128
+#: src/Views/ShortcutsView.vala:130
+#, fuzzy
+#| msgid "Grab the current window:"
+msgid "Copy the current window to clipboard:"
+msgstr "Kapti la nunan fenestron:"
+
+#: src/Views/ShortcutsView.vala:132
 msgid "Select an area to grab:"
 msgstr "Kapti elektotan areaĵon:"
+
+#: src/Views/ShortcutsView.vala:134
+msgid "Copy an area to clipboard:"
+msgstr ""

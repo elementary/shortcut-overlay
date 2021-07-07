@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-30 15:51-0700\n"
+"POT-Creation-Date: 2021-07-07 16:02+0000\n"
 "PO-Revision-Date: 2018-03-07 10:56-0800\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,8 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: src/MainWindow.vala:23
-msgid "Keyboard Shortcuts"
+#: src/MainWindow.vala:23 src/MainWindow.vala:38
+msgid "Shortcuts"
 msgstr ""
 
 #: src/MainWindow.vala:33
@@ -134,9 +134,21 @@ msgid "Grab the whole screen:"
 msgstr ""
 
 #: src/Views/ShortcutsView.vala:126
-msgid "Grab the current window:"
+msgid "Copy the whole screen to clipboard:"
 msgstr ""
 
 #: src/Views/ShortcutsView.vala:128
+msgid "Grab the current window:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:130
+msgid "Copy the current window to clipboard:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:132
 msgid "Select an area to grab:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:134
+msgid "Copy an area to clipboard:"
 msgstr ""
