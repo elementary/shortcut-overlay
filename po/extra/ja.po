@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-07 16:02+0000\n"
-"PO-Revision-Date: 2019-11-01 23:24+0000\n"
+"PO-Revision-Date: 2021-07-08 00:02+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/ja/>\n"
@@ -17,33 +17,27 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: data/shortcut-overlay.desktop.in:3
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
 msgid "Shortcuts"
-msgstr "キーボードショートカット"
+msgstr "ショートカット"
 
 #: data/shortcut-overlay.desktop.in:4 data/shortcut-overlay.appdata.xml.in:7
 msgid "Shortcut Overlay"
 msgstr "ショートカットオーバーレイ"
 
 #: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
-#, fuzzy
-#| msgid "View system keyboard shortcuts"
 msgid "View system shortcuts"
-msgstr "システムのキーボードショートカットを参照します"
+msgstr "システムのショートカットを表示します"
 
 #: data/shortcut-overlay.desktop.in:8
 msgid "preferences-desktop-keyboard"
 msgstr "preferences-desktop-keyboard"
 
 #: data/shortcut-overlay.desktop.in:13
-#, fuzzy
-#| msgid "cheatsheet;shortcut;overlay;"
 msgid "cheatsheet;shortcut;overlay;keyboard;"
-msgstr "cheatsheet;shortcut;overlay;チートシート;ショートカット;オーバーレイ;"
+msgstr "cheatsheet;shortcut;overlay;keyboard;チートシート;ショートカット;オーバーレイ;キーボード;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
 #: data/shortcut-overlay.appdata.xml.in:23
