@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-01 21:38+0000\n"
+"POT-Creation-Date: 2021-07-07 16:02+0000\n"
 "PO-Revision-Date: 2020-05-26 20:11+0000\n"
 "Last-Translator: Rantyrant <diseasemonger@gmail.com>\n"
-"Language-Team: Danish <https://l10n.elementary.io/projects/desktop/"
-"shortcut-overlay-extra/da/>\n"
+"Language-Team: Danish <https://l10n.elementary.io/projects/desktop/shortcut-"
+"overlay-extra/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +20,9 @@ msgstr ""
 "X-Generator: Weblate 3.9.1\n"
 
 #: data/shortcut-overlay.desktop.in:3
-msgid "Keyboard Shortcuts"
+#, fuzzy
+#| msgid "Keyboard Shortcuts"
+msgid "Shortcuts"
 msgstr "Tastaturgenveje"
 
 #: data/shortcut-overlay.desktop.in:4 data/shortcut-overlay.appdata.xml.in:7
@@ -28,7 +30,9 @@ msgid "Shortcut Overlay"
 msgstr "Genvejsoverlay"
 
 #: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
-msgid "View system keyboard shortcuts"
+#, fuzzy
+#| msgid "View system keyboard shortcuts"
+msgid "View system shortcuts"
 msgstr "Se system tastaturgenveje"
 
 #: data/shortcut-overlay.desktop.in:8
@@ -36,18 +40,21 @@ msgid "preferences-desktop-keyboard"
 msgstr "preferences-desktop-keyboard"
 
 #: data/shortcut-overlay.desktop.in:13
-msgid "cheatsheet;shortcut;overlay;"
+#, fuzzy
+#| msgid "cheatsheet;shortcut;overlay;"
+msgid "cheatsheet;shortcut;overlay;keyboard;"
 msgstr "hjælpeark;genvej;overlay;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
-#: data/shortcut-overlay.appdata.xml.in:24
+#: data/shortcut-overlay.appdata.xml.in:23
+#: data/shortcut-overlay.appdata.xml.in:31
 msgid "Updated translations"
 msgstr "Opdaterede oversættelser"
 
-#: data/shortcut-overlay.appdata.xml.in:23
+#: data/shortcut-overlay.appdata.xml.in:30
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
 msgstr "Tilføj \"Skift Layout\" og \"Luk Vindue\" genveje"
 
-#: data/shortcut-overlay.appdata.xml.in:67
+#: data/shortcut-overlay.appdata.xml.in:74
 msgid "elementary, Inc."
 msgstr "elementary, Incorporated."

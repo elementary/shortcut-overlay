@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-01 21:38+0000\n"
+"POT-Creation-Date: 2021-07-07 16:02+0000\n"
 "PO-Revision-Date: 2019-11-15 23:24+0000\n"
 "Last-Translator: Piotr Strebski <strebski@gmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/desktop/shortcut-"
@@ -21,7 +21,9 @@ msgstr ""
 "X-Generator: Weblate 3.7.1\n"
 
 #: data/shortcut-overlay.desktop.in:3
-msgid "Keyboard Shortcuts"
+#, fuzzy
+#| msgid "Keyboard Shortcuts"
+msgid "Shortcuts"
 msgstr "Skróty klawiszowe"
 
 #: data/shortcut-overlay.desktop.in:4 data/shortcut-overlay.appdata.xml.in:7
@@ -29,7 +31,9 @@ msgid "Shortcut Overlay"
 msgstr "Nakładka skrótów"
 
 #: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
-msgid "View system keyboard shortcuts"
+#, fuzzy
+#| msgid "View system keyboard shortcuts"
+msgid "View system shortcuts"
 msgstr "Wyświetl skróty klawiszowe systemu"
 
 #: data/shortcut-overlay.desktop.in:8
@@ -37,18 +41,21 @@ msgid "preferences-desktop-keyboard"
 msgstr "preferences-desktop-keyboard"
 
 #: data/shortcut-overlay.desktop.in:13
-msgid "cheatsheet;shortcut;overlay;"
+#, fuzzy
+#| msgid "cheatsheet;shortcut;overlay;"
+msgid "cheatsheet;shortcut;overlay;keyboard;"
 msgstr "ściągawka;skrót;nakładka;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
-#: data/shortcut-overlay.appdata.xml.in:24
+#: data/shortcut-overlay.appdata.xml.in:23
+#: data/shortcut-overlay.appdata.xml.in:31
 msgid "Updated translations"
 msgstr "Zaktualizowane tłumaczenia"
 
-#: data/shortcut-overlay.appdata.xml.in:23
+#: data/shortcut-overlay.appdata.xml.in:30
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
 msgstr "Dodaj skróty „Przełącz układ” i „Zamknij okno”"
 
-#: data/shortcut-overlay.appdata.xml.in:67
+#: data/shortcut-overlay.appdata.xml.in:74
 msgid "elementary, Inc."
 msgstr "elementary, Inc."

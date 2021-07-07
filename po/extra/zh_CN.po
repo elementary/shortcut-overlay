@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-01 21:38+0000\n"
+"POT-Creation-Date: 2021-07-07 16:02+0000\n"
 "PO-Revision-Date: 2020-05-28 18:52+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
@@ -20,7 +20,9 @@ msgstr ""
 "X-Generator: Weblate 3.9.1\n"
 
 #: data/shortcut-overlay.desktop.in:3
-msgid "Keyboard Shortcuts"
+#, fuzzy
+#| msgid "Keyboard Shortcuts"
+msgid "Shortcuts"
 msgstr "键盘快捷键"
 
 #: data/shortcut-overlay.desktop.in:4 data/shortcut-overlay.appdata.xml.in:7
@@ -28,7 +30,9 @@ msgid "Shortcut Overlay"
 msgstr "快捷键布局"
 
 #: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
-msgid "View system keyboard shortcuts"
+#, fuzzy
+#| msgid "View system keyboard shortcuts"
+msgid "View system shortcuts"
 msgstr "查看系统键盘快捷键"
 
 #: data/shortcut-overlay.desktop.in:8
@@ -36,18 +40,21 @@ msgid "preferences-desktop-keyboard"
 msgstr "preferences-desktop-keyboard"
 
 #: data/shortcut-overlay.desktop.in:13
-msgid "cheatsheet;shortcut;overlay;"
+#, fuzzy
+#| msgid "cheatsheet;shortcut;overlay;"
+msgid "cheatsheet;shortcut;overlay;keyboard;"
 msgstr "备忘录;快捷键;布局;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
-#: data/shortcut-overlay.appdata.xml.in:24
+#: data/shortcut-overlay.appdata.xml.in:23
+#: data/shortcut-overlay.appdata.xml.in:31
 msgid "Updated translations"
 msgstr "翻译更新"
 
-#: data/shortcut-overlay.appdata.xml.in:23
+#: data/shortcut-overlay.appdata.xml.in:30
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
 msgstr "添加 \"切换布局\" 和 \"关闭窗口\", 快捷键"
 
-#: data/shortcut-overlay.appdata.xml.in:67
+#: data/shortcut-overlay.appdata.xml.in:74
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
