@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-07 16:02+0000\n"
-"PO-Revision-Date: 2021-07-06 21:00+0000\n"
+"PO-Revision-Date: 2021-07-07 20:37+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/uk/>\n"
@@ -21,8 +21,6 @@ msgstr ""
 "X-Generator: Weblate 4.4.2\n"
 
 #: data/shortcut-overlay.desktop.in:3
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
 msgid "Shortcuts"
 msgstr "Комбінації клавіш"
 
@@ -31,8 +29,6 @@ msgid "Shortcut Overlay"
 msgstr "Перелік комбінацій клавіш"
 
 #: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
-#, fuzzy
-#| msgid "View system keyboard shortcuts"
 msgid "View system shortcuts"
 msgstr "Глянути системні комбінації клавіш"
 
@@ -41,10 +37,10 @@ msgid "preferences-desktop-keyboard"
 msgstr "preferences-desktop-keyboard"
 
 #: data/shortcut-overlay.desktop.in:13
-#, fuzzy
-#| msgid "cheatsheet;shortcut;overlay;"
 msgid "cheatsheet;shortcut;overlay;keyboard;"
-msgstr "скорочення;комбінація;клавіші;шорткат;"
+msgstr ""
+"скорочення;комбінація;клавіш;шорткат;клавіатура; "
+"cheatsheet;shortcut;overlay;keyboard;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
 #: data/shortcut-overlay.appdata.xml.in:23
