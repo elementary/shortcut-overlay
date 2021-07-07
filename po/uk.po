@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-07 16:02+0000\n"
-"PO-Revision-Date: 2021-07-03 20:17+0000\n"
+"PO-Revision-Date: 2021-07-07 20:37+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/uk/>\n"
@@ -21,8 +21,6 @@ msgstr ""
 "X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:23 src/MainWindow.vala:38
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
 msgid "Shortcuts"
 msgstr "Комбінації клавіш"
 
@@ -139,20 +137,16 @@ msgid "Grab the whole screen:"
 msgstr "Захопити весь екран:"
 
 #: src/Views/ShortcutsView.vala:126
-#, fuzzy
-#| msgid "Grab the whole screen:"
 msgid "Copy the whole screen to clipboard:"
-msgstr "Захопити весь екран:"
+msgstr "Скопіювати весь екран до буфера обміну:"
 
 #: src/Views/ShortcutsView.vala:128
 msgid "Grab the current window:"
 msgstr "Захопити поточне вікно:"
 
 #: src/Views/ShortcutsView.vala:130
-#, fuzzy
-#| msgid "Grab the current window:"
 msgid "Copy the current window to clipboard:"
-msgstr "Захопити поточне вікно:"
+msgstr "Скопіювати поточне вікно до буфера обміну:"
 
 #: src/Views/ShortcutsView.vala:132
 msgid "Select an area to grab:"
@@ -160,4 +154,4 @@ msgstr "Вибрати ділянку:"
 
 #: src/Views/ShortcutsView.vala:134
 msgid "Copy an area to clipboard:"
-msgstr ""
+msgstr "Скопіювати ділянку до буфера обміну:"
