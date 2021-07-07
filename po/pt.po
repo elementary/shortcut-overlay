@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-07 16:02+0000\n"
-"PO-Revision-Date: 2021-05-02 16:01+0000\n"
+"PO-Revision-Date: 2021-07-07 20:37+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/pt/>\n"
@@ -20,10 +20,8 @@ msgstr ""
 "X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:23 src/MainWindow.vala:38
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
 msgid "Shortcuts"
-msgstr "Teclas de atalho"
+msgstr "Atalhos"
 
 #: src/MainWindow.vala:33
 msgid "Keyboard Settings…"
@@ -138,20 +136,16 @@ msgid "Grab the whole screen:"
 msgstr "Capturar todo o ecrã:"
 
 #: src/Views/ShortcutsView.vala:126
-#, fuzzy
-#| msgid "Grab the whole screen:"
 msgid "Copy the whole screen to clipboard:"
-msgstr "Capturar todo o ecrã:"
+msgstr "Copiar o ecrã inteiro para a área de transferência:"
 
 #: src/Views/ShortcutsView.vala:128
 msgid "Grab the current window:"
 msgstr "Capturar a janela atual:"
 
 #: src/Views/ShortcutsView.vala:130
-#, fuzzy
-#| msgid "Grab the current window:"
 msgid "Copy the current window to clipboard:"
-msgstr "Capturar a janela atual:"
+msgstr "Copiar a janela atual para a área de transferência:"
 
 #: src/Views/ShortcutsView.vala:132
 msgid "Select an area to grab:"
@@ -159,7 +153,7 @@ msgstr "Selecione um área para capturar:"
 
 #: src/Views/ShortcutsView.vala:134
 msgid "Copy an area to clipboard:"
-msgstr ""
+msgstr "Copiar uma área para a área de transferência:"
 
 #~ msgid "Shift"
 #~ msgstr "Shift"
