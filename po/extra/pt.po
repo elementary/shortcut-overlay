@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-07 16:02+0000\n"
-"PO-Revision-Date: 2020-04-23 19:10+0000\n"
+"PO-Revision-Date: 2021-07-07 20:37+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/pt/>\n"
@@ -17,33 +17,27 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: data/shortcut-overlay.desktop.in:3
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
 msgid "Shortcuts"
-msgstr "Teclas de atalho"
+msgstr "Atalhos"
 
 #: data/shortcut-overlay.desktop.in:4 data/shortcut-overlay.appdata.xml.in:7
 msgid "Shortcut Overlay"
 msgstr "Visualização de atalhos"
 
 #: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
-#, fuzzy
-#| msgid "View system keyboard shortcuts"
 msgid "View system shortcuts"
-msgstr "Ver teclas de atalho do sistema"
+msgstr "Ver atalhos do sistema"
 
 #: data/shortcut-overlay.desktop.in:8
 msgid "preferences-desktop-keyboard"
 msgstr "preferences-desktop-keyboard"
 
 #: data/shortcut-overlay.desktop.in:13
-#, fuzzy
-#| msgid "cheatsheet;shortcut;overlay;"
 msgid "cheatsheet;shortcut;overlay;keyboard;"
-msgstr "cheatsheet;shortcut;overlay;"
+msgstr "cheatsheet;atalho;overlay;teclado;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
 #: data/shortcut-overlay.appdata.xml.in:23
