@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 18:05+0000\n"
-"PO-Revision-Date: 2021-07-07 20:37+0000\n"
+"PO-Revision-Date: 2021-07-14 21:48+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/pt/>\n"
@@ -40,14 +40,12 @@ msgid "cheatsheet;shortcut;overlay;keyboard;"
 msgstr "cheatsheet;atalho;overlay;teclado;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
-#, fuzzy
-#| msgid "View system shortcuts"
 msgid "Add screenshot shortcuts"
-msgstr "Ver atalhos do sistema"
+msgstr "Adiciona atalhos de captura de ecrã"
 
 #: data/shortcut-overlay.appdata.xml.in:17
 msgid "Fix issues with multiple windows"
-msgstr ""
+msgstr "Corrige problemas com várias janelas"
 
 #: data/shortcut-overlay.appdata.xml.in:18
 #: data/shortcut-overlay.appdata.xml.in:25
