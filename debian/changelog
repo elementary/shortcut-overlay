@@ -1,3 +1,19 @@
+io.elementary.shortcut-overlay (1.2.0) bionic; urgency=medium
+
+  * Release 1.2.0 (#99)
+  * Update screenshot
+  * Update translation files
+  * Update translation template
+  * MainWindow: Shorten title to 'Shortcuts' (#98)
+  * LINGUAS: Sort and remove en
+  * screenshots (#91)
+  * MainWindow: Fix headerbar styles (#87)
+  * Application: disallow multiple windows (#78)
+  * Subclass HdyWindow (#84)
+  * Use GitHub CI (#86)
+
+ -- elementary LLC. <builds@elementary.io>  Wed, 14 Jul 2021 18:05:08 +0000
+
 io.elementary.shortcut-overlay (1.1.2) bionic; urgency=medium
 
   * Release 1.1.2 (#81)
