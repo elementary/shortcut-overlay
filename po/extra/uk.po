@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-07 16:02+0000\n"
+"POT-Creation-Date: 2021-07-14 18:05+0000\n"
 "PO-Revision-Date: 2021-07-07 20:37+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/desktop/"
@@ -20,11 +20,11 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: data/shortcut-overlay.desktop.in:3
+#: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.appdata.xml.in:7
 msgid "Shortcuts"
 msgstr "Комбінації клавіш"
 
-#: data/shortcut-overlay.desktop.in:4 data/shortcut-overlay.appdata.xml.in:7
+#: data/shortcut-overlay.desktop.in:4
 msgid "Shortcut Overlay"
 msgstr "Перелік комбінацій клавіш"
 
@@ -39,19 +39,30 @@ msgstr "preferences-desktop-keyboard"
 #: data/shortcut-overlay.desktop.in:13
 msgid "cheatsheet;shortcut;overlay;keyboard;"
 msgstr ""
-"скорочення;комбінація;клавіш;шорткат;клавіатура; "
-"cheatsheet;shortcut;overlay;keyboard;"
+"скорочення;комбінація;клавіш;шорткат;клавіатура; cheatsheet;shortcut;overlay;"
+"keyboard;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
-#: data/shortcut-overlay.appdata.xml.in:23
-#: data/shortcut-overlay.appdata.xml.in:31
+#, fuzzy
+#| msgid "View system shortcuts"
+msgid "Add screenshot shortcuts"
+msgstr "Глянути системні комбінації клавіш"
+
+#: data/shortcut-overlay.appdata.xml.in:17
+msgid "Fix issues with multiple windows"
+msgstr ""
+
+#: data/shortcut-overlay.appdata.xml.in:18
+#: data/shortcut-overlay.appdata.xml.in:25
+#: data/shortcut-overlay.appdata.xml.in:32
+#: data/shortcut-overlay.appdata.xml.in:40
 msgid "Updated translations"
 msgstr "Оновлено переклади"
 
-#: data/shortcut-overlay.appdata.xml.in:30
+#: data/shortcut-overlay.appdata.xml.in:39
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
 msgstr "Додано комбінації «Змінити розкладку клавіатури» та «Закрити вікно»"
 
-#: data/shortcut-overlay.appdata.xml.in:74
+#: data/shortcut-overlay.appdata.xml.in:83
 msgid "elementary, Inc."
 msgstr "elementary, Inc."

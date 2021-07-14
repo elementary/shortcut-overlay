@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-07 16:02+0000\n"
+"POT-Creation-Date: 2021-07-14 18:05+0000\n"
 "PO-Revision-Date: 2020-02-25 22:08+0000\n"
 "Last-Translator: gkkulik <g.kulik@o2.pl>\n"
 "Language-Team: Silesian <https://l10n.elementary.io/projects/desktop/"
@@ -14,13 +14,13 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 3.9.1\n"
 
-#: data/shortcut-overlay.desktop.in:3
+#: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.appdata.xml.in:7
 #, fuzzy
 #| msgid "Keyboard Shortcuts"
 msgid "Shortcuts"
 msgstr "Skrōty tastatury"
 
-#: data/shortcut-overlay.desktop.in:4 data/shortcut-overlay.appdata.xml.in:7
+#: data/shortcut-overlay.desktop.in:4
 msgid "Shortcut Overlay"
 msgstr ""
 
@@ -37,15 +37,24 @@ msgid "cheatsheet;shortcut;overlay;keyboard;"
 msgstr ""
 
 #: data/shortcut-overlay.appdata.xml.in:16
-#: data/shortcut-overlay.appdata.xml.in:23
-#: data/shortcut-overlay.appdata.xml.in:31
+msgid "Add screenshot shortcuts"
+msgstr ""
+
+#: data/shortcut-overlay.appdata.xml.in:17
+msgid "Fix issues with multiple windows"
+msgstr ""
+
+#: data/shortcut-overlay.appdata.xml.in:18
+#: data/shortcut-overlay.appdata.xml.in:25
+#: data/shortcut-overlay.appdata.xml.in:32
+#: data/shortcut-overlay.appdata.xml.in:40
 msgid "Updated translations"
 msgstr ""
 
-#: data/shortcut-overlay.appdata.xml.in:30
+#: data/shortcut-overlay.appdata.xml.in:39
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
 msgstr ""
 
-#: data/shortcut-overlay.appdata.xml.in:74
+#: data/shortcut-overlay.appdata.xml.in:83
 msgid "elementary, Inc."
 msgstr ""
