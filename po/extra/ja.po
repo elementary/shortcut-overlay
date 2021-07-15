@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 18:05+0000\n"
-"PO-Revision-Date: 2021-07-08 00:02+0000\n"
+"PO-Revision-Date: 2021-07-15 06:16+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/ja/>\n"
@@ -42,14 +42,12 @@ msgstr ""
 "イ;キーボード;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
-#, fuzzy
-#| msgid "View system shortcuts"
 msgid "Add screenshot shortcuts"
-msgstr "システムのショートカットを表示します"
+msgstr "スクリーンショットのショートカットを追加"
 
 #: data/shortcut-overlay.appdata.xml.in:17
 msgid "Fix issues with multiple windows"
-msgstr ""
+msgstr "ウィンドウが複数表示される不具合を修正"
 
 #: data/shortcut-overlay.appdata.xml.in:18
 #: data/shortcut-overlay.appdata.xml.in:25
