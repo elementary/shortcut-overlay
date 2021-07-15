@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 18:05+0000\n"
-"PO-Revision-Date: 2021-07-08 00:02+0000\n"
+"PO-Revision-Date: 2021-07-15 11:59+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/ja/>\n"
@@ -73,7 +73,7 @@ msgstr "ワークスペース"
 
 #: src/Views/ShortcutsView.vala:49
 msgid "Multitasking View:"
-msgstr "マルチタスキングビュー:"
+msgstr "マルチタスク画面:"
 
 #: src/Views/ShortcutsView.vala:51
 msgid "Switch left:"
