@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 18:05+0000\n"
-"PO-Revision-Date: 2021-07-22 23:06+0000\n"
+"PO-Revision-Date: 2021-07-25 12:22+0000\n"
 "Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/ru/>\n"
@@ -22,15 +22,15 @@ msgstr ""
 
 #: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.appdata.xml.in:7
 msgid "Shortcuts"
-msgstr "Горячие клавиши"
+msgstr "Сочетания клавиш"
 
 #: data/shortcut-overlay.desktop.in:4
 msgid "Shortcut Overlay"
-msgstr "Сочетание Клавиш"
+msgstr "Окно сочетаний клавиш"
 
 #: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
 msgid "View system shortcuts"
-msgstr "Показать комбинации клавиш"
+msgstr "Посмотреть системные сочетания клавиш"
 
 #: data/shortcut-overlay.desktop.in:8
 msgid "preferences-desktop-keyboard"
@@ -42,7 +42,7 @@ msgstr "сокращение;комбинация;клавиши;шорткат;
 
 #: data/shortcut-overlay.appdata.xml.in:16
 msgid "Add screenshot shortcuts"
-msgstr "Добавлены горячие клавиши для снимков экрана"
+msgstr "Добавлены сочетания клавиш для снимков экрана"
 
 #: data/shortcut-overlay.appdata.xml.in:17
 msgid "Fix issues with multiple windows"
@@ -57,7 +57,7 @@ msgstr "Обновлены переводы"
 
 #: data/shortcut-overlay.appdata.xml.in:39
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
-msgstr "Добавлены комбинации «Изменить клавиатуру» и «Закрыть окно»"
+msgstr "Добавлены сочетания клавиш «Изменить клавиатуру» и «Закрыть окно»"
 
 #: data/shortcut-overlay.appdata.xml.in:83
 msgid "elementary, Inc."
