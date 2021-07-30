@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 18:05+0000\n"
-"PO-Revision-Date: 2021-07-26 23:02+0000\n"
-"Last-Translator: Corentin Noël <tintou@noel.tf>\n"
+"PO-Revision-Date: 2021-07-30 17:54+0000\n"
+"Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/fr/>\n"
 "Language: fr\n"
@@ -28,10 +28,8 @@ msgid "Shortcut Overlay"
 msgstr "Feuille de raccourcis"
 
 #: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
-#, fuzzy
-#| msgid "View system keyboard shortcuts"
 msgid "View system shortcuts"
-msgstr "Afficher les raccourcis clavier du système"
+msgstr "Affichage des raccourcis système"
 
 #: data/shortcut-overlay.desktop.in:8
 msgid "preferences-desktop-keyboard"
@@ -42,14 +40,12 @@ msgid "cheatsheet;shortcut;overlay;keyboard;"
 msgstr "antisèche;anti-sèche;raccourci;clavier;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
-#, fuzzy
-#| msgid "View system keyboard shortcuts"
 msgid "Add screenshot shortcuts"
-msgstr "Afficher les raccourcis clavier du système"
+msgstr "Ajout d'un raccourci pour la capture d'écran"
 
 #: data/shortcut-overlay.appdata.xml.in:17
 msgid "Fix issues with multiple windows"
-msgstr ""
+msgstr "Correction de problèmes lorsqu'il y avait plusieurs fenêtres"
 
 #: data/shortcut-overlay.appdata.xml.in:18
 #: data/shortcut-overlay.appdata.xml.in:25
