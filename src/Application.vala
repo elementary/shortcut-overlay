@@ -72,6 +72,11 @@ public class ShortcutOverlay.Application : Gtk.Application {
 }
 
 public static int main (string[] args) {
+    GLib.Intl.setlocale (LocaleCategory.ALL, "");
+    GLib.Intl.bindtextdomain (GETTEXT_PACKAGE, LOCALEDIR);
+    GLib.Intl.bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
+    GLib.Intl.textdomain (GETTEXT_PACKAGE);
+
     var application = new ShortcutOverlay.Application ();
     return application.run (args);
 }
