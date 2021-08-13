@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 18:05+0000\n"
-"PO-Revision-Date: 2021-07-25 12:22+0000\n"
-"Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
+"PO-Revision-Date: 2021-08-13 12:23+0000\n"
+"Last-Translator: DartDeaDia <DartDeaDia@protonmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/ru/>\n"
 "Language: ru\n"
@@ -70,7 +70,7 @@ msgstr "Режим картинка в картинке:"
 
 #: src/Views/ShortcutsView.vala:48
 msgid "Workspaces"
-msgstr "Рабочие столы"
+msgstr "Рабочие пространства"
 
 #: src/Views/ShortcutsView.vala:49
 msgid "Multitasking View:"
@@ -94,7 +94,7 @@ msgstr "Переключиться на новый рабочий стол:"
 
 #: src/Views/ShortcutsView.vala:59
 msgid "Cycle workspaces:"
-msgstr "Переключение между рабочими столами:"
+msgstr "Переключение между рабочимипространствами:"
 
 #: src/Views/ShortcutsView.vala:107
 msgid "System"
