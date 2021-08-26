@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 18:05+0000\n"
-"PO-Revision-Date: 2021-08-24 02:12+0000\n"
+"PO-Revision-Date: 2021-08-26 00:49+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/hu/>\n"
@@ -28,30 +28,25 @@ msgid "Shortcut Overlay"
 msgstr "Billentyűparancs áttekintés"
 
 #: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
-#, fuzzy
-#| msgid "View system keyboard shortcuts"
 msgid "View system shortcuts"
-msgstr "A rendszer billentyűparancsainak megtekintése"
+msgstr "A rendszer gyorsparancsainak megtekintése"
 
 #: data/shortcut-overlay.desktop.in:8
 msgid "preferences-desktop-keyboard"
 msgstr "preferences-desktop-keyboard"
 
 #: data/shortcut-overlay.desktop.in:13
-#, fuzzy
-#| msgid "cheatsheet;shortcut;overlay;"
 msgid "cheatsheet;shortcut;overlay;keyboard;"
-msgstr "cheatsheet;shortcut;overlay;puska;billentyűparancs;áttekintés;"
+msgstr ""
+"cheatsheet;shortcut;overlay;puska;billentyűparancs;áttekintés;billentyűzet;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
-#, fuzzy
-#| msgid "View system keyboard shortcuts"
 msgid "Add screenshot shortcuts"
-msgstr "A rendszer billentyűparancsainak megtekintése"
+msgstr "Képernyőkép-gyorsparancs hozzáaadva"
 
 #: data/shortcut-overlay.appdata.xml.in:17
 msgid "Fix issues with multiple windows"
-msgstr ""
+msgstr "Többablakos mód problémái javítva"
 
 #: data/shortcut-overlay.appdata.xml.in:18
 #: data/shortcut-overlay.appdata.xml.in:25
@@ -62,7 +57,7 @@ msgstr "Frissített fordítások"
 
 #: data/shortcut-overlay.appdata.xml.in:39
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
-msgstr ""
+msgstr "\"Kiosztás váltása\" és \"Ablak bezárása\" gyorsparancsok"
 
 #: data/shortcut-overlay.appdata.xml.in:83
 msgid "elementary, Inc."
