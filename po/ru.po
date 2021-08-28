@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 18:05+0000\n"
-"PO-Revision-Date: 2021-08-13 12:23+0000\n"
-"Last-Translator: DartDeaDia <DartDeaDia@protonmail.com>\n"
+"PO-Revision-Date: 2021-08-28 20:32+0000\n"
+"Last-Translator: DartDeaDia <dartdeadia@protonmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/ru/>\n"
 "Language: ru\n"
@@ -58,11 +58,11 @@ msgstr "Закрепить справа:"
 
 #: src/Views/ShortcutsView.vala:41
 msgid "Move to left workspace:"
-msgstr "Переместить на рабочий стол слева:"
+msgstr "Переместить на рабочее пространство слева:"
 
 #: src/Views/ShortcutsView.vala:43
 msgid "Move to right workspace:"
-msgstr "Переместить на рабочий стол справа:"
+msgstr "Переместить на рабочее пространство справа:"
 
 #: src/Views/ShortcutsView.vala:45
 msgid "Picture in Picture Mode:"
