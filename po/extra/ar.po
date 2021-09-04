@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 18:05+0000\n"
-"PO-Revision-Date: 2021-08-27 18:48+0000\n"
+"PO-Revision-Date: 2021-09-04 17:03+0000\n"
 "Last-Translator: Muhammad Al-Jayyousi <m7md.j99@protonmail.com>\n"
 "Language-Team: Arabic <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/ar/>\n"
@@ -21,20 +21,16 @@ msgstr ""
 "X-Generator: Weblate 4.4.2\n"
 
 #: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.appdata.xml.in:7
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
 msgid "Shortcuts"
-msgstr "إختصارات لوحة المفاتيح"
+msgstr "الاختصارات"
 
 #: data/shortcut-overlay.desktop.in:4
 msgid "Shortcut Overlay"
-msgstr ""
+msgstr "خريطة الاختصارات"
 
 #: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
-#, fuzzy
-#| msgid "View system keyboard shortcuts"
 msgid "View system shortcuts"
-msgstr "عرض اختصارات لوحة مفاتيح النظام"
+msgstr "اعرض اختصارات النظام"
 
 #: data/shortcut-overlay.desktop.in:8
 msgid "preferences-desktop-keyboard"
@@ -42,17 +38,15 @@ msgstr ""
 
 #: data/shortcut-overlay.desktop.in:13
 msgid "cheatsheet;shortcut;overlay;keyboard;"
-msgstr ""
+msgstr "اختصار;خريطة;لوحة المفاتيح;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
-#, fuzzy
-#| msgid "View system keyboard shortcuts"
 msgid "Add screenshot shortcuts"
-msgstr "عرض اختصارات لوحة مفاتيح النظام"
+msgstr "إضافة اختصارات لقطات الشاشة"
 
 #: data/shortcut-overlay.appdata.xml.in:17
 msgid "Fix issues with multiple windows"
-msgstr ""
+msgstr "إصلاح مشاكل النوافذ المتعددة"
 
 #: data/shortcut-overlay.appdata.xml.in:18
 #: data/shortcut-overlay.appdata.xml.in:25
@@ -63,7 +57,7 @@ msgstr "تحديثات على الترجمة"
 
 #: data/shortcut-overlay.appdata.xml.in:39
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
-msgstr ""
+msgstr "إضافة الاختصارات \"تغيير تخطيط لوحة المفاتيح\" و\"إغلاق النافذة\""
 
 #: data/shortcut-overlay.appdata.xml.in:83
 msgid "elementary, Inc."
