@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 18:05+0000\n"
-"PO-Revision-Date: 2021-08-15 13:18+0000\n"
+"PO-Revision-Date: 2021-09-29 02:28+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/nb/>\n"
@@ -20,10 +20,8 @@ msgstr ""
 "X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:23 src/MainWindow.vala:38
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
 msgid "Shortcuts"
-msgstr "Tastatursnarveier"
+msgstr "Snarveier"
 
 #: src/MainWindow.vala:33
 msgid "Keyboard Settings…"
@@ -138,20 +136,16 @@ msgid "Grab the whole screen:"
 msgstr "Ta med hele skjermen:"
 
 #: src/Views/ShortcutsView.vala:126
-#, fuzzy
-#| msgid "Grab the whole screen:"
 msgid "Copy the whole screen to clipboard:"
-msgstr "Ta med hele skjermen:"
+msgstr "Kopier hele skjermen til utklippstavlen:"
 
 #: src/Views/ShortcutsView.vala:128
 msgid "Grab the current window:"
 msgstr "Ta gjeldende vindu:"
 
 #: src/Views/ShortcutsView.vala:130
-#, fuzzy
-#| msgid "Grab the current window:"
 msgid "Copy the current window to clipboard:"
-msgstr "Ta gjeldende vindu:"
+msgstr "Kopier gjeldende vindu til utklippstavlen:"
 
 #: src/Views/ShortcutsView.vala:132
 msgid "Select an area to grab:"
