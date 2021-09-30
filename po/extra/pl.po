@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 18:05+0000\n"
-"PO-Revision-Date: 2021-09-29 10:46+0000\n"
+"PO-Revision-Date: 2021-09-30 11:23+0000\n"
 "Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/pl/>\n"
@@ -21,10 +21,8 @@ msgstr ""
 "X-Generator: Weblate 4.4.2\n"
 
 #: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.appdata.xml.in:7
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
 msgid "Shortcuts"
-msgstr "Skróty klawiszowe"
+msgstr "Skróty"
 
 #: data/shortcut-overlay.desktop.in:4
 msgid "Shortcut Overlay"
