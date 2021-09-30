@@ -8,23 +8,21 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 18:05+0000\n"
-"PO-Revision-Date: 2019-04-08 12:53+0000\n"
-"Last-Translator: Piotr Strebski <strebski@gmail.com>\n"
-"Language-Team: Polish <https://l10n.elementary.io/projects/desktop/shortcut-"
-"overlay/pl/>\n"
+"PO-Revision-Date: 2021-09-30 11:23+0000\n"
+"Last-Translator: DarkKnightComes <darkknightcomes@gmail.com>\n"
+"Language-Team: Polish <https://l10n.elementary.io/projects/desktop/"
+"shortcut-overlay/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.5.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:23 src/MainWindow.vala:38
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
 msgid "Shortcuts"
-msgstr "Skróty klawiszowe"
+msgstr "Skróty"
 
 #: src/MainWindow.vala:33
 msgid "Keyboard Settings…"
@@ -139,20 +137,16 @@ msgid "Grab the whole screen:"
 msgstr "Pobierz cały ekran:"
 
 #: src/Views/ShortcutsView.vala:126
-#, fuzzy
-#| msgid "Grab the whole screen:"
 msgid "Copy the whole screen to clipboard:"
-msgstr "Pobierz cały ekran:"
+msgstr "Kopiuj cały ekran do schowka:"
 
 #: src/Views/ShortcutsView.vala:128
 msgid "Grab the current window:"
 msgstr "Pobierz bieżące okno:"
 
 #: src/Views/ShortcutsView.vala:130
-#, fuzzy
-#| msgid "Grab the current window:"
 msgid "Copy the current window to clipboard:"
-msgstr "Pobierz bieżące okno:"
+msgstr "Kopiuj bieżące okno do schowka:"
 
 #: src/Views/ShortcutsView.vala:132
 msgid "Select an area to grab:"
@@ -160,7 +154,7 @@ msgstr "Wybierz obszar do pobrania:"
 
 #: src/Views/ShortcutsView.vala:134
 msgid "Copy an area to clipboard:"
-msgstr ""
+msgstr "Kopiuj obszar do schowka:"
 
 #~ msgid "Shift"
 #~ msgstr "Shift"
