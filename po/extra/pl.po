@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 18:05+0000\n"
-"PO-Revision-Date: 2021-09-30 11:23+0000\n"
+"PO-Revision-Date: 2021-10-01 10:11+0000\n"
 "Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/pl/>\n"
@@ -29,8 +29,6 @@ msgid "Shortcut Overlay"
 msgstr "Nakładka skrótów"
 
 #: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
-#, fuzzy
-#| msgid "View system keyboard shortcuts"
 msgid "View system shortcuts"
 msgstr "Wyświetl skróty klawiszowe systemu"
 
@@ -45,14 +43,12 @@ msgid "cheatsheet;shortcut;overlay;keyboard;"
 msgstr "ściągawka;skrót;nakładka;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
-#, fuzzy
-#| msgid "View system keyboard shortcuts"
 msgid "Add screenshot shortcuts"
-msgstr "Wyświetl skróty klawiszowe systemu"
+msgstr "Dodano skróty klawiszowe do zrzutu ekranu"
 
 #: data/shortcut-overlay.appdata.xml.in:17
 msgid "Fix issues with multiple windows"
-msgstr ""
+msgstr "Naprawiono problemy z wieloma oknami"
 
 #: data/shortcut-overlay.appdata.xml.in:18
 #: data/shortcut-overlay.appdata.xml.in:25
