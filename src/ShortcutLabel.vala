@@ -21,9 +21,13 @@ public class ShortcutLabel : Gtk.Grid {
 
     private static Gee.ArrayList<Settings> settings_list;
     private static Settings get_settings_for_schema (string schema_id) {
-        foreach (var settings in settings_list) {
-            if (settings.schema_id == schema_id) {
-                return settings;
+        if (settings_list == null) {
+            settings_list = new Gee.ArrayList<Settings> ();
+        } else if (settings_list.size > 0) {
+            foreach (var settings in settings_list) {
+                if (settings.schema_id == schema_id) {
+                    return settings;
+                }
             }
         }
 
@@ -52,10 +56,6 @@ public class ShortcutLabel : Gtk.Grid {
         }
 
         Object (accels: accels);
-    }
-
-    static construct {
-        settings_list = new Gee.ArrayList<Settings> ();
     }
 
     construct {
