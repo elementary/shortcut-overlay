@@ -10,6 +10,14 @@
     <p></p>
   </description>
   <releases>
+    <release version="1.2.1" date="2021-10-25" urgency="low">
+      <description>
+        <ul>
+          <li>Fix the app doesn't launch if a shortcut key is set to blank</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.2.0" date="2021-07-14" urgency="medium">
       <description>
         <ul>
