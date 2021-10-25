@@ -29,16 +29,17 @@ public class ShortcutOverlay.MainWindow : Hdy.Window {
         css_provider.load_from_resource ("io/elementary/shortcut-overlay/application.css");
         Gtk.StyleContext.add_provider_for_screen (get_screen (), css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
-        var settings_button = new Gtk.Button.from_icon_name ("preferences-system-symbolic", Gtk.IconSize.MENU);
-        settings_button.tooltip_text = _("Keyboard Settings…");
-        settings_button.valign = Gtk.Align.CENTER;
+        var settings_button = new Gtk.Button.from_icon_name ("preferences-system-symbolic", Gtk.IconSize.MENU) {
+            tooltip_text = _("Keyboard Settings…"),
+            valign = Gtk.Align.CENTER
+        };
         settings_button.get_style_context ().add_class ("titlebutton");
 
         var headerbar = new Gtk.HeaderBar () {
             title = _("Shortcuts"),
-            has_subtitle = false
+            has_subtitle = false,
+            show_close_button = true
         };
-        headerbar.set_show_close_button (true);
         headerbar.pack_end (settings_button);
 
         unowned Gtk.StyleContext headerbar_context = headerbar.get_style_context ();
@@ -46,13 +47,16 @@ public class ShortcutOverlay.MainWindow : Hdy.Window {
         headerbar_context.add_class (Gtk.STYLE_CLASS_FLAT);
         headerbar_context.add_class (Gtk.STYLE_CLASS_TITLEBAR);
 
-        var shortcuts_view = new ShortcutsView ();
-        shortcuts_view.margin = 36;
-        shortcuts_view.margin_top = 12;
+        var shortcuts_view = new ShortcutsView () {
+            margin = 36,
+            margin_top = 12
+        };
 
-        var grid = new Gtk.Grid ();
-        grid.attach (headerbar, 0, 0);
-        grid.attach (shortcuts_view, 0, 1);
+        var grid = new Gtk.Grid () {
+            orientation = Gtk.Orientation.VERTICAL
+        };
+        grid.add (headerbar);
+        grid.add (shortcuts_view);
 
         skip_taskbar_hint = true;
         add (grid);
