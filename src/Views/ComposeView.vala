@@ -64,8 +64,8 @@ public class ShortcutOverlay.ComposeView : Gtk.Grid {
         key_grid.add (key3_label);
 
         grid.attach (instructions, 0, 0, 2, 1);
-        grid.attach (name_label,   0, 1, 1, 1);
-        grid.attach (key_grid,     1, 1, 1, 1);
+        grid.attach (name_label, 0, 1, 1, 1);
+        grid.attach (key_grid, 1, 1, 1, 1);
 
         add (grid);
     }
