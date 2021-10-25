@@ -13,7 +13,7 @@
     <release version="1.2.1" date="2021-10-25" urgency="low">
       <description>
         <ul>
-          <li>Fix the app doesn't launch if a shortcut key is set to blank</li>
+          <li>Fix the app not launching if a shortcut key is set to blank</li>
           <li>Updated translations</li>
         </ul>
       </description>
