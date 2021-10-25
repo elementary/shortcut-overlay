@@ -7,10 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-13 15:59-0700\n"
-"PO-Revision-Date: 2018-03-17 10:10+0000\n"
-"Last-Translator: Piotr Strebski <strebski@o2.pl>\n"
-"Language-Team: Polish <https://weblate.elementary.io/projects/desktop/"
+"POT-Creation-Date: 2021-07-14 18:05+0000\n"
+"PO-Revision-Date: 2021-10-01 10:11+0000\n"
+"Last-Translator: Kamil Makowski <kamil.makowski97@gmail.com>\n"
+"Language-Team: Polish <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -18,24 +18,47 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 4.4.2\n"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:3
-msgid "Keyboard Shortcuts"
-msgstr "Skróty klawiszowe"
+#: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.appdata.xml.in:7
+msgid "Shortcuts"
+msgstr "Skróty"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:4
+#: data/shortcut-overlay.desktop.in:4
 msgid "Shortcut Overlay"
 msgstr "Nakładka skrótów"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:5
-msgid "View system keyboard shortcuts"
+#: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
+msgid "View system shortcuts"
 msgstr "Wyświetl skróty klawiszowe systemu"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:8
+#: data/shortcut-overlay.desktop.in:8
 msgid "preferences-desktop-keyboard"
 msgstr "preferences-desktop-keyboard"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:13
-msgid "cheatsheet;shortcut;overlay;"
-msgstr "oszukanie;skrót;nakładka;"
+#: data/shortcut-overlay.desktop.in:13
+msgid "cheatsheet;shortcut;overlay;keyboard;"
+msgstr "ściągawka;skrót;nakładka;klawiatura;"
+
+#: data/shortcut-overlay.appdata.xml.in:16
+msgid "Add screenshot shortcuts"
+msgstr "Dodano skróty klawiszowe do zrzutu ekranu"
+
+#: data/shortcut-overlay.appdata.xml.in:17
+msgid "Fix issues with multiple windows"
+msgstr "Naprawiono problemy z wieloma oknami"
+
+#: data/shortcut-overlay.appdata.xml.in:18
+#: data/shortcut-overlay.appdata.xml.in:25
+#: data/shortcut-overlay.appdata.xml.in:32
+#: data/shortcut-overlay.appdata.xml.in:40
+msgid "Updated translations"
+msgstr "Zaktualizowano tłumaczenia"
+
+#: data/shortcut-overlay.appdata.xml.in:39
+msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
+msgstr "Dodaj skróty „Przełącz układ” i „Zamknij okno”"
+
+#: data/shortcut-overlay.appdata.xml.in:83
+msgid "elementary, Inc."
+msgstr "elementary, Inc."

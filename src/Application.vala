@@ -25,7 +25,7 @@ public class ShortcutOverlay.Application : Gtk.Application {
 
     protected override void activate () {
         unowned List<Gtk.Window> windows = get_windows ();
-        if (windows.length () > 0 && !windows.data.visible) {
+        if (windows.length () > 0) {
             windows.data.destroy ();
             return;
         }
@@ -59,10 +59,24 @@ public class ShortcutOverlay.Application : Gtk.Application {
                 });
             }
         });
+
+        var granite_settings = Granite.Settings.get_default ();
+        var gtk_settings = Gtk.Settings.get_default ();
+
+        gtk_settings.gtk_application_prefer_dark_theme = granite_settings.prefers_color_scheme == Granite.Settings.ColorScheme.DARK;
+
+        granite_settings.notify["prefers-color-scheme"].connect (() => {
+            gtk_settings.gtk_application_prefer_dark_theme = granite_settings.prefers_color_scheme == Granite.Settings.ColorScheme.DARK;
+        });
     }
 }
 
 public static int main (string[] args) {
+    GLib.Intl.setlocale (LocaleCategory.ALL, "");
+    GLib.Intl.bindtextdomain (GETTEXT_PACKAGE, LOCALEDIR);
+    GLib.Intl.bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
+    GLib.Intl.textdomain (GETTEXT_PACKAGE);
+
     var application = new ShortcutOverlay.Application ();
     return application.run (args);
 }

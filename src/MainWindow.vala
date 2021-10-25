@@ -15,13 +15,12 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-public class ShortcutOverlay.MainWindow : Gtk.Window {
+public class ShortcutOverlay.MainWindow : Hdy.Window {
     public MainWindow (Gtk.Application application) {
         Object (
             application: application,
             resizable: false,
-            title: _("Keyboard Shortcuts"),
-            width_request: 910
+            title: _("Shortcuts")
         );
     }
 
@@ -35,18 +34,26 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
         settings_button.valign = Gtk.Align.CENTER;
         settings_button.get_style_context ().add_class ("titlebutton");
 
-        var headerbar = new Gtk.HeaderBar ();
-        headerbar.has_subtitle = false;
+        var headerbar = new Gtk.HeaderBar () {
+            title = _("Shortcuts"),
+            has_subtitle = false
+        };
         headerbar.set_show_close_button (true);
         headerbar.pack_end (settings_button);
 
-        var headerbar_style_context =  headerbar.get_style_context ();
-        headerbar_style_context.add_class (Gtk.STYLE_CLASS_FLAT);
-        headerbar_style_context.add_class ("default-decoration");
+        unowned Gtk.StyleContext headerbar_context = headerbar.get_style_context ();
+        headerbar_context.add_class ("default-decoration");
+        headerbar_context.add_class (Gtk.STYLE_CLASS_FLAT);
+        headerbar_context.add_class (Gtk.STYLE_CLASS_TITLEBAR);
 
         var shortcuts_view = new ShortcutsView ();
+        shortcuts_view.margin = 36;
+        shortcuts_view.margin_top = 12;
 
         var compose_view = new ComposeView ();
+        compose_view.margin_start = 12;
+        compose_view.margin_end = 12;
+        compose_view.margin_bottom = 32;
 
         var stack = new Gtk.Stack ();
         stack.add_titled (shortcuts_view, "shortcuts", _("Shortcuts"));
@@ -59,17 +66,13 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
         stack_switcher.stack = stack;
 
         var grid = new Gtk.Grid ();
-        grid.margin_start = grid.margin_end = 12;
-        grid.margin_bottom = 32;
         grid.orientation = Gtk.Orientation.VERTICAL;
+        grid.add (headerbar);
         grid.add (stack_switcher);
         grid.add (stack);
 
-        add (grid);
-
-        get_style_context ().add_class ("rounded");
-        set_titlebar (headerbar);
         skip_taskbar_hint = true;
+        add (grid);
 
         settings_button.clicked.connect (() => {
             try {

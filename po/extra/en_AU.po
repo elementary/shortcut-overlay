@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-13 15:59-0700\n"
+"POT-Creation-Date: 2021-07-14 18:05+0000\n"
 "PO-Revision-Date: 2018-03-13 16:43-0700\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,22 +17,53 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:3
-msgid "Keyboard Shortcuts"
+#: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.appdata.xml.in:7
+#, fuzzy
+#| msgid "Keyboard Shortcuts"
+msgid "Shortcuts"
 msgstr "Keyboard Shortcuts"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:4
+#: data/shortcut-overlay.desktop.in:4
 msgid "Shortcut Overlay"
 msgstr "Shortcut Overlay"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:5
-msgid "View system keyboard shortcuts"
+#: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
+#, fuzzy
+#| msgid "View system keyboard shortcuts"
+msgid "View system shortcuts"
 msgstr "View system keyboard shortcuts"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:8
+#: data/shortcut-overlay.desktop.in:8
 msgid "preferences-desktop-keyboard"
 msgstr "preferences-desktop-keyboard"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:13
-msgid "cheatsheet;shortcut;overlay;"
+#: data/shortcut-overlay.desktop.in:13
+#, fuzzy
+#| msgid "cheatsheet;shortcut;overlay;"
+msgid "cheatsheet;shortcut;overlay;keyboard;"
 msgstr "cheatsheet;shortcut;overlay;"
+
+#: data/shortcut-overlay.appdata.xml.in:16
+#, fuzzy
+#| msgid "View system keyboard shortcuts"
+msgid "Add screenshot shortcuts"
+msgstr "View system keyboard shortcuts"
+
+#: data/shortcut-overlay.appdata.xml.in:17
+msgid "Fix issues with multiple windows"
+msgstr ""
+
+#: data/shortcut-overlay.appdata.xml.in:18
+#: data/shortcut-overlay.appdata.xml.in:25
+#: data/shortcut-overlay.appdata.xml.in:32
+#: data/shortcut-overlay.appdata.xml.in:40
+msgid "Updated translations"
+msgstr ""
+
+#: data/shortcut-overlay.appdata.xml.in:39
+msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
+msgstr ""
+
+#: data/shortcut-overlay.appdata.xml.in:83
+msgid "elementary, Inc."
+msgstr ""

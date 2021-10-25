@@ -1,14 +1,14 @@
-# Church Slavic translations for io.elementary.shortcut-overlay package.
-# Copyright (C) 2018 THE io.elementary.shortcut-overlay'S COPYRIGHT HOLDER
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the io.elementary.shortcut-overlay package.
-# Automatically generated, 2018.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-13 15:59-0700\n"
-"PO-Revision-Date: 2018-03-07 10:56-0800\n"
+"POT-Creation-Date: 2021-07-14 18:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: cu\n"
@@ -16,130 +16,138 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/MainWindow.vala:23
-msgid "Keyboard Shortcuts"
+#: src/MainWindow.vala:23 src/MainWindow.vala:38
+msgid "Shortcuts"
 msgstr ""
 
-#: src/MainWindow.vala:34
+#: src/MainWindow.vala:33
 msgid "Keyboard Settings…"
 msgstr ""
 
-#: src/ShortcutEntry.vala:68
-msgid "Shift"
-msgstr ""
-
-#: src/ShortcutEntry.vala:72
-msgid "Ctrl"
-msgstr ""
-
-#: src/ShortcutEntry.vala:76
-msgid "Alt"
-msgstr ""
-
-#: src/ShortcutLabel.vala:47
+#: src/ShortcutLabel.vala:74
 msgid "Disabled"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:33
-msgid "Applications Menu:"
-msgstr ""
-
-#: src/Views/ShortcutsView.vala:34
-msgid "Cycle display mode:"
-msgstr ""
-
-#: src/Views/ShortcutsView.vala:35
-msgid "Zoom in:"
-msgstr ""
-
-#: src/Views/ShortcutsView.vala:36
-msgid "Zoom out:"
-msgstr ""
-
-#: src/Views/ShortcutsView.vala:37
-msgid "Lock screen:"
-msgstr ""
-
-#: src/Views/ShortcutsView.vala:38
-msgid "Log out:"
-msgstr ""
-
-#: src/Views/ShortcutsView.vala:41
-msgid "Grab the whole screen:"
-msgstr ""
-
-#: src/Views/ShortcutsView.vala:42
-msgid "Grab the current window:"
-msgstr ""
-
-#: src/Views/ShortcutsView.vala:43
-msgid "Select an area to grab:"
-msgstr ""
-
-#: src/Views/ShortcutsView.vala:46
-msgid "Cycle windows:"
-msgstr ""
-
-#: src/Views/ShortcutsView.vala:47
-msgid "Toggle maximized:"
-msgstr ""
-
-#: src/Views/ShortcutsView.vala:48
-msgid "Tile left:"
-msgstr ""
-
-#: src/Views/ShortcutsView.vala:49
-msgid "Tile right:"
-msgstr ""
-
-#: src/Views/ShortcutsView.vala:50
-msgid "Move to left workspace:"
-msgstr ""
-
-#: src/Views/ShortcutsView.vala:51
-msgid "Move to right workspace:"
-msgstr ""
-
-#: src/Views/ShortcutsView.vala:52
-msgid "Picture in Picture Mode:"
-msgstr ""
-
-#: src/Views/ShortcutsView.vala:55
-msgid "Multitasking View:"
-msgstr ""
-
-#: src/Views/ShortcutsView.vala:56
-msgid "Switch left:"
-msgstr ""
-
-#: src/Views/ShortcutsView.vala:57
-msgid "Switch right:"
-msgstr ""
-
-#: src/Views/ShortcutsView.vala:58
-msgid "Switch to first:"
-msgstr ""
-
-#: src/Views/ShortcutsView.vala:59
-msgid "Switch to new:"
-msgstr ""
-
-#: src/Views/ShortcutsView.vala:60
-msgid "Cycle workspaces:"
-msgstr ""
-
-#: src/Views/ShortcutsView.vala:71
+#: src/Views/ShortcutsView.vala:30
 msgid "Windows"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:75
+#: src/Views/ShortcutsView.vala:31
+msgid "Close window:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:33
+msgid "Cycle windows:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:35
+msgid "Toggle maximized:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:37
+msgid "Tile left:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:39
+msgid "Tile right:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:41
+msgid "Move to left workspace:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:43
+msgid "Move to right workspace:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:45
+msgid "Picture in Picture Mode:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:48
 msgid "Workspaces"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:85
+#: src/Views/ShortcutsView.vala:49
+msgid "Multitasking View:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:51
+msgid "Switch left:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:53
+msgid "Switch right:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:55
+msgid "Switch to first:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:57
+msgid "Switch to new:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:59
+msgid "Cycle workspaces:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:107
 msgid "System"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:89
+#: src/Views/ShortcutsView.vala:108
+msgid "Applications Menu:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:110
+msgid "Cycle display mode:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:112
+msgid "Zoom in:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:114
+msgid "Zoom out:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:116
+msgid "Lock screen:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:118
+msgid "Log out:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:120
+msgid "Switch keyboard layout:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:123
 msgid "Screenshots"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:124
+msgid "Grab the whole screen:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:126
+msgid "Copy the whole screen to clipboard:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:128
+msgid "Grab the current window:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:130
+msgid "Copy the current window to clipboard:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:132
+msgid "Select an area to grab:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:134
+msgid "Copy an area to clipboard:"
 msgstr ""

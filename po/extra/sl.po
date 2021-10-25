@@ -7,10 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-13 15:59-0700\n"
-"PO-Revision-Date: 2018-08-22 00:02+0000\n"
+"POT-Creation-Date: 2021-07-14 18:05+0000\n"
+"PO-Revision-Date: 2020-01-08 00:07+0000\n"
 "Last-Translator: Jernej Virag <jernej@virag.si>\n"
-"Language-Team: Slovenian <https://weblate.elementary.io/projects/desktop/"
+"Language-Team: Slovenian <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/sl/>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -18,24 +18,55 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:3
-msgid "Keyboard Shortcuts"
+#: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.appdata.xml.in:7
+#, fuzzy
+#| msgid "Keyboard Shortcuts"
+msgid "Shortcuts"
 msgstr "Bližnjice na tipkovnici"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:4
+#: data/shortcut-overlay.desktop.in:4
 msgid "Shortcut Overlay"
 msgstr "Prikaz bližnjic"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:5
-msgid "View system keyboard shortcuts"
+#: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
+#, fuzzy
+#| msgid "View system keyboard shortcuts"
+msgid "View system shortcuts"
 msgstr "Prikaži sistemske bližnjice na tipkovnici"
 
-#: data/io.elementary.shortcut-overlay.desktop.in:8
+#: data/shortcut-overlay.desktop.in:8
 msgid "preferences-desktop-keyboard"
+msgstr "preferences-desktop-keyboard"
+
+#: data/shortcut-overlay.desktop.in:13
+#, fuzzy
+#| msgid "cheatsheet;shortcut;overlay;"
+msgid "cheatsheet;shortcut;overlay;keyboard;"
+msgstr "shortcut;cheatsheet;pomoč;bližnjice;tipkovnica;tipke;"
+
+#: data/shortcut-overlay.appdata.xml.in:16
+#, fuzzy
+#| msgid "View system keyboard shortcuts"
+msgid "Add screenshot shortcuts"
+msgstr "Prikaži sistemske bližnjice na tipkovnici"
+
+#: data/shortcut-overlay.appdata.xml.in:17
+msgid "Fix issues with multiple windows"
 msgstr ""
 
-#: data/io.elementary.shortcut-overlay.desktop.in:13
-msgid "cheatsheet;shortcut;overlay;"
-msgstr "shortcut;cheatsheet;pomoč;bližnjice;tipkovnica;tipke;"
+#: data/shortcut-overlay.appdata.xml.in:18
+#: data/shortcut-overlay.appdata.xml.in:25
+#: data/shortcut-overlay.appdata.xml.in:32
+#: data/shortcut-overlay.appdata.xml.in:40
+msgid "Updated translations"
+msgstr "Posodobljeni prevodi"
+
+#: data/shortcut-overlay.appdata.xml.in:39
+msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
+msgstr "Dodane nove bližnjice"
+
+#: data/shortcut-overlay.appdata.xml.in:83
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
