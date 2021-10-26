@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 18:05+0000\n"
+"POT-Creation-Date: 2021-10-26 18:22+0000\n"
 "PO-Revision-Date: 2018-06-01 00:07+0000\n"
 "Last-Translator: Rokar <mail@rokar.de>\n"
 "Language-Team: Kurdish <https://weblate.elementary.io/projects/desktop/"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2.18\n"
 
-#: src/MainWindow.vala:23 src/MainWindow.vala:38
+#: src/MainWindow.vala:23 src/MainWindow.vala:39
 #, fuzzy
 #| msgid "Keyboard Shortcuts"
 msgid "Shortcuts"

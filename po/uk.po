@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 18:05+0000\n"
+"POT-Creation-Date: 2021-10-26 18:22+0000\n"
 "PO-Revision-Date: 2021-07-07 20:37+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/desktop/"
@@ -20,7 +20,7 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: src/MainWindow.vala:23 src/MainWindow.vala:38
+#: src/MainWindow.vala:23 src/MainWindow.vala:39
 msgid "Shortcuts"
 msgstr "Комбінації клавіш"
 
