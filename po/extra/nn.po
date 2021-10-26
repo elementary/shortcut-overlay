@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 18:05+0000\n"
+"POT-Creation-Date: 2021-10-26 18:22+0000\n"
 "PO-Revision-Date: 2020-07-18 21:12+0000\n"
 "Last-Translator: Martin Myrvold <myrvold.martin@gmail.com>\n"
 "Language-Team: Norwegian Nynorsk <https://l10n.elementary.io/projects/"
@@ -46,26 +46,31 @@ msgid "cheatsheet;shortcut;overlay;keyboard;"
 msgstr "jukselapp;snarveg;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
+msgid "Fix the app not launching if a shortcut key is set to blank"
+msgstr ""
+
+#: data/shortcut-overlay.appdata.xml.in:17
+#: data/shortcut-overlay.appdata.xml.in:26
+#: data/shortcut-overlay.appdata.xml.in:33
+#: data/shortcut-overlay.appdata.xml.in:40
+#: data/shortcut-overlay.appdata.xml.in:48
+msgid "Updated translations"
+msgstr "Oppdaterte oversettingar"
+
+#: data/shortcut-overlay.appdata.xml.in:24
 #, fuzzy
 #| msgid "View system keyboard shortcuts"
 msgid "Add screenshot shortcuts"
 msgstr "Vis systemet sine tastatursnarvegar"
 
-#: data/shortcut-overlay.appdata.xml.in:17
+#: data/shortcut-overlay.appdata.xml.in:25
 msgid "Fix issues with multiple windows"
 msgstr ""
 
-#: data/shortcut-overlay.appdata.xml.in:18
-#: data/shortcut-overlay.appdata.xml.in:25
-#: data/shortcut-overlay.appdata.xml.in:32
-#: data/shortcut-overlay.appdata.xml.in:40
-msgid "Updated translations"
-msgstr "Oppdaterte oversettingar"
-
-#: data/shortcut-overlay.appdata.xml.in:39
+#: data/shortcut-overlay.appdata.xml.in:47
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
 msgstr "Legg til snarveg for \"Bytt oppsett\" og \"Lukk vindauge\""
 
-#: data/shortcut-overlay.appdata.xml.in:83
+#: data/shortcut-overlay.appdata.xml.in:91
 msgid "elementary, Inc."
 msgstr "elementary, Inc."

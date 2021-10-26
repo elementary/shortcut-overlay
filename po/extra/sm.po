@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 18:05+0000\n"
+"POT-Creation-Date: 2021-10-26 18:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -37,24 +37,29 @@ msgid "cheatsheet;shortcut;overlay;keyboard;"
 msgstr ""
 
 #: data/shortcut-overlay.appdata.xml.in:16
-msgid "Add screenshot shortcuts"
+msgid "Fix the app not launching if a shortcut key is set to blank"
 msgstr ""
 
 #: data/shortcut-overlay.appdata.xml.in:17
-msgid "Fix issues with multiple windows"
-msgstr ""
-
-#: data/shortcut-overlay.appdata.xml.in:18
-#: data/shortcut-overlay.appdata.xml.in:25
-#: data/shortcut-overlay.appdata.xml.in:32
+#: data/shortcut-overlay.appdata.xml.in:26
+#: data/shortcut-overlay.appdata.xml.in:33
 #: data/shortcut-overlay.appdata.xml.in:40
+#: data/shortcut-overlay.appdata.xml.in:48
 msgid "Updated translations"
 msgstr ""
 
-#: data/shortcut-overlay.appdata.xml.in:39
+#: data/shortcut-overlay.appdata.xml.in:24
+msgid "Add screenshot shortcuts"
+msgstr ""
+
+#: data/shortcut-overlay.appdata.xml.in:25
+msgid "Fix issues with multiple windows"
+msgstr ""
+
+#: data/shortcut-overlay.appdata.xml.in:47
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
 msgstr ""
 
-#: data/shortcut-overlay.appdata.xml.in:83
+#: data/shortcut-overlay.appdata.xml.in:91
 msgid "elementary, Inc."
 msgstr ""

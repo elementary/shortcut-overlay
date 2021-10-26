@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 18:05+0000\n"
+"POT-Creation-Date: 2021-10-26 18:22+0000\n"
 "PO-Revision-Date: 2021-09-29 20:42+0000\n"
 "Last-Translator: Alvaro <alvaroaraoz_92@hotmail.com>\n"
-"Language-Team: Spanish <https://l10n.elementary.io/projects/desktop/"
-"shortcut-overlay-extra/es/>\n"
+"Language-Team: Spanish <https://l10n.elementary.io/projects/desktop/shortcut-"
+"overlay-extra/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,26 +42,31 @@ msgid "cheatsheet;shortcut;overlay;keyboard;"
 msgstr "teclado;acceso directo;truco;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
+msgid "Fix the app not launching if a shortcut key is set to blank"
+msgstr ""
+
+#: data/shortcut-overlay.appdata.xml.in:17
+#: data/shortcut-overlay.appdata.xml.in:26
+#: data/shortcut-overlay.appdata.xml.in:33
+#: data/shortcut-overlay.appdata.xml.in:40
+#: data/shortcut-overlay.appdata.xml.in:48
+msgid "Updated translations"
+msgstr "Traducciones actualizadas"
+
+#: data/shortcut-overlay.appdata.xml.in:24
 #, fuzzy
 #| msgid "View system keyboard shortcuts"
 msgid "Add screenshot shortcuts"
 msgstr "Ver los atajos de teclado del sistema"
 
-#: data/shortcut-overlay.appdata.xml.in:17
+#: data/shortcut-overlay.appdata.xml.in:25
 msgid "Fix issues with multiple windows"
 msgstr ""
 
-#: data/shortcut-overlay.appdata.xml.in:18
-#: data/shortcut-overlay.appdata.xml.in:25
-#: data/shortcut-overlay.appdata.xml.in:32
-#: data/shortcut-overlay.appdata.xml.in:40
-msgid "Updated translations"
-msgstr "Traducciones actualizadas"
-
-#: data/shortcut-overlay.appdata.xml.in:39
+#: data/shortcut-overlay.appdata.xml.in:47
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
 msgstr "Agregar «Cambiar diseño» y «Cerrar ventana», accesos directos"
 
-#: data/shortcut-overlay.appdata.xml.in:83
+#: data/shortcut-overlay.appdata.xml.in:91
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
