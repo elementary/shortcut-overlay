@@ -48,7 +48,7 @@ public class ShortcutLabel : Gtk.Grid {
         string[] accels = {""};
         if (key_value.is_of_type (VariantType.ARRAY)) {
             var key_value_strv = key_value.get_strv ();
-            if (key_value_strv.length > 0) {
+            if (key_value_strv.length > 0 && key_value_strv[0] != "") {
                 accels = Granite.accel_to_string (key_value_strv[0]).split (" + ");
             }
         } else {
