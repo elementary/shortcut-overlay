@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-26 18:22+0000\n"
-"PO-Revision-Date: 2021-07-14 21:48+0000\n"
+"PO-Revision-Date: 2021-10-27 00:35+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/uk/>\n"
@@ -45,6 +45,8 @@ msgstr ""
 #: data/shortcut-overlay.appdata.xml.in:16
 msgid "Fix the app not launching if a shortcut key is set to blank"
 msgstr ""
+"Виправлено ваду, коли застосунок не запускався, якщо не встановлено "
+"комбінації клавіш"
 
 #: data/shortcut-overlay.appdata.xml.in:17
 #: data/shortcut-overlay.appdata.xml.in:26
