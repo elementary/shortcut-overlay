@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-26 18:22+0000\n"
-"PO-Revision-Date: 2021-09-02 21:46+0000\n"
+"PO-Revision-Date: 2021-10-28 00:57+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/hu/>\n"
@@ -42,7 +42,7 @@ msgstr ""
 
 #: data/shortcut-overlay.appdata.xml.in:16
 msgid "Fix the app not launching if a shortcut key is set to blank"
-msgstr ""
+msgstr "Alkalmazás el nem indulása javítva nem beállított gyorsparancs esetén"
 
 #: data/shortcut-overlay.appdata.xml.in:17
 #: data/shortcut-overlay.appdata.xml.in:26
