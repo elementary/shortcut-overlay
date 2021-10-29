@@ -1,7 +1,7 @@
 project(
     'io.elementary.shortcut-overlay',
     'vala', 'c',
-    version: '1.2.0'
+    version: '1.2.1'
 )
 
 gnome = import('gnome')
