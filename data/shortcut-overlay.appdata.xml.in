@@ -10,7 +10,7 @@
     <p></p>
   </description>
   <releases>
-    <release version="1.2.1" date="2021-10-27" urgency="low">
+    <release version="1.2.1" date="2021-10-29" urgency="low">
       <description>
         <ul>
           <li>Fix the app not launching if a shortcut key is set to blank</li>
