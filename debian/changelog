@@ -1,3 +1,15 @@
+io.elementary.shortcut-overlay (1.2.1) bionic; urgency=medium
+
+  * Release 1.2.1 (#106)
+  * Update translation files
+  * Update translation template
+  * ShortcutLabel: Check if the content of shortcut keys is blank (#104)
+  * MainWindow: Coding style (#105)
+  * ShortcutLabel: Fix Gee warnings (#103)
+  * l10n: Correctly setup the locales (#100)
+
+ -- elementary LLC. <builds@elementary.io>  Fri, 29 Oct 2021 23:13:45 +0000
+
 io.elementary.shortcut-overlay (1.2.0) bionic; urgency=medium
 
   * Release 1.2.0 (#99)
