@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-26 18:22+0000\n"
-"PO-Revision-Date: 2020-10-29 12:15+0000\n"
-"Last-Translator: colindemian <colindemian@outlook.com>\n"
+"PO-Revision-Date: 2021-11-01 02:39+0000\n"
+"Last-Translator: Yuchen Deng <loaden@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "desktop/shortcut-overlay/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -17,13 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:23 src/MainWindow.vala:39
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
 msgid "Shortcuts"
-msgstr "键盘快捷键"
+msgstr "快捷键"
 
 #: src/MainWindow.vala:33
 msgid "Keyboard Settings…"
@@ -138,20 +136,16 @@ msgid "Grab the whole screen:"
 msgstr "抓取整个屏幕："
 
 #: src/Views/ShortcutsView.vala:126
-#, fuzzy
-#| msgid "Grab the whole screen:"
 msgid "Copy the whole screen to clipboard:"
-msgstr "抓取整个屏幕："
+msgstr "拷贝整个屏幕到剪贴板："
 
 #: src/Views/ShortcutsView.vala:128
 msgid "Grab the current window:"
 msgstr "抓取当前窗口："
 
 #: src/Views/ShortcutsView.vala:130
-#, fuzzy
-#| msgid "Grab the current window:"
 msgid "Copy the current window to clipboard:"
-msgstr "抓取当前窗口："
+msgstr "拷贝当前窗口到剪贴板 ："
 
 #: src/Views/ShortcutsView.vala:132
 msgid "Select an area to grab:"
@@ -159,7 +153,7 @@ msgstr "抓取选中区域："
 
 #: src/Views/ShortcutsView.vala:134
 msgid "Copy an area to clipboard:"
-msgstr ""
+msgstr "将选择区域复制到剪贴板："
 
 #~ msgid "Shift"
 #~ msgstr "Shift"
