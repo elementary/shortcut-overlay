@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-26 18:22+0000\n"
-"PO-Revision-Date: 2021-11-01 02:39+0000\n"
+"PO-Revision-Date: 2021-11-01 07:03+0000\n"
 "Last-Translator: Yuchen Deng <loaden@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "desktop/shortcut-overlay-extra/zh_Hans/>\n"
@@ -28,20 +28,16 @@ msgid "Shortcut Overlay"
 msgstr "快捷键布局"
 
 #: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
-#, fuzzy
-#| msgid "View system keyboard shortcuts"
 msgid "View system shortcuts"
-msgstr "查看系统键盘快捷键"
+msgstr "查看系统快捷键"
 
 #: data/shortcut-overlay.desktop.in:8
 msgid "preferences-desktop-keyboard"
 msgstr "preferences-desktop-keyboard"
 
 #: data/shortcut-overlay.desktop.in:13
-#, fuzzy
-#| msgid "cheatsheet;shortcut;overlay;"
 msgid "cheatsheet;shortcut;overlay;keyboard;"
-msgstr "备忘录;快捷键;布局;"
+msgstr "备忘录;快捷键;布局;键盘;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
 msgid "Fix the app not launching if a shortcut key is set to blank"
@@ -56,10 +52,8 @@ msgid "Updated translations"
 msgstr "翻译更新"
 
 #: data/shortcut-overlay.appdata.xml.in:24
-#, fuzzy
-#| msgid "View system keyboard shortcuts"
 msgid "Add screenshot shortcuts"
-msgstr "查看系统键盘快捷键"
+msgstr "添加截屏快捷键"
 
 #: data/shortcut-overlay.appdata.xml.in:25
 msgid "Fix issues with multiple windows"
