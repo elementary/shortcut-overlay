@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-26 18:22+0000\n"
-"PO-Revision-Date: 2021-07-14 21:48+0000\n"
+"PO-Revision-Date: 2021-11-17 14:30+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/pt/>\n"
@@ -42,6 +42,8 @@ msgstr "cheatsheet;atalho;overlay;teclado;"
 #: data/shortcut-overlay.appdata.xml.in:16
 msgid "Fix the app not launching if a shortcut key is set to blank"
 msgstr ""
+"Corrige a aplicação de não ser iniciada se uma tecla de atalho for colocada "
+"em branco"
 
 #: data/shortcut-overlay.appdata.xml.in:17
 #: data/shortcut-overlay.appdata.xml.in:26
