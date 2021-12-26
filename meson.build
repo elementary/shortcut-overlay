@@ -40,8 +40,8 @@ executable(
     dependencies: [
         dependency('glib-2.0'),
         dependency('gobject-2.0'),
-        dependency('granite', version: '>= 5.4.0'),
-        dependency('gtk+-3.0'),
+        dependency('libadwaita-1'),
+        dependency('gtk4'),
         dependency('gee-0.8'),
         dependency('libhandy-1', version: '>=0.80.0'),
         meson.get_compiler('vala').find_library('posix'),
