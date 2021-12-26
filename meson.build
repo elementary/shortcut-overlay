@@ -43,7 +43,6 @@ executable(
         dependency('libadwaita-1'),
         dependency('gtk4'),
         dependency('gee-0.8'),
-        dependency('libhandy-1', version: '>=0.80.0'),
         meson.get_compiler('vala').find_library('posix'),
     ],
     install : true
