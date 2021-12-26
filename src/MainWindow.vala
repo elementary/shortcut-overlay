@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-public class ShortcutOverlay.MainWindow : Hdy.Window {
+public class ShortcutOverlay.MainWindow : Adw.Window {
     public MainWindow (Gtk.Application application) {
         Object (
             application: application,
