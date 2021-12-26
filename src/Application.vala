@@ -33,7 +33,7 @@ public class ShortcutOverlay.Application : Gtk.Application {
         bool is_terminal = Posix.isatty (Posix.STDIN_FILENO);
 
         var main_window = new MainWindow (this);
-        main_window.show_all ();
+        main_window.present ();
 
         var quit_action = new SimpleAction ("quit", null);
 
@@ -60,14 +60,14 @@ public class ShortcutOverlay.Application : Gtk.Application {
             }
         });
 
-        var granite_settings = Granite.Settings.get_default ();
-        var gtk_settings = Gtk.Settings.get_default ();
+        //var granite_settings = Granite.Settings.get_default ();
+        //var gtk_settings = Gtk.Settings.get_default ();
 
-        gtk_settings.gtk_application_prefer_dark_theme = granite_settings.prefers_color_scheme == Granite.Settings.ColorScheme.DARK;
+        //gtk_settings.gtk_application_prefer_dark_theme = granite_settings.prefers_color_scheme == Granite.Settings.ColorScheme.DARK;
 
-        granite_settings.notify["prefers-color-scheme"].connect (() => {
-            gtk_settings.gtk_application_prefer_dark_theme = granite_settings.prefers_color_scheme == Granite.Settings.ColorScheme.DARK;
-        });
+        //granite_settings.notify["prefers-color-scheme"].connect (() => {
+            //gtk_settings.gtk_application_prefer_dark_theme = granite_settings.prefers_color_scheme == Granite.Settings.ColorScheme.DARK;
+        //});
     }
 }
 
