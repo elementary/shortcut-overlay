@@ -48,8 +48,10 @@ public class ShortcutOverlay.MainWindow : Hdy.Window {
         headerbar_context.add_class (Gtk.STYLE_CLASS_TITLEBAR);
 
         var shortcuts_view = new ShortcutsView () {
-            margin = 36,
-            margin_top = 12
+            margin_start = 36,
+            margin_end = 36,
+            margin_top = 12,
+            margin_bottom = 36
         };
 
         var grid = new Gtk.Grid () {
