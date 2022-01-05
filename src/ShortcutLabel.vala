@@ -16,7 +16,7 @@
  */
 
 
-public class ShortcutLabel : Gtk.Grid {
+public class ShortcutLabel : Gtk.Box {
     public string[] accels { get; construct; }
 
     private static Gee.ArrayList<Settings> settings_list;
@@ -59,7 +59,7 @@ public class ShortcutLabel : Gtk.Grid {
     }
 
     construct {
-        column_spacing = 6;
+        spacing = 6;
 
         if (accels[0] != "") {
             foreach (unowned string accel in accels) {
@@ -68,12 +68,12 @@ public class ShortcutLabel : Gtk.Grid {
                 }
                 var label = new Gtk.Label (accel);
                 label.get_style_context ().add_class ("keycap");
-                add (label);
+                append (label);
             }
         } else {
             var label = new Gtk.Label (_("Disabled"));
-            label.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
-            add (label);
+            label.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
+            append (label);
         }
     }
 }

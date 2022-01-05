@@ -15,19 +15,25 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
+public class ShortcutOverlay.ShortcutsView : Gtk.Box {
     private const string SCHEMA_WM = "org.gnome.desktop.wm.keybindings";
     private const string SCHEMA_GALA = "org.pantheon.desktop.gala.keybindings";
     private const string SCHEMA_MEDIA = "org.gnome.settings-daemon.plugins.media-keys";
     private const string SCHEMA_MUTTER = "org.gnome.mutter.keybindings";
 
     construct {
-        var column_start = new Gtk.Grid ();
-        column_start.column_spacing = 12;
-        column_start.hexpand = true;
-        column_start.row_spacing = 12;
+        var column_start = new Gtk.Grid () {
+            column_spacing = 12,
+            hexpand = true,
+            row_spacing = 12
+        };
 
-        column_start.attach (new Granite.HeaderLabel (_("Windows")), 0, 0, 2);
+        var windows_header = new Gtk.Label (_("Windows")) {
+            xalign = 0
+        };
+        windows_header.add_css_class (Granite.STYLE_CLASS_H4_LABEL);
+
+        column_start.attach (windows_header, 0, 0, 2);
         column_start.attach (new NameLabel (_("Close window:")), 0, 1);
         column_start.attach (new ShortcutLabel.from_gsettings (SCHEMA_WM, "close"), 1, 1);
         column_start.attach (new NameLabel (_("Cycle windows:")), 0, 2);
@@ -45,7 +51,12 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
         column_start.attach (new NameLabel (_("Picture in Picture Mode:")), 0, 8);
         column_start.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "pip"), 1, 8);
 
-        column_start.attach (new Granite.HeaderLabel (_("Workspaces")), 0, 9, 2);
+        var workspaces_header = new Gtk.Label (_("Workspaces")) {
+            xalign = 0
+        };
+        workspaces_header.add_css_class (Granite.STYLE_CLASS_H4_LABEL);
+
+        column_start.attach (workspaces_header, 0, 9, 2);
         column_start.attach (new NameLabel (_("Multitasking View:")), 0, 10);
         column_start.attach (new ShortcutLabel.from_gsettings (SCHEMA_WM, "show-desktop"), 1, 10);
         column_start.attach (new NameLabel (_("Switch left:")), 0, 11);
@@ -104,7 +115,12 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
         column_end.hexpand = true;
         column_end.row_spacing = 12;
 
-        column_end.attach (new Granite.HeaderLabel (_("System")), 0, 0, 2);
+        var system_header = new Gtk.Label (_("System")) {
+            xalign = 0
+        };
+        system_header.add_css_class (Granite.STYLE_CLASS_H4_LABEL);
+
+        column_end.attach (system_header, 0, 0, 2);
         column_end.attach (new NameLabel (_("Applications Menu:")), 0, 1);
         column_end.attach (new ShortcutLabel.from_gsettings (SCHEMA_WM, "panel-main-menu"), 1, 1);
         column_end.attach (new NameLabel (_("Cycle display mode:")), 0, 2);
@@ -120,7 +136,12 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
         column_end.attach (new NameLabel (_("Switch keyboard layout:")), 0, 7);
         column_end.attach (new ShortcutLabel (xkb_input_accels), 1, 7);
 
-        column_end.attach (new Granite.HeaderLabel (_("Screenshots")), 0, 8, 2);
+        var screenshots_header = new Gtk.Label (_("Screenshots")) {
+            xalign = 0
+        };
+        screenshots_header.add_css_class (Granite.STYLE_CLASS_H4_LABEL);
+
+        column_end.attach (screenshots_header , 0, 8, 2);
         column_end.attach (new NameLabel (_("Grab the whole screen:")), 0, 9);
         column_end.attach (new ShortcutLabel.from_gsettings (SCHEMA_MEDIA, "screenshot"), 1, 9);
         column_end.attach (new NameLabel (_("Copy the whole screen to clipboard:")), 0, 10);
@@ -138,22 +159,24 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Grid {
         column_size_group.add_widget (column_start);
         column_size_group.add_widget (column_end);
 
-        column_spacing = 48;
-        add (column_start);
-        add (new Gtk.Separator (Gtk.Orientation.VERTICAL));
-        add (column_end);
+        spacing = 48;
+        append (column_start);
+        append (new Gtk.Separator (Gtk.Orientation.VERTICAL));
+        append (column_end);
     }
 
-    private class NameLabel : Gtk.Label {
+    private class NameLabel : Gtk.Box {
+        public string label { get; construct; }
+
         public NameLabel (string label) {
-            Object (
-                label: label
-            );
+            Object (label: label);
         }
 
         construct {
+            var label = new Gtk.Label (label);
+
             halign = Gtk.Align.END;
-            xalign = 1;
+            append (label);
         }
     }
 }
