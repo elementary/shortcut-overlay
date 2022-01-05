@@ -29,7 +29,6 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
             icon_name = "preferences-system-symbolic",
             tooltip_text = _("Keyboard Settings…")
         };
-        settings_button.add_css_class ("titlebutton");
 
         var shortcuts_view = new ShortcutsView () {
             margin_start = 36,
