@@ -8,7 +8,6 @@ i18n.merge_file (
 )
 
 i18n.merge_file (
-    'desktop',
     input: 'shortcut-overlay.desktop.in',
     output: meson.project_name() + '.desktop',
     po_dir: join_paths(meson.source_root (), 'po', 'extra'),
