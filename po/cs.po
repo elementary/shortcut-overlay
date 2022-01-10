@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-26 18:22+0000\n"
-"PO-Revision-Date: 2022-01-10 18:13+0000\n"
+"PO-Revision-Date: 2022-01-10 21:14+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/cs/>\n"
@@ -146,10 +146,8 @@ msgid "Grab the current window:"
 msgstr "Zachytit právě zaměřené okno:"
 
 #: src/Views/ShortcutsView.vala:130
-#, fuzzy
-#| msgid "Grab the current window:"
 msgid "Copy the current window to clipboard:"
-msgstr "Zachytit právě zaměřené okno:"
+msgstr "Zkopírovat právě zaměřené okno do schránky:"
 
 #: src/Views/ShortcutsView.vala:132
 msgid "Select an area to grab:"
@@ -157,7 +155,7 @@ msgstr "Vybrat oblast k zachycení:"
 
 #: src/Views/ShortcutsView.vala:134
 msgid "Copy an area to clipboard:"
-msgstr ""
+msgstr "Zkopírovat oblast do schránky:"
 
 #~ msgid "Shift"
 #~ msgstr "Shift"
