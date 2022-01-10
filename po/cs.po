@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-26 18:22+0000\n"
-"PO-Revision-Date: 2022-01-10 21:14+0000\n"
+"PO-Revision-Date: 2022-01-11 03:35+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/cs/>\n"
@@ -136,10 +136,8 @@ msgid "Grab the whole screen:"
 msgstr "Zachytit celou obrazovku:"
 
 #: src/Views/ShortcutsView.vala:126
-#, fuzzy
-#| msgid "Grab the whole screen:"
 msgid "Copy the whole screen to clipboard:"
-msgstr "Zachytit celou obrazovku:"
+msgstr "Zkopírovat celý obsah obrazovky do schránky:"
 
 #: src/Views/ShortcutsView.vala:128
 msgid "Grab the current window:"
