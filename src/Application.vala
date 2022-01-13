@@ -30,8 +30,6 @@ public class ShortcutOverlay.Application : Gtk.Application {
             return;
         }
 
-        bool is_terminal = Posix.isatty (Posix.STDIN_FILENO);
-
         var main_window = new MainWindow (this);
         main_window.present ();
 
@@ -40,12 +38,19 @@ public class ShortcutOverlay.Application : Gtk.Application {
         add_action (quit_action);
         set_accels_for_action ("app.quit", {"Escape"});
 
-        if (is_terminal == false) {
-            // main_window.focus_out_event.connect ((event) => {
-            //     quit_action.activate (null);
-            //     return Gdk.EVENT_STOP;
-            // });
+        if (Posix.isatty (Posix.STDIN_FILENO) == false) {
+            var focus_controller = new Gtk.EventControllerLegacy ();
+            focus_controller.event.connect ((event) => {
+                if (event.get_event_type () == Gdk.EventType.FOCUS_CHANGE && !((Gdk.FocusEvent) event).get_in ()) {
+                    quit_action.activate (null);
+                }
+
+                return Gdk.EVENT_PROPAGATE;
+            });
+
+            ((Gtk.Widget) main_window).add_controller (focus_controller);
         }
+
 
         quit_action.activate.connect (() => {
             if (main_window != null) {
