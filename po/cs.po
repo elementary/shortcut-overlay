@@ -8,22 +8,20 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-26 18:22+0000\n"
-"PO-Revision-Date: 2020-06-07 12:11+0000\n"
+"PO-Revision-Date: 2022-01-11 03:35+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
-"Language-Team: Czech <https://l10n.elementary.io/projects/desktop/shortcut-"
-"overlay/cs/>\n"
+"Language-Team: Czech <https://l10n.elementary.io/projects/desktop/"
+"shortcut-overlay/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:23 src/MainWindow.vala:39
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
 msgid "Shortcuts"
-msgstr "Klávesové zkratky"
+msgstr "Zkratky"
 
 #: src/MainWindow.vala:33
 msgid "Keyboard Settings…"
@@ -138,20 +136,16 @@ msgid "Grab the whole screen:"
 msgstr "Zachytit celou obrazovku:"
 
 #: src/Views/ShortcutsView.vala:126
-#, fuzzy
-#| msgid "Grab the whole screen:"
 msgid "Copy the whole screen to clipboard:"
-msgstr "Zachytit celou obrazovku:"
+msgstr "Zkopírovat celý obsah obrazovky do schránky:"
 
 #: src/Views/ShortcutsView.vala:128
 msgid "Grab the current window:"
 msgstr "Zachytit právě zaměřené okno:"
 
 #: src/Views/ShortcutsView.vala:130
-#, fuzzy
-#| msgid "Grab the current window:"
 msgid "Copy the current window to clipboard:"
-msgstr "Zachytit právě zaměřené okno:"
+msgstr "Zkopírovat právě zaměřené okno do schránky:"
 
 #: src/Views/ShortcutsView.vala:132
 msgid "Select an area to grab:"
@@ -159,7 +153,7 @@ msgstr "Vybrat oblast k zachycení:"
 
 #: src/Views/ShortcutsView.vala:134
 msgid "Copy an area to clipboard:"
-msgstr ""
+msgstr "Zkopírovat oblast do schránky:"
 
 #~ msgid "Shift"
 #~ msgstr "Shift"

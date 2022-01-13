@@ -8,46 +8,42 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-26 18:22+0000\n"
-"PO-Revision-Date: 2020-05-28 18:52+0000\n"
+"PO-Revision-Date: 2022-01-11 03:35+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
-"Language-Team: Czech <https://l10n.elementary.io/projects/desktop/shortcut-"
-"overlay-extra/cs/>\n"
+"Language-Team: Czech <https://l10n.elementary.io/projects/desktop/"
+"shortcut-overlay-extra/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.appdata.xml.in:7
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
 msgid "Shortcuts"
-msgstr "Klávesové zkratky"
+msgstr "Zkratky"
 
 #: data/shortcut-overlay.desktop.in:4
 msgid "Shortcut Overlay"
 msgstr "Přehled zkratek"
 
 #: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
-#, fuzzy
-#| msgid "View system keyboard shortcuts"
 msgid "View system shortcuts"
-msgstr "Prohlédněte si systémové klávesové zkratky"
+msgstr "Prohlédněte si systémové zkratky"
 
 #: data/shortcut-overlay.desktop.in:8
 msgid "preferences-desktop-keyboard"
 msgstr "preferences-desktop-keyboard"
 
 #: data/shortcut-overlay.desktop.in:13
-#, fuzzy
-#| msgid "cheatsheet;shortcut;overlay;"
 msgid "cheatsheet;shortcut;overlay;keyboard;"
-msgstr "cheatsheet;shortcut;overlay;zkratka;přehled;nápověda;"
+msgstr "cheatsheet;zkratka;overlay;zkratka;přehled;nápověda;klávesnice;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
 msgid "Fix the app not launching if a shortcut key is set to blank"
 msgstr ""
+"Opraveno nespouštění aplikace pokud je klávesová zkratka nastavena na "
+"prázdnou"
 
 #: data/shortcut-overlay.appdata.xml.in:17
 #: data/shortcut-overlay.appdata.xml.in:26
@@ -58,14 +54,12 @@ msgid "Updated translations"
 msgstr "Aktualizovány překlady"
 
 #: data/shortcut-overlay.appdata.xml.in:24
-#, fuzzy
-#| msgid "View system keyboard shortcuts"
 msgid "Add screenshot shortcuts"
-msgstr "Prohlédněte si systémové klávesové zkratky"
+msgstr "Přidány klávesové zkratky pro pořizování snímků obrazovky"
 
 #: data/shortcut-overlay.appdata.xml.in:25
 msgid "Fix issues with multiple windows"
-msgstr ""
+msgstr "Opraveny problémy s vícero okny"
 
 #: data/shortcut-overlay.appdata.xml.in:47
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
