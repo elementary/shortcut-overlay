@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-public class ShortcutOverlay.MainWindow : Hdy.Window {
+public class ShortcutOverlay.MainWindow : Gtk.Window {
     public MainWindow (Gtk.Application application) {
         Object (
             application: application,
@@ -25,27 +25,10 @@ public class ShortcutOverlay.MainWindow : Hdy.Window {
     }
 
     construct {
-        var css_provider = new Gtk.CssProvider ();
-        css_provider.load_from_resource ("io/elementary/shortcut-overlay/application.css");
-        Gtk.StyleContext.add_provider_for_screen (get_screen (), css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
-
-        var settings_button = new Gtk.Button.from_icon_name ("preferences-system-symbolic", Gtk.IconSize.MENU) {
-            tooltip_text = _("Keyboard Settings…"),
-            valign = Gtk.Align.CENTER
+        var settings_button = new Gtk.Button () {
+            icon_name = "preferences-system-symbolic",
+            tooltip_text = _("Keyboard Settings…")
         };
-        settings_button.get_style_context ().add_class ("titlebutton");
-
-        var headerbar = new Gtk.HeaderBar () {
-            title = _("Shortcuts"),
-            has_subtitle = false,
-            show_close_button = true
-        };
-        headerbar.pack_end (settings_button);
-
-        unowned Gtk.StyleContext headerbar_context = headerbar.get_style_context ();
-        headerbar_context.add_class ("default-decoration");
-        headerbar_context.add_class (Gtk.STYLE_CLASS_FLAT);
-        headerbar_context.add_class (Gtk.STYLE_CLASS_TITLEBAR);
 
         var shortcuts_view = new ShortcutsView () {
             margin_start = 36,
@@ -54,14 +37,30 @@ public class ShortcutOverlay.MainWindow : Hdy.Window {
             margin_bottom = 36
         };
 
-        var grid = new Gtk.Grid () {
-            orientation = Gtk.Orientation.VERTICAL
-        };
-        grid.add (headerbar);
-        grid.add (shortcuts_view);
+        child = shortcuts_view;
 
-        skip_taskbar_hint = true;
-        add (grid);
+        var start_controls = new Gtk.WindowControls (Gtk.PackType.START);
+
+        var title_label = new Gtk.Label (_("Shorcuts")) {
+            hexpand = true
+        };
+        title_label.add_css_class (Granite.STYLE_CLASS_TITLE_LABEL);
+
+        var end_controls = new Gtk.WindowControls (Gtk.PackType.END);
+
+        var titlebar = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0);
+        titlebar.append (start_controls);
+        titlebar.append (title_label);
+        titlebar.append (settings_button);
+
+        if (!end_controls.empty) {
+            titlebar.append (end_controls);
+        }
+
+        titlebar.add_css_class (Granite.STYLE_CLASS_FLAT);
+        titlebar.add_css_class (Granite.STYLE_CLASS_DEFAULT_DECORATION);
+
+        set_titlebar (titlebar);
 
         settings_button.clicked.connect (() => {
             try {

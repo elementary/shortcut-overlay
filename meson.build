@@ -7,12 +7,6 @@ project(
 gnome = import('gnome')
 i18n = import('i18n')
 
-asresources = gnome.compile_resources(
-    'as-resources', 'data/' + meson.project_name() + '.gresource.xml',
-    source_dir: 'data',
-    c_name: 'as'
-)
-
 add_global_arguments([
         '-DGETTEXT_PACKAGE="@0@"'.format(meson.project_name()),
         '-DHANDY_USE_UNSTABLE_API'
@@ -36,14 +30,12 @@ executable(
     'src/ShortcutLabel.vala',
     'src/Views/ShortcutsView.vala',
     config_file,
-    asresources,
     dependencies: [
         dependency('glib-2.0'),
         dependency('gobject-2.0'),
-        dependency('granite', version: '>= 5.4.0'),
-        dependency('gtk+-3.0'),
+        dependency('granite-7', version: '>= 7.0.0'),
+        dependency('gtk4'),
         dependency('gee-0.8'),
-        dependency('libhandy-1', version: '>=0.80.0'),
         meson.get_compiler('vala').find_library('posix'),
     ],
     install : true

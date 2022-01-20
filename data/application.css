@@ -1,7 +1,0 @@
-decoration {
-    box-shadow:
-        0 0 0 1px @borders,
-        0 3px 8px 2px alpha(black, 0.1),
-        0 5px 5px -3px alpha(black, 0.4),
-        0 8px 5px 1px alpha(black, 0.1);
-}
