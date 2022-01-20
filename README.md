@@ -19,8 +19,8 @@ We need to decide which shortcuts are included, how they're sorted, and if they'
 
 You'll need the following dependencies:
 * libgee-0.8-dev
-* libgranite-dev >= 5.4.0
-* libgtk-3-dev
+* libgranite-7-dev
+* libgtk-4-dev
 * meson
 * valac
 
