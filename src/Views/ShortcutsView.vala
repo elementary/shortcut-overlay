@@ -22,6 +22,16 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Box {
     private const string SCHEMA_MUTTER = "org.gnome.mutter.keybindings";
 
     construct {
+        var settings_button = new Gtk.Button.with_label(_("Keyboard Settings…"));
+
+        settings_button.clicked.connect(() => {
+            try {
+                AppInfo.launch_default_for_uri ("settings://input/keyboard/shortcuts", null);
+            } catch (Error e) {
+                warning (e.message);
+            }
+        });
+
         var column_start = new Gtk.Grid () {
             column_spacing = 12,
             hexpand = true,
@@ -154,6 +164,7 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Box {
         column_end.attach (new ShortcutLabel.from_gsettings (SCHEMA_MEDIA, "area-screenshot"), 1, 13);
         column_end.attach (new NameLabel (_("Copy an area to clipboard:")), 0, 14);
         column_end.attach (new ShortcutLabel.from_gsettings (SCHEMA_MEDIA, "area-screenshot-clip"), 1, 14);
+        column_end.attach (settings_button, 1, 15);
 
         var column_size_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.HORIZONTAL);
         column_size_group.add_widget (column_start);
