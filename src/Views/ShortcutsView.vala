@@ -24,7 +24,7 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Box {
     construct {
         var settings_button = new Gtk.Button.with_label (_("Keyboard Settings…"));
 
-        settings_button.clicked.connect(() => {
+        settings_button.clicked.connect (() => {
             try {
                 AppInfo.launch_default_for_uri ("settings://input/keyboard/shortcuts", null);
             } catch (Error e) {
