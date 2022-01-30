@@ -22,7 +22,7 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Box {
     private const string SCHEMA_MUTTER = "org.gnome.mutter.keybindings";
 
     construct {
-        var settings_button = new Gtk.Button.with_label(_("Keyboard Settings…"));
+        var settings_button = new Gtk.Button.with_label (_("Keyboard Settings…"));
 
         settings_button.clicked.connect(() => {
             try {
