@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-26 18:22+0000\n"
-"PO-Revision-Date: 2022-02-03 15:04+0000\n"
+"PO-Revision-Date: 2022-02-03 19:18+0000\n"
 "Last-Translator: Joel Jose <joel750jose@gmail.com>\n"
 "Language-Team: Malayalam <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/ml/>\n"
@@ -21,15 +21,15 @@ msgstr ""
 
 #: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.appdata.xml.in:7
 msgid "Shortcuts"
-msgstr ""
+msgstr "ഷോർട്ട്ക്കട്ടുകൾ"
 
 #: data/shortcut-overlay.desktop.in:4
 msgid "Shortcut Overlay"
-msgstr ""
+msgstr "ഷോർട്ട്കട്ട് ഓവർലേ"
 
 #: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
 msgid "View system shortcuts"
-msgstr ""
+msgstr "സിസ്റ്റം ഷോർട്ട്കട്ടുകൾ കാണുക"
 
 #: data/shortcut-overlay.desktop.in:8
 msgid "preferences-desktop-keyboard"
@@ -37,11 +37,14 @@ msgstr ""
 
 #: data/shortcut-overlay.desktop.in:13
 msgid "cheatsheet;shortcut;overlay;keyboard;"
-msgstr ""
+msgstr "ചീറ്റ്ഷീറ്റ്;ഷോർട്ട്കട്ട്;ഓവർലേ;കീബോർഡ്;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
+#, fuzzy
 msgid "Fix the app not launching if a shortcut key is set to blank"
 msgstr ""
+"ഒരു ഷോർട്ട്കട്ട് കീ ശൂന്യമായി സജ്ജീകരിച്ചിട്ടുണ്ടെങ്കിൽ ആപ്പ് ലോഞ്ച് "
+"ചെയ്യുന്നില്ലെന്ന് പരിഹരിക്കുക"
 
 #: data/shortcut-overlay.appdata.xml.in:17
 #: data/shortcut-overlay.appdata.xml.in:26
@@ -49,19 +52,20 @@ msgstr ""
 #: data/shortcut-overlay.appdata.xml.in:40
 #: data/shortcut-overlay.appdata.xml.in:48
 msgid "Updated translations"
-msgstr ""
+msgstr "അപ്ഡേറ്റ് ചെയ്ത വിവർത്തനങ്ങൾ"
 
 #: data/shortcut-overlay.appdata.xml.in:24
 msgid "Add screenshot shortcuts"
-msgstr ""
+msgstr "സ്ക്രീൻഷോട്ട് ഷോർട്ട്കട്ടുകൾ ചേർക്കുക"
 
 #: data/shortcut-overlay.appdata.xml.in:25
 msgid "Fix issues with multiple windows"
-msgstr ""
+msgstr "ഒന്നിലധികം വിൻഡോകളിൽ ഉണ്ടാവുന്ന പ്രശ്നങ്ങൾ പരിഹരിക്കുക"
 
 #: data/shortcut-overlay.appdata.xml.in:47
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
 msgstr ""
+"\"ലേയൗട്ട് മാറുക\", \"വിൻഡോ അടയ്ക്കുക\", എന്നിവയുള്ള ഷോർട്ട്കട്ടുകൾ ചേർക്കുക"
 
 #: data/shortcut-overlay.appdata.xml.in:91
 msgid "elementary, Inc."
