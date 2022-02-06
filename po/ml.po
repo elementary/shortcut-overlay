@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-26 18:22+0000\n"
-"PO-Revision-Date: 2022-02-03 19:18+0000\n"
+"PO-Revision-Date: 2022-02-06 08:10+0000\n"
 "Last-Translator: Joel Jose <joel750jose@gmail.com>\n"
 "Language-Team: Malayalam <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/ml/>\n"
@@ -25,35 +25,35 @@ msgstr "ഷോർട്ട്ക്കട്ടുകൾ"
 
 #: src/MainWindow.vala:33
 msgid "Keyboard Settings…"
-msgstr ""
+msgstr "കീബോർഡ് ക്രമീകരണങ്ങൾ…"
 
 #: src/ShortcutLabel.vala:74
 msgid "Disabled"
-msgstr ""
+msgstr "പ്രവർത്തനരഹിതം"
 
 #: src/Views/ShortcutsView.vala:30
 msgid "Windows"
-msgstr ""
+msgstr "വിൻഡോവുകൾ"
 
 #: src/Views/ShortcutsView.vala:31
 msgid "Close window:"
-msgstr ""
+msgstr "വിൻഡോ അടയ്ക്കുക:"
 
 #: src/Views/ShortcutsView.vala:33
 msgid "Cycle windows:"
-msgstr ""
+msgstr "വിൻഡോവുകൾ മാറ്റുക:"
 
 #: src/Views/ShortcutsView.vala:35
 msgid "Toggle maximized:"
-msgstr ""
+msgstr "മാക്സിമായിസ്ഡ് ടോഗ്ഗിൾ ചെയ്യുക:"
 
 #: src/Views/ShortcutsView.vala:37
 msgid "Tile left:"
-msgstr ""
+msgstr "ഇടത്തോട്ട് ടൈൽ ചെയ്യുക:"
 
 #: src/Views/ShortcutsView.vala:39
 msgid "Tile right:"
-msgstr ""
+msgstr "വലത്തോട്ട് ടൈൽ ചെയ്യുക:"
 
 #: src/Views/ShortcutsView.vala:41
 msgid "Move to left workspace:"
