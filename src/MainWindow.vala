@@ -25,14 +25,20 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
     }
 
     construct {
-        var shortcuts_view = new ShortcutsView () {
+        var settings_button = new Gtk.Button.with_label (_("Keyboard Settings…")) {
+            halign = Gtk.Align.END
+        };
+
+        var box = new Gtk.Box (Gtk.Orientation.VERTICAL, 12) {
             margin_start = 36,
             margin_end = 36,
             margin_top = 12,
-            margin_bottom = 36
+            margin_bottom = 24
         };
+        box.append (new ShortcutsView ());
+        box.append (settings_button);
 
-        child = shortcuts_view;
+        child = box;
 
         var start_controls = new Gtk.WindowControls (Gtk.PackType.START);
 
