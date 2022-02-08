@@ -25,23 +25,24 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
     }
 
     construct {
-        var settings_button = new Gtk.Button () {
-            icon_name = "preferences-system-symbolic",
-            tooltip_text = _("Keyboard Settings…")
+        var settings_button = new Gtk.Button.with_label (_("Keyboard Settings…")) {
+            halign = Gtk.Align.END
         };
 
-        var shortcuts_view = new ShortcutsView () {
+        var box = new Gtk.Box (Gtk.Orientation.VERTICAL, 12) {
             margin_start = 36,
             margin_end = 36,
             margin_top = 12,
-            margin_bottom = 36
+            margin_bottom = 24
         };
+        box.append (new ShortcutsView ());
+        box.append (settings_button);
 
-        child = shortcuts_view;
+        child = box;
 
         var start_controls = new Gtk.WindowControls (Gtk.PackType.START);
 
-        var title_label = new Gtk.Label (_("Shorcuts")) {
+        var title_label = new Gtk.Label (_("Shortcuts")) {
             hexpand = true
         };
         title_label.add_css_class (Granite.STYLE_CLASS_TITLE_LABEL);
@@ -51,7 +52,6 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
         var titlebar = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0);
         titlebar.append (start_controls);
         titlebar.append (title_label);
-        titlebar.append (settings_button);
 
         if (!end_controls.empty) {
             titlebar.append (end_controls);
@@ -61,13 +61,5 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
         titlebar.add_css_class (Granite.STYLE_CLASS_DEFAULT_DECORATION);
 
         set_titlebar (titlebar);
-
-        settings_button.clicked.connect (() => {
-            try {
-                AppInfo.launch_default_for_uri ("settings://input/keyboard/shortcuts", null);
-            } catch (Error e) {
-                warning (e.message);
-            }
-        });
     }
 }
