@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-26 18:22+0000\n"
-"PO-Revision-Date: 2021-11-02 08:56+0000\n"
-"Last-Translator: Sebastian Gardziński <skellige102@gmail.com>\n"
+"PO-Revision-Date: 2022-04-08 16:06+0000\n"
+"Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/pl/>\n"
 "Language: pl\n"
@@ -51,7 +51,7 @@ msgstr ""
 #: data/shortcut-overlay.appdata.xml.in:40
 #: data/shortcut-overlay.appdata.xml.in:48
 msgid "Updated translations"
-msgstr "Zaktualizowano tłumaczenia"
+msgstr "Aktualizacja tłumaczeń"
 
 #: data/shortcut-overlay.appdata.xml.in:24
 msgid "Add screenshot shortcuts"
