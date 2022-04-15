@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-26 18:22+0000\n"
-"PO-Revision-Date: 2022-04-06 20:24+0000\n"
+"PO-Revision-Date: 2022-04-16 02:29+0000\n"
 "Last-Translator: Aga Ismael <agaesmaeel@gmail.com>\n"
 "Language-Team: Kurdish (Central) <https://l10n.elementary.io/projects/"
 "desktop/shortcut-overlay/ckb/>\n"
@@ -21,111 +21,111 @@ msgstr ""
 
 #: src/MainWindow.vala:23 src/MainWindow.vala:39
 msgid "Shortcuts"
-msgstr ""
+msgstr "قەتبڕەکان"
 
 #: src/MainWindow.vala:33
 msgid "Keyboard Settings…"
-msgstr ""
+msgstr "ڕێکخستنەکانی تەختەکلیل…"
 
 #: src/ShortcutLabel.vala:74
 msgid "Disabled"
-msgstr ""
+msgstr "ڕاگیراو"
 
 #: src/Views/ShortcutsView.vala:30
 msgid "Windows"
-msgstr ""
+msgstr "پەنجەرەکان"
 
 #: src/Views/ShortcutsView.vala:31
 msgid "Close window:"
-msgstr ""
+msgstr "داخستنی پەنجەرە:"
 
 #: src/Views/ShortcutsView.vala:33
 msgid "Cycle windows:"
-msgstr ""
+msgstr "سایکڵ پەنجەرەکان:"
 
 #: src/Views/ShortcutsView.vala:35
 msgid "Toggle maximized:"
-msgstr ""
+msgstr "گەورەبوونی پەنجەرە:"
 
 #: src/Views/ShortcutsView.vala:37
 msgid "Tile left:"
-msgstr ""
+msgstr "خشتکردنی پەنجەرە بۆ لای چەپ:"
 
 #: src/Views/ShortcutsView.vala:39
 msgid "Tile right:"
-msgstr ""
+msgstr "خشتکردنی پەنجەرە بۆ لای ڕاست:"
 
 #: src/Views/ShortcutsView.vala:41
 msgid "Move to left workspace:"
-msgstr ""
+msgstr "گواستنەوەی بۆ ناوچەکاری چەپ:"
 
 #: src/Views/ShortcutsView.vala:43
 msgid "Move to right workspace:"
-msgstr ""
+msgstr "گواستنەوەی بۆ ناوچەکاری ڕاست:"
 
 #: src/Views/ShortcutsView.vala:45
 msgid "Picture in Picture Mode:"
-msgstr ""
+msgstr "دۆخی وێنە-لەناو-وێنەدا:"
 
 #: src/Views/ShortcutsView.vala:48
 msgid "Workspaces"
-msgstr ""
+msgstr "ناوچەکارەکان"
 
 #: src/Views/ShortcutsView.vala:49
 msgid "Multitasking View:"
-msgstr ""
+msgstr "دیمەنی مەڵتی تاسکینگ:"
 
 #: src/Views/ShortcutsView.vala:51
 msgid "Switch left:"
-msgstr ""
+msgstr "سویچکردن بۆ چەپ:"
 
 #: src/Views/ShortcutsView.vala:53
 msgid "Switch right:"
-msgstr ""
+msgstr "سویچکردن بۆ ڕاست:"
 
 #: src/Views/ShortcutsView.vala:55
 msgid "Switch to first:"
-msgstr ""
+msgstr "سویچکردن بۆ یەکەم:"
 
 #: src/Views/ShortcutsView.vala:57
 msgid "Switch to new:"
-msgstr ""
+msgstr "سویچکردن بۆ نوێ:"
 
 #: src/Views/ShortcutsView.vala:59
 msgid "Cycle workspaces:"
-msgstr ""
+msgstr "سایكڵ ناوچەکارەکان:"
 
 #: src/Views/ShortcutsView.vala:107
 msgid "System"
-msgstr ""
+msgstr "سیستەم"
 
 #: src/Views/ShortcutsView.vala:108
 msgid "Applications Menu:"
-msgstr ""
+msgstr "لیستی بەرنامەکان:"
 
 #: src/Views/ShortcutsView.vala:110
 msgid "Cycle display mode:"
-msgstr ""
+msgstr "سایکڵ دیسپلەی مۆد:"
 
 #: src/Views/ShortcutsView.vala:112
 msgid "Zoom in:"
-msgstr ""
+msgstr "زوم کردن:"
 
 #: src/Views/ShortcutsView.vala:114
 msgid "Zoom out:"
-msgstr ""
+msgstr "بچووک کردنەوە (زووم ئاوت):"
 
 #: src/Views/ShortcutsView.vala:116
 msgid "Lock screen:"
-msgstr ""
+msgstr "قوفڵکردنی ڕونما:"
 
 #: src/Views/ShortcutsView.vala:118
 msgid "Log out:"
-msgstr ""
+msgstr "چوونە دەرەوە:"
 
 #: src/Views/ShortcutsView.vala:120
 msgid "Switch keyboard layout:"
-msgstr ""
+msgstr "گۆڕینی ڕووی تەختەکلیل:"
 
 #: src/Views/ShortcutsView.vala:123
 msgid "Screenshots"
@@ -133,24 +133,24 @@ msgstr "سکرینشوتەکان"
 
 #: src/Views/ShortcutsView.vala:124
 msgid "Grab the whole screen:"
-msgstr ""
+msgstr "هێنانی هەموو ڕوونماکە:"
 
 #: src/Views/ShortcutsView.vala:126
 msgid "Copy the whole screen to clipboard:"
-msgstr ""
+msgstr "کۆپی کردنی هەموو ڕونما بۆ کلیپبۆرد:"
 
 #: src/Views/ShortcutsView.vala:128
 msgid "Grab the current window:"
-msgstr ""
+msgstr "هێنانی پەنجەرەی ئێستا:"
 
 #: src/Views/ShortcutsView.vala:130
 msgid "Copy the current window to clipboard:"
-msgstr ""
+msgstr "کۆپی کردنی پەنجەرەی ئێستا بۆ کلیپبۆرد:"
 
 #: src/Views/ShortcutsView.vala:132
 msgid "Select an area to grab:"
-msgstr ""
+msgstr "دیاریکردنی ناوچەیەک بۆ هێنان:"
 
 #: src/Views/ShortcutsView.vala:134
 msgid "Copy an area to clipboard:"
-msgstr ""
+msgstr "کۆپی کردنی ناوچەیەک بۆ کلیپبۆرد:"
