@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-26 18:22+0000\n"
+"POT-Creation-Date: 2022-04-22 10:14-0700\n"
 "PO-Revision-Date: 2021-11-01 02:39+0000\n"
 "Last-Translator: Yuchen Deng <loaden@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
@@ -19,139 +19,145 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: src/MainWindow.vala:23 src/MainWindow.vala:39
+#: src/MainWindow.vala:23
 msgid "Shortcuts"
 msgstr "快捷键"
 
-#: src/MainWindow.vala:33
+#: src/MainWindow.vala:30
 msgid "Keyboard Settings…"
 msgstr "键盘设置…"
+
+#: src/MainWindow.vala:44
+#, fuzzy
+#| msgid "Shortcuts"
+msgid "Shorcuts"
+msgstr "快捷键"
 
 #: src/ShortcutLabel.vala:74
 msgid "Disabled"
 msgstr "已禁用"
 
-#: src/Views/ShortcutsView.vala:30
+#: src/Views/ShortcutsView.vala:31
 msgid "Windows"
 msgstr "窗口"
 
-#: src/Views/ShortcutsView.vala:31
+#: src/Views/ShortcutsView.vala:37
 msgid "Close window:"
 msgstr "关闭窗口："
 
-#: src/Views/ShortcutsView.vala:33
+#: src/Views/ShortcutsView.vala:39
 msgid "Cycle windows:"
 msgstr "循环窗口："
 
-#: src/Views/ShortcutsView.vala:35
+#: src/Views/ShortcutsView.vala:41
 msgid "Toggle maximized:"
 msgstr "切换最大化："
 
-#: src/Views/ShortcutsView.vala:37
+#: src/Views/ShortcutsView.vala:43
 msgid "Tile left:"
 msgstr "向左平铺："
 
-#: src/Views/ShortcutsView.vala:39
+#: src/Views/ShortcutsView.vala:45
 msgid "Tile right:"
 msgstr "向右平铺："
 
-#: src/Views/ShortcutsView.vala:41
+#: src/Views/ShortcutsView.vala:47
 msgid "Move to left workspace:"
 msgstr "移至左侧工作区间："
 
-#: src/Views/ShortcutsView.vala:43
+#: src/Views/ShortcutsView.vala:49
 msgid "Move to right workspace:"
 msgstr "移至右侧工作区间："
 
-#: src/Views/ShortcutsView.vala:45
+#: src/Views/ShortcutsView.vala:51
 msgid "Picture in Picture Mode:"
 msgstr "画中画模式："
 
-#: src/Views/ShortcutsView.vala:48
+#: src/Views/ShortcutsView.vala:54
 msgid "Workspaces"
 msgstr "工作空间"
 
-#: src/Views/ShortcutsView.vala:49
+#: src/Views/ShortcutsView.vala:60
 msgid "Multitasking View:"
 msgstr "多任务视图："
 
-#: src/Views/ShortcutsView.vala:51
+#: src/Views/ShortcutsView.vala:62
 msgid "Switch left:"
 msgstr "切换到左边："
 
-#: src/Views/ShortcutsView.vala:53
+#: src/Views/ShortcutsView.vala:64
 msgid "Switch right:"
 msgstr "切换到右边："
 
-#: src/Views/ShortcutsView.vala:55
+#: src/Views/ShortcutsView.vala:66
 msgid "Switch to first:"
 msgstr "切换至视图一："
 
-#: src/Views/ShortcutsView.vala:57
+#: src/Views/ShortcutsView.vala:68
 msgid "Switch to new:"
 msgstr "切换至新视图："
 
-#: src/Views/ShortcutsView.vala:59
+#: src/Views/ShortcutsView.vala:70
 msgid "Cycle workspaces:"
 msgstr "循环工作区："
 
-#: src/Views/ShortcutsView.vala:107
+#: src/Views/ShortcutsView.vala:118
 msgid "System"
 msgstr "系统"
 
-#: src/Views/ShortcutsView.vala:108
+#: src/Views/ShortcutsView.vala:124
 msgid "Applications Menu:"
 msgstr "应用程序菜单："
 
-#: src/Views/ShortcutsView.vala:110
+#: src/Views/ShortcutsView.vala:126
 msgid "Cycle display mode:"
 msgstr "循环显示模式："
 
-#: src/Views/ShortcutsView.vala:112
+#: src/Views/ShortcutsView.vala:128
 msgid "Zoom in:"
 msgstr "放大："
 
-#: src/Views/ShortcutsView.vala:114
+#: src/Views/ShortcutsView.vala:130
 msgid "Zoom out:"
 msgstr "缩小："
 
-#: src/Views/ShortcutsView.vala:116
+#: src/Views/ShortcutsView.vala:132
 msgid "Lock screen:"
 msgstr "锁屏："
 
-#: src/Views/ShortcutsView.vala:118
+#: src/Views/ShortcutsView.vala:134
 msgid "Log out:"
 msgstr "注销："
 
-#: src/Views/ShortcutsView.vala:120
+#: src/Views/ShortcutsView.vala:136
 msgid "Switch keyboard layout:"
 msgstr "切换键盘布局："
 
-#: src/Views/ShortcutsView.vala:123
+#: src/Views/ShortcutsView.vala:139
 msgid "Screenshots"
 msgstr "屏幕截图"
 
-#: src/Views/ShortcutsView.vala:124
+#: src/Views/ShortcutsView.vala:145
 msgid "Grab the whole screen:"
 msgstr "抓取整个屏幕："
 
-#: src/Views/ShortcutsView.vala:126
+#: src/Views/ShortcutsView.vala:147
 msgid "Copy the whole screen to clipboard:"
 msgstr "拷贝整个屏幕到剪贴板："
 
-#: src/Views/ShortcutsView.vala:128
+#: src/Views/ShortcutsView.vala:149
 msgid "Grab the current window:"
 msgstr "抓取当前窗口："
 
-#: src/Views/ShortcutsView.vala:130
+#: src/Views/ShortcutsView.vala:151
 msgid "Copy the current window to clipboard:"
 msgstr "拷贝当前窗口到剪贴板 ："
 
-#: src/Views/ShortcutsView.vala:132
+#: src/Views/ShortcutsView.vala:153
 msgid "Select an area to grab:"
 msgstr "抓取选中区域："
 
-#: src/Views/ShortcutsView.vala:134
+#: src/Views/ShortcutsView.vala:155
 msgid "Copy an area to clipboard:"
 msgstr "将选择区域复制到剪贴板："
 

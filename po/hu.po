@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-26 18:22+0000\n"
+"POT-Creation-Date: 2022-04-22 10:14-0700\n"
 "PO-Revision-Date: 2021-08-24 02:12+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/desktop/"
@@ -19,139 +19,145 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: src/MainWindow.vala:23 src/MainWindow.vala:39
+#: src/MainWindow.vala:23
 msgid "Shortcuts"
 msgstr "Gyorskombinációk"
 
-#: src/MainWindow.vala:33
+#: src/MainWindow.vala:30
 msgid "Keyboard Settings…"
 msgstr "Billentyűzetbeállítások…"
+
+#: src/MainWindow.vala:44
+#, fuzzy
+#| msgid "Shortcuts"
+msgid "Shorcuts"
+msgstr "Gyorskombinációk"
 
 #: src/ShortcutLabel.vala:74
 msgid "Disabled"
 msgstr "Letiltva"
 
-#: src/Views/ShortcutsView.vala:30
+#: src/Views/ShortcutsView.vala:31
 msgid "Windows"
 msgstr "Ablakok"
 
-#: src/Views/ShortcutsView.vala:31
+#: src/Views/ShortcutsView.vala:37
 msgid "Close window:"
 msgstr "Ablakok bezárása:"
 
-#: src/Views/ShortcutsView.vala:33
+#: src/Views/ShortcutsView.vala:39
 msgid "Cycle windows:"
 msgstr "Ablakok körbejárása:"
 
-#: src/Views/ShortcutsView.vala:35
+#: src/Views/ShortcutsView.vala:41
 msgid "Toggle maximized:"
 msgstr "Maximalizás váltása:"
 
-#: src/Views/ShortcutsView.vala:37
+#: src/Views/ShortcutsView.vala:43
 msgid "Tile left:"
 msgstr "Igazítás balra:"
 
-#: src/Views/ShortcutsView.vala:39
+#: src/Views/ShortcutsView.vala:45
 msgid "Tile right:"
 msgstr "Igazítás jobbra:"
 
-#: src/Views/ShortcutsView.vala:41
+#: src/Views/ShortcutsView.vala:47
 msgid "Move to left workspace:"
 msgstr "Áthelyezés a bal oldali munkaterületre:"
 
-#: src/Views/ShortcutsView.vala:43
+#: src/Views/ShortcutsView.vala:49
 msgid "Move to right workspace:"
 msgstr "Áthelyezés a jobb oldali munkaterületre:"
 
-#: src/Views/ShortcutsView.vala:45
+#: src/Views/ShortcutsView.vala:51
 msgid "Picture in Picture Mode:"
 msgstr "Kép a képben mód:"
 
-#: src/Views/ShortcutsView.vala:48
+#: src/Views/ShortcutsView.vala:54
 msgid "Workspaces"
 msgstr "Munkaterületek"
 
-#: src/Views/ShortcutsView.vala:49
+#: src/Views/ShortcutsView.vala:60
 msgid "Multitasking View:"
 msgstr "Többfeladatos nézet:"
 
-#: src/Views/ShortcutsView.vala:51
+#: src/Views/ShortcutsView.vala:62
 msgid "Switch left:"
 msgstr "Váltás balra:"
 
-#: src/Views/ShortcutsView.vala:53
+#: src/Views/ShortcutsView.vala:64
 msgid "Switch right:"
 msgstr "Váltás jobbra:"
 
-#: src/Views/ShortcutsView.vala:55
+#: src/Views/ShortcutsView.vala:66
 msgid "Switch to first:"
 msgstr "Váltás az elsőre:"
 
-#: src/Views/ShortcutsView.vala:57
+#: src/Views/ShortcutsView.vala:68
 msgid "Switch to new:"
 msgstr "Váltás egy újra:"
 
-#: src/Views/ShortcutsView.vala:59
+#: src/Views/ShortcutsView.vala:70
 msgid "Cycle workspaces:"
 msgstr "Munkaterületek körbejárása:"
 
-#: src/Views/ShortcutsView.vala:107
+#: src/Views/ShortcutsView.vala:118
 msgid "System"
 msgstr "Rendszer"
 
-#: src/Views/ShortcutsView.vala:108
+#: src/Views/ShortcutsView.vala:124
 msgid "Applications Menu:"
 msgstr "Alkalmazásmenü:"
 
-#: src/Views/ShortcutsView.vala:110
+#: src/Views/ShortcutsView.vala:126
 msgid "Cycle display mode:"
 msgstr "Képernyőmódok körbejárása:"
 
-#: src/Views/ShortcutsView.vala:112
+#: src/Views/ShortcutsView.vala:128
 msgid "Zoom in:"
 msgstr "Nagyítás:"
 
-#: src/Views/ShortcutsView.vala:114
+#: src/Views/ShortcutsView.vala:130
 msgid "Zoom out:"
 msgstr "Kicsinyítés:"
 
-#: src/Views/ShortcutsView.vala:116
+#: src/Views/ShortcutsView.vala:132
 msgid "Lock screen:"
 msgstr "Zárolás:"
 
-#: src/Views/ShortcutsView.vala:118
+#: src/Views/ShortcutsView.vala:134
 msgid "Log out:"
 msgstr "Kijelentkezés:"
 
-#: src/Views/ShortcutsView.vala:120
+#: src/Views/ShortcutsView.vala:136
 msgid "Switch keyboard layout:"
 msgstr "Billentyűzetkiosztás váltása:"
 
-#: src/Views/ShortcutsView.vala:123
+#: src/Views/ShortcutsView.vala:139
 msgid "Screenshots"
 msgstr "Képernyőképek"
 
-#: src/Views/ShortcutsView.vala:124
+#: src/Views/ShortcutsView.vala:145
 msgid "Grab the whole screen:"
 msgstr "A teljes képernyő mentése:"
 
-#: src/Views/ShortcutsView.vala:126
+#: src/Views/ShortcutsView.vala:147
 msgid "Copy the whole screen to clipboard:"
 msgstr "A teljes képernyő másolása vágólapra:"
 
-#: src/Views/ShortcutsView.vala:128
+#: src/Views/ShortcutsView.vala:149
 msgid "Grab the current window:"
 msgstr "Az aktuális ablak mentése:"
 
-#: src/Views/ShortcutsView.vala:130
+#: src/Views/ShortcutsView.vala:151
 msgid "Copy the current window to clipboard:"
 msgstr "Az aktuális ablak másolása vágólapra:"
 
-#: src/Views/ShortcutsView.vala:132
+#: src/Views/ShortcutsView.vala:153
 msgid "Select an area to grab:"
 msgstr "A kijelölt terület mentése:"
 
-#: src/Views/ShortcutsView.vala:134
+#: src/Views/ShortcutsView.vala:155
 msgid "Copy an area to clipboard:"
 msgstr "A kijelölt terület másolása a vágólapra:"
 
