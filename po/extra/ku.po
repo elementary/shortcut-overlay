@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-26 18:22+0000\n"
+"POT-Creation-Date: 2022-04-22 10:14-0700\n"
 "PO-Revision-Date: 2018-06-01 00:07+0000\n"
 "Last-Translator: Rokar <mail@rokar.de>\n"
 "Language-Team: Kurdish <https://weblate.elementary.io/projects/desktop/"
@@ -31,10 +31,6 @@ msgstr ""
 
 #: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
 msgid "View system shortcuts"
-msgstr ""
-
-#: data/shortcut-overlay.desktop.in:8
-msgid "preferences-desktop-keyboard"
 msgstr ""
 
 #: data/shortcut-overlay.desktop.in:13

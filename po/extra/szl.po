@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-26 18:22+0000\n"
+"POT-Creation-Date: 2022-04-22 10:14-0700\n"
 "PO-Revision-Date: 2020-02-25 22:08+0000\n"
 "Last-Translator: gkkulik <g.kulik@o2.pl>\n"
 "Language-Team: Silesian <https://l10n.elementary.io/projects/desktop/"
@@ -26,10 +26,6 @@ msgstr ""
 
 #: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
 msgid "View system shortcuts"
-msgstr ""
-
-#: data/shortcut-overlay.desktop.in:8
-msgid "preferences-desktop-keyboard"
 msgstr ""
 
 #: data/shortcut-overlay.desktop.in:13

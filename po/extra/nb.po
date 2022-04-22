@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-26 18:22+0000\n"
+"POT-Creation-Date: 2022-04-22 10:14-0700\n"
 "PO-Revision-Date: 2021-09-29 02:28+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/desktop/"
@@ -32,10 +32,6 @@ msgstr "Snarveisoverlag"
 #| msgid "View system keyboard shortcuts"
 msgid "View system shortcuts"
 msgstr "Vis systemtastatursnarveier"
-
-#: data/shortcut-overlay.desktop.in:8
-msgid "preferences-desktop-keyboard"
-msgstr "preferences-desktop-keyboard"
 
 #: data/shortcut-overlay.desktop.in:13
 #, fuzzy
@@ -74,3 +70,6 @@ msgstr "Tillagt «Bytt visning» og «Lukk vindu»-snarveier"
 #, fuzzy
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
+
+#~ msgid "preferences-desktop-keyboard"
+#~ msgstr "preferences-desktop-keyboard"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-26 18:22+0000\n"
+"POT-Creation-Date: 2022-04-22 10:14-0700\n"
 "PO-Revision-Date: 2021-09-04 17:03+0000\n"
 "Last-Translator: Muhammad Al-Jayyousi <m7md.j99@protonmail.com>\n"
 "Language-Team: Arabic <https://l10n.elementary.io/projects/desktop/shortcut-"
@@ -31,10 +31,6 @@ msgstr "خريطة الاختصارات"
 #: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
 msgid "View system shortcuts"
 msgstr "اعرض اختصارات النظام"
-
-#: data/shortcut-overlay.desktop.in:8
-msgid "preferences-desktop-keyboard"
-msgstr ""
 
 #: data/shortcut-overlay.desktop.in:13
 msgid "cheatsheet;shortcut;overlay;keyboard;"

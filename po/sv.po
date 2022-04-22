@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-26 18:22+0000\n"
+"POT-Creation-Date: 2022-04-22 10:14-0700\n"
 "PO-Revision-Date: 2018-06-11 19:12+0000\n"
 "Last-Translator: Richard Sjöqvist <richard@spiro.se>\n"
 "Language-Team: Swedish <https://weblate.elementary.io/projects/desktop/"
@@ -19,146 +19,152 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2.18\n"
 
-#: src/MainWindow.vala:23 src/MainWindow.vala:39
+#: src/MainWindow.vala:23
 #, fuzzy
 #| msgid "Keyboard Shortcuts"
 msgid "Shortcuts"
 msgstr "Tangentbordsgenvägar"
 
-#: src/MainWindow.vala:33
+#: src/MainWindow.vala:30
 msgid "Keyboard Settings…"
 msgstr "Tangentbordsinställningar…"
+
+#: src/MainWindow.vala:44
+#, fuzzy
+#| msgid "Keyboard Shortcuts"
+msgid "Shorcuts"
+msgstr "Tangentbordsgenvägar"
 
 #: src/ShortcutLabel.vala:74
 msgid "Disabled"
 msgstr "Inaktiverad"
 
-#: src/Views/ShortcutsView.vala:30
+#: src/Views/ShortcutsView.vala:31
 msgid "Windows"
 msgstr "Fönster"
 
-#: src/Views/ShortcutsView.vala:31
+#: src/Views/ShortcutsView.vala:37
 #, fuzzy
 msgid "Close window:"
 msgstr "Skifta fönster:"
 
-#: src/Views/ShortcutsView.vala:33
+#: src/Views/ShortcutsView.vala:39
 msgid "Cycle windows:"
 msgstr "Skifta fönster:"
 
-#: src/Views/ShortcutsView.vala:35
+#: src/Views/ShortcutsView.vala:41
 msgid "Toggle maximized:"
 msgstr "Skifta fullskärmsläge:"
 
-#: src/Views/ShortcutsView.vala:37
+#: src/Views/ShortcutsView.vala:43
 msgid "Tile left:"
 msgstr "Placera till vänster:"
 
-#: src/Views/ShortcutsView.vala:39
+#: src/Views/ShortcutsView.vala:45
 msgid "Tile right:"
 msgstr "Placera till höger:"
 
-#: src/Views/ShortcutsView.vala:41
+#: src/Views/ShortcutsView.vala:47
 msgid "Move to left workspace:"
 msgstr "Flytta till vänster arbetsyta:"
 
-#: src/Views/ShortcutsView.vala:43
+#: src/Views/ShortcutsView.vala:49
 msgid "Move to right workspace:"
 msgstr "Flytta till höger arbetsyta:"
 
-#: src/Views/ShortcutsView.vala:45
+#: src/Views/ShortcutsView.vala:51
 msgid "Picture in Picture Mode:"
 msgstr "Bild-i-bild läge:"
 
-#: src/Views/ShortcutsView.vala:48
+#: src/Views/ShortcutsView.vala:54
 msgid "Workspaces"
 msgstr "Arbetsytor"
 
-#: src/Views/ShortcutsView.vala:49
+#: src/Views/ShortcutsView.vala:60
 msgid "Multitasking View:"
 msgstr "Multitaskingvy:"
 
-#: src/Views/ShortcutsView.vala:51
+#: src/Views/ShortcutsView.vala:62
 msgid "Switch left:"
 msgstr "Skifta till vänster:"
 
-#: src/Views/ShortcutsView.vala:53
+#: src/Views/ShortcutsView.vala:64
 msgid "Switch right:"
 msgstr "Skifta till höger:"
 
-#: src/Views/ShortcutsView.vala:55
+#: src/Views/ShortcutsView.vala:66
 msgid "Switch to first:"
 msgstr "Skifta till första:"
 
-#: src/Views/ShortcutsView.vala:57
+#: src/Views/ShortcutsView.vala:68
 msgid "Switch to new:"
 msgstr "Skifta till nytt:"
 
-#: src/Views/ShortcutsView.vala:59
+#: src/Views/ShortcutsView.vala:70
 msgid "Cycle workspaces:"
 msgstr "Skifta arbetsytor:"
 
-#: src/Views/ShortcutsView.vala:107
+#: src/Views/ShortcutsView.vala:118
 msgid "System"
 msgstr "System"
 
-#: src/Views/ShortcutsView.vala:108
+#: src/Views/ShortcutsView.vala:124
 msgid "Applications Menu:"
 msgstr "Programmeny:"
 
-#: src/Views/ShortcutsView.vala:110
+#: src/Views/ShortcutsView.vala:126
 msgid "Cycle display mode:"
 msgstr "Skifta skärmläge:"
 
-#: src/Views/ShortcutsView.vala:112
+#: src/Views/ShortcutsView.vala:128
 msgid "Zoom in:"
 msgstr "Zooma in:"
 
-#: src/Views/ShortcutsView.vala:114
+#: src/Views/ShortcutsView.vala:130
 msgid "Zoom out:"
 msgstr "Zooma out:"
 
-#: src/Views/ShortcutsView.vala:116
+#: src/Views/ShortcutsView.vala:132
 msgid "Lock screen:"
 msgstr "Lås skärmen:"
 
-#: src/Views/ShortcutsView.vala:118
+#: src/Views/ShortcutsView.vala:134
 msgid "Log out:"
 msgstr "Logga ut:"
 
-#: src/Views/ShortcutsView.vala:120
+#: src/Views/ShortcutsView.vala:136
 msgid "Switch keyboard layout:"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:123
+#: src/Views/ShortcutsView.vala:139
 msgid "Screenshots"
 msgstr "Skärmdumpar"
 
-#: src/Views/ShortcutsView.vala:124
+#: src/Views/ShortcutsView.vala:145
 msgid "Grab the whole screen:"
 msgstr "Hela skärmen:"
 
-#: src/Views/ShortcutsView.vala:126
+#: src/Views/ShortcutsView.vala:147
 #, fuzzy
 #| msgid "Grab the whole screen:"
 msgid "Copy the whole screen to clipboard:"
 msgstr "Hela skärmen:"
 
-#: src/Views/ShortcutsView.vala:128
+#: src/Views/ShortcutsView.vala:149
 msgid "Grab the current window:"
 msgstr "Aktivt fönster:"
 
-#: src/Views/ShortcutsView.vala:130
+#: src/Views/ShortcutsView.vala:151
 #, fuzzy
 #| msgid "Grab the current window:"
 msgid "Copy the current window to clipboard:"
 msgstr "Aktivt fönster:"
 
-#: src/Views/ShortcutsView.vala:132
+#: src/Views/ShortcutsView.vala:153
 msgid "Select an area to grab:"
 msgstr "Valfri yta:"
 
-#: src/Views/ShortcutsView.vala:134
+#: src/Views/ShortcutsView.vala:155
 msgid "Copy an area to clipboard:"
 msgstr ""
 

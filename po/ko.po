@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-26 18:22+0000\n"
+"POT-Creation-Date: 2022-04-22 10:14-0700\n"
 "PO-Revision-Date: 2019-04-06 21:52+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://l10n.elementary.io/projects/desktop/shortcut-"
@@ -19,145 +19,151 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 3.5.1\n"
 
-#: src/MainWindow.vala:23 src/MainWindow.vala:39
+#: src/MainWindow.vala:23
 #, fuzzy
 #| msgid "Keyboard Shortcuts"
 msgid "Shortcuts"
 msgstr "키보드 단축키"
 
-#: src/MainWindow.vala:33
+#: src/MainWindow.vala:30
 msgid "Keyboard Settings…"
 msgstr "키보드 설정…"
+
+#: src/MainWindow.vala:44
+#, fuzzy
+#| msgid "Keyboard Shortcuts"
+msgid "Shorcuts"
+msgstr "키보드 단축키"
 
 #: src/ShortcutLabel.vala:74
 msgid "Disabled"
 msgstr "사용 안 함"
 
-#: src/Views/ShortcutsView.vala:30
+#: src/Views/ShortcutsView.vala:31
 msgid "Windows"
 msgstr "창"
 
-#: src/Views/ShortcutsView.vala:31
+#: src/Views/ShortcutsView.vala:37
 msgid "Close window:"
 msgstr "창 닫기:"
 
-#: src/Views/ShortcutsView.vala:33
+#: src/Views/ShortcutsView.vala:39
 msgid "Cycle windows:"
 msgstr "창 전환:"
 
-#: src/Views/ShortcutsView.vala:35
+#: src/Views/ShortcutsView.vala:41
 msgid "Toggle maximized:"
 msgstr "창 최대화 토글:"
 
-#: src/Views/ShortcutsView.vala:37
+#: src/Views/ShortcutsView.vala:43
 msgid "Tile left:"
 msgstr "왼쪽으로 붙이기:"
 
-#: src/Views/ShortcutsView.vala:39
+#: src/Views/ShortcutsView.vala:45
 msgid "Tile right:"
 msgstr "오른쪽으로 붙이기:"
 
-#: src/Views/ShortcutsView.vala:41
+#: src/Views/ShortcutsView.vala:47
 msgid "Move to left workspace:"
 msgstr "왼쪽 작업 공간으로 이동:"
 
-#: src/Views/ShortcutsView.vala:43
+#: src/Views/ShortcutsView.vala:49
 msgid "Move to right workspace:"
 msgstr "오른쪽 작업 공간으로 이동:"
 
-#: src/Views/ShortcutsView.vala:45
+#: src/Views/ShortcutsView.vala:51
 msgid "Picture in Picture Mode:"
 msgstr "PIP 모드:"
 
-#: src/Views/ShortcutsView.vala:48
+#: src/Views/ShortcutsView.vala:54
 msgid "Workspaces"
 msgstr "작업 공간"
 
-#: src/Views/ShortcutsView.vala:49
+#: src/Views/ShortcutsView.vala:60
 msgid "Multitasking View:"
 msgstr "멀티태스킹 뷰:"
 
-#: src/Views/ShortcutsView.vala:51
+#: src/Views/ShortcutsView.vala:62
 msgid "Switch left:"
 msgstr "왼쪽으로 전환:"
 
-#: src/Views/ShortcutsView.vala:53
+#: src/Views/ShortcutsView.vala:64
 msgid "Switch right:"
 msgstr "오른쪽으로 전환:"
 
-#: src/Views/ShortcutsView.vala:55
+#: src/Views/ShortcutsView.vala:66
 msgid "Switch to first:"
 msgstr "처음으로 전환:"
 
-#: src/Views/ShortcutsView.vala:57
+#: src/Views/ShortcutsView.vala:68
 msgid "Switch to new:"
 msgstr "새로 생긴 것으로 전환:"
 
-#: src/Views/ShortcutsView.vala:59
+#: src/Views/ShortcutsView.vala:70
 msgid "Cycle workspaces:"
 msgstr "작업 공간 전환:"
 
-#: src/Views/ShortcutsView.vala:107
+#: src/Views/ShortcutsView.vala:118
 msgid "System"
 msgstr "시스템"
 
-#: src/Views/ShortcutsView.vala:108
+#: src/Views/ShortcutsView.vala:124
 msgid "Applications Menu:"
 msgstr "애플리케이션 메뉴:"
 
-#: src/Views/ShortcutsView.vala:110
+#: src/Views/ShortcutsView.vala:126
 msgid "Cycle display mode:"
 msgstr "모니터 돌려보기 모드:"
 
-#: src/Views/ShortcutsView.vala:112
+#: src/Views/ShortcutsView.vala:128
 msgid "Zoom in:"
 msgstr "확대:"
 
-#: src/Views/ShortcutsView.vala:114
+#: src/Views/ShortcutsView.vala:130
 msgid "Zoom out:"
 msgstr "축소:"
 
-#: src/Views/ShortcutsView.vala:116
+#: src/Views/ShortcutsView.vala:132
 msgid "Lock screen:"
 msgstr "화면 잠금:"
 
-#: src/Views/ShortcutsView.vala:118
+#: src/Views/ShortcutsView.vala:134
 msgid "Log out:"
 msgstr "로그 아웃:"
 
-#: src/Views/ShortcutsView.vala:120
+#: src/Views/ShortcutsView.vala:136
 msgid "Switch keyboard layout:"
 msgstr "키보드 전환 레이아웃:"
 
-#: src/Views/ShortcutsView.vala:123
+#: src/Views/ShortcutsView.vala:139
 msgid "Screenshots"
 msgstr "스크린샷"
 
-#: src/Views/ShortcutsView.vala:124
+#: src/Views/ShortcutsView.vala:145
 msgid "Grab the whole screen:"
 msgstr "전체 화면 찍기:"
 
-#: src/Views/ShortcutsView.vala:126
+#: src/Views/ShortcutsView.vala:147
 #, fuzzy
 #| msgid "Grab the whole screen:"
 msgid "Copy the whole screen to clipboard:"
 msgstr "전체 화면 찍기:"
 
-#: src/Views/ShortcutsView.vala:128
+#: src/Views/ShortcutsView.vala:149
 msgid "Grab the current window:"
 msgstr "현재 창 찍기:"
 
-#: src/Views/ShortcutsView.vala:130
+#: src/Views/ShortcutsView.vala:151
 #, fuzzy
 #| msgid "Grab the current window:"
 msgid "Copy the current window to clipboard:"
 msgstr "현재 창 찍기:"
 
-#: src/Views/ShortcutsView.vala:132
+#: src/Views/ShortcutsView.vala:153
 msgid "Select an area to grab:"
 msgstr "찍을 영역 선택:"
 
-#: src/Views/ShortcutsView.vala:134
+#: src/Views/ShortcutsView.vala:155
 msgid "Copy an area to clipboard:"
 msgstr ""
 
