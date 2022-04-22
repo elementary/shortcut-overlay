@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-26 18:22+0000\n"
+"POT-Creation-Date: 2022-04-22 10:14-0700\n"
 "PO-Revision-Date: 2021-09-29 20:42+0000\n"
 "Last-Translator: Alvaro <alvaroaraoz_92@hotmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/desktop/shortcut-"
@@ -30,10 +30,6 @@ msgstr "Ocultar Acceso directo"
 #: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
 msgid "View system shortcuts"
 msgstr "Ver atajos del sistema"
-
-#: data/shortcut-overlay.desktop.in:8
-msgid "preferences-desktop-keyboard"
-msgstr "preferences-desktop-keyboard"
 
 #: data/shortcut-overlay.desktop.in:13
 #, fuzzy
@@ -70,3 +66,6 @@ msgstr "Agregar «Cambiar diseño» y «Cerrar ventana», accesos directos"
 #: data/shortcut-overlay.appdata.xml.in:91
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
+
+#~ msgid "preferences-desktop-keyboard"
+#~ msgstr "preferences-desktop-keyboard"

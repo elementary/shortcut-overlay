@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-26 18:22+0000\n"
+"POT-Creation-Date: 2022-04-22 10:14-0700\n"
 "PO-Revision-Date: 2021-10-26 22:07+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
@@ -31,10 +31,6 @@ msgstr "ショートカットオーバーレイ"
 msgid "View system shortcuts"
 msgstr "システムのショートカットを表示します"
 
-#: data/shortcut-overlay.desktop.in:8
-msgid "preferences-desktop-keyboard"
-msgstr "preferences-desktop-keyboard"
-
 #: data/shortcut-overlay.desktop.in:13
 msgid "cheatsheet;shortcut;overlay;keyboard;"
 msgstr ""
@@ -43,7 +39,8 @@ msgstr ""
 
 #: data/shortcut-overlay.appdata.xml.in:16
 msgid "Fix the app not launching if a shortcut key is set to blank"
-msgstr "ショートカットキーが設定されていない場合にアプリが起動しない不具合を修正"
+msgstr ""
+"ショートカットキーが設定されていない場合にアプリが起動しない不具合を修正"
 
 #: data/shortcut-overlay.appdata.xml.in:17
 #: data/shortcut-overlay.appdata.xml.in:26
@@ -68,3 +65,6 @@ msgstr "\"レイアウトを切り替え\"と\"ウィンドウを閉じる\"シ�
 #: data/shortcut-overlay.appdata.xml.in:91
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
+
+#~ msgid "preferences-desktop-keyboard"
+#~ msgstr "preferences-desktop-keyboard"
