@@ -41,7 +41,7 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
 
         var start_controls = new Gtk.WindowControls (Gtk.PackType.START);
 
-        var title_label = new Gtk.Label (_("Shorcuts")) {
+        var title_label = new Gtk.Label (_("Shortcuts")) {
             hexpand = true
         };
         title_label.add_css_class (Granite.STYLE_CLASS_TITLE_LABEL);
