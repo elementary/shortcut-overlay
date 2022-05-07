@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-22 10:14-0700\n"
-"PO-Revision-Date: 2022-05-07 01:27+0000\n"
+"PO-Revision-Date: 2022-05-07 15:04+0000\n"
 "Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/sk/>\n"
@@ -45,7 +45,7 @@ msgstr ""
 #: data/shortcut-overlay.appdata.xml.in:40
 #: data/shortcut-overlay.appdata.xml.in:48
 msgid "Updated translations"
-msgstr "Aktualizácia prekladov"
+msgstr "Aktualizované preklady"
 
 #: data/shortcut-overlay.appdata.xml.in:24
 msgid "Add screenshot shortcuts"
