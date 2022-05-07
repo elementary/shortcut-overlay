@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-22 10:14-0700\n"
-"PO-Revision-Date: 2018-03-07 10:56-0800\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-05-07 16:29+0000\n"
+"Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
+"Language-Team: Slovak <https://l10n.elementary.io/projects/desktop/"
+"shortcut-overlay/sk/>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:23
 msgid "Shortcuts"
@@ -131,7 +133,7 @@ msgstr ""
 
 #: src/Views/ShortcutsView.vala:139
 msgid "Screenshots"
-msgstr ""
+msgstr "Snímky obrazovky"
 
 #: src/Views/ShortcutsView.vala:145
 msgid "Grab the whole screen:"
