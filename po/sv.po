@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-22 10:14-0700\n"
+"POT-Creation-Date: 2022-05-09 11:08-0700\n"
 "PO-Revision-Date: 2018-06-11 19:12+0000\n"
 "Last-Translator: Richard Sjöqvist <richard@spiro.se>\n"
 "Language-Team: Swedish <https://weblate.elementary.io/projects/desktop/"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2.18\n"
 
-#: src/MainWindow.vala:23
+#: src/MainWindow.vala:23 src/MainWindow.vala:44
 #, fuzzy
 #| msgid "Keyboard Shortcuts"
 msgid "Shortcuts"
@@ -28,12 +28,6 @@ msgstr "Tangentbordsgenvägar"
 #: src/MainWindow.vala:30
 msgid "Keyboard Settings…"
 msgstr "Tangentbordsinställningar…"
-
-#: src/MainWindow.vala:44
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
-msgid "Shorcuts"
-msgstr "Tangentbordsgenvägar"
 
 #: src/ShortcutLabel.vala:74
 msgid "Disabled"
@@ -167,6 +161,11 @@ msgstr "Valfri yta:"
 #: src/Views/ShortcutsView.vala:155
 msgid "Copy an area to clipboard:"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Keyboard Shortcuts"
+#~ msgid "Shorcuts"
+#~ msgstr "Tangentbordsgenvägar"
 
 #~ msgid "Shift"
 #~ msgstr "Skift"

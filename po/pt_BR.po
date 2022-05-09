@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-22 10:14-0700\n"
+"POT-Creation-Date: 2022-05-09 11:08-0700\n"
 "PO-Revision-Date: 2019-04-08 12:53+0000\n"
 "Last-Translator: Cleiton Floss <cleitonfloss@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 3.5.1\n"
 
-#: src/MainWindow.vala:23
+#: src/MainWindow.vala:23 src/MainWindow.vala:44
 #, fuzzy
 #| msgid "Keyboard Shortcuts"
 msgid "Shortcuts"
@@ -28,12 +28,6 @@ msgstr "Atalhos do teclado"
 #: src/MainWindow.vala:30
 msgid "Keyboard Settings…"
 msgstr "Configurações de Teclado…"
-
-#: src/MainWindow.vala:44
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
-msgid "Shorcuts"
-msgstr "Atalhos do teclado"
 
 #: src/ShortcutLabel.vala:74
 msgid "Disabled"
@@ -166,6 +160,11 @@ msgstr "Selecionar uma área:"
 #: src/Views/ShortcutsView.vala:155
 msgid "Copy an area to clipboard:"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Keyboard Shortcuts"
+#~ msgid "Shorcuts"
+#~ msgstr "Atalhos do teclado"
 
 #~ msgid "Shift"
 #~ msgstr "Shift"

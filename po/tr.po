@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-22 10:14-0700\n"
+"POT-Creation-Date: 2022-05-09 11:08-0700\n"
 "PO-Revision-Date: 2022-04-30 02:44+0000\n"
 "Last-Translator: Özgür Baskin <queeup@zoho.com>\n"
-"Language-Team: Turkish <https://l10n.elementary.io/projects/desktop/"
-"shortcut-overlay/tr/>\n"
+"Language-Team: Turkish <https://l10n.elementary.io/projects/desktop/shortcut-"
+"overlay/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,17 +19,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: src/MainWindow.vala:23
+#: src/MainWindow.vala:23 src/MainWindow.vala:44
 msgid "Shortcuts"
 msgstr "Kısayollar"
 
 #: src/MainWindow.vala:30
 msgid "Keyboard Settings…"
 msgstr "Klavye Ayarları…"
-
-#: src/MainWindow.vala:44
-msgid "Shorcuts"
-msgstr "Kısayollar"
 
 #: src/ShortcutLabel.vala:74
 msgid "Disabled"
@@ -158,6 +154,9 @@ msgstr "Yakalamak için bir alan seç:"
 #: src/Views/ShortcutsView.vala:155
 msgid "Copy an area to clipboard:"
 msgstr "Bir alanı panoya kopyala:"
+
+#~ msgid "Shorcuts"
+#~ msgstr "Kısayollar"
 
 #~ msgid "Shift"
 #~ msgstr "Shift"

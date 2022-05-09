@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-22 10:14-0700\n"
+"POT-Creation-Date: 2022-05-09 11:08-0700\n"
 "PO-Revision-Date: 2022-02-06 14:25+0000\n"
 "Last-Translator: Joel Jose <joel750jose@gmail.com>\n"
 "Language-Team: Malayalam <https://l10n.elementary.io/projects/desktop/"
@@ -19,19 +19,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: src/MainWindow.vala:23
+#: src/MainWindow.vala:23 src/MainWindow.vala:44
 msgid "Shortcuts"
 msgstr "ഷോർട്ട്ക്കട്ടുകൾ"
 
 #: src/MainWindow.vala:30
 msgid "Keyboard Settings…"
 msgstr "കീബോർഡ് ക്രമീകരണങ്ങൾ…"
-
-#: src/MainWindow.vala:44
-#, fuzzy
-#| msgid "Shortcuts"
-msgid "Shorcuts"
-msgstr "ഷോർട്ട്ക്കട്ടുകൾ"
 
 #: src/ShortcutLabel.vala:74
 msgid "Disabled"
@@ -160,3 +154,8 @@ msgstr "പിടിക്കാൻ ഒരു പ്രദേശം തിരഞ
 #: src/Views/ShortcutsView.vala:155
 msgid "Copy an area to clipboard:"
 msgstr "ക്ലിപ്പ്ബോർഡിലേക്ക് ഒരു പ്രദേശം പകർത്തുക:"
+
+#, fuzzy
+#~| msgid "Shortcuts"
+#~ msgid "Shorcuts"
+#~ msgstr "ഷോർട്ട്ക്കട്ടുകൾ"

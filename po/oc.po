@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-22 10:14-0700\n"
+"POT-Creation-Date: 2022-05-09 11:08-0700\n"
 "PO-Revision-Date: 2020-08-29 20:13+0000\n"
 "Last-Translator: Mejans <farga@mejans.fr>\n"
 "Language-Team: Occitan <https://l10n.elementary.io/projects/desktop/shortcut-"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 3.9.1\n"
 
-#: src/MainWindow.vala:23
+#: src/MainWindow.vala:23 src/MainWindow.vala:44
 #, fuzzy
 #| msgid "Keyboard Shortcuts"
 msgid "Shortcuts"
@@ -28,12 +28,6 @@ msgstr "Acorchis clavièr"
 #: src/MainWindow.vala:30
 msgid "Keyboard Settings…"
 msgstr ""
-
-#: src/MainWindow.vala:44
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
-msgid "Shorcuts"
-msgstr "Acorchis clavièr"
 
 #: src/ShortcutLabel.vala:74
 msgid "Disabled"
@@ -162,3 +156,8 @@ msgstr ""
 #: src/Views/ShortcutsView.vala:155
 msgid "Copy an area to clipboard:"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Keyboard Shortcuts"
+#~ msgid "Shorcuts"
+#~ msgstr "Acorchis clavièr"

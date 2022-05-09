@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-22 10:14-0700\n"
+"POT-Creation-Date: 2022-05-09 11:08-0700\n"
 "PO-Revision-Date: 2022-04-24 23:19+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/desktop/"
@@ -19,17 +19,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: src/MainWindow.vala:23
+#: src/MainWindow.vala:23 src/MainWindow.vala:44
 msgid "Shortcuts"
 msgstr "Gyorskombinációk"
 
 #: src/MainWindow.vala:30
 msgid "Keyboard Settings…"
 msgstr "Billentyűzetbeállítások…"
-
-#: src/MainWindow.vala:44
-msgid "Shorcuts"
-msgstr "Gyorskombinációk"
 
 #: src/ShortcutLabel.vala:74
 msgid "Disabled"
@@ -158,6 +154,9 @@ msgstr "A kijelölt terület mentése:"
 #: src/Views/ShortcutsView.vala:155
 msgid "Copy an area to clipboard:"
 msgstr "A kijelölt terület másolása a vágólapra:"
+
+#~ msgid "Shorcuts"
+#~ msgstr "Gyorskombinációk"
 
 #~ msgid "Shift"
 #~ msgstr "Shift"

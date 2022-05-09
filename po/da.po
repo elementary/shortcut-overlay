@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-22 10:14-0700\n"
+"POT-Creation-Date: 2022-05-09 11:08-0700\n"
 "PO-Revision-Date: 2020-05-25 19:11+0000\n"
 "Last-Translator: Rantyrant <diseasemonger@gmail.com>\n"
 "Language-Team: Danish <https://l10n.elementary.io/projects/desktop/shortcut-"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.9.1\n"
 
-#: src/MainWindow.vala:23
+#: src/MainWindow.vala:23 src/MainWindow.vala:44
 #, fuzzy
 #| msgid "Keyboard Shortcuts"
 msgid "Shortcuts"
@@ -28,12 +28,6 @@ msgstr "Tastaturgenveje"
 #: src/MainWindow.vala:30
 msgid "Keyboard Settings…"
 msgstr "Tastatur Indstillinger…"
-
-#: src/MainWindow.vala:44
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
-msgid "Shorcuts"
-msgstr "Tastaturgenveje"
 
 #: src/ShortcutLabel.vala:74
 msgid "Disabled"
@@ -166,6 +160,11 @@ msgstr "Vælg et område af skærmen:"
 #: src/Views/ShortcutsView.vala:155
 msgid "Copy an area to clipboard:"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Keyboard Shortcuts"
+#~ msgid "Shorcuts"
+#~ msgstr "Tastaturgenveje"
 
 #~ msgid "Shift"
 #~ msgstr "Shift"

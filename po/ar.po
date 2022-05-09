@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-22 10:14-0700\n"
+"POT-Creation-Date: 2022-05-09 11:08-0700\n"
 "PO-Revision-Date: 2021-09-04 17:03+0000\n"
 "Last-Translator: Muhammad Al-Jayyousi <m7md.j99@protonmail.com>\n"
 "Language-Team: Arabic <https://l10n.elementary.io/projects/desktop/shortcut-"
@@ -20,19 +20,13 @@ msgstr ""
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: src/MainWindow.vala:23
+#: src/MainWindow.vala:23 src/MainWindow.vala:44
 msgid "Shortcuts"
 msgstr "الاختصارات"
 
 #: src/MainWindow.vala:30
 msgid "Keyboard Settings…"
 msgstr "إعدادات لوحة المفاتيح …"
-
-#: src/MainWindow.vala:44
-#, fuzzy
-#| msgid "Shortcuts"
-msgid "Shorcuts"
-msgstr "الاختصارات"
 
 #: src/ShortcutLabel.vala:74
 msgid "Disabled"
@@ -161,3 +155,8 @@ msgstr "تحديد مساحة لالتقاطها:"
 #: src/Views/ShortcutsView.vala:155
 msgid "Copy an area to clipboard:"
 msgstr "تحديد مساحة لالتقاطها ونسخها للحافظة:"
+
+#, fuzzy
+#~| msgid "Shortcuts"
+#~ msgid "Shorcuts"
+#~ msgstr "الاختصارات"
