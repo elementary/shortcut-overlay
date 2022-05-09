@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-22 10:14-0700\n"
+"POT-Creation-Date: 2022-05-09 11:08-0700\n"
 "PO-Revision-Date: 2022-04-07 22:05+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/desktop/shortcut-"
@@ -36,30 +36,35 @@ msgid "cheatsheet;shortcut;overlay;keyboard;"
 msgstr "שליף;קיצור דרך;סימון;מקלדת;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
-msgid "Fix the app not launching if a shortcut key is set to blank"
-msgstr "תוקנה התקלה שהיישום לא עולה אם מקש קיצור מוגדר לכלום"
+msgid "Update for OS 7 and Gtk 4"
+msgstr ""
 
 #: data/shortcut-overlay.appdata.xml.in:17
-#: data/shortcut-overlay.appdata.xml.in:26
-#: data/shortcut-overlay.appdata.xml.in:33
-#: data/shortcut-overlay.appdata.xml.in:40
+#: data/shortcut-overlay.appdata.xml.in:25
+#: data/shortcut-overlay.appdata.xml.in:34
+#: data/shortcut-overlay.appdata.xml.in:41
 #: data/shortcut-overlay.appdata.xml.in:48
+#: data/shortcut-overlay.appdata.xml.in:56
 msgid "Updated translations"
 msgstr "תרגומים עדכניים"
 
 #: data/shortcut-overlay.appdata.xml.in:24
+msgid "Fix the app not launching if a shortcut key is set to blank"
+msgstr "תוקנה התקלה שהיישום לא עולה אם מקש קיצור מוגדר לכלום"
+
+#: data/shortcut-overlay.appdata.xml.in:32
 msgid "Add screenshot shortcuts"
 msgstr "נוספו קיצורי דרך לצילום המסך"
 
-#: data/shortcut-overlay.appdata.xml.in:25
+#: data/shortcut-overlay.appdata.xml.in:33
 msgid "Fix issues with multiple windows"
 msgstr "תוקנה תקלה עם ריבוי חלונות"
 
-#: data/shortcut-overlay.appdata.xml.in:47
+#: data/shortcut-overlay.appdata.xml.in:55
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
 msgstr "הוספת קיצורים לביצוע „החלפת פריסה” ו־„סגירת חלון”"
 
-#: data/shortcut-overlay.appdata.xml.in:91
+#: data/shortcut-overlay.appdata.xml.in:99
 msgid "elementary, Inc."
 msgstr "elementary בע״מ."
 

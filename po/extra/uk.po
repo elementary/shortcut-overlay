@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-22 10:14-0700\n"
+"POT-Creation-Date: 2022-05-09 11:08-0700\n"
 "PO-Revision-Date: 2021-10-27 00:35+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/desktop/"
@@ -39,32 +39,37 @@ msgstr ""
 "keyboard;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
+msgid "Update for OS 7 and Gtk 4"
+msgstr ""
+
+#: data/shortcut-overlay.appdata.xml.in:17
+#: data/shortcut-overlay.appdata.xml.in:25
+#: data/shortcut-overlay.appdata.xml.in:34
+#: data/shortcut-overlay.appdata.xml.in:41
+#: data/shortcut-overlay.appdata.xml.in:48
+#: data/shortcut-overlay.appdata.xml.in:56
+msgid "Updated translations"
+msgstr "Оновлено переклади"
+
+#: data/shortcut-overlay.appdata.xml.in:24
 msgid "Fix the app not launching if a shortcut key is set to blank"
 msgstr ""
 "Виправлено ваду, коли застосунок не запускався, якщо не встановлено "
 "комбінації клавіш"
 
-#: data/shortcut-overlay.appdata.xml.in:17
-#: data/shortcut-overlay.appdata.xml.in:26
-#: data/shortcut-overlay.appdata.xml.in:33
-#: data/shortcut-overlay.appdata.xml.in:40
-#: data/shortcut-overlay.appdata.xml.in:48
-msgid "Updated translations"
-msgstr "Оновлено переклади"
-
-#: data/shortcut-overlay.appdata.xml.in:24
+#: data/shortcut-overlay.appdata.xml.in:32
 msgid "Add screenshot shortcuts"
 msgstr "Додано комбінації клавіш для знімання екрана"
 
-#: data/shortcut-overlay.appdata.xml.in:25
+#: data/shortcut-overlay.appdata.xml.in:33
 msgid "Fix issues with multiple windows"
 msgstr "Виправлено проблеми з кількома вікнами"
 
-#: data/shortcut-overlay.appdata.xml.in:47
+#: data/shortcut-overlay.appdata.xml.in:55
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
 msgstr "Додано комбінації «Змінити розкладку клавіатури» та «Закрити вікно»"
 
-#: data/shortcut-overlay.appdata.xml.in:91
+#: data/shortcut-overlay.appdata.xml.in:99
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 

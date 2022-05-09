@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-22 10:14-0700\n"
+"POT-Creation-Date: 2022-05-09 11:08-0700\n"
 "PO-Revision-Date: 2021-11-17 14:30+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/desktop/"
@@ -36,32 +36,37 @@ msgid "cheatsheet;shortcut;overlay;keyboard;"
 msgstr "cheatsheet;atalho;overlay;teclado;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
+msgid "Update for OS 7 and Gtk 4"
+msgstr ""
+
+#: data/shortcut-overlay.appdata.xml.in:17
+#: data/shortcut-overlay.appdata.xml.in:25
+#: data/shortcut-overlay.appdata.xml.in:34
+#: data/shortcut-overlay.appdata.xml.in:41
+#: data/shortcut-overlay.appdata.xml.in:48
+#: data/shortcut-overlay.appdata.xml.in:56
+msgid "Updated translations"
+msgstr "Traduções atualizadas"
+
+#: data/shortcut-overlay.appdata.xml.in:24
 msgid "Fix the app not launching if a shortcut key is set to blank"
 msgstr ""
 "Corrige a aplicação de não ser iniciada se uma tecla de atalho for colocada "
 "em branco"
 
-#: data/shortcut-overlay.appdata.xml.in:17
-#: data/shortcut-overlay.appdata.xml.in:26
-#: data/shortcut-overlay.appdata.xml.in:33
-#: data/shortcut-overlay.appdata.xml.in:40
-#: data/shortcut-overlay.appdata.xml.in:48
-msgid "Updated translations"
-msgstr "Traduções atualizadas"
-
-#: data/shortcut-overlay.appdata.xml.in:24
+#: data/shortcut-overlay.appdata.xml.in:32
 msgid "Add screenshot shortcuts"
 msgstr "Adiciona atalhos de captura de ecrã"
 
-#: data/shortcut-overlay.appdata.xml.in:25
+#: data/shortcut-overlay.appdata.xml.in:33
 msgid "Fix issues with multiple windows"
 msgstr "Corrige problemas com várias janelas"
 
-#: data/shortcut-overlay.appdata.xml.in:47
+#: data/shortcut-overlay.appdata.xml.in:55
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
 msgstr "Adicionar os atalhos \"Trocar esquema\" e \"Fechar janela\""
 
-#: data/shortcut-overlay.appdata.xml.in:91
+#: data/shortcut-overlay.appdata.xml.in:99
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 

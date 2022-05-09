@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-22 10:14-0700\n"
+"POT-Creation-Date: 2022-05-09 11:08-0700\n"
 "PO-Revision-Date: 2021-10-31 13:57+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/desktop/shortcut-"
@@ -36,32 +36,37 @@ msgid "cheatsheet;shortcut;overlay;keyboard;"
 msgstr "full de trucs;drecera;superposició;teclat;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
-msgid "Fix the app not launching if a shortcut key is set to blank"
+msgid "Update for OS 7 and Gtk 4"
 msgstr ""
-"Solució de l'aplicació que no s'inicia si una tecla de drecera està en blanc"
 
 #: data/shortcut-overlay.appdata.xml.in:17
-#: data/shortcut-overlay.appdata.xml.in:26
-#: data/shortcut-overlay.appdata.xml.in:33
-#: data/shortcut-overlay.appdata.xml.in:40
+#: data/shortcut-overlay.appdata.xml.in:25
+#: data/shortcut-overlay.appdata.xml.in:34
+#: data/shortcut-overlay.appdata.xml.in:41
 #: data/shortcut-overlay.appdata.xml.in:48
+#: data/shortcut-overlay.appdata.xml.in:56
 msgid "Updated translations"
 msgstr "Traduccions actualitzades"
 
 #: data/shortcut-overlay.appdata.xml.in:24
+msgid "Fix the app not launching if a shortcut key is set to blank"
+msgstr ""
+"Solució de l'aplicació que no s'inicia si una tecla de drecera està en blanc"
+
+#: data/shortcut-overlay.appdata.xml.in:32
 msgid "Add screenshot shortcuts"
 msgstr "Afegeix dreceres per a la captura de pantalla"
 
-#: data/shortcut-overlay.appdata.xml.in:25
+#: data/shortcut-overlay.appdata.xml.in:33
 msgid "Fix issues with multiple windows"
 msgstr "Correcció de problemes amb finestres diverses"
 
-#: data/shortcut-overlay.appdata.xml.in:47
+#: data/shortcut-overlay.appdata.xml.in:55
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
 msgstr ""
 "Addició de les dreceres de canviar la disposició i tancar les finestres"
 
-#: data/shortcut-overlay.appdata.xml.in:91
+#: data/shortcut-overlay.appdata.xml.in:99
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 

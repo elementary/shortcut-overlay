@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-22 10:14-0700\n"
+"POT-Creation-Date: 2022-05-09 11:08-0700\n"
 "PO-Revision-Date: 2021-11-01 07:03+0000\n"
 "Last-Translator: Yuchen Deng <loaden@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
@@ -36,30 +36,35 @@ msgid "cheatsheet;shortcut;overlay;keyboard;"
 msgstr "备忘录;快捷键;布局;键盘;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
-msgid "Fix the app not launching if a shortcut key is set to blank"
-msgstr "修复在快捷键设置为空时应用程序未启动的问题"
+msgid "Update for OS 7 and Gtk 4"
+msgstr ""
 
 #: data/shortcut-overlay.appdata.xml.in:17
-#: data/shortcut-overlay.appdata.xml.in:26
-#: data/shortcut-overlay.appdata.xml.in:33
-#: data/shortcut-overlay.appdata.xml.in:40
+#: data/shortcut-overlay.appdata.xml.in:25
+#: data/shortcut-overlay.appdata.xml.in:34
+#: data/shortcut-overlay.appdata.xml.in:41
 #: data/shortcut-overlay.appdata.xml.in:48
+#: data/shortcut-overlay.appdata.xml.in:56
 msgid "Updated translations"
 msgstr "翻译更新"
 
 #: data/shortcut-overlay.appdata.xml.in:24
+msgid "Fix the app not launching if a shortcut key is set to blank"
+msgstr "修复在快捷键设置为空时应用程序未启动的问题"
+
+#: data/shortcut-overlay.appdata.xml.in:32
 msgid "Add screenshot shortcuts"
 msgstr "添加截屏快捷键"
 
-#: data/shortcut-overlay.appdata.xml.in:25
+#: data/shortcut-overlay.appdata.xml.in:33
 msgid "Fix issues with multiple windows"
 msgstr "修复多个窗口的问题"
 
-#: data/shortcut-overlay.appdata.xml.in:47
+#: data/shortcut-overlay.appdata.xml.in:55
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
 msgstr "添加 \"切换布局\" 和 \"关闭窗口\", 快捷键"
 
-#: data/shortcut-overlay.appdata.xml.in:91
+#: data/shortcut-overlay.appdata.xml.in:99
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-22 10:14-0700\n"
+"POT-Creation-Date: 2022-05-09 11:08-0700\n"
 "PO-Revision-Date: 2021-10-28 00:57+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/desktop/"
@@ -37,30 +37,35 @@ msgstr ""
 "cheatsheet;shortcut;overlay;puska;billentyűparancs;áttekintés;billentyűzet;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
-msgid "Fix the app not launching if a shortcut key is set to blank"
-msgstr "Alkalmazás el nem indulása javítva nem beállított gyorsparancs esetén"
+msgid "Update for OS 7 and Gtk 4"
+msgstr ""
 
 #: data/shortcut-overlay.appdata.xml.in:17
-#: data/shortcut-overlay.appdata.xml.in:26
-#: data/shortcut-overlay.appdata.xml.in:33
-#: data/shortcut-overlay.appdata.xml.in:40
+#: data/shortcut-overlay.appdata.xml.in:25
+#: data/shortcut-overlay.appdata.xml.in:34
+#: data/shortcut-overlay.appdata.xml.in:41
 #: data/shortcut-overlay.appdata.xml.in:48
+#: data/shortcut-overlay.appdata.xml.in:56
 msgid "Updated translations"
 msgstr "Frissített fordítások"
 
 #: data/shortcut-overlay.appdata.xml.in:24
+msgid "Fix the app not launching if a shortcut key is set to blank"
+msgstr "Alkalmazás el nem indulása javítva nem beállított gyorsparancs esetén"
+
+#: data/shortcut-overlay.appdata.xml.in:32
 msgid "Add screenshot shortcuts"
 msgstr "Képernyőkép-gyorsparancs hozzáaadva"
 
-#: data/shortcut-overlay.appdata.xml.in:25
+#: data/shortcut-overlay.appdata.xml.in:33
 msgid "Fix issues with multiple windows"
 msgstr "Többablakos mód problémái javítva"
 
-#: data/shortcut-overlay.appdata.xml.in:47
+#: data/shortcut-overlay.appdata.xml.in:55
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
 msgstr "\"Kiosztás váltása\" és \"Ablak bezárása\" gyorsparancsok"
 
-#: data/shortcut-overlay.appdata.xml.in:91
+#: data/shortcut-overlay.appdata.xml.in:99
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
