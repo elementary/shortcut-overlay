@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-22 10:14-0700\n"
+"POT-Creation-Date: 2022-05-09 11:08-0700\n"
 "PO-Revision-Date: 2021-10-29 15:29+0000\n"
 "Last-Translator: DartDeaDia <dartdeadia@protonmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/desktop/shortcut-"
@@ -37,32 +37,37 @@ msgid "cheatsheet;shortcut;overlay;keyboard;"
 msgstr "сокращение;комбинация;клавиши;шорткат;клавиатура;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
+msgid "Update for OS 7 and Gtk 4"
+msgstr ""
+
+#: data/shortcut-overlay.appdata.xml.in:17
+#: data/shortcut-overlay.appdata.xml.in:25
+#: data/shortcut-overlay.appdata.xml.in:34
+#: data/shortcut-overlay.appdata.xml.in:41
+#: data/shortcut-overlay.appdata.xml.in:48
+#: data/shortcut-overlay.appdata.xml.in:56
+msgid "Updated translations"
+msgstr "Обновлены переводы"
+
+#: data/shortcut-overlay.appdata.xml.in:24
 msgid "Fix the app not launching if a shortcut key is set to blank"
 msgstr ""
 "Исправлена ошибка, когда приложение не запускалось, если для комбинации "
 "клавиш было установлено пустое значение"
 
-#: data/shortcut-overlay.appdata.xml.in:17
-#: data/shortcut-overlay.appdata.xml.in:26
-#: data/shortcut-overlay.appdata.xml.in:33
-#: data/shortcut-overlay.appdata.xml.in:40
-#: data/shortcut-overlay.appdata.xml.in:48
-msgid "Updated translations"
-msgstr "Обновлены переводы"
-
-#: data/shortcut-overlay.appdata.xml.in:24
+#: data/shortcut-overlay.appdata.xml.in:32
 msgid "Add screenshot shortcuts"
 msgstr "Добавлены сочетания клавиш для снимков экрана"
 
-#: data/shortcut-overlay.appdata.xml.in:25
+#: data/shortcut-overlay.appdata.xml.in:33
 msgid "Fix issues with multiple windows"
 msgstr "Исправлены проблемы с несколькими окнами"
 
-#: data/shortcut-overlay.appdata.xml.in:47
+#: data/shortcut-overlay.appdata.xml.in:55
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
 msgstr "Добавлены сочетания клавиш «Изменить клавиатуру» и «Закрыть окно»"
 
-#: data/shortcut-overlay.appdata.xml.in:91
+#: data/shortcut-overlay.appdata.xml.in:99
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 

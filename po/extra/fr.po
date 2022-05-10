@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-22 10:14-0700\n"
-"PO-Revision-Date: 2021-10-27 13:56+0000\n"
+"POT-Creation-Date: 2022-05-09 11:08-0700\n"
+"PO-Revision-Date: 2022-05-10 11:11+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
-"Language-Team: French <https://l10n.elementary.io/projects/desktop/shortcut-"
-"overlay-extra/fr/>\n"
+"Language-Team: French <https://l10n.elementary.io/projects/desktop/"
+"shortcut-overlay-extra/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,33 +36,38 @@ msgid "cheatsheet;shortcut;overlay;keyboard;"
 msgstr "antisèche;anti-sèche;raccourci;clavier;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
+msgid "Update for OS 7 and Gtk 4"
+msgstr "Mise à jour pour OS 7 et Gtk 4"
+
+#: data/shortcut-overlay.appdata.xml.in:17
+#: data/shortcut-overlay.appdata.xml.in:25
+#: data/shortcut-overlay.appdata.xml.in:34
+#: data/shortcut-overlay.appdata.xml.in:41
+#: data/shortcut-overlay.appdata.xml.in:48
+#: data/shortcut-overlay.appdata.xml.in:56
+msgid "Updated translations"
+msgstr "Mise à jour des traductions"
+
+#: data/shortcut-overlay.appdata.xml.in:24
 msgid "Fix the app not launching if a shortcut key is set to blank"
 msgstr ""
 "Correction de l'application qui ne se lançait pas si un des raccourcis "
 "n'était pas définj"
 
-#: data/shortcut-overlay.appdata.xml.in:17
-#: data/shortcut-overlay.appdata.xml.in:26
-#: data/shortcut-overlay.appdata.xml.in:33
-#: data/shortcut-overlay.appdata.xml.in:40
-#: data/shortcut-overlay.appdata.xml.in:48
-msgid "Updated translations"
-msgstr "Mise à jour des traductions"
-
-#: data/shortcut-overlay.appdata.xml.in:24
+#: data/shortcut-overlay.appdata.xml.in:32
 msgid "Add screenshot shortcuts"
 msgstr "Ajout d'un raccourci pour la capture d'écran"
 
-#: data/shortcut-overlay.appdata.xml.in:25
+#: data/shortcut-overlay.appdata.xml.in:33
 msgid "Fix issues with multiple windows"
 msgstr "Correction de problèmes lorsqu'il y avait plusieurs fenêtres"
 
-#: data/shortcut-overlay.appdata.xml.in:47
+#: data/shortcut-overlay.appdata.xml.in:55
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
 msgstr ""
 "Ajout des raccourcis « Basculer la disposition » et « Fermer la fenêtre »"
 
-#: data/shortcut-overlay.appdata.xml.in:91
+#: data/shortcut-overlay.appdata.xml.in:99
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 

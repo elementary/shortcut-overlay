@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-22 10:14-0700\n"
+"POT-Creation-Date: 2022-05-09 11:08-0700\n"
 "PO-Revision-Date: 2021-09-29 02:28+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/desktop/"
@@ -19,19 +19,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: src/MainWindow.vala:23
+#: src/MainWindow.vala:23 src/MainWindow.vala:44
 msgid "Shortcuts"
 msgstr "Snarveier"
 
 #: src/MainWindow.vala:30
 msgid "Keyboard Settings…"
 msgstr "Tastaturinnstillinger…"
-
-#: src/MainWindow.vala:44
-#, fuzzy
-#| msgid "Shortcuts"
-msgid "Shorcuts"
-msgstr "Snarveier"
 
 #: src/ShortcutLabel.vala:74
 msgid "Disabled"
@@ -160,6 +154,11 @@ msgstr "Velg eget område:"
 #: src/Views/ShortcutsView.vala:155
 msgid "Copy an area to clipboard:"
 msgstr "Kopier et område til utklippstavlen:"
+
+#, fuzzy
+#~| msgid "Shortcuts"
+#~ msgid "Shorcuts"
+#~ msgstr "Snarveier"
 
 #~ msgid "Shift"
 #~ msgstr "Shift"

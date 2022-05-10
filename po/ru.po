@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-22 10:14-0700\n"
+"POT-Creation-Date: 2022-05-09 11:08-0700\n"
 "PO-Revision-Date: 2021-08-28 20:32+0000\n"
 "Last-Translator: DartDeaDia <dartdeadia@protonmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/desktop/shortcut-"
@@ -20,19 +20,13 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: src/MainWindow.vala:23
+#: src/MainWindow.vala:23 src/MainWindow.vala:44
 msgid "Shortcuts"
 msgstr "Сочетания клавиш"
 
 #: src/MainWindow.vala:30
 msgid "Keyboard Settings…"
 msgstr "Настройки клавиатуры…"
-
-#: src/MainWindow.vala:44
-#, fuzzy
-#| msgid "Shortcuts"
-msgid "Shorcuts"
-msgstr "Сочетания клавиш"
 
 #: src/ShortcutLabel.vala:74
 msgid "Disabled"
@@ -161,6 +155,11 @@ msgstr "Выбрать область для снимка:"
 #: src/Views/ShortcutsView.vala:155
 msgid "Copy an area to clipboard:"
 msgstr "Копировать область в буфер обмена:"
+
+#, fuzzy
+#~| msgid "Shortcuts"
+#~ msgid "Shorcuts"
+#~ msgstr "Сочетания клавиш"
 
 #~ msgid "Shift"
 #~ msgstr "Shift"

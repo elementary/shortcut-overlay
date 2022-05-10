@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-22 10:14-0700\n"
+"POT-Creation-Date: 2022-05-09 11:08-0700\n"
 "PO-Revision-Date: 2018-03-07 10:56-0800\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -18,16 +18,12 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
 
-#: src/MainWindow.vala:23
+#: src/MainWindow.vala:23 src/MainWindow.vala:44
 msgid "Shortcuts"
 msgstr ""
 
 #: src/MainWindow.vala:30
 msgid "Keyboard Settings…"
-msgstr ""
-
-#: src/MainWindow.vala:44
-msgid "Shorcuts"
 msgstr ""
 
 #: src/ShortcutLabel.vala:74

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-22 10:14-0700\n"
+"POT-Creation-Date: 2022-05-09 11:08-0700\n"
 "PO-Revision-Date: 2019-04-06 21:52+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/desktop/shortcut-"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 3.5.1\n"
 
-#: src/MainWindow.vala:23
+#: src/MainWindow.vala:23 src/MainWindow.vala:44
 #, fuzzy
 #| msgid "Keyboard Shortcuts"
 msgid "Shortcuts"
@@ -28,12 +28,6 @@ msgstr "कीबोर्ड शॉर्टकट"
 #: src/MainWindow.vala:30
 msgid "Keyboard Settings…"
 msgstr "कीबोर्ड सेटिंग्ज …"
-
-#: src/MainWindow.vala:44
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
-msgid "Shorcuts"
-msgstr "कीबोर्ड शॉर्टकट"
 
 #: src/ShortcutLabel.vala:74
 msgid "Disabled"
@@ -166,6 +160,11 @@ msgstr "पकडण्यासाठी एक क्षेत्र निव
 #: src/Views/ShortcutsView.vala:155
 msgid "Copy an area to clipboard:"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Keyboard Shortcuts"
+#~ msgid "Shorcuts"
+#~ msgstr "कीबोर्ड शॉर्टकट"
 
 #~ msgid "Shift"
 #~ msgstr "शिफ्ट"

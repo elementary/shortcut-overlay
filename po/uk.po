@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-22 10:14-0700\n"
+"POT-Creation-Date: 2022-05-09 11:08-0700\n"
 "PO-Revision-Date: 2022-04-22 18:47+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/desktop/"
@@ -20,17 +20,13 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: src/MainWindow.vala:23
+#: src/MainWindow.vala:23 src/MainWindow.vala:44
 msgid "Shortcuts"
 msgstr "Комбінації клавіш"
 
 #: src/MainWindow.vala:30
 msgid "Keyboard Settings…"
 msgstr "Налаштування клавіатури…"
-
-#: src/MainWindow.vala:44
-msgid "Shorcuts"
-msgstr "Комбінації клавіш"
 
 #: src/ShortcutLabel.vala:74
 msgid "Disabled"
@@ -159,3 +155,6 @@ msgstr "Вибрати ділянку:"
 #: src/Views/ShortcutsView.vala:155
 msgid "Copy an area to clipboard:"
 msgstr "Скопіювати ділянку до буфера обміну:"
+
+#~ msgid "Shorcuts"
+#~ msgstr "Комбінації клавіш"

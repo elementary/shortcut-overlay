@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-22 10:14-0700\n"
+"POT-Creation-Date: 2022-05-09 11:08-0700\n"
 "PO-Revision-Date: 2021-11-05 10:14+0000\n"
 "Last-Translator: supaeasy <ismo+github@wolffson.ch>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/desktop/shortcut-"
@@ -36,33 +36,38 @@ msgid "cheatsheet;shortcut;overlay;keyboard;"
 msgstr "cheatsheet;shortcut;overlay;keyboard;Tastatur;Tastenkürzel;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
+msgid "Update for OS 7 and Gtk 4"
+msgstr ""
+
+#: data/shortcut-overlay.appdata.xml.in:17
+#: data/shortcut-overlay.appdata.xml.in:25
+#: data/shortcut-overlay.appdata.xml.in:34
+#: data/shortcut-overlay.appdata.xml.in:41
+#: data/shortcut-overlay.appdata.xml.in:48
+#: data/shortcut-overlay.appdata.xml.in:56
+msgid "Updated translations"
+msgstr "Aktualisierte Übersetzungen"
+
+#: data/shortcut-overlay.appdata.xml.in:24
 msgid "Fix the app not launching if a shortcut key is set to blank"
 msgstr ""
 "Behebt einen Fehler der dazu führte, dass die Anwendung nicht startete, wenn "
 "ein Tastenkürzel als leer belegt war"
 
-#: data/shortcut-overlay.appdata.xml.in:17
-#: data/shortcut-overlay.appdata.xml.in:26
-#: data/shortcut-overlay.appdata.xml.in:33
-#: data/shortcut-overlay.appdata.xml.in:40
-#: data/shortcut-overlay.appdata.xml.in:48
-msgid "Updated translations"
-msgstr "Aktualisierte Übersetzungen"
-
-#: data/shortcut-overlay.appdata.xml.in:24
+#: data/shortcut-overlay.appdata.xml.in:32
 msgid "Add screenshot shortcuts"
 msgstr "Screenshot Shortcuts hinzugefügt"
 
-#: data/shortcut-overlay.appdata.xml.in:25
+#: data/shortcut-overlay.appdata.xml.in:33
 msgid "Fix issues with multiple windows"
 msgstr "Ein Fehler mit mehreren geöffneten Fenstern wurde korrigiert"
 
-#: data/shortcut-overlay.appdata.xml.in:47
+#: data/shortcut-overlay.appdata.xml.in:55
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
 msgstr ""
 "Tastenkürzel für \"Layout wechseln\" und \"Fenster schließen\" hinzugefügt"
 
-#: data/shortcut-overlay.appdata.xml.in:91
+#: data/shortcut-overlay.appdata.xml.in:99
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
