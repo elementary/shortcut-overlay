@@ -1,3 +1,20 @@
+io.elementary.shortcut-overlay (2.0.0) bionic; urgency=medium
+
+  * Release 2.0.0 (#126)
+  * Update translation files
+  * Meson: remove Hdy from global args (#127)
+  * Update .pot files
+  * Actions: bump release to Horus
+  * MainWindow: Fix typo (#125)
+  * Read screenshot shortcuts from gala schema (#124)
+  * ShorcutsView: use SCHEMA_GALA for panel-main-menu (#123)
+  * Update POTFILES
+  * Port to GTK4 (#112)
+  * Meson: remove positional arguments from i18n.merge_file (#113)
+  * Fixed Margins (#111)
+
+ -- elementary LLC. <builds@elementary.io>  Thu, 12 May 2022 16:37:10 +0000
+
 io.elementary.shortcut-overlay (1.2.1) bionic; urgency=medium
 
   * Release 1.2.1 (#106)
