@@ -10,7 +10,7 @@
     <p></p>
   </description>
   <releases>
-    <release version="2.0.0" date="2022-05-08" urgency="low">
+    <release version="2.0.0" date="2022-05-12" urgency="low">
       <description>
         <ul>
           <li>Update for OS 7 and Gtk 4</li>
