@@ -25,19 +25,23 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
     }
 
     construct {
-        var settings_button = new Gtk.Button () {
-            icon_name = "preferences-system-symbolic",
-            tooltip_text = _("Keyboard Settings…")
-        };
-
-        var shortcuts_view = new ShortcutsView () {
+        var box = new Gtk.Box (Gtk.Orientation.VERTICAL, 24) {
             margin_start = 36,
             margin_end = 36,
             margin_top = 12,
-            margin_bottom = 36
+            margin_bottom = 24
         };
 
-        child = shortcuts_view;
+        var shortcuts_view = new ShortcutsView ();
+
+        var settings_button = new Gtk.Button.with_label (_("Keyboard settings…")) {
+            hexpand = false,
+            halign = Gtk.Align.END
+        };
+        
+        box.append (shortcuts_view);
+        box.append (settings_button);
+        child = box;
 
         var start_controls = new Gtk.WindowControls (Gtk.PackType.START);
 
@@ -51,7 +55,6 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
         var titlebar = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0);
         titlebar.append (start_controls);
         titlebar.append (title_label);
-        titlebar.append (settings_button);
 
         if (!end_controls.empty) {
             titlebar.append (end_controls);
