@@ -38,7 +38,7 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
             hexpand = false,
             halign = Gtk.Align.END
         };
-        
+
         box.append (shortcuts_view);
         box.append (settings_button);
         child = box;
