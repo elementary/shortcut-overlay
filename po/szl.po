@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-09 11:08-0700\n"
+"POT-Creation-Date: 2022-08-21 11:09-0700\n"
 "PO-Revision-Date: 2020-02-25 22:08+0000\n"
 "Last-Translator: gkkulik <g.kulik@o2.pl>\n"
 "Language-Team: Silesian <https://l10n.elementary.io/projects/desktop/"
@@ -124,35 +124,39 @@ msgstr "Ôdlogowanie:"
 msgid "Switch keyboard layout:"
 msgstr "Przeszaltruj ukłod tastatury:"
 
-#: src/Views/ShortcutsView.vala:139
+#: src/Views/ShortcutsView.vala:138
+msgid "Toggle on-screen keyboard:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:141
 msgid "Screenshots"
 msgstr "Przechyty ekranu"
 
-#: src/Views/ShortcutsView.vala:145
+#: src/Views/ShortcutsView.vala:147
 msgid "Grab the whole screen:"
 msgstr "Przechyć cołki ekran:"
 
-#: src/Views/ShortcutsView.vala:147
+#: src/Views/ShortcutsView.vala:149
 #, fuzzy
 #| msgid "Grab the whole screen:"
 msgid "Copy the whole screen to clipboard:"
 msgstr "Przechyć cołki ekran:"
 
-#: src/Views/ShortcutsView.vala:149
+#: src/Views/ShortcutsView.vala:151
 msgid "Grab the current window:"
 msgstr "Przechyć teroźne ôkno:"
 
-#: src/Views/ShortcutsView.vala:151
+#: src/Views/ShortcutsView.vala:153
 #, fuzzy
 #| msgid "Grab the current window:"
 msgid "Copy the current window to clipboard:"
 msgstr "Przechyć teroźne ôkno:"
 
-#: src/Views/ShortcutsView.vala:153
+#: src/Views/ShortcutsView.vala:155
 msgid "Select an area to grab:"
 msgstr "Ôbier plac do przechytu:"
 
-#: src/Views/ShortcutsView.vala:155
+#: src/Views/ShortcutsView.vala:157
 msgid "Copy an area to clipboard:"
 msgstr ""
 
