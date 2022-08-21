@@ -52,18 +52,22 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
 
         var end_controls = new Gtk.WindowControls (Gtk.PackType.END);
 
-        var titlebar = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0);
-        titlebar.append (start_controls);
-        titlebar.append (title_label);
+        var size_group_titlebar = new Gtk.SizeGroup (Gtk.SizeGroupMode.VERTICAL);
+        size_group_titlebar.add_widget (start_controls);
+        size_group_titlebar.add_widget (title_label);
+        size_group_titlebar.add_widget (end_controls);
 
+        var titlebar_overlay = new Gtk.Overlay ();
+        titlebar_overlay.set_child (title_label);
+        titlebar_overlay.add_overlay (start_controls);
         if (!end_controls.empty) {
-            titlebar.append (end_controls);
+            titlebar_overlay.add_overlay (end_controls);
         }
 
-        titlebar.add_css_class (Granite.STYLE_CLASS_FLAT);
-        titlebar.add_css_class (Granite.STYLE_CLASS_DEFAULT_DECORATION);
+        titlebar_overlay.add_css_class (Granite.STYLE_CLASS_FLAT);
+        titlebar_overlay.add_css_class (Granite.STYLE_CLASS_DEFAULT_DECORATION);
 
-        set_titlebar (titlebar);
+        set_titlebar (titlebar_overlay);
 
         settings_button.clicked.connect (() => {
             try {
