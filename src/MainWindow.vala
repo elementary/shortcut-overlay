@@ -40,7 +40,7 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
         box.append (shortcuts_view);
         box.append (settings_button);
         child = box;
-        
+
         var titlebar = new Gtk.HeaderBar ();
         titlebar.add_css_class (Granite.STYLE_CLASS_FLAT);
         titlebar.add_css_class (Granite.STYLE_CLASS_DEFAULT_DECORATION);
