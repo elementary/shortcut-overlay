@@ -35,7 +35,6 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
         var shortcuts_view = new ShortcutsView ();
 
         var settings_button = new Gtk.Button.with_label (_("Keyboard settings…")) {
-            hexpand = false,
             halign = Gtk.Align.END
         };
 
@@ -43,26 +42,31 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
         box.append (settings_button);
         child = box;
 
-        var start_controls = new Gtk.WindowControls (Gtk.PackType.START);
+        var start_controls = new Gtk.WindowControls (Gtk.PackType.START) {
+            hexpand = true,
+            halign = Gtk.Align.START
+        };
+        var end_controls = new Gtk.WindowControls (Gtk.PackType.END) {
+            hexpand = true,
+            halign = Gtk.Align.END
+        };
+
+        var controls_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0);
+        controls_box.append (start_controls);
+        controls_box.append (end_controls);
 
         var title_label = new Gtk.Label (_("Shortcuts")) {
             hexpand = true
         };
         title_label.add_css_class (Granite.STYLE_CLASS_TITLE_LABEL);
 
-        var end_controls = new Gtk.WindowControls (Gtk.PackType.END);
-
         var size_group_titlebar = new Gtk.SizeGroup (Gtk.SizeGroupMode.VERTICAL);
-        size_group_titlebar.add_widget (start_controls);
         size_group_titlebar.add_widget (title_label);
-        size_group_titlebar.add_widget (end_controls);
+        size_group_titlebar.add_widget (controls_box);
 
         var titlebar_overlay = new Gtk.Overlay ();
         titlebar_overlay.set_child (title_label);
-        titlebar_overlay.add_overlay (start_controls);
-        if (!end_controls.empty) {
-            titlebar_overlay.add_overlay (end_controls);
-        }
+        titlebar_overlay.add_overlay (controls_box);
 
         titlebar_overlay.add_css_class (Granite.STYLE_CLASS_FLAT);
         titlebar_overlay.add_css_class (Granite.STYLE_CLASS_DEFAULT_DECORATION);
