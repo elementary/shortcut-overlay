@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-09 11:08-0700\n"
+"POT-Creation-Date: 2022-08-21 11:09-0700\n"
 "PO-Revision-Date: 2022-04-23 07:36+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/desktop/shortcut-"
@@ -127,31 +127,35 @@ msgstr "יציאה:"
 msgid "Switch keyboard layout:"
 msgstr "החלפת פריסת מקלדת:"
 
-#: src/Views/ShortcutsView.vala:139
+#: src/Views/ShortcutsView.vala:138
+msgid "Toggle on-screen keyboard:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:141
 msgid "Screenshots"
 msgstr "צילומי מסך"
 
-#: src/Views/ShortcutsView.vala:145
+#: src/Views/ShortcutsView.vala:147
 msgid "Grab the whole screen:"
 msgstr "צילום המסך כולו:"
 
-#: src/Views/ShortcutsView.vala:147
+#: src/Views/ShortcutsView.vala:149
 msgid "Copy the whole screen to clipboard:"
 msgstr "צילום המסך כולו ללוח הגזירים:"
 
-#: src/Views/ShortcutsView.vala:149
+#: src/Views/ShortcutsView.vala:151
 msgid "Grab the current window:"
 msgstr "צילום החלון הנוכחי:"
 
-#: src/Views/ShortcutsView.vala:151
+#: src/Views/ShortcutsView.vala:153
 msgid "Copy the current window to clipboard:"
 msgstr "צילום החלון הנוכחי ללוח הגזירים:"
 
-#: src/Views/ShortcutsView.vala:153
+#: src/Views/ShortcutsView.vala:155
 msgid "Select an area to grab:"
 msgstr "בחירת אזור לצילום:"
 
-#: src/Views/ShortcutsView.vala:155
+#: src/Views/ShortcutsView.vala:157
 msgid "Copy an area to clipboard:"
 msgstr "צילום שטח ללוח הגזירים:"
 
