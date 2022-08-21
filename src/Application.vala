@@ -36,7 +36,7 @@ public class ShortcutOverlay.Application : Gtk.Application {
         var quit_action = new SimpleAction ("quit", null);
 
         add_action (quit_action);
-        set_accels_for_action ("app.quit", {"Escape"});
+        set_accels_for_action ("app.quit", {"Escape", "<Ctrl>Q"});
 
         if (Posix.isatty (Posix.STDIN_FILENO) == false) {
             var focus_controller = new Gtk.EventControllerLegacy ();
