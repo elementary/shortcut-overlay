@@ -34,7 +34,7 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
 
         var shortcuts_view = new ShortcutsView ();
 
-        var settings_button = new Gtk.Button.with_label (_("Keyboard settings…")) {
+        var settings_button = new Gtk.Button.with_label (_("Keyboard Settings…")) {
             halign = Gtk.Align.END
         };
 
