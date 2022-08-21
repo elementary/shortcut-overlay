@@ -1,5 +1,5 @@
 /*-
- * Copyright (c) 2017–2018 elementary LLC. (https://elementary.io)
+ * Copyright 2017–2022 elementary, Inc. (https://elementary.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -25,49 +25,26 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
     }
 
     construct {
-        var settings_button = new Gtk.Button () {
-            icon_name = "preferences-system-symbolic",
-            tooltip_text = _("Keyboard Settings…")
+        var shortcuts_view = new ShortcutsView ();
+
+        var settings_button = new Gtk.LinkButton.with_label ("settings://input/keyboard/shortcuts", _("Keyboard Settings…")) {
+            halign = Gtk.Align.END
         };
 
-        var shortcuts_view = new ShortcutsView () {
+        var box = new Gtk.Box (Gtk.Orientation.VERTICAL, 24) {
             margin_start = 36,
             margin_end = 36,
             margin_top = 12,
-            margin_bottom = 36
+            margin_bottom = 24
         };
+        box.append (shortcuts_view);
+        box.append (settings_button);
+        child = box;
 
-        child = shortcuts_view;
-
-        var start_controls = new Gtk.WindowControls (Gtk.PackType.START);
-
-        var title_label = new Gtk.Label (_("Shortcuts")) {
-            hexpand = true
-        };
-        title_label.add_css_class (Granite.STYLE_CLASS_TITLE_LABEL);
-
-        var end_controls = new Gtk.WindowControls (Gtk.PackType.END);
-
-        var titlebar = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0);
-        titlebar.append (start_controls);
-        titlebar.append (title_label);
-        titlebar.append (settings_button);
-
-        if (!end_controls.empty) {
-            titlebar.append (end_controls);
-        }
-
+        var titlebar = new Gtk.HeaderBar ();
         titlebar.add_css_class (Granite.STYLE_CLASS_FLAT);
         titlebar.add_css_class (Granite.STYLE_CLASS_DEFAULT_DECORATION);
 
         set_titlebar (titlebar);
-
-        settings_button.clicked.connect (() => {
-            try {
-                AppInfo.launch_default_for_uri ("settings://input/keyboard/shortcuts", null);
-            } catch (Error e) {
-                warning (e.message);
-            }
-        });
     }
 }
