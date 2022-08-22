@@ -8,5 +8,5 @@ Icon=preferences-desktop-keyboard
 Type=Application
 Categories=Utility;Documentation;
 StartupNotify=true
-NoDisplay=true
+NoDisplay=false
 Keywords=cheatsheet;shortcut;overlay;keyboard;
