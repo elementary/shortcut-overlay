@@ -1,5 +1,5 @@
 /*-
- * Copyright (c) 2017 elementary LLC. (https://elementary.io)
+ * Copyright 2017-2022 elementary. Inc. (https://elementary.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -38,14 +38,10 @@ public class ShortcutOverlay.Application : Gtk.Application {
         add_action (quit_action);
         set_accels_for_action ("app.quit", {"Escape", "<Ctrl>Q"});
 
-        if (Posix.isatty (Posix.STDIN_FILENO) == false) {
-            var focus_controller = new Gtk.EventControllerLegacy ();
-            focus_controller.event.connect ((event) => {
-                if (event.get_event_type () == Gdk.EventType.FOCUS_CHANGE && !((Gdk.FocusEvent) event).get_in ()) {
-                    quit_action.activate (null);
-                }
-
-                return Gdk.EVENT_PROPAGATE;
+        if (!Posix.isatty (Posix.STDIN_FILENO)) {
+            var focus_controller = new Gtk.EventControllerFocus ();
+            focus_controller.leave.connect (() => {
+                quit_action.activate (null);
             });
 
             ((Gtk.Widget) main_window).add_controller (focus_controller);
@@ -60,7 +56,7 @@ public class ShortcutOverlay.Application : Gtk.Application {
                  */
                 Timeout.add (500, () => {
                     main_window.destroy ();
-                    return false;
+                    return GLib.Source.REMOVE;
                 });
             }
         });
