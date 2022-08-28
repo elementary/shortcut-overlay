@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-21 11:09-0700\n"
-"PO-Revision-Date: 2021-07-07 20:37+0000\n"
+"PO-Revision-Date: 2022-08-28 16:39+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/pt/>\n"
@@ -129,7 +129,7 @@ msgstr "Mudar esquema do teclado:"
 
 #: src/Views/ShortcutsView.vala:138
 msgid "Toggle on-screen keyboard:"
-msgstr ""
+msgstr "Ativar/desativar teclado no ecrã:"
 
 #: src/Views/ShortcutsView.vala:141
 msgid "Screenshots"
