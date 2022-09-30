@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-21 11:09-0700\n"
-"PO-Revision-Date: 2022-08-24 19:49+0000\n"
+"PO-Revision-Date: 2022-09-30 10:38+0000\n"
 "Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/ru/>\n"
@@ -94,7 +94,7 @@ msgstr "Переключиться на новый рабочий стол:"
 
 #: src/Views/ShortcutsView.vala:70
 msgid "Cycle workspaces:"
-msgstr "Переключение между рабочимипространствами:"
+msgstr "Переключение между рабочими пространствами:"
 
 #: src/Views/ShortcutsView.vala:118
 msgid "System"
