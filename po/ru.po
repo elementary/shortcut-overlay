@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-21 11:09-0700\n"
-"PO-Revision-Date: 2022-10-02 08:10+0000\n"
+"PO-Revision-Date: 2022-10-02 08:11+0000\n"
 "Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/ru/>\n"
@@ -26,7 +26,7 @@ msgstr "Сочетания клавиш"
 
 #: src/MainWindow.vala:30
 msgid "Keyboard Settings…"
-msgstr "Настройки клавиатуры…"
+msgstr "Параметры клавиатуры…"
 
 #: src/ShortcutLabel.vala:74
 msgid "Disabled"
