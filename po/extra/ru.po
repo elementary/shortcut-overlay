@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-21 11:09-0700\n"
-"PO-Revision-Date: 2022-07-13 08:43+0000\n"
-"Last-Translator: кубик круглый <megarainbow29@gmail.com>\n"
-"Language-Team: Russian <https://l10n.elementary.io/projects/desktop/shortcut-"
-"overlay-extra/ru/>\n"
+"PO-Revision-Date: 2022-10-02 08:21+0000\n"
+"Last-Translator: lenemter <lenemter@gmail.com>\n"
+"Language-Team: Russian <https://l10n.elementary.io/projects/desktop/"
+"shortcut-overlay-extra/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -65,7 +65,9 @@ msgstr "Исправлены проблемы с несколькими окна
 
 #: data/shortcut-overlay.appdata.xml.in:55
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
-msgstr "Добавлены сочетания клавиш «Изменить клавиатуру» и «Закрыть окно»"
+msgstr ""
+"Добавлены сочетания клавиш «Переключить раскладку клавиатуры» и «Закрыть "
+"окно»"
 
 #: data/shortcut-overlay.appdata.xml.in:99
 msgid "elementary, Inc."
