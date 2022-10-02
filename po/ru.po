@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-21 11:09-0700\n"
-"PO-Revision-Date: 2022-10-02 08:06+0000\n"
+"PO-Revision-Date: 2022-10-02 08:09+0000\n"
 "Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/ru/>\n"
@@ -58,11 +58,11 @@ msgstr "Закрепить справа:"
 
 #: src/Views/ShortcutsView.vala:47
 msgid "Move to left workspace:"
-msgstr "Переместить на рабочее пространство слева:"
+msgstr "Переместить на рабочий стол слева:"
 
 #: src/Views/ShortcutsView.vala:49
 msgid "Move to right workspace:"
-msgstr "Переместить на рабочее пространство справа:"
+msgstr "Переместить на рабочий стол справа:"
 
 #: src/Views/ShortcutsView.vala:51
 msgid "Picture in Picture Mode:"
@@ -70,7 +70,7 @@ msgstr "Режим картинка в картинке:"
 
 #: src/Views/ShortcutsView.vala:54
 msgid "Workspaces"
-msgstr "Рабочие пространства"
+msgstr "Рабочие столы"
 
 #: src/Views/ShortcutsView.vala:60
 msgid "Multitasking View:"
