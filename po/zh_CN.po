@@ -159,7 +159,7 @@ msgstr "抓取选中区域："
 
 #: src/Views/ShortcutsView.vala:134
 msgid "Copy an area to clipboard:"
-msgstr ""
+msgstr "抓取选中区域到剪贴板："
 
 #~ msgid "Shift"
 #~ msgstr "Shift"
