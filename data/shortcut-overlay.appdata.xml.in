@@ -10,6 +10,18 @@
     <p></p>
   </description>
   <releases>
+    <release version="2.0.1" date="2022-10-25">
+      <description>
+        <ul>
+          <li>Show in the applications menu</li>
+          <li>Replace keyboard settings button with a labeled link button</li>
+          <li>Show on-screen keyboard shortcut</li>
+          <li>Close with the shortcut Ctrl + Q</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+
     <release version="2.0.0" date="2022-05-12" urgency="low">
       <description>
         <ul>
