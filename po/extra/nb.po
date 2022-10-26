@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-21 11:09-0700\n"
+"POT-Creation-Date: 2022-10-26 01:26+0000\n"
 "PO-Revision-Date: 2021-09-29 02:28+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/desktop/"
@@ -40,38 +40,57 @@ msgid "cheatsheet;shortcut;overlay;keyboard;"
 msgstr "jukselapp;snarvei;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
-msgid "Update for OS 7 and Gtk 4"
+msgid "Show in the applications menu"
 msgstr ""
 
 #: data/shortcut-overlay.appdata.xml.in:17
-#: data/shortcut-overlay.appdata.xml.in:25
-#: data/shortcut-overlay.appdata.xml.in:34
-#: data/shortcut-overlay.appdata.xml.in:41
-#: data/shortcut-overlay.appdata.xml.in:48
-#: data/shortcut-overlay.appdata.xml.in:56
+msgid "Replace keyboard settings button with a labeled link button"
+msgstr ""
+
+#: data/shortcut-overlay.appdata.xml.in:18
+#, fuzzy
+#| msgid "View system keyboard shortcuts"
+msgid "Show on-screen keyboard shortcut"
+msgstr "Vis systemtastatursnarveier"
+
+#: data/shortcut-overlay.appdata.xml.in:19
+msgid "Close with the shortcut Ctrl + Q"
+msgstr ""
+
+#: data/shortcut-overlay.appdata.xml.in:20
+#: data/shortcut-overlay.appdata.xml.in:29
+#: data/shortcut-overlay.appdata.xml.in:37
+#: data/shortcut-overlay.appdata.xml.in:46
+#: data/shortcut-overlay.appdata.xml.in:53
+#: data/shortcut-overlay.appdata.xml.in:60
+#: data/shortcut-overlay.appdata.xml.in:68
 msgid "Updated translations"
 msgstr "Oppdaterte oversettelser"
 
-#: data/shortcut-overlay.appdata.xml.in:24
+#: data/shortcut-overlay.appdata.xml.in:28
+msgid "Update for OS 7 and Gtk 4"
+msgstr ""
+
+#: data/shortcut-overlay.appdata.xml.in:36
 msgid "Fix the app not launching if a shortcut key is set to blank"
 msgstr ""
 
-#: data/shortcut-overlay.appdata.xml.in:32
+#: data/shortcut-overlay.appdata.xml.in:44
 #, fuzzy
 #| msgid "View system keyboard shortcuts"
 msgid "Add screenshot shortcuts"
 msgstr "Vis systemtastatursnarveier"
 
-#: data/shortcut-overlay.appdata.xml.in:33
+#: data/shortcut-overlay.appdata.xml.in:45
 msgid "Fix issues with multiple windows"
 msgstr ""
 
-#: data/shortcut-overlay.appdata.xml.in:55
+#: data/shortcut-overlay.appdata.xml.in:67
 #, fuzzy
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
 msgstr "Tillagt «Bytt visning» og «Lukk vindu»-snarveier"
 
-#: data/shortcut-overlay.appdata.xml.in:99
+#: data/shortcut-overlay.appdata.xml.in:111
 #, fuzzy
 msgid "elementary, Inc."
 msgstr "elementary, Inc."

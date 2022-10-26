@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-21 11:09-0700\n"
+"POT-Creation-Date: 2022-10-26 01:26+0000\n"
 "PO-Revision-Date: 2022-02-03 19:18+0000\n"
 "Last-Translator: Joel Jose <joel750jose@gmail.com>\n"
 "Language-Team: Malayalam <https://l10n.elementary.io/projects/desktop/"
@@ -36,36 +36,55 @@ msgid "cheatsheet;shortcut;overlay;keyboard;"
 msgstr "ചീറ്റ്ഷീറ്റ്;ഷോർട്ട്കട്ട്;ഓവർലേ;കീബോർഡ്;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
-msgid "Update for OS 7 and Gtk 4"
+msgid "Show in the applications menu"
 msgstr ""
 
 #: data/shortcut-overlay.appdata.xml.in:17
-#: data/shortcut-overlay.appdata.xml.in:25
-#: data/shortcut-overlay.appdata.xml.in:34
-#: data/shortcut-overlay.appdata.xml.in:41
-#: data/shortcut-overlay.appdata.xml.in:48
-#: data/shortcut-overlay.appdata.xml.in:56
+msgid "Replace keyboard settings button with a labeled link button"
+msgstr ""
+
+#: data/shortcut-overlay.appdata.xml.in:18
+#, fuzzy
+#| msgid "Add screenshot shortcuts"
+msgid "Show on-screen keyboard shortcut"
+msgstr "സ്ക്രീൻഷോട്ട് ഷോർട്ട്കട്ടുകൾ ചേർക്കുക"
+
+#: data/shortcut-overlay.appdata.xml.in:19
+msgid "Close with the shortcut Ctrl + Q"
+msgstr ""
+
+#: data/shortcut-overlay.appdata.xml.in:20
+#: data/shortcut-overlay.appdata.xml.in:29
+#: data/shortcut-overlay.appdata.xml.in:37
+#: data/shortcut-overlay.appdata.xml.in:46
+#: data/shortcut-overlay.appdata.xml.in:53
+#: data/shortcut-overlay.appdata.xml.in:60
+#: data/shortcut-overlay.appdata.xml.in:68
 msgid "Updated translations"
 msgstr "അപ്ഡേറ്റ് ചെയ്ത വിവർത്തനങ്ങൾ"
 
-#: data/shortcut-overlay.appdata.xml.in:24
+#: data/shortcut-overlay.appdata.xml.in:28
+msgid "Update for OS 7 and Gtk 4"
+msgstr ""
+
+#: data/shortcut-overlay.appdata.xml.in:36
 #, fuzzy
 msgid "Fix the app not launching if a shortcut key is set to blank"
 msgstr ""
 "ഒരു ഷോർട്ട്കട്ട് കീ ശൂന്യമായി സജ്ജീകരിച്ചിട്ടുണ്ടെങ്കിൽ ആപ്പ് ലോഞ്ച് ചെയ്യുന്നില്ലെന്ന് പരിഹരിക്കുക"
 
-#: data/shortcut-overlay.appdata.xml.in:32
+#: data/shortcut-overlay.appdata.xml.in:44
 msgid "Add screenshot shortcuts"
 msgstr "സ്ക്രീൻഷോട്ട് ഷോർട്ട്കട്ടുകൾ ചേർക്കുക"
 
-#: data/shortcut-overlay.appdata.xml.in:33
+#: data/shortcut-overlay.appdata.xml.in:45
 msgid "Fix issues with multiple windows"
 msgstr "ഒന്നിലധികം വിൻഡോകളിൽ ഉണ്ടാവുന്ന പ്രശ്നങ്ങൾ പരിഹരിക്കുക"
 
-#: data/shortcut-overlay.appdata.xml.in:55
+#: data/shortcut-overlay.appdata.xml.in:67
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
 msgstr "\"ലേയൗട്ട് മാറുക\", \"വിൻഡോ അടയ്ക്കുക\", എന്നിവയുള്ള ഷോർട്ട്കട്ടുകൾ ചേർക്കുക"
 
-#: data/shortcut-overlay.appdata.xml.in:99
+#: data/shortcut-overlay.appdata.xml.in:111
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
