@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-26 01:26+0000\n"
-"PO-Revision-Date: 2022-05-09 23:25+0000\n"
+"PO-Revision-Date: 2022-10-27 18:57+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/uk/>\n"
@@ -40,21 +40,19 @@ msgstr ""
 
 #: data/shortcut-overlay.appdata.xml.in:16
 msgid "Show in the applications menu"
-msgstr ""
+msgstr "Показ в меню застосунків"
 
 #: data/shortcut-overlay.appdata.xml.in:17
 msgid "Replace keyboard settings button with a labeled link button"
-msgstr ""
+msgstr "Заміна кнопки налаштувань клавіатури на кнопку посилання з міткою"
 
 #: data/shortcut-overlay.appdata.xml.in:18
-#, fuzzy
-#| msgid "Add screenshot shortcuts"
 msgid "Show on-screen keyboard shortcut"
-msgstr "Додано комбінації клавіш для знімання екрана"
+msgstr "Показ комбінації клавіш екранної клавіатури"
 
 #: data/shortcut-overlay.appdata.xml.in:19
 msgid "Close with the shortcut Ctrl + Q"
-msgstr ""
+msgstr "Закриття за допомогою комбінації клавіш Ctrl + Q"
 
 #: data/shortcut-overlay.appdata.xml.in:20
 #: data/shortcut-overlay.appdata.xml.in:29
@@ -64,7 +62,7 @@ msgstr ""
 #: data/shortcut-overlay.appdata.xml.in:60
 #: data/shortcut-overlay.appdata.xml.in:68
 msgid "Updated translations"
-msgstr "Оновлено переклади"
+msgstr "Оновлені переклади"
 
 #: data/shortcut-overlay.appdata.xml.in:28
 msgid "Update for OS 7 and Gtk 4"
