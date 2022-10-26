@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-21 11:09-0700\n"
+"POT-Creation-Date: 2022-10-26 01:26+0000\n"
 "PO-Revision-Date: 2021-08-27 07:22+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/desktop/shortcut-"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: src/MainWindow.vala:23 src/MainWindow.vala:44
+#: src/MainWindow.vala:23
 msgid "Shortcuts"
 msgstr "Atajos"
 
