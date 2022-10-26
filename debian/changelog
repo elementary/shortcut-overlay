@@ -1,3 +1,18 @@
+io.elementary.shortcut-overlay (2.0.1) bionic; urgency=medium
+
+  * Release 2.0.1 (#135)
+  * Update translation files
+  * Update translation template
+  * Fix Gettext Action (#133)
+  * Use Gtk.EventControllerFocus (#132)
+  * Re-show in Applications Menu (#131)
+  * Replace header icon with button (#129)
+  * Update pot
+  * Show on-screen keyboard shortcut (#128)
+  * Close window on Ctrl+Q (#130)
+
+ -- elementary LLC. <builds@elementary.io>  Wed, 26 Oct 2022 16:52:40 +0000
+
 io.elementary.shortcut-overlay (2.0.0) bionic; urgency=medium
 
   * Release 2.0.0 (#126)
