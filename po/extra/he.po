@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-26 01:26+0000\n"
-"PO-Revision-Date: 2022-05-09 23:25+0000\n"
+"PO-Revision-Date: 2022-10-26 16:15+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew <https://l10n.elementary.io/projects/desktop/shortcut-"
-"overlay-extra/he/>\n"
+"Language-Team: Hebrew <https://l10n.elementary.io/projects/desktop/"
+"shortcut-overlay-extra/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,21 +37,19 @@ msgstr "שליף;קיצור דרך;סימון;מקלדת;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
 msgid "Show in the applications menu"
-msgstr ""
+msgstr "הופעה בתפריט היישומים"
 
 #: data/shortcut-overlay.appdata.xml.in:17
 msgid "Replace keyboard settings button with a labeled link button"
-msgstr ""
+msgstr "כפתור הגדרות המקלדת הוחלף בכפתור עם קישור מתויג"
 
 #: data/shortcut-overlay.appdata.xml.in:18
-#, fuzzy
-#| msgid "Add screenshot shortcuts"
 msgid "Show on-screen keyboard shortcut"
-msgstr "נוספו קיצורי דרך לצילום המסך"
+msgstr "קיצור דרך למקלדת על גבי המסך יוצג"
 
 #: data/shortcut-overlay.appdata.xml.in:19
 msgid "Close with the shortcut Ctrl + Q"
-msgstr ""
+msgstr "אפשר לסגור עם קיצור המקשים Ctrl + Q"
 
 #: data/shortcut-overlay.appdata.xml.in:20
 #: data/shortcut-overlay.appdata.xml.in:29
@@ -61,7 +59,7 @@ msgstr ""
 #: data/shortcut-overlay.appdata.xml.in:60
 #: data/shortcut-overlay.appdata.xml.in:68
 msgid "Updated translations"
-msgstr "תרגומים עדכניים"
+msgstr "התרגומים עודכנו"
 
 #: data/shortcut-overlay.appdata.xml.in:28
 msgid "Update for OS 7 and Gtk 4"
