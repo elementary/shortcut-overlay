@@ -10,7 +10,7 @@
     <p></p>
   </description>
   <releases>
-    <release version="2.0.1" date="2022-10-25">
+    <release version="2.0.1" date="2022-10-26">
       <description>
         <ul>
           <li>Show in the applications menu</li>
