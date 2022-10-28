@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-26 01:26+0000\n"
-"PO-Revision-Date: 2022-05-18 14:07+0000\n"
+"PO-Revision-Date: 2022-10-29 04:48+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/ja/>\n"
@@ -39,21 +39,19 @@ msgstr ""
 
 #: data/shortcut-overlay.appdata.xml.in:16
 msgid "Show in the applications menu"
-msgstr ""
+msgstr "アプリケーションメニューに表示するように修正"
 
 #: data/shortcut-overlay.appdata.xml.in:17
 msgid "Replace keyboard settings button with a labeled link button"
-msgstr ""
+msgstr "キーボードの設定ボタンを、ラベル付きリンクボタンに変更"
 
 #: data/shortcut-overlay.appdata.xml.in:18
-#, fuzzy
-#| msgid "Add screenshot shortcuts"
 msgid "Show on-screen keyboard shortcut"
-msgstr "スクリーンショットのショートカットを追加"
+msgstr "オンスクリーンキーボードのショートカットを表示するように修正"
 
 #: data/shortcut-overlay.appdata.xml.in:19
 msgid "Close with the shortcut Ctrl + Q"
-msgstr ""
+msgstr "Ctrl + Q でアプリを終了できるように修正"
 
 #: data/shortcut-overlay.appdata.xml.in:20
 #: data/shortcut-overlay.appdata.xml.in:29
