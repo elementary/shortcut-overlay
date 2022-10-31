@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-26 01:26+0000\n"
-"PO-Revision-Date: 2022-05-19 12:02+0000\n"
+"PO-Revision-Date: 2022-11-01 00:22+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/hu/>\n"
@@ -38,21 +38,19 @@ msgstr ""
 
 #: data/shortcut-overlay.appdata.xml.in:16
 msgid "Show in the applications menu"
-msgstr ""
+msgstr "Megjelenítés az alkalmazásmenüben"
 
 #: data/shortcut-overlay.appdata.xml.in:17
 msgid "Replace keyboard settings button with a labeled link button"
-msgstr ""
+msgstr "A billentyűzetbeállítások gomb cseréje egy feliratos linkre"
 
 #: data/shortcut-overlay.appdata.xml.in:18
-#, fuzzy
-#| msgid "Add screenshot shortcuts"
 msgid "Show on-screen keyboard shortcut"
-msgstr "Képernyőkép-gyorsparancs hozzáaadva"
+msgstr "Képernyőbillentyűzet-gyorsparancs kijelzése"
 
 #: data/shortcut-overlay.appdata.xml.in:19
 msgid "Close with the shortcut Ctrl + Q"
-msgstr ""
+msgstr "Bezárás a Ctrl + Q gombkombinációval"
 
 #: data/shortcut-overlay.appdata.xml.in:20
 #: data/shortcut-overlay.appdata.xml.in:29
