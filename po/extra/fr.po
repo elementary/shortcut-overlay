@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-26 01:26+0000\n"
-"PO-Revision-Date: 2022-05-10 11:11+0000\n"
+"PO-Revision-Date: 2022-11-09 14:29+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
-"Language-Team: French <https://l10n.elementary.io/projects/desktop/shortcut-"
-"overlay-extra/fr/>\n"
+"Language-Team: French <https://l10n.elementary.io/projects/desktop/"
+"shortcut-overlay-extra/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.appdata.xml.in:7
 msgid "Shortcuts"
@@ -37,21 +37,19 @@ msgstr "antisèche;anti-sèche;raccourci;clavier;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
 msgid "Show in the applications menu"
-msgstr ""
+msgstr "Afficher dans le menu des applications"
 
 #: data/shortcut-overlay.appdata.xml.in:17
 msgid "Replace keyboard settings button with a labeled link button"
 msgstr ""
 
 #: data/shortcut-overlay.appdata.xml.in:18
-#, fuzzy
-#| msgid "Add screenshot shortcuts"
 msgid "Show on-screen keyboard shortcut"
-msgstr "Ajout d'un raccourci pour la capture d'écran"
+msgstr "Affiche les raccourcis clavier à l'écran"
 
 #: data/shortcut-overlay.appdata.xml.in:19
 msgid "Close with the shortcut Ctrl + Q"
-msgstr ""
+msgstr "Quittez avec le raccourci Ctrl + Q"
 
 #: data/shortcut-overlay.appdata.xml.in:20
 #: data/shortcut-overlay.appdata.xml.in:29
