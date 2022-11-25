@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-26 01:26+0000\n"
-"PO-Revision-Date: 2022-11-09 14:29+0000\n"
+"PO-Revision-Date: 2022-11-26 14:25+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/fr/>\n"
@@ -42,6 +42,8 @@ msgstr "Afficher dans le menu des applications"
 #: data/shortcut-overlay.appdata.xml.in:17
 msgid "Replace keyboard settings button with a labeled link button"
 msgstr ""
+"Remplacement du bouton des paramètres du clavier par un bouton sous forme de "
+"lien"
 
 #: data/shortcut-overlay.appdata.xml.in:18
 msgid "Show on-screen keyboard shortcut"
