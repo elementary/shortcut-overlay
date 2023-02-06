@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-26 01:26+0000\n"
-"PO-Revision-Date: 2020-07-04 10:12+0000\n"
+"PO-Revision-Date: 2023-02-07 15:25+0000\n"
 "Last-Translator: Martin Myrvold <myrvold.martin@gmail.com>\n"
 "Language-Team: Norwegian Nynorsk <https://l10n.elementary.io/projects/"
 "desktop/shortcut-overlay/nn/>\n"
@@ -17,13 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: src/MainWindow.vala:23
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
 msgid "Shortcuts"
-msgstr "Tastatursnarvegar"
+msgstr "Snarvegar"
 
 #: src/MainWindow.vala:30
 msgid "Keyboard Settings…"
@@ -131,7 +129,7 @@ msgstr "Endra oppsett på tastaturet:"
 
 #: src/Views/ShortcutsView.vala:138
 msgid "Toggle on-screen keyboard:"
-msgstr ""
+msgstr "Tastatur på skjermen:"
 
 #: src/Views/ShortcutsView.vala:141
 msgid "Screenshots"
@@ -142,20 +140,16 @@ msgid "Grab the whole screen:"
 msgstr "Ta med heile skjermen:"
 
 #: src/Views/ShortcutsView.vala:149
-#, fuzzy
-#| msgid "Grab the whole screen:"
 msgid "Copy the whole screen to clipboard:"
-msgstr "Ta med heile skjermen:"
+msgstr "Klipp heile skjermen til utklippstavla:"
 
 #: src/Views/ShortcutsView.vala:151
 msgid "Grab the current window:"
 msgstr "Ta gjeldande vindauge:"
 
 #: src/Views/ShortcutsView.vala:153
-#, fuzzy
-#| msgid "Grab the current window:"
 msgid "Copy the current window to clipboard:"
-msgstr "Ta gjeldande vindauge:"
+msgstr "Klipp noverande vindauge til utklippstavla:"
 
 #: src/Views/ShortcutsView.vala:155
 msgid "Select an area to grab:"
@@ -163,7 +157,7 @@ msgstr "Vel eit område å gripe:"
 
 #: src/Views/ShortcutsView.vala:157
 msgid "Copy an area to clipboard:"
-msgstr ""
+msgstr "Klipp ut eit område til utklippstavla:"
 
 #, fuzzy
 #~| msgid "Keyboard Shortcuts"
