@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-26 01:26+0000\n"
-"PO-Revision-Date: 2020-07-18 21:12+0000\n"
+"PO-Revision-Date: 2023-02-07 15:25+0000\n"
 "Last-Translator: Martin Myrvold <myrvold.martin@gmail.com>\n"
 "Language-Team: Norwegian Nynorsk <https://l10n.elementary.io/projects/"
 "desktop/shortcut-overlay-extra/nn/>\n"
@@ -17,13 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.appdata.xml.in:7
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
 msgid "Shortcuts"
-msgstr "Tastatursnarvegar"
+msgstr "Snarvegar"
 
 #: data/shortcut-overlay.desktop.in:4
 msgid "Shortcut Overlay"
@@ -43,7 +41,7 @@ msgstr "jukselapp;snarveg;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
 msgid "Show in the applications menu"
-msgstr ""
+msgstr "Vis i menyen for applikasjonar"
 
 #: data/shortcut-overlay.appdata.xml.in:17
 msgid "Replace keyboard settings button with a labeled link button"
@@ -57,7 +55,7 @@ msgstr "Vis systemet sine tastatursnarvegar"
 
 #: data/shortcut-overlay.appdata.xml.in:19
 msgid "Close with the shortcut Ctrl + Q"
-msgstr ""
+msgstr "Du kan lukka med snarvegen Ctrl + Q"
 
 #: data/shortcut-overlay.appdata.xml.in:20
 #: data/shortcut-overlay.appdata.xml.in:29
@@ -67,7 +65,7 @@ msgstr ""
 #: data/shortcut-overlay.appdata.xml.in:60
 #: data/shortcut-overlay.appdata.xml.in:68
 msgid "Updated translations"
-msgstr "Oppdaterte oversettingar"
+msgstr "Oppdatert oversetning"
 
 #: data/shortcut-overlay.appdata.xml.in:28
 msgid "Update for OS 7 and Gtk 4"
