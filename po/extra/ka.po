@@ -8,13 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-26 01:26+0000\n"
-"PO-Revision-Date: 2018-03-13 16:43-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-03-12 22:25+0000\n"
+"Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <https://l10n.elementary.io/projects/desktop/"
+"shortcut-overlay-extra/ka/>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.appdata.xml.in:7
 msgid "Shortcuts"
@@ -56,7 +59,7 @@ msgstr ""
 #: data/shortcut-overlay.appdata.xml.in:60
 #: data/shortcut-overlay.appdata.xml.in:68
 msgid "Updated translations"
-msgstr ""
+msgstr "განახლებული თარგმანები"
 
 #: data/shortcut-overlay.appdata.xml.in:28
 msgid "Update for OS 7 and Gtk 4"
@@ -80,4 +83,4 @@ msgstr ""
 
 #: data/shortcut-overlay.appdata.xml.in:111
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."
