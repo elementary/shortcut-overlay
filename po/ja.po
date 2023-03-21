@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-26 01:26+0000\n"
-"PO-Revision-Date: 2022-08-24 19:49+0000\n"
+"PO-Revision-Date: 2023-03-22 03:59+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: src/MainWindow.vala:23
 msgid "Shortcuts"
@@ -109,11 +109,11 @@ msgstr "ディスプレイモードを切り替え:"
 
 #: src/Views/ShortcutsView.vala:128
 msgid "Zoom in:"
-msgstr "ズームイン:"
+msgstr "拡大:"
 
 #: src/Views/ShortcutsView.vala:130
 msgid "Zoom out:"
-msgstr "ズームアウト:"
+msgstr "縮小:"
 
 #: src/Views/ShortcutsView.vala:132
 msgid "Lock screen:"
