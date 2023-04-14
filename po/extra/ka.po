@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-26 01:26+0000\n"
-"PO-Revision-Date: 2023-04-14 00:20+0000\n"
+"PO-Revision-Date: 2023-04-15 00:59+0000\n"
 "Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/ka/>\n"
@@ -25,19 +25,19 @@ msgstr "მალსახმობები"
 
 #: data/shortcut-overlay.desktop.in:4
 msgid "Shortcut Overlay"
-msgstr ""
+msgstr "მალსახმობების განლაგება"
 
 #: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
 msgid "View system shortcuts"
-msgstr ""
+msgstr "სისტემის მალსახმობების ნახვა"
 
 #: data/shortcut-overlay.desktop.in:13
 msgid "cheatsheet;shortcut;overlay;keyboard;"
-msgstr ""
+msgstr "cheatsheet;shortcut;overlay;keyboard;კლავიატურა;მალსახმობები;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
 msgid "Show in the applications menu"
-msgstr ""
+msgstr "აპლიკაციის მენიუში ჩვენება"
 
 #: data/shortcut-overlay.appdata.xml.in:17
 msgid "Replace keyboard settings button with a labeled link button"
@@ -49,7 +49,7 @@ msgstr ""
 
 #: data/shortcut-overlay.appdata.xml.in:19
 msgid "Close with the shortcut Ctrl + Q"
-msgstr ""
+msgstr "დახურეთ მალსახმობით Ctrl + Q"
 
 #: data/shortcut-overlay.appdata.xml.in:20
 #: data/shortcut-overlay.appdata.xml.in:29
@@ -63,7 +63,7 @@ msgstr "განახლებული თარგმანები"
 
 #: data/shortcut-overlay.appdata.xml.in:28
 msgid "Update for OS 7 and Gtk 4"
-msgstr ""
+msgstr "განახლება OS 7-სთვის და Gtk 4-სთვის"
 
 #: data/shortcut-overlay.appdata.xml.in:36
 msgid "Fix the app not launching if a shortcut key is set to blank"
@@ -71,7 +71,7 @@ msgstr ""
 
 #: data/shortcut-overlay.appdata.xml.in:44
 msgid "Add screenshot shortcuts"
-msgstr ""
+msgstr "ეკრანის ანაბეჭდის მალსახმობების დამატება"
 
 #: data/shortcut-overlay.appdata.xml.in:45
 msgid "Fix issues with multiple windows"
