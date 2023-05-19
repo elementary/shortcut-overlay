@@ -8,22 +8,21 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-26 01:26+0000\n"
-"PO-Revision-Date: 2018-06-13 16:14+0000\n"
-"Last-Translator: Eri Hidayat <eriwhidayat@gmail.com>\n"
-"Language-Team: Indonesian <https://weblate.elementary.io/projects/desktop/"
+"PO-Revision-Date: 2023-05-20 18:06+0000\n"
+"Last-Translator: Faisal Rachmadin <frachmadin@users.noreply.l10n.elementary."
+"io>\n"
+"Language-Team: Indonesian <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 4.17\n"
 
 #: src/MainWindow.vala:23
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
 msgid "Shortcuts"
-msgstr "Pintasan Papan Ketik"
+msgstr "Pintasan"
 
 #: src/MainWindow.vala:30
 msgid "Keyboard Settings…"
@@ -38,13 +37,12 @@ msgid "Windows"
 msgstr "Jendela"
 
 #: src/Views/ShortcutsView.vala:37
-#, fuzzy
 msgid "Close window:"
-msgstr "Jendela siklus:"
+msgstr "Tutup jendela:"
 
 #: src/Views/ShortcutsView.vala:39
 msgid "Cycle windows:"
-msgstr "Jendela siklus:"
+msgstr "Siklus jendela:"
 
 #: src/Views/ShortcutsView.vala:41
 msgid "Toggle maximized:"
@@ -52,15 +50,15 @@ msgstr "Beralih ke maksimalkan:"
 
 #: src/Views/ShortcutsView.vala:43
 msgid "Tile left:"
-msgstr "Ubin kiri:"
+msgstr "Rekat kiri:"
 
 #: src/Views/ShortcutsView.vala:45
 msgid "Tile right:"
-msgstr "Ubin kanan:"
+msgstr "Rekat kanan:"
 
 #: src/Views/ShortcutsView.vala:47
 msgid "Move to left workspace:"
-msgstr "Pinda ke ruang kerja sebelah kiri:"
+msgstr "Pindah ke ruang kerja sebelah kiri:"
 
 #: src/Views/ShortcutsView.vala:49
 msgid "Move to right workspace:"
@@ -68,15 +66,15 @@ msgstr "Pindah ke ruang kerja sebalah kanan:"
 
 #: src/Views/ShortcutsView.vala:51
 msgid "Picture in Picture Mode:"
-msgstr "Gambar dalam Mode Gambar:"
+msgstr "Mode Gambar dalam Gambar:"
 
 #: src/Views/ShortcutsView.vala:54
 msgid "Workspaces"
-msgstr "Ruang kerja"
+msgstr "Ruang Kerja"
 
 #: src/Views/ShortcutsView.vala:60
 msgid "Multitasking View:"
-msgstr "Tampilan Multitasking:"
+msgstr "Tampilan Multi Tugas:"
 
 #: src/Views/ShortcutsView.vala:62
 msgid "Switch left:"
@@ -96,7 +94,7 @@ msgstr "Beralih ke yang baru:"
 
 #: src/Views/ShortcutsView.vala:70
 msgid "Cycle workspaces:"
-msgstr "Ruang kerja siklus:"
+msgstr "Siklus ruang kerja:"
 
 #: src/Views/ShortcutsView.vala:118
 msgid "System"
@@ -108,7 +106,7 @@ msgstr "Menu Aplikasi:"
 
 #: src/Views/ShortcutsView.vala:126
 msgid "Cycle display mode:"
-msgstr "Mode tampilan siklus:"
+msgstr "Siklus mode tampilan:"
 
 #: src/Views/ShortcutsView.vala:128
 msgid "Zoom in:"
@@ -128,35 +126,31 @@ msgstr "Keluar:"
 
 #: src/Views/ShortcutsView.vala:136
 msgid "Switch keyboard layout:"
-msgstr ""
+msgstr "Beralih tata letak papan ketik:"
 
 #: src/Views/ShortcutsView.vala:138
 msgid "Toggle on-screen keyboard:"
-msgstr ""
+msgstr "Beralih ke papan ketik di-layar:"
 
 #: src/Views/ShortcutsView.vala:141
 msgid "Screenshots"
-msgstr "Tangkapan layar"
+msgstr "Tangkapan Layar"
 
 #: src/Views/ShortcutsView.vala:147
 msgid "Grab the whole screen:"
 msgstr "Ambil keseluruhan layar:"
 
 #: src/Views/ShortcutsView.vala:149
-#, fuzzy
-#| msgid "Grab the whole screen:"
 msgid "Copy the whole screen to clipboard:"
-msgstr "Ambil keseluruhan layar:"
+msgstr "Salin seluruh layar ke clipboard:"
 
 #: src/Views/ShortcutsView.vala:151
 msgid "Grab the current window:"
 msgstr "Ambil jendela saat ini:"
 
 #: src/Views/ShortcutsView.vala:153
-#, fuzzy
-#| msgid "Grab the current window:"
 msgid "Copy the current window to clipboard:"
-msgstr "Ambil jendela saat ini:"
+msgstr "Salin jendela saat ini ke clipboard:"
 
 #: src/Views/ShortcutsView.vala:155
 msgid "Select an area to grab:"
@@ -164,7 +158,7 @@ msgstr "Pilih area untuk diambil:"
 
 #: src/Views/ShortcutsView.vala:157
 msgid "Copy an area to clipboard:"
-msgstr ""
+msgstr "Salin area ke clipboard:"
 
 #, fuzzy
 #~| msgid "Keyboard Shortcuts"
