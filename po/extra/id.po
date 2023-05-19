@@ -8,8 +8,9 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-26 01:26+0000\n"
-"PO-Revision-Date: 2021-07-06 08:53+0000\n"
-"Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
+"PO-Revision-Date: 2023-05-20 18:06+0000\n"
+"Last-Translator: Faisal Rachmadin <frachmadin@users.noreply.l10n.elementary."
+"io>\n"
 "Language-Team: Indonesian <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/id/>\n"
 "Language: id\n"
@@ -17,13 +18,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.17\n"
 
 #: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.appdata.xml.in:7
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
 msgid "Shortcuts"
-msgstr "Pintasan Papan Ketik"
+msgstr "Pintasan"
 
 #: data/shortcut-overlay.desktop.in:4
 msgid "Shortcut Overlay"
@@ -67,7 +66,7 @@ msgstr ""
 #: data/shortcut-overlay.appdata.xml.in:60
 #: data/shortcut-overlay.appdata.xml.in:68
 msgid "Updated translations"
-msgstr ""
+msgstr "Terjemahan yang diperbarui"
 
 #: data/shortcut-overlay.appdata.xml.in:28
 msgid "Update for OS 7 and Gtk 4"
@@ -93,7 +92,7 @@ msgstr ""
 
 #: data/shortcut-overlay.appdata.xml.in:111
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."
 
 #~ msgid "preferences-desktop-keyboard"
 #~ msgstr "preferences-desktop-keyboard"
