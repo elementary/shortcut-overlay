@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-26 01:26+0000\n"
-"PO-Revision-Date: 2023-05-26 13:08+0000\n"
-"Last-Translator: Thierry Flament <thierry.flament@outlook.com>\n"
+"PO-Revision-Date: 2023-05-26 13:09+0000\n"
+"Last-Translator: DutchVipperloid <svenroelof@e.email>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/nl/>\n"
 "Language: nl\n"
@@ -37,7 +37,7 @@ msgstr "spiekbriefje;sneltoets;overlapping;toetsenbord;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
 msgid "Show in the applications menu"
-msgstr "Toon in het toepassingenmenu"
+msgstr "Toon in het Applicaties-menu"
 
 #: data/shortcut-overlay.appdata.xml.in:17
 msgid "Replace keyboard settings button with a labeled link button"
