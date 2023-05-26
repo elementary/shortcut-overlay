@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-26 01:26+0000\n"
 "PO-Revision-Date: 2023-05-26 13:09+0000\n"
-"Last-Translator: DutchVipperloid <svenroelof@e.email>\n"
+"Last-Translator: Thierry Flament <thierry.flament@outlook.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/nl/>\n"
 "Language: nl\n"
@@ -41,7 +41,7 @@ msgstr "Toon in het Applicaties-menu"
 
 #: data/shortcut-overlay.appdata.xml.in:17
 msgid "Replace keyboard settings button with a labeled link button"
-msgstr ""
+msgstr "De knop toetsenbordinstellingen vervangen door een gelabelde linkknop"
 
 #: data/shortcut-overlay.appdata.xml.in:18
 #, fuzzy
