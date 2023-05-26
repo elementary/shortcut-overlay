@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-26 01:26+0000\n"
-"PO-Revision-Date: 2022-01-15 21:12+0000\n"
-"Last-Translator: Dennis ten Hoove <dennistenhoove@protonmail.com>\n"
-"Language-Team: Dutch <https://l10n.elementary.io/projects/desktop/shortcut-"
-"overlay-extra/nl/>\n"
+"PO-Revision-Date: 2023-05-26 13:08+0000\n"
+"Last-Translator: Thierry Flament <thierry.flament@outlook.com>\n"
+"Language-Team: Dutch <https://l10n.elementary.io/projects/desktop/"
+"shortcut-overlay-extra/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.17\n"
 
 #: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.appdata.xml.in:7
 msgid "Shortcuts"
@@ -37,7 +37,7 @@ msgstr "spiekbriefje;sneltoets;overlapping;toetsenbord;"
 
 #: data/shortcut-overlay.appdata.xml.in:16
 msgid "Show in the applications menu"
-msgstr ""
+msgstr "Toon in het toepassingenmenu"
 
 #: data/shortcut-overlay.appdata.xml.in:17
 msgid "Replace keyboard settings button with a labeled link button"
