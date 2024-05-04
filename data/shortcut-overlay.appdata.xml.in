@@ -108,7 +108,9 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <translation type="gettext">io.elementary.shortcut-overlay</translation>
-  <developer_name>elementary, Inc.</developer_name>
+  <developer id="org.elementaryos">
+    <name>elementary, Inc.</name>
+  </developer>
   <url type="homepage">http://elementary.io</url>
   <url type="bugtracker">https://github.com/elementary/shortcut-overlay/issues</url>
 </component>
