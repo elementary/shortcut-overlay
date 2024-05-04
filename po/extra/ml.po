@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-26 01:26+0000\n"
+"POT-Creation-Date: 2024-05-04 06:48+0000\n"
 "PO-Revision-Date: 2022-02-03 19:18+0000\n"
 "Last-Translator: Joel Jose <joel750jose@gmail.com>\n"
 "Language-Team: Malayalam <https://l10n.elementary.io/projects/desktop/"
@@ -85,6 +85,5 @@ msgstr "ഒന്നിലധികം വിൻഡോകളിൽ ഉണ്ട�
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
 msgstr "\"ലേയൗട്ട് മാറുക\", \"വിൻഡോ അടയ്ക്കുക\", എന്നിവയുള്ള ഷോർട്ട്കട്ടുകൾ ചേർക്കുക"
 
-#: data/shortcut-overlay.appdata.xml.in:111
-msgid "elementary, Inc."
-msgstr "elementary, Inc."
+#~ msgid "elementary, Inc."
+#~ msgstr "elementary, Inc."

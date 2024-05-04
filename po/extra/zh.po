@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-26 01:26+0000\n"
+"POT-Creation-Date: 2024-05-04 06:48+0000\n"
 "PO-Revision-Date: 2019-09-10 17:22+0000\n"
 "Last-Translator: Daniel Foré <daniel@elementary.io>\n"
 "Language-Team: Chinese <https://l10n.elementary.io/projects/desktop/shortcut-"
@@ -81,8 +81,4 @@ msgstr ""
 
 #: data/shortcut-overlay.appdata.xml.in:67
 msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
-msgstr ""
-
-#: data/shortcut-overlay.appdata.xml.in:111
-msgid "elementary, Inc."
 msgstr ""
