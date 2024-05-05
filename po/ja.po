@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-04 06:48+0000\n"
-"PO-Revision-Date: 2023-03-22 03:59+0000\n"
+"PO-Revision-Date: 2024-05-06 10:13+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.5\n"
 
 #: src/MainWindow.vala:23
 msgid "Shortcuts"
@@ -117,7 +117,7 @@ msgstr "縮小:"
 
 #: src/Views/ShortcutsView.vala:132
 msgid "Lock screen:"
-msgstr "スクリーンをロック:"
+msgstr "画面をロック:"
 
 #: src/Views/ShortcutsView.vala:134
 msgid "Log out:"
@@ -137,11 +137,11 @@ msgstr "スクリーンショット"
 
 #: src/Views/ShortcutsView.vala:147
 msgid "Grab the whole screen:"
-msgstr "スクリーン全体を取得:"
+msgstr "画面全体を取得:"
 
 #: src/Views/ShortcutsView.vala:149
 msgid "Copy the whole screen to clipboard:"
-msgstr "スクリーン全体をクリップボードにコピー:"
+msgstr "画面全体をクリップボードにコピー:"
 
 #: src/Views/ShortcutsView.vala:151
 msgid "Grab the current window:"
