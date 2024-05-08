@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-04 06:48+0000\n"
-"PO-Revision-Date: 2024-05-06 10:13+0000\n"
+"PO-Revision-Date: 2024-05-09 13:13+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/ja/>\n"
@@ -45,7 +45,7 @@ msgstr "ウィンドウを切り替え:"
 
 #: src/Views/ShortcutsView.vala:41
 msgid "Toggle maximized:"
-msgstr "最大化／元のサイズに戻す:"
+msgstr "最大化/元に戻す:"
 
 #: src/Views/ShortcutsView.vala:43
 msgid "Tile left:"
@@ -129,7 +129,7 @@ msgstr "キーボードレイアウトを切り替え:"
 
 #: src/Views/ShortcutsView.vala:138
 msgid "Toggle on-screen keyboard:"
-msgstr "オンスクリーンキーボードを表示／非表示:"
+msgstr "オンスクリーンキーボードを表示/非表示:"
 
 #: src/Views/ShortcutsView.vala:141
 msgid "Screenshots"
