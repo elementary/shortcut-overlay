@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-04 06:48+0000\n"
+"POT-Creation-Date: 2024-05-16 17:34+0000\n"
 "PO-Revision-Date: 2023-08-02 17:08+0000\n"
 "Last-Translator: DutchVipperloid <svenroelof@e.email>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/desktop/shortcut-"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.17\n"
 
-#: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.appdata.xml.in:7
+#: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.metainfo.xml.in:10
 msgid "Shortcuts"
 msgstr "Sneltoetsen"
 
@@ -27,7 +27,7 @@ msgstr "Sneltoetsen"
 msgid "Shortcut Overlay"
 msgstr "Sneltoets overlapping"
 
-#: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
+#: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.metainfo.xml.in:11
 msgid "View system shortcuts"
 msgstr "Bekijk sneltoetsen van het systeem"
 
@@ -35,53 +35,50 @@ msgstr "Bekijk sneltoetsen van het systeem"
 msgid "cheatsheet;shortcut;overlay;keyboard;"
 msgstr "spiekbriefje;sneltoets;overlapping;toetsenbord;"
 
-#: data/shortcut-overlay.appdata.xml.in:16
+#: data/shortcut-overlay.metainfo.xml.in:44
 msgid "Show in the applications menu"
 msgstr "Toon in het Applicaties-menu"
 
-#: data/shortcut-overlay.appdata.xml.in:17
+#: data/shortcut-overlay.metainfo.xml.in:45
 msgid "Replace keyboard settings button with a labeled link button"
 msgstr "Toetsenbordinstellingen-knop vervangen door een gelabelde linkknop"
 
-#: data/shortcut-overlay.appdata.xml.in:18
+#: data/shortcut-overlay.metainfo.xml.in:46
 msgid "Show on-screen keyboard shortcut"
 msgstr "Laat sneltoets zien op het scherm"
 
-#: data/shortcut-overlay.appdata.xml.in:19
+#: data/shortcut-overlay.metainfo.xml.in:47
 msgid "Close with the shortcut Ctrl + Q"
 msgstr "Sluit met de sneltoets Ctrl + Q"
 
-#: data/shortcut-overlay.appdata.xml.in:20
-#: data/shortcut-overlay.appdata.xml.in:29
-#: data/shortcut-overlay.appdata.xml.in:37
-#: data/shortcut-overlay.appdata.xml.in:46
-#: data/shortcut-overlay.appdata.xml.in:53
-#: data/shortcut-overlay.appdata.xml.in:60
-#: data/shortcut-overlay.appdata.xml.in:68
+#: data/shortcut-overlay.metainfo.xml.in:48
+#: data/shortcut-overlay.metainfo.xml.in:57
+#: data/shortcut-overlay.metainfo.xml.in:66
+#: data/shortcut-overlay.metainfo.xml.in:76
+#: data/shortcut-overlay.metainfo.xml.in:84
 msgid "Updated translations"
 msgstr "Geüpdatete vertalingen"
 
-#: data/shortcut-overlay.appdata.xml.in:28
+#: data/shortcut-overlay.metainfo.xml.in:56
 msgid "Update for OS 7 and Gtk 4"
 msgstr "Update voor OS 7 en Gtk 4"
 
-#: data/shortcut-overlay.appdata.xml.in:36
+#: data/shortcut-overlay.metainfo.xml.in:65
 msgid "Fix the app not launching if a shortcut key is set to blank"
 msgstr ""
 "Los een probleem op waarbij de app niet opstart mocht een sneltoets niet "
 "zijn ingesteld"
 
-#: data/shortcut-overlay.appdata.xml.in:44
+#: data/shortcut-overlay.metainfo.xml.in:74
 msgid "Add screenshot shortcuts"
 msgstr "Voeg standaard sneltoetsen toe"
 
-#: data/shortcut-overlay.appdata.xml.in:45
+#: data/shortcut-overlay.metainfo.xml.in:75
 msgid "Fix issues with multiple windows"
 msgstr "Los probleem op met meerdere vensters"
 
-#: data/shortcut-overlay.appdata.xml.in:67
-msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
-msgstr "Voeg “verander layout” en “sluit venster” sneltoetsen toe"
+#~ msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
+#~ msgstr "Voeg “verander layout” en “sluit venster” sneltoetsen toe"
 
 #~ msgid "elementary, Inc."
 #~ msgstr "elementary, Inc."
