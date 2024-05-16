@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-16 17:34+0000\n"
+"POT-Creation-Date: 2024-05-16 17:45+0000\n"
 "PO-Revision-Date: 2023-08-02 17:08+0000\n"
 "Last-Translator: DutchVipperloid <svenroelof@e.email>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/desktop/shortcut-"
@@ -36,44 +36,44 @@ msgid "cheatsheet;shortcut;overlay;keyboard;"
 msgstr "spiekbriefje;sneltoets;overlapping;toetsenbord;"
 
 #: data/shortcut-overlay.metainfo.xml.in:44
-msgid "Show in the applications menu"
-msgstr "Toon in het Applicaties-menu"
-
-#: data/shortcut-overlay.metainfo.xml.in:45
-msgid "Replace keyboard settings button with a labeled link button"
-msgstr "Toetsenbordinstellingen-knop vervangen door een gelabelde linkknop"
-
-#: data/shortcut-overlay.metainfo.xml.in:46
-msgid "Show on-screen keyboard shortcut"
-msgstr "Laat sneltoets zien op het scherm"
-
-#: data/shortcut-overlay.metainfo.xml.in:47
-msgid "Close with the shortcut Ctrl + Q"
-msgstr "Sluit met de sneltoets Ctrl + Q"
-
-#: data/shortcut-overlay.metainfo.xml.in:48
-#: data/shortcut-overlay.metainfo.xml.in:57
-#: data/shortcut-overlay.metainfo.xml.in:66
-#: data/shortcut-overlay.metainfo.xml.in:76
+#: data/shortcut-overlay.metainfo.xml.in:56
+#: data/shortcut-overlay.metainfo.xml.in:65
+#: data/shortcut-overlay.metainfo.xml.in:74
 #: data/shortcut-overlay.metainfo.xml.in:84
 msgid "Updated translations"
 msgstr "Geüpdatete vertalingen"
 
-#: data/shortcut-overlay.metainfo.xml.in:56
+#: data/shortcut-overlay.metainfo.xml.in:52
+msgid "Show in the applications menu"
+msgstr "Toon in het Applicaties-menu"
+
+#: data/shortcut-overlay.metainfo.xml.in:53
+msgid "Replace keyboard settings button with a labeled link button"
+msgstr "Toetsenbordinstellingen-knop vervangen door een gelabelde linkknop"
+
+#: data/shortcut-overlay.metainfo.xml.in:54
+msgid "Show on-screen keyboard shortcut"
+msgstr "Laat sneltoets zien op het scherm"
+
+#: data/shortcut-overlay.metainfo.xml.in:55
+msgid "Close with the shortcut Ctrl + Q"
+msgstr "Sluit met de sneltoets Ctrl + Q"
+
+#: data/shortcut-overlay.metainfo.xml.in:64
 msgid "Update for OS 7 and Gtk 4"
 msgstr "Update voor OS 7 en Gtk 4"
 
-#: data/shortcut-overlay.metainfo.xml.in:65
+#: data/shortcut-overlay.metainfo.xml.in:73
 msgid "Fix the app not launching if a shortcut key is set to blank"
 msgstr ""
 "Los een probleem op waarbij de app niet opstart mocht een sneltoets niet "
 "zijn ingesteld"
 
-#: data/shortcut-overlay.metainfo.xml.in:74
+#: data/shortcut-overlay.metainfo.xml.in:82
 msgid "Add screenshot shortcuts"
 msgstr "Voeg standaard sneltoetsen toe"
 
-#: data/shortcut-overlay.metainfo.xml.in:75
+#: data/shortcut-overlay.metainfo.xml.in:83
 msgid "Fix issues with multiple windows"
 msgstr "Los probleem op met meerdere vensters"
 

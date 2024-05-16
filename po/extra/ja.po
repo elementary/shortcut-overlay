@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-16 17:34+0000\n"
+"POT-Creation-Date: 2024-05-16 17:45+0000\n"
 "PO-Revision-Date: 2022-10-29 04:48+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
@@ -38,43 +38,43 @@ msgstr ""
 "イ;キーボード;"
 
 #: data/shortcut-overlay.metainfo.xml.in:44
-msgid "Show in the applications menu"
-msgstr "アプリケーションメニューに表示するように修正"
-
-#: data/shortcut-overlay.metainfo.xml.in:45
-msgid "Replace keyboard settings button with a labeled link button"
-msgstr "キーボードの設定ボタンを、ラベル付きリンクボタンに変更"
-
-#: data/shortcut-overlay.metainfo.xml.in:46
-msgid "Show on-screen keyboard shortcut"
-msgstr "オンスクリーンキーボードのショートカットを表示するように修正"
-
-#: data/shortcut-overlay.metainfo.xml.in:47
-msgid "Close with the shortcut Ctrl + Q"
-msgstr "Ctrl + Q でアプリを終了できるように修正"
-
-#: data/shortcut-overlay.metainfo.xml.in:48
-#: data/shortcut-overlay.metainfo.xml.in:57
-#: data/shortcut-overlay.metainfo.xml.in:66
-#: data/shortcut-overlay.metainfo.xml.in:76
+#: data/shortcut-overlay.metainfo.xml.in:56
+#: data/shortcut-overlay.metainfo.xml.in:65
+#: data/shortcut-overlay.metainfo.xml.in:74
 #: data/shortcut-overlay.metainfo.xml.in:84
 msgid "Updated translations"
 msgstr "翻訳の更新"
 
-#: data/shortcut-overlay.metainfo.xml.in:56
+#: data/shortcut-overlay.metainfo.xml.in:52
+msgid "Show in the applications menu"
+msgstr "アプリケーションメニューに表示するように修正"
+
+#: data/shortcut-overlay.metainfo.xml.in:53
+msgid "Replace keyboard settings button with a labeled link button"
+msgstr "キーボードの設定ボタンを、ラベル付きリンクボタンに変更"
+
+#: data/shortcut-overlay.metainfo.xml.in:54
+msgid "Show on-screen keyboard shortcut"
+msgstr "オンスクリーンキーボードのショートカットを表示するように修正"
+
+#: data/shortcut-overlay.metainfo.xml.in:55
+msgid "Close with the shortcut Ctrl + Q"
+msgstr "Ctrl + Q でアプリを終了できるように修正"
+
+#: data/shortcut-overlay.metainfo.xml.in:64
 msgid "Update for OS 7 and Gtk 4"
 msgstr "elementary OS 7 と Gtk 4 に向けたアップデート"
 
-#: data/shortcut-overlay.metainfo.xml.in:65
+#: data/shortcut-overlay.metainfo.xml.in:73
 msgid "Fix the app not launching if a shortcut key is set to blank"
 msgstr ""
 "ショートカットキーが設定されていない場合にアプリが起動しない不具合を修正"
 
-#: data/shortcut-overlay.metainfo.xml.in:74
+#: data/shortcut-overlay.metainfo.xml.in:82
 msgid "Add screenshot shortcuts"
 msgstr "スクリーンショットのショートカットを追加"
 
-#: data/shortcut-overlay.metainfo.xml.in:75
+#: data/shortcut-overlay.metainfo.xml.in:83
 msgid "Fix issues with multiple windows"
 msgstr "ウィンドウが複数表示される不具合を修正"
 
