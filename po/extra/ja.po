@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-04 06:48+0000\n"
+"POT-Creation-Date: 2024-05-16 17:34+0000\n"
 "PO-Revision-Date: 2022-10-29 04:48+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.appdata.xml.in:7
+#: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.metainfo.xml.in:10
 msgid "Shortcuts"
 msgstr "ショートカット"
 
@@ -27,7 +27,7 @@ msgstr "ショートカット"
 msgid "Shortcut Overlay"
 msgstr "ショートカットオーバーレイ"
 
-#: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
+#: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.metainfo.xml.in:11
 msgid "View system shortcuts"
 msgstr "システムのショートカットを表示します"
 
@@ -37,52 +37,50 @@ msgstr ""
 "cheatsheet;shortcut;overlay;keyboard;チートシート;ショートカット;オーバーレ"
 "イ;キーボード;"
 
-#: data/shortcut-overlay.appdata.xml.in:16
+#: data/shortcut-overlay.metainfo.xml.in:44
 msgid "Show in the applications menu"
 msgstr "アプリケーションメニューに表示するように修正"
 
-#: data/shortcut-overlay.appdata.xml.in:17
+#: data/shortcut-overlay.metainfo.xml.in:45
 msgid "Replace keyboard settings button with a labeled link button"
 msgstr "キーボードの設定ボタンを、ラベル付きリンクボタンに変更"
 
-#: data/shortcut-overlay.appdata.xml.in:18
+#: data/shortcut-overlay.metainfo.xml.in:46
 msgid "Show on-screen keyboard shortcut"
 msgstr "オンスクリーンキーボードのショートカットを表示するように修正"
 
-#: data/shortcut-overlay.appdata.xml.in:19
+#: data/shortcut-overlay.metainfo.xml.in:47
 msgid "Close with the shortcut Ctrl + Q"
 msgstr "Ctrl + Q でアプリを終了できるように修正"
 
-#: data/shortcut-overlay.appdata.xml.in:20
-#: data/shortcut-overlay.appdata.xml.in:29
-#: data/shortcut-overlay.appdata.xml.in:37
-#: data/shortcut-overlay.appdata.xml.in:46
-#: data/shortcut-overlay.appdata.xml.in:53
-#: data/shortcut-overlay.appdata.xml.in:60
-#: data/shortcut-overlay.appdata.xml.in:68
+#: data/shortcut-overlay.metainfo.xml.in:48
+#: data/shortcut-overlay.metainfo.xml.in:57
+#: data/shortcut-overlay.metainfo.xml.in:66
+#: data/shortcut-overlay.metainfo.xml.in:76
+#: data/shortcut-overlay.metainfo.xml.in:84
 msgid "Updated translations"
 msgstr "翻訳の更新"
 
-#: data/shortcut-overlay.appdata.xml.in:28
+#: data/shortcut-overlay.metainfo.xml.in:56
 msgid "Update for OS 7 and Gtk 4"
 msgstr "elementary OS 7 と Gtk 4 に向けたアップデート"
 
-#: data/shortcut-overlay.appdata.xml.in:36
+#: data/shortcut-overlay.metainfo.xml.in:65
 msgid "Fix the app not launching if a shortcut key is set to blank"
 msgstr ""
 "ショートカットキーが設定されていない場合にアプリが起動しない不具合を修正"
 
-#: data/shortcut-overlay.appdata.xml.in:44
+#: data/shortcut-overlay.metainfo.xml.in:74
 msgid "Add screenshot shortcuts"
 msgstr "スクリーンショットのショートカットを追加"
 
-#: data/shortcut-overlay.appdata.xml.in:45
+#: data/shortcut-overlay.metainfo.xml.in:75
 msgid "Fix issues with multiple windows"
 msgstr "ウィンドウが複数表示される不具合を修正"
 
-#: data/shortcut-overlay.appdata.xml.in:67
-msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
-msgstr "\"レイアウトを切り替え\"と\"ウィンドウを閉じる\"ショートカットを追加"
+#~ msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
+#~ msgstr ""
+#~ "\"レイアウトを切り替え\"と\"ウィンドウを閉じる\"ショートカットを追加"
 
 #~ msgid "elementary, Inc."
 #~ msgstr "elementary, Inc."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-04 06:48+0000\n"
+"POT-Creation-Date: 2024-05-16 17:34+0000\n"
 "PO-Revision-Date: 2018-06-01 00:07+0000\n"
 "Last-Translator: Rokar <mail@rokar.de>\n"
 "Language-Team: Kurdish <https://weblate.elementary.io/projects/desktop/"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2.18\n"
 
-#: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.appdata.xml.in:7
+#: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.metainfo.xml.in:10
 #, fuzzy
 #| msgid "Keyboard Shortcuts"
 msgid "Shortcuts"
@@ -29,7 +29,7 @@ msgstr "Kurterê Textekilîl"
 msgid "Shortcut Overlay"
 msgstr ""
 
-#: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.appdata.xml.in:8
+#: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.metainfo.xml.in:11
 msgid "View system shortcuts"
 msgstr ""
 
@@ -37,48 +37,42 @@ msgstr ""
 msgid "cheatsheet;shortcut;overlay;keyboard;"
 msgstr ""
 
-#: data/shortcut-overlay.appdata.xml.in:16
+#: data/shortcut-overlay.metainfo.xml.in:44
 msgid "Show in the applications menu"
 msgstr ""
 
-#: data/shortcut-overlay.appdata.xml.in:17
+#: data/shortcut-overlay.metainfo.xml.in:45
 msgid "Replace keyboard settings button with a labeled link button"
 msgstr ""
 
-#: data/shortcut-overlay.appdata.xml.in:18
+#: data/shortcut-overlay.metainfo.xml.in:46
 msgid "Show on-screen keyboard shortcut"
 msgstr ""
 
-#: data/shortcut-overlay.appdata.xml.in:19
+#: data/shortcut-overlay.metainfo.xml.in:47
 msgid "Close with the shortcut Ctrl + Q"
 msgstr ""
 
-#: data/shortcut-overlay.appdata.xml.in:20
-#: data/shortcut-overlay.appdata.xml.in:29
-#: data/shortcut-overlay.appdata.xml.in:37
-#: data/shortcut-overlay.appdata.xml.in:46
-#: data/shortcut-overlay.appdata.xml.in:53
-#: data/shortcut-overlay.appdata.xml.in:60
-#: data/shortcut-overlay.appdata.xml.in:68
+#: data/shortcut-overlay.metainfo.xml.in:48
+#: data/shortcut-overlay.metainfo.xml.in:57
+#: data/shortcut-overlay.metainfo.xml.in:66
+#: data/shortcut-overlay.metainfo.xml.in:76
+#: data/shortcut-overlay.metainfo.xml.in:84
 msgid "Updated translations"
 msgstr ""
 
-#: data/shortcut-overlay.appdata.xml.in:28
+#: data/shortcut-overlay.metainfo.xml.in:56
 msgid "Update for OS 7 and Gtk 4"
 msgstr ""
 
-#: data/shortcut-overlay.appdata.xml.in:36
+#: data/shortcut-overlay.metainfo.xml.in:65
 msgid "Fix the app not launching if a shortcut key is set to blank"
 msgstr ""
 
-#: data/shortcut-overlay.appdata.xml.in:44
+#: data/shortcut-overlay.metainfo.xml.in:74
 msgid "Add screenshot shortcuts"
 msgstr ""
 
-#: data/shortcut-overlay.appdata.xml.in:45
+#: data/shortcut-overlay.metainfo.xml.in:75
 msgid "Fix issues with multiple windows"
-msgstr ""
-
-#: data/shortcut-overlay.appdata.xml.in:67
-msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
 msgstr ""
