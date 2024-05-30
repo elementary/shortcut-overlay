@@ -28,10 +28,7 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Box {
             row_spacing = 12
         };
 
-        var windows_header = new Gtk.Label (_("Windows")) {
-            xalign = 0
-        };
-        windows_header.add_css_class (Granite.STYLE_CLASS_H4_LABEL);
+        var windows_header = new Granite.HeaderLabel (_("Windows"));
 
         column_start.attach (windows_header, 0, 0, 2);
         column_start.attach (new NameLabel (_("Close window:")), 0, 1);
@@ -51,10 +48,7 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Box {
         column_start.attach (new NameLabel (_("Picture in Picture Mode:")), 0, 8);
         column_start.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "pip"), 1, 8);
 
-        var workspaces_header = new Gtk.Label (_("Workspaces")) {
-            xalign = 0
-        };
-        workspaces_header.add_css_class (Granite.STYLE_CLASS_H4_LABEL);
+        var workspaces_header = new Granite.HeaderLabel (_("Workspaces"));
 
         column_start.attach (workspaces_header, 0, 9, 2);
         column_start.attach (new NameLabel (_("Multitasking View:")), 0, 10);
@@ -115,10 +109,7 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Box {
         column_end.hexpand = true;
         column_end.row_spacing = 12;
 
-        var system_header = new Gtk.Label (_("System")) {
-            xalign = 0
-        };
-        system_header.add_css_class (Granite.STYLE_CLASS_H4_LABEL);
+        var system_header = new Granite.HeaderLabel (_("System"));
 
         column_end.attach (system_header, 0, 0, 2);
         column_end.attach (new NameLabel (_("Applications Menu:")), 0, 1);
@@ -138,10 +129,7 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Box {
         column_end.attach (new NameLabel (_("Toggle on-screen keyboard:")), 0, 8);
         column_end.attach (new ShortcutLabel.from_gsettings (SCHEMA_MEDIA, "on-screen-keyboard"), 1, 8);
 
-        var screenshots_header = new Gtk.Label (_("Screenshots")) {
-            xalign = 0
-        };
-        screenshots_header.add_css_class (Granite.STYLE_CLASS_H4_LABEL);
+        var screenshots_header = new Granite.HeaderLabel (_("Screenshots"));
 
         column_end.attach (screenshots_header, 0, 9, 2);
         column_end.attach (new NameLabel (_("Grab the whole screen:")), 0, 10);

@@ -67,7 +67,7 @@ public class ShortcutLabel : Gtk.Box {
                     continue;
                 }
                 var label = new Gtk.Label (accel);
-                label.get_style_context ().add_class ("keycap");
+                label.add_css_class ("keycap");
                 append (label);
             }
         } else {
