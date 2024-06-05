@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-16 17:45+0000\n"
+"POT-Creation-Date: 2024-06-05 03:52+0000\n"
 "PO-Revision-Date: 2019-04-06 21:52+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://l10n.elementary.io/projects/desktop/"
@@ -134,35 +134,39 @@ msgstr "Perjungti klaviatūros išdėstymą:"
 msgid "Toggle on-screen keyboard:"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:141
+#: src/Views/ShortcutsView.vala:140
+msgid "Toggle screen reader:"
+msgstr ""
+
+#: src/Views/ShortcutsView.vala:143
 msgid "Screenshots"
 msgstr "Ekrano kopijos"
 
-#: src/Views/ShortcutsView.vala:147
+#: src/Views/ShortcutsView.vala:149
 msgid "Grab the whole screen:"
 msgstr "Fotografuoti visą ekraną:"
 
-#: src/Views/ShortcutsView.vala:149
+#: src/Views/ShortcutsView.vala:151
 #, fuzzy
 #| msgid "Grab the whole screen:"
 msgid "Copy the whole screen to clipboard:"
 msgstr "Fotografuoti visą ekraną:"
 
-#: src/Views/ShortcutsView.vala:151
+#: src/Views/ShortcutsView.vala:153
 msgid "Grab the current window:"
 msgstr "Fotografuoti esamą langą:"
 
-#: src/Views/ShortcutsView.vala:153
+#: src/Views/ShortcutsView.vala:155
 #, fuzzy
 #| msgid "Grab the current window:"
 msgid "Copy the current window to clipboard:"
 msgstr "Fotografuoti esamą langą:"
 
-#: src/Views/ShortcutsView.vala:155
+#: src/Views/ShortcutsView.vala:157
 msgid "Select an area to grab:"
 msgstr "Pasirinkti fotografuojamą sritį:"
 
-#: src/Views/ShortcutsView.vala:157
+#: src/Views/ShortcutsView.vala:159
 msgid "Copy an area to clipboard:"
 msgstr ""
 

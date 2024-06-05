@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-16 17:45+0000\n"
+"POT-Creation-Date: 2024-06-05 03:52+0000\n"
 "PO-Revision-Date: 2022-08-22 00:10+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/desktop/"
@@ -132,31 +132,37 @@ msgstr "Змінити розкладку клавіатури:"
 msgid "Toggle on-screen keyboard:"
 msgstr "Перемкнути екранну клавіатуру:"
 
-#: src/Views/ShortcutsView.vala:141
+#: src/Views/ShortcutsView.vala:140
+#, fuzzy
+#| msgid "Toggle on-screen keyboard:"
+msgid "Toggle screen reader:"
+msgstr "Перемкнути екранну клавіатуру:"
+
+#: src/Views/ShortcutsView.vala:143
 msgid "Screenshots"
 msgstr "Знімки екрана"
 
-#: src/Views/ShortcutsView.vala:147
+#: src/Views/ShortcutsView.vala:149
 msgid "Grab the whole screen:"
 msgstr "Захопити весь екран:"
 
-#: src/Views/ShortcutsView.vala:149
+#: src/Views/ShortcutsView.vala:151
 msgid "Copy the whole screen to clipboard:"
 msgstr "Скопіювати весь екран до буфера обміну:"
 
-#: src/Views/ShortcutsView.vala:151
+#: src/Views/ShortcutsView.vala:153
 msgid "Grab the current window:"
 msgstr "Захопити поточне вікно:"
 
-#: src/Views/ShortcutsView.vala:153
+#: src/Views/ShortcutsView.vala:155
 msgid "Copy the current window to clipboard:"
 msgstr "Скопіювати поточне вікно до буфера обміну:"
 
-#: src/Views/ShortcutsView.vala:155
+#: src/Views/ShortcutsView.vala:157
 msgid "Select an area to grab:"
 msgstr "Вибрати ділянку:"
 
-#: src/Views/ShortcutsView.vala:157
+#: src/Views/ShortcutsView.vala:159
 msgid "Copy an area to clipboard:"
 msgstr "Скопіювати ділянку до буфера обміну:"
 
