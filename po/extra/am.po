@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-05 03:52+0000\n"
+"POT-Creation-Date: 2024-06-06 17:43+0000\n"
 "PO-Revision-Date: 2021-09-26 21:30+0000\n"
 "Last-Translator: carnage-mode <beta-stage@tutanota.com>\n"
 "Language-Team: Amharic <https://l10n.elementary.io/projects/desktop/shortcut-"
@@ -36,42 +36,46 @@ msgid "cheatsheet;shortcut;overlay;keyboard;"
 msgstr ""
 
 #: data/shortcut-overlay.metainfo.xml.in:44
-#: data/shortcut-overlay.metainfo.xml.in:56
-#: data/shortcut-overlay.metainfo.xml.in:65
-#: data/shortcut-overlay.metainfo.xml.in:74
-#: data/shortcut-overlay.metainfo.xml.in:84
+#: data/shortcut-overlay.metainfo.xml.in:57
+#: data/shortcut-overlay.metainfo.xml.in:66
+#: data/shortcut-overlay.metainfo.xml.in:75
+#: data/shortcut-overlay.metainfo.xml.in:85
 msgid "Updated translations"
 msgstr ""
 
-#: data/shortcut-overlay.metainfo.xml.in:52
-msgid "Show in the applications menu"
+#: data/shortcut-overlay.metainfo.xml.in:45
+msgid "Show screen reader shortcut"
 msgstr ""
 
 #: data/shortcut-overlay.metainfo.xml.in:53
-msgid "Replace keyboard settings button with a labeled link button"
+msgid "Show in the applications menu"
 msgstr ""
 
 #: data/shortcut-overlay.metainfo.xml.in:54
-msgid "Show on-screen keyboard shortcut"
+msgid "Replace keyboard settings button with a labeled link button"
 msgstr ""
 
 #: data/shortcut-overlay.metainfo.xml.in:55
+msgid "Show on-screen keyboard shortcut"
+msgstr ""
+
+#: data/shortcut-overlay.metainfo.xml.in:56
 msgid "Close with the shortcut Ctrl + Q"
 msgstr ""
 
-#: data/shortcut-overlay.metainfo.xml.in:64
+#: data/shortcut-overlay.metainfo.xml.in:65
 msgid "Update for OS 7 and Gtk 4"
 msgstr ""
 
-#: data/shortcut-overlay.metainfo.xml.in:73
+#: data/shortcut-overlay.metainfo.xml.in:74
 msgid "Fix the app not launching if a shortcut key is set to blank"
 msgstr ""
 
-#: data/shortcut-overlay.metainfo.xml.in:82
+#: data/shortcut-overlay.metainfo.xml.in:83
 msgid "Add screenshot shortcuts"
 msgstr ""
 
-#: data/shortcut-overlay.metainfo.xml.in:83
+#: data/shortcut-overlay.metainfo.xml.in:84
 msgid "Fix issues with multiple windows"
 msgstr ""
 

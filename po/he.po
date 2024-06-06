@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-05 03:52+0000\n"
+"POT-Creation-Date: 2024-06-06 17:43+0000\n"
 "PO-Revision-Date: 2024-06-06 06:13+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew <https://l10n.elementary.io/projects/desktop/"
-"shortcut-overlay/he/>\n"
+"Language-Team: Hebrew <https://l10n.elementary.io/projects/desktop/shortcut-"
+"overlay/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,131 +35,131 @@ msgstr "מושבת"
 msgid "Windows"
 msgstr "חלונות"
 
-#: src/Views/ShortcutsView.vala:37
+#: src/Views/ShortcutsView.vala:34
 msgid "Close window:"
 msgstr "סגירת חלון:"
 
-#: src/Views/ShortcutsView.vala:39
+#: src/Views/ShortcutsView.vala:36
 msgid "Cycle windows:"
 msgstr "החלפה בין חלונות:"
 
-#: src/Views/ShortcutsView.vala:41
+#: src/Views/ShortcutsView.vala:38
 msgid "Toggle maximized:"
 msgstr "החלפת מצב הגדלה:"
 
-#: src/Views/ShortcutsView.vala:43
+#: src/Views/ShortcutsView.vala:40
 msgid "Tile left:"
 msgstr "פריסה שמאלה:"
 
-#: src/Views/ShortcutsView.vala:45
+#: src/Views/ShortcutsView.vala:42
 msgid "Tile right:"
 msgstr "פריסה ימינה:"
 
-#: src/Views/ShortcutsView.vala:47
+#: src/Views/ShortcutsView.vala:44
 msgid "Move to left workspace:"
 msgstr "העברה לסביבת העבודה השמאלית:"
 
-#: src/Views/ShortcutsView.vala:49
+#: src/Views/ShortcutsView.vala:46
 msgid "Move to right workspace:"
 msgstr "העברה לסביבת העבודה הימנית:"
 
-#: src/Views/ShortcutsView.vala:51
+#: src/Views/ShortcutsView.vala:48
 msgid "Picture in Picture Mode:"
 msgstr "מצב תמונה בתוך תמונה:"
 
-#: src/Views/ShortcutsView.vala:54
+#: src/Views/ShortcutsView.vala:51
 msgid "Workspaces"
 msgstr "סביבות עבודה"
 
-#: src/Views/ShortcutsView.vala:60
+#: src/Views/ShortcutsView.vala:54
 msgid "Multitasking View:"
 msgstr "תצוגת ריבוי משימות:"
 
-#: src/Views/ShortcutsView.vala:62
+#: src/Views/ShortcutsView.vala:56
 msgid "Switch left:"
 msgstr "החלפה שמאלה:"
 
-#: src/Views/ShortcutsView.vala:64
+#: src/Views/ShortcutsView.vala:58
 msgid "Switch right:"
 msgstr "החלפה ימינה:"
 
-#: src/Views/ShortcutsView.vala:66
+#: src/Views/ShortcutsView.vala:60
 msgid "Switch to first:"
 msgstr "מעבר לראשונה:"
 
-#: src/Views/ShortcutsView.vala:68
+#: src/Views/ShortcutsView.vala:62
 msgid "Switch to new:"
 msgstr "מעבר לחדשה:"
 
-#: src/Views/ShortcutsView.vala:70
+#: src/Views/ShortcutsView.vala:64
 msgid "Cycle workspaces:"
 msgstr "דפדוף בין סביבות עבודה:"
 
-#: src/Views/ShortcutsView.vala:118
+#: src/Views/ShortcutsView.vala:112
 msgid "System"
 msgstr "מערכת"
 
-#: src/Views/ShortcutsView.vala:124
+#: src/Views/ShortcutsView.vala:115
 msgid "Applications Menu:"
 msgstr "תפריט יישומים:"
 
-#: src/Views/ShortcutsView.vala:126
+#: src/Views/ShortcutsView.vala:117
 msgid "Cycle display mode:"
 msgstr "החלפת מצבי תצוגה:"
 
-#: src/Views/ShortcutsView.vala:128
+#: src/Views/ShortcutsView.vala:119
 msgid "Zoom in:"
 msgstr "התקרבות:"
 
-#: src/Views/ShortcutsView.vala:130
+#: src/Views/ShortcutsView.vala:121
 msgid "Zoom out:"
 msgstr "התרחקות:"
 
-#: src/Views/ShortcutsView.vala:132
+#: src/Views/ShortcutsView.vala:123
 msgid "Lock screen:"
 msgstr "נעילת מסך:"
 
-#: src/Views/ShortcutsView.vala:134
+#: src/Views/ShortcutsView.vala:125
 msgid "Log out:"
 msgstr "יציאה:"
 
-#: src/Views/ShortcutsView.vala:136
+#: src/Views/ShortcutsView.vala:127
 msgid "Switch keyboard layout:"
 msgstr "החלפת פריסת מקלדת:"
 
-#: src/Views/ShortcutsView.vala:138
+#: src/Views/ShortcutsView.vala:129
 msgid "Toggle on-screen keyboard:"
 msgstr "החלפת מצב מקלדת על גבי המסך:"
 
-#: src/Views/ShortcutsView.vala:140
+#: src/Views/ShortcutsView.vala:131
 msgid "Toggle screen reader:"
 msgstr "בורר מקריא מסך:"
 
-#: src/Views/ShortcutsView.vala:143
+#: src/Views/ShortcutsView.vala:134
 msgid "Screenshots"
 msgstr "צילומי מסך"
 
-#: src/Views/ShortcutsView.vala:149
+#: src/Views/ShortcutsView.vala:137
 msgid "Grab the whole screen:"
 msgstr "צילום המסך כולו:"
 
-#: src/Views/ShortcutsView.vala:151
+#: src/Views/ShortcutsView.vala:139
 msgid "Copy the whole screen to clipboard:"
 msgstr "צילום המסך כולו ללוח הגזירים:"
 
-#: src/Views/ShortcutsView.vala:153
+#: src/Views/ShortcutsView.vala:141
 msgid "Grab the current window:"
 msgstr "צילום החלון הנוכחי:"
 
-#: src/Views/ShortcutsView.vala:155
+#: src/Views/ShortcutsView.vala:143
 msgid "Copy the current window to clipboard:"
 msgstr "צילום החלון הנוכחי ללוח הגזירים:"
 
-#: src/Views/ShortcutsView.vala:157
+#: src/Views/ShortcutsView.vala:145
 msgid "Select an area to grab:"
 msgstr "בחירת אזור לצילום:"
 
-#: src/Views/ShortcutsView.vala:159
+#: src/Views/ShortcutsView.vala:147
 msgid "Copy an area to clipboard:"
 msgstr "צילום שטח ללוח הגזירים:"
 
