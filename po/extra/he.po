@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-06 17:43+0000\n"
-"PO-Revision-Date: 2022-10-26 16:15+0000\n"
+"PO-Revision-Date: 2024-06-06 21:17+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew <https://l10n.elementary.io/projects/desktop/shortcut-"
-"overlay-extra/he/>\n"
+"Language-Team: Hebrew <https://l10n.elementary.io/projects/desktop/"
+"shortcut-overlay-extra/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 5.5\n"
 
 #: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.metainfo.xml.in:10
 msgid "Shortcuts"
@@ -44,10 +44,8 @@ msgid "Updated translations"
 msgstr "התרגומים עודכנו"
 
 #: data/shortcut-overlay.metainfo.xml.in:45
-#, fuzzy
-#| msgid "Show on-screen keyboard shortcut"
 msgid "Show screen reader shortcut"
-msgstr "קיצור דרך למקלדת על גבי המסך יוצג"
+msgstr "קיצור דרך למקריא מסך יוצג"
 
 #: data/shortcut-overlay.metainfo.xml.in:53
 msgid "Show in the applications menu"
