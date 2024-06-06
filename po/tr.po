@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-16 17:34+0000\n"
+"POT-Creation-Date: 2024-06-05 03:52+0000\n"
 "PO-Revision-Date: 2022-08-25 08:28+0000\n"
 "Last-Translator: Özgür Baskin <queeup@zoho.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/desktop/shortcut-"
@@ -131,31 +131,37 @@ msgstr "Klavye düzenini değiştir:"
 msgid "Toggle on-screen keyboard:"
 msgstr "Ekran klavyesini aç/kapat:"
 
-#: src/Views/ShortcutsView.vala:141
+#: src/Views/ShortcutsView.vala:140
+#, fuzzy
+#| msgid "Toggle on-screen keyboard:"
+msgid "Toggle screen reader:"
+msgstr "Ekran klavyesini aç/kapat:"
+
+#: src/Views/ShortcutsView.vala:143
 msgid "Screenshots"
 msgstr "Ekran Görüntüleri"
 
-#: src/Views/ShortcutsView.vala:147
+#: src/Views/ShortcutsView.vala:149
 msgid "Grab the whole screen:"
 msgstr "Bütün ekranı yakala:"
 
-#: src/Views/ShortcutsView.vala:149
+#: src/Views/ShortcutsView.vala:151
 msgid "Copy the whole screen to clipboard:"
 msgstr "Tüm ekranı panoya kopyala:"
 
-#: src/Views/ShortcutsView.vala:151
+#: src/Views/ShortcutsView.vala:153
 msgid "Grab the current window:"
 msgstr "Mevcut pencereyi yakala:"
 
-#: src/Views/ShortcutsView.vala:153
+#: src/Views/ShortcutsView.vala:155
 msgid "Copy the current window to clipboard:"
 msgstr "Mevcut pencereyi panoya kopyala:"
 
-#: src/Views/ShortcutsView.vala:155
+#: src/Views/ShortcutsView.vala:157
 msgid "Select an area to grab:"
 msgstr "Yakalamak için bir alan seç:"
 
-#: src/Views/ShortcutsView.vala:157
+#: src/Views/ShortcutsView.vala:159
 msgid "Copy an area to clipboard:"
 msgstr "Bir alanı panoya kopyala:"
 

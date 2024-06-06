@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-16 17:34+0000\n"
+"POT-Creation-Date: 2024-06-05 03:52+0000\n"
 "PO-Revision-Date: 2022-08-22 09:49+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/desktop/shortcut-"
@@ -131,31 +131,37 @@ msgstr "Basculer la disposition du clavier :"
 msgid "Toggle on-screen keyboard:"
 msgstr "Afficher/Masquer le clavier virtuel :"
 
-#: src/Views/ShortcutsView.vala:141
+#: src/Views/ShortcutsView.vala:140
+#, fuzzy
+#| msgid "Toggle on-screen keyboard:"
+msgid "Toggle screen reader:"
+msgstr "Afficher/Masquer le clavier virtuel :"
+
+#: src/Views/ShortcutsView.vala:143
 msgid "Screenshots"
 msgstr "Captures d'écran"
 
-#: src/Views/ShortcutsView.vala:147
+#: src/Views/ShortcutsView.vala:149
 msgid "Grab the whole screen:"
 msgstr "Récupérer tout l'écran :"
 
-#: src/Views/ShortcutsView.vala:149
+#: src/Views/ShortcutsView.vala:151
 msgid "Copy the whole screen to clipboard:"
 msgstr "Copier tout l'écran dans le presse-papier :"
 
-#: src/Views/ShortcutsView.vala:151
+#: src/Views/ShortcutsView.vala:153
 msgid "Grab the current window:"
 msgstr "Récupérer la fenêtre actuelle :"
 
-#: src/Views/ShortcutsView.vala:153
+#: src/Views/ShortcutsView.vala:155
 msgid "Copy the current window to clipboard:"
 msgstr "Copier la fenêtre actuelle dans le presse papier :"
 
-#: src/Views/ShortcutsView.vala:155
+#: src/Views/ShortcutsView.vala:157
 msgid "Select an area to grab:"
 msgstr "Sélectionner une zone à récupérer :"
 
-#: src/Views/ShortcutsView.vala:157
+#: src/Views/ShortcutsView.vala:159
 msgid "Copy an area to clipboard:"
 msgstr "Copier une zone dans le presse-papier :"
 

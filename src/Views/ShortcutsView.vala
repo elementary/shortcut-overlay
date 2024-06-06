@@ -28,10 +28,7 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Box {
             row_spacing = 12
         };
 
-        var windows_header = new Gtk.Label (_("Windows")) {
-            xalign = 0
-        };
-        windows_header.add_css_class (Granite.STYLE_CLASS_H4_LABEL);
+        var windows_header = new Granite.HeaderLabel (_("Windows"));
 
         column_start.attach (windows_header, 0, 0, 2);
         column_start.attach (new NameLabel (_("Close window:")), 0, 1);
@@ -51,10 +48,7 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Box {
         column_start.attach (new NameLabel (_("Picture in Picture Mode:")), 0, 8);
         column_start.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "pip"), 1, 8);
 
-        var workspaces_header = new Gtk.Label (_("Workspaces")) {
-            xalign = 0
-        };
-        workspaces_header.add_css_class (Granite.STYLE_CLASS_H4_LABEL);
+        var workspaces_header = new Granite.HeaderLabel (_("Workspaces"));
 
         column_start.attach (workspaces_header, 0, 9, 2);
         column_start.attach (new NameLabel (_("Multitasking View:")), 0, 10);
@@ -115,10 +109,7 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Box {
         column_end.hexpand = true;
         column_end.row_spacing = 12;
 
-        var system_header = new Gtk.Label (_("System")) {
-            xalign = 0
-        };
-        system_header.add_css_class (Granite.STYLE_CLASS_H4_LABEL);
+        var system_header = new Granite.HeaderLabel (_("System"));
 
         column_end.attach (system_header, 0, 0, 2);
         column_end.attach (new NameLabel (_("Applications Menu:")), 0, 1);
@@ -137,25 +128,24 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Box {
         column_end.attach (new ShortcutLabel (xkb_input_accels), 1, 7);
         column_end.attach (new NameLabel (_("Toggle on-screen keyboard:")), 0, 8);
         column_end.attach (new ShortcutLabel.from_gsettings (SCHEMA_MEDIA, "on-screen-keyboard"), 1, 8);
+        column_end.attach (new NameLabel (_("Toggle screen reader:")), 0, 9);
+        column_end.attach (new ShortcutLabel.from_gsettings (SCHEMA_MEDIA, "screenreader"), 1, 9);
 
-        var screenshots_header = new Gtk.Label (_("Screenshots")) {
-            xalign = 0
-        };
-        screenshots_header.add_css_class (Granite.STYLE_CLASS_H4_LABEL);
+        var screenshots_header = new Granite.HeaderLabel (_("Screenshots"));
 
-        column_end.attach (screenshots_header, 0, 9, 2);
-        column_end.attach (new NameLabel (_("Grab the whole screen:")), 0, 10);
-        column_end.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "screenshot"), 1, 10);
-        column_end.attach (new NameLabel (_("Copy the whole screen to clipboard:")), 0, 11);
-        column_end.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "screenshot-clip"), 1, 11);
-        column_end.attach (new NameLabel (_("Grab the current window:")), 0, 12);
-        column_end.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "window-screenshot"), 1, 12);
-        column_end.attach (new NameLabel (_("Copy the current window to clipboard:")), 0, 13);
-        column_end.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "window-screenshot-clip"), 1, 13);
-        column_end.attach (new NameLabel (_("Select an area to grab:")), 0, 14);
-        column_end.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "area-screenshot"), 1, 14);
-        column_end.attach (new NameLabel (_("Copy an area to clipboard:")), 0, 15);
-        column_end.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "area-screenshot-clip"), 1, 15);
+        column_end.attach (screenshots_header, 0, 10, 2);
+        column_end.attach (new NameLabel (_("Grab the whole screen:")), 0, 11);
+        column_end.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "screenshot"), 1, 11);
+        column_end.attach (new NameLabel (_("Copy the whole screen to clipboard:")), 0, 12);
+        column_end.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "screenshot-clip"), 1, 12);
+        column_end.attach (new NameLabel (_("Grab the current window:")), 0, 13);
+        column_end.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "window-screenshot"), 1, 13);
+        column_end.attach (new NameLabel (_("Copy the current window to clipboard:")), 0, 14);
+        column_end.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "window-screenshot-clip"), 1, 14);
+        column_end.attach (new NameLabel (_("Select an area to grab:")), 0, 15);
+        column_end.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "area-screenshot"), 1, 15);
+        column_end.attach (new NameLabel (_("Copy an area to clipboard:")), 0, 16);
+        column_end.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "area-screenshot-clip"), 1, 16);
 
         var column_size_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.HORIZONTAL);
         column_size_group.add_widget (column_start);

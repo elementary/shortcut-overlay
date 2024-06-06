@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-16 17:34+0000\n"
+"POT-Creation-Date: 2024-06-05 03:52+0000\n"
 "PO-Revision-Date: 2023-05-20 18:06+0000\n"
 "Last-Translator: Faisal Rachmadin <frachmadin@users.noreply.l10n.elementary."
 "io>\n"
@@ -132,31 +132,37 @@ msgstr "Beralih tata letak papan ketik:"
 msgid "Toggle on-screen keyboard:"
 msgstr "Beralih ke papan ketik di-layar:"
 
-#: src/Views/ShortcutsView.vala:141
+#: src/Views/ShortcutsView.vala:140
+#, fuzzy
+#| msgid "Toggle on-screen keyboard:"
+msgid "Toggle screen reader:"
+msgstr "Beralih ke papan ketik di-layar:"
+
+#: src/Views/ShortcutsView.vala:143
 msgid "Screenshots"
 msgstr "Tangkapan Layar"
 
-#: src/Views/ShortcutsView.vala:147
+#: src/Views/ShortcutsView.vala:149
 msgid "Grab the whole screen:"
 msgstr "Ambil keseluruhan layar:"
 
-#: src/Views/ShortcutsView.vala:149
+#: src/Views/ShortcutsView.vala:151
 msgid "Copy the whole screen to clipboard:"
 msgstr "Salin seluruh layar ke clipboard:"
 
-#: src/Views/ShortcutsView.vala:151
+#: src/Views/ShortcutsView.vala:153
 msgid "Grab the current window:"
 msgstr "Ambil jendela saat ini:"
 
-#: src/Views/ShortcutsView.vala:153
+#: src/Views/ShortcutsView.vala:155
 msgid "Copy the current window to clipboard:"
 msgstr "Salin jendela saat ini ke clipboard:"
 
-#: src/Views/ShortcutsView.vala:155
+#: src/Views/ShortcutsView.vala:157
 msgid "Select an area to grab:"
 msgstr "Pilih area untuk diambil:"
 
-#: src/Views/ShortcutsView.vala:157
+#: src/Views/ShortcutsView.vala:159
 msgid "Copy an area to clipboard:"
 msgstr "Salin area ke clipboard:"
 
