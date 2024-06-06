@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-05 03:52+0000\n"
+"POT-Creation-Date: 2024-06-06 17:43+0000\n"
 "PO-Revision-Date: 2022-11-01 00:22+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/desktop/"
@@ -37,42 +37,48 @@ msgstr ""
 "cheatsheet;shortcut;overlay;puska;billentyűparancs;áttekintés;billentyűzet;"
 
 #: data/shortcut-overlay.metainfo.xml.in:44
-#: data/shortcut-overlay.metainfo.xml.in:56
-#: data/shortcut-overlay.metainfo.xml.in:65
-#: data/shortcut-overlay.metainfo.xml.in:74
-#: data/shortcut-overlay.metainfo.xml.in:84
+#: data/shortcut-overlay.metainfo.xml.in:57
+#: data/shortcut-overlay.metainfo.xml.in:66
+#: data/shortcut-overlay.metainfo.xml.in:75
+#: data/shortcut-overlay.metainfo.xml.in:85
 msgid "Updated translations"
 msgstr "Frissített fordítások"
 
-#: data/shortcut-overlay.metainfo.xml.in:52
+#: data/shortcut-overlay.metainfo.xml.in:45
+#, fuzzy
+#| msgid "Show on-screen keyboard shortcut"
+msgid "Show screen reader shortcut"
+msgstr "Képernyőbillentyűzet-gyorsparancs kijelzése"
+
+#: data/shortcut-overlay.metainfo.xml.in:53
 msgid "Show in the applications menu"
 msgstr "Megjelenítés az alkalmazásmenüben"
 
-#: data/shortcut-overlay.metainfo.xml.in:53
+#: data/shortcut-overlay.metainfo.xml.in:54
 msgid "Replace keyboard settings button with a labeled link button"
 msgstr "A billentyűzetbeállítások gomb cseréje egy feliratos linkre"
 
-#: data/shortcut-overlay.metainfo.xml.in:54
+#: data/shortcut-overlay.metainfo.xml.in:55
 msgid "Show on-screen keyboard shortcut"
 msgstr "Képernyőbillentyűzet-gyorsparancs kijelzése"
 
-#: data/shortcut-overlay.metainfo.xml.in:55
+#: data/shortcut-overlay.metainfo.xml.in:56
 msgid "Close with the shortcut Ctrl + Q"
 msgstr "Bezárás a Ctrl + Q gombkombinációval"
 
-#: data/shortcut-overlay.metainfo.xml.in:64
+#: data/shortcut-overlay.metainfo.xml.in:65
 msgid "Update for OS 7 and Gtk 4"
 msgstr "Frissítés OS 7 és Gtk 4-hez"
 
-#: data/shortcut-overlay.metainfo.xml.in:73
+#: data/shortcut-overlay.metainfo.xml.in:74
 msgid "Fix the app not launching if a shortcut key is set to blank"
 msgstr "Alkalmazás el nem indulása javítva nem beállított gyorsparancs esetén"
 
-#: data/shortcut-overlay.metainfo.xml.in:82
+#: data/shortcut-overlay.metainfo.xml.in:83
 msgid "Add screenshot shortcuts"
 msgstr "Képernyőkép-gyorsparancs hozzáaadva"
 
-#: data/shortcut-overlay.metainfo.xml.in:83
+#: data/shortcut-overlay.metainfo.xml.in:84
 msgid "Fix issues with multiple windows"
 msgstr "Többablakos mód problémái javítva"
 
