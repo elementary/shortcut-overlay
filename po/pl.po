@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-06 17:43+0000\n"
-"PO-Revision-Date: 2022-08-22 07:33+0000\n"
+"PO-Revision-Date: 2024-06-12 12:35+0000\n"
 "Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
-"Language-Team: Polish <https://l10n.elementary.io/projects/desktop/shortcut-"
-"overlay/pl/>\n"
+"Language-Team: Polish <https://l10n.elementary.io/projects/desktop/"
+"shortcut-overlay/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #: src/MainWindow.vala:23
 msgid "Shortcuts"
@@ -133,10 +133,8 @@ msgid "Toggle on-screen keyboard:"
 msgstr "Włącz/wyłącz klawiaturę ekranową:"
 
 #: src/Views/ShortcutsView.vala:131
-#, fuzzy
-#| msgid "Toggle on-screen keyboard:"
 msgid "Toggle screen reader:"
-msgstr "Włącz/wyłącz klawiaturę ekranową:"
+msgstr "Włącz/wyłącz czytnik ekranu:"
 
 #: src/Views/ShortcutsView.vala:134
 msgid "Screenshots"
