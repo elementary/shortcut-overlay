@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-06 17:43+0000\n"
-"PO-Revision-Date: 2021-09-29 20:42+0000\n"
-"Last-Translator: Alvaro <alvaroaraoz_92@hotmail.com>\n"
-"Language-Team: Spanish <https://l10n.elementary.io/projects/desktop/shortcut-"
-"overlay-extra/es/>\n"
+"PO-Revision-Date: 2024-06-15 15:44+0000\n"
+"Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
+"Language-Team: Spanish <https://l10n.elementary.io/projects/desktop/"
+"shortcut-overlay-extra/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.metainfo.xml.in:10
 msgid "Shortcuts"
@@ -25,17 +25,15 @@ msgstr "Atajos"
 
 #: data/shortcut-overlay.desktop.in:4
 msgid "Shortcut Overlay"
-msgstr "Ocultar Acceso directo"
+msgstr "Panel de atajos"
 
 #: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.metainfo.xml.in:11
 msgid "View system shortcuts"
 msgstr "Ver atajos del sistema"
 
 #: data/shortcut-overlay.desktop.in:13
-#, fuzzy
-#| msgid "cheatsheet;shortcut;overlay;"
 msgid "cheatsheet;shortcut;overlay;keyboard;"
-msgstr "teclado;acceso directo;truco;"
+msgstr "teclado;acceso directo;truco;panel;atajo;"
 
 #: data/shortcut-overlay.metainfo.xml.in:44
 #: data/shortcut-overlay.metainfo.xml.in:57
@@ -46,46 +44,42 @@ msgid "Updated translations"
 msgstr "Traducciones actualizadas"
 
 #: data/shortcut-overlay.metainfo.xml.in:45
-#, fuzzy
-#| msgid "View system keyboard shortcuts"
 msgid "Show screen reader shortcut"
-msgstr "Ver los atajos de teclado del sistema"
+msgstr "Se muestra el atajo del lector de pantalla"
 
 #: data/shortcut-overlay.metainfo.xml.in:53
 msgid "Show in the applications menu"
-msgstr ""
+msgstr "Se muestra el atajo del Menú de Aplicaciones"
 
 #: data/shortcut-overlay.metainfo.xml.in:54
 msgid "Replace keyboard settings button with a labeled link button"
 msgstr ""
+"Se reemplaza el botón de la Configuración del Teclado con un botón de "
+"etiqueta con enlace"
 
 #: data/shortcut-overlay.metainfo.xml.in:55
-#, fuzzy
-#| msgid "View system keyboard shortcuts"
 msgid "Show on-screen keyboard shortcut"
-msgstr "Ver los atajos de teclado del sistema"
+msgstr "Se muestra el atajo del teclado en pantalla"
 
 #: data/shortcut-overlay.metainfo.xml.in:56
 msgid "Close with the shortcut Ctrl + Q"
-msgstr ""
+msgstr "Se puede cerrar el panel con el atajo Ctrl + Q"
 
 #: data/shortcut-overlay.metainfo.xml.in:65
 msgid "Update for OS 7 and Gtk 4"
-msgstr ""
+msgstr "Actualizado para OS 7 y Gtk 4"
 
 #: data/shortcut-overlay.metainfo.xml.in:74
 msgid "Fix the app not launching if a shortcut key is set to blank"
-msgstr ""
+msgstr "Se corrigió que la aplicación no se ejecutara si un atajo está vacío"
 
 #: data/shortcut-overlay.metainfo.xml.in:83
-#, fuzzy
-#| msgid "View system keyboard shortcuts"
 msgid "Add screenshot shortcuts"
-msgstr "Ver los atajos de teclado del sistema"
+msgstr "Se agregaron los atajos de captura de pantalla"
 
 #: data/shortcut-overlay.metainfo.xml.in:84
 msgid "Fix issues with multiple windows"
-msgstr ""
+msgstr "Se corrigieron problemas con múltiples pantallas"
 
 #~ msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
 #~ msgstr "Agregar «Cambiar diseño» y «Cerrar ventana», accesos directos"
