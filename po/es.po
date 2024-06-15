@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-06 17:43+0000\n"
-"PO-Revision-Date: 2021-08-27 07:22+0000\n"
-"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
-"Language-Team: Spanish <https://l10n.elementary.io/projects/desktop/shortcut-"
-"overlay/es/>\n"
+"PO-Revision-Date: 2024-06-15 14:00+0000\n"
+"Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
+"Language-Team: Spanish <https://l10n.elementary.io/projects/desktop/"
+"shortcut-overlay/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #: src/MainWindow.vala:23
 msgid "Shortcuts"
@@ -45,7 +45,7 @@ msgstr "Cambiar aplicación:"
 
 #: src/Views/ShortcutsView.vala:38
 msgid "Toggle maximized:"
-msgstr "Maximizar:"
+msgstr "Activar o desactivar maximizado:"
 
 #: src/Views/ShortcutsView.vala:40
 msgid "Tile left:"
@@ -129,11 +129,11 @@ msgstr "Cambiar la distribución del teclado:"
 
 #: src/Views/ShortcutsView.vala:129
 msgid "Toggle on-screen keyboard:"
-msgstr ""
+msgstr "Activar o desactivar el teclado en pantalla:"
 
 #: src/Views/ShortcutsView.vala:131
 msgid "Toggle screen reader:"
-msgstr ""
+msgstr "Activar o desactivar el lector de pantalla:"
 
 #: src/Views/ShortcutsView.vala:134
 msgid "Screenshots"
