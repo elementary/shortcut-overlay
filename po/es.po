@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-06 17:43+0000\n"
-"PO-Revision-Date: 2024-06-15 14:00+0000\n"
+"PO-Revision-Date: 2024-06-15 15:44+0000\n"
 "Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/es/>\n"
@@ -25,7 +25,7 @@ msgstr "Atajos"
 
 #: src/MainWindow.vala:30
 msgid "Keyboard Settings…"
-msgstr "Configuración del teclado…"
+msgstr "Configuración del Teclado…"
 
 #: src/ShortcutLabel.vala:74
 msgid "Disabled"
@@ -49,11 +49,11 @@ msgstr "Activar o desactivar maximizado:"
 
 #: src/Views/ShortcutsView.vala:40
 msgid "Tile left:"
-msgstr "Encajar a la izquierda:"
+msgstr "Anclar a la izquierda:"
 
 #: src/Views/ShortcutsView.vala:42
 msgid "Tile right:"
-msgstr "Encajar a la derecha:"
+msgstr "Anclar a la derecha:"
 
 #: src/Views/ShortcutsView.vala:44
 msgid "Move to left workspace:"
@@ -89,7 +89,7 @@ msgstr "Cambiar a la primera:"
 
 #: src/Views/ShortcutsView.vala:62
 msgid "Switch to new:"
-msgstr "Cambiar a la nueva:"
+msgstr "Cambiar a una nueva:"
 
 #: src/Views/ShortcutsView.vala:64
 msgid "Cycle workspaces:"
@@ -101,7 +101,7 @@ msgstr "Sistema"
 
 #: src/Views/ShortcutsView.vala:115
 msgid "Applications Menu:"
-msgstr "Menú de aplicaciones:"
+msgstr "Menú de Aplicaciones:"
 
 #: src/Views/ShortcutsView.vala:117
 msgid "Cycle display mode:"
@@ -117,7 +117,7 @@ msgstr "Alejar:"
 
 #: src/Views/ShortcutsView.vala:123
 msgid "Lock screen:"
-msgstr "Pantalla de bloqueo:"
+msgstr "Bloquear pantalla:"
 
 #: src/Views/ShortcutsView.vala:125
 msgid "Log out:"
@@ -144,20 +144,16 @@ msgid "Grab the whole screen:"
 msgstr "Capturar toda la pantalla:"
 
 #: src/Views/ShortcutsView.vala:139
-#, fuzzy
-#| msgid "Grab the whole screen:"
 msgid "Copy the whole screen to clipboard:"
-msgstr "Capturar toda la pantalla:"
+msgstr "Copiar toda la pantalla en el portapapeles:"
 
 #: src/Views/ShortcutsView.vala:141
 msgid "Grab the current window:"
 msgstr "Capturar la ventana actual:"
 
 #: src/Views/ShortcutsView.vala:143
-#, fuzzy
-#| msgid "Grab the current window:"
 msgid "Copy the current window to clipboard:"
-msgstr "Capturar la ventana actual:"
+msgstr "Copiar la ventana actual en el portapapeles:"
 
 #: src/Views/ShortcutsView.vala:145
 msgid "Select an area to grab:"
@@ -165,7 +161,7 @@ msgstr "Seleccionar un área para capturar:"
 
 #: src/Views/ShortcutsView.vala:147
 msgid "Copy an area to clipboard:"
-msgstr ""
+msgstr "Copiar una área en el portapapeles:"
 
 #, fuzzy
 #~| msgid "Shortcuts"
