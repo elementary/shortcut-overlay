@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-06 17:43+0000\n"
-"PO-Revision-Date: 2020-02-25 22:08+0000\n"
-"Last-Translator: gkkulik <g.kulik@o2.pl>\n"
+"PO-Revision-Date: 2024-08-06 23:16+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Silesian <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/szl/>\n"
 "Language: szl\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.metainfo.xml.in:10
 #, fuzzy
@@ -38,7 +38,7 @@ msgstr ""
 #: data/shortcut-overlay.metainfo.xml.in:75
 #: data/shortcut-overlay.metainfo.xml.in:85
 msgid "Updated translations"
-msgstr ""
+msgstr "Zaktualizowane przekłady"
 
 #: data/shortcut-overlay.metainfo.xml.in:45
 msgid "Show screen reader shortcut"
