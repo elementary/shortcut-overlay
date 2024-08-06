@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-06 17:43+0000\n"
-"PO-Revision-Date: 2018-03-13 16:43-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-08-06 23:16+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
+"Language-Team: English (Canada) <https://l10n.elementary.io/projects/desktop/"
+"shortcut-overlay-extra/en_CA/>\n"
 "Language: en_CA\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.metainfo.xml.in:10
 #, fuzzy
@@ -45,7 +47,7 @@ msgstr "cheatsheet;shortcut;overlay;"
 #: data/shortcut-overlay.metainfo.xml.in:75
 #: data/shortcut-overlay.metainfo.xml.in:85
 msgid "Updated translations"
-msgstr ""
+msgstr "Updated translations"
 
 #: data/shortcut-overlay.metainfo.xml.in:45
 #, fuzzy
