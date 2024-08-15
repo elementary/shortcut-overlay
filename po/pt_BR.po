@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-06 17:43+0000\n"
-"PO-Revision-Date: 2019-04-08 12:53+0000\n"
-"Last-Translator: Cleiton Floss <cleitonfloss@gmail.com>\n"
+"PO-Revision-Date: 2024-08-16 20:16+0000\n"
+"Last-Translator: José Rafael <jrafaeldesantana@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "desktop/shortcut-overlay/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -17,13 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.5.1\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: src/MainWindow.vala:23
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
 msgid "Shortcuts"
-msgstr "Atalhos do teclado"
+msgstr "Atalhos"
 
 #: src/MainWindow.vala:30
 msgid "Keyboard Settings…"
@@ -131,11 +129,11 @@ msgstr "Trocar esquema do teclado:"
 
 #: src/Views/ShortcutsView.vala:129
 msgid "Toggle on-screen keyboard:"
-msgstr ""
+msgstr "Ativar/desativar o teclado na tela:"
 
 #: src/Views/ShortcutsView.vala:131
 msgid "Toggle screen reader:"
-msgstr ""
+msgstr "Ativar/desativar o leitor de tela:"
 
 #: src/Views/ShortcutsView.vala:134
 msgid "Screenshots"
@@ -146,20 +144,16 @@ msgid "Grab the whole screen:"
 msgstr "Selecione a tela inteira:"
 
 #: src/Views/ShortcutsView.vala:139
-#, fuzzy
-#| msgid "Grab the whole screen:"
 msgid "Copy the whole screen to clipboard:"
-msgstr "Selecione a tela inteira:"
+msgstr "Copiar a tela inteira para a área de transferência:"
 
 #: src/Views/ShortcutsView.vala:141
 msgid "Grab the current window:"
 msgstr "Selecionar a janela atual:"
 
 #: src/Views/ShortcutsView.vala:143
-#, fuzzy
-#| msgid "Grab the current window:"
 msgid "Copy the current window to clipboard:"
-msgstr "Selecionar a janela atual:"
+msgstr "Copiar a janela atual para a área de transferência:"
 
 #: src/Views/ShortcutsView.vala:145
 msgid "Select an area to grab:"
@@ -167,7 +161,7 @@ msgstr "Selecionar uma área:"
 
 #: src/Views/ShortcutsView.vala:147
 msgid "Copy an area to clipboard:"
-msgstr ""
+msgstr "Copiar uma área para a área de transferência:"
 
 #, fuzzy
 #~| msgid "Keyboard Shortcuts"
