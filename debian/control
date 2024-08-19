@@ -13,6 +13,8 @@ Standards-Version: 3.9.6
 
 Package: io.elementary.shortcut-overlay
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: gala (>= 8.0.0),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: shortcut overlay
  Native OS-wide shortcut overlay
