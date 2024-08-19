@@ -17,7 +17,7 @@
 
 public class ShortcutOverlay.ShortcutsView : Gtk.Box {
     private const string SCHEMA_WM = "org.gnome.desktop.wm.keybindings";
-    private const string SCHEMA_GALA = "org.pantheon.desktop.gala.keybindings";
+    private const string SCHEMA_GALA = "io.elementary.desktop.wm.keybindings";
     private const string SCHEMA_MEDIA = "org.gnome.settings-daemon.plugins.media-keys";
     private const string SCHEMA_MUTTER = "org.gnome.mutter.keybindings";
 
