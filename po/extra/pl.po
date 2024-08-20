@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-06 17:43+0000\n"
+"POT-Creation-Date: 2024-08-20 14:09+0000\n"
 "PO-Revision-Date: 2024-06-12 12:35+0000\n"
 "Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
-"Language-Team: Polish <https://l10n.elementary.io/projects/desktop/"
-"shortcut-overlay-extra/pl/>\n"
+"Language-Team: Polish <https://l10n.elementary.io/projects/desktop/shortcut-"
+"overlay-extra/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,50 +37,48 @@ msgid "cheatsheet;shortcut;overlay;keyboard;"
 msgstr "ściągawka;skrót;nakładka;klawiatura;"
 
 #: data/shortcut-overlay.metainfo.xml.in:44
-#: data/shortcut-overlay.metainfo.xml.in:57
-#: data/shortcut-overlay.metainfo.xml.in:66
-#: data/shortcut-overlay.metainfo.xml.in:75
-#: data/shortcut-overlay.metainfo.xml.in:85
+#: data/shortcut-overlay.metainfo.xml.in:52
+#: data/shortcut-overlay.metainfo.xml.in:65
+#: data/shortcut-overlay.metainfo.xml.in:74
+#: data/shortcut-overlay.metainfo.xml.in:83
 msgid "Updated translations"
 msgstr "Zaktualizowano tłumaczenia"
 
-#: data/shortcut-overlay.metainfo.xml.in:45
+#: data/shortcut-overlay.metainfo.xml.in:53
 msgid "Show screen reader shortcut"
 msgstr "Pokaż skrót do czytnika ekranowego"
 
-#: data/shortcut-overlay.metainfo.xml.in:53
+#: data/shortcut-overlay.metainfo.xml.in:61
 msgid "Show in the applications menu"
 msgstr "Pokazano w menu aplikaji"
 
-#: data/shortcut-overlay.metainfo.xml.in:54
+#: data/shortcut-overlay.metainfo.xml.in:62
 msgid "Replace keyboard settings button with a labeled link button"
 msgstr ""
 "Zamieniono przycisk ustawień klawiatury z oznaczonym przyciskiem odnośnika"
 
-#: data/shortcut-overlay.metainfo.xml.in:55
+#: data/shortcut-overlay.metainfo.xml.in:63
 msgid "Show on-screen keyboard shortcut"
 msgstr "Pokazano skrót do klawiatury ekranowej"
 
-#: data/shortcut-overlay.metainfo.xml.in:56
+#: data/shortcut-overlay.metainfo.xml.in:64
 msgid "Close with the shortcut Ctrl + Q"
 msgstr "Zamknięcie przy użyciu Ctrl + Q"
 
-#: data/shortcut-overlay.metainfo.xml.in:65
+#: data/shortcut-overlay.metainfo.xml.in:73
 msgid "Update for OS 7 and Gtk 4"
 msgstr "Aktualizacja OS 7 i Gtk 4"
 
-#: data/shortcut-overlay.metainfo.xml.in:74
+#: data/shortcut-overlay.metainfo.xml.in:82
 msgid "Fix the app not launching if a shortcut key is set to blank"
 msgstr ""
 "Napraw aplikację, która nie uruchamia się, jeśli klawisz skrótu jest pusty"
 
-#: data/shortcut-overlay.metainfo.xml.in:83
-msgid "Add screenshot shortcuts"
-msgstr "Dodano skróty klawiszowe do zrzutu ekranu"
+#~ msgid "Add screenshot shortcuts"
+#~ msgstr "Dodano skróty klawiszowe do zrzutu ekranu"
 
-#: data/shortcut-overlay.metainfo.xml.in:84
-msgid "Fix issues with multiple windows"
-msgstr "Naprawiono problemy z wieloma oknami"
+#~ msgid "Fix issues with multiple windows"
+#~ msgstr "Naprawiono problemy z wieloma oknami"
 
 #~ msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
 #~ msgstr "Dodaj skróty „Przełącz układ” i „Zamknij okno”"
