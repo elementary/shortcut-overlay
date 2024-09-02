@@ -8,22 +8,20 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-20 14:09+0000\n"
-"PO-Revision-Date: 2018-10-19 00:07+0000\n"
-"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
-"Language-Team: Chinese (Traditional) <https://weblate.elementary.io/projects/"
+"PO-Revision-Date: 2024-09-02 22:33+0000\n"
+"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
+"Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
 "desktop/shortcut-overlay/zh_Hant/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: src/MainWindow.vala:23
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
 msgid "Shortcuts"
-msgstr "鍵盤快捷鍵"
+msgstr "快捷鍵"
 
 #: src/MainWindow.vala:30
 msgid "Keyboard Settings…"
@@ -38,9 +36,8 @@ msgid "Windows"
 msgstr "視窗"
 
 #: src/Views/ShortcutsView.vala:34
-#, fuzzy
 msgid "Close window:"
-msgstr "循環切換視窗："
+msgstr "關閉視窗："
 
 #: src/Views/ShortcutsView.vala:36
 msgid "Cycle windows:"
@@ -68,7 +65,7 @@ msgstr "移至右方工作空間："
 
 #: src/Views/ShortcutsView.vala:48
 msgid "Picture in Picture Mode:"
-msgstr ""
+msgstr "子母畫面模式："
 
 #: src/Views/ShortcutsView.vala:51
 msgid "Workspaces"
@@ -128,15 +125,15 @@ msgstr "登出："
 
 #: src/Views/ShortcutsView.vala:127
 msgid "Switch keyboard layout:"
-msgstr ""
+msgstr "切換鍵盤配置："
 
 #: src/Views/ShortcutsView.vala:129
 msgid "Toggle on-screen keyboard:"
-msgstr ""
+msgstr "切換螢幕鍵盤："
 
 #: src/Views/ShortcutsView.vala:131
 msgid "Toggle screen reader:"
-msgstr ""
+msgstr "切換螢幕閱讀器："
 
 #: src/Views/ShortcutsView.vala:134
 msgid "Screenshots"
@@ -144,23 +141,19 @@ msgstr "螢幕快照"
 
 #: src/Views/ShortcutsView.vala:137
 msgid "Grab the whole screen:"
-msgstr "抓取整個螢幕："
+msgstr "擷取整個螢幕："
 
 #: src/Views/ShortcutsView.vala:139
-#, fuzzy
-#| msgid "Grab the whole screen:"
 msgid "Copy the whole screen to clipboard:"
-msgstr "抓取整個螢幕："
+msgstr "將整個螢幕擷取到剪貼簿："
 
 #: src/Views/ShortcutsView.vala:141
 msgid "Grab the current window:"
-msgstr "抓取目前視窗："
+msgstr "擷取目前視窗："
 
 #: src/Views/ShortcutsView.vala:143
-#, fuzzy
-#| msgid "Grab the current window:"
 msgid "Copy the current window to clipboard:"
-msgstr "抓取目前視窗："
+msgstr "將目前視窗擷取到剪貼簿："
 
 #: src/Views/ShortcutsView.vala:145
 msgid "Select an area to grab:"
@@ -168,7 +161,7 @@ msgstr "選取要擷取的區域："
 
 #: src/Views/ShortcutsView.vala:147
 msgid "Copy an area to clipboard:"
-msgstr ""
+msgstr "將區域擷取到剪貼簿："
 
 #, fuzzy
 #~| msgid "Keyboard Shortcuts"
