@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-20 14:09+0000\n"
-"PO-Revision-Date: 2024-09-02 22:33+0000\n"
+"PO-Revision-Date: 2024-09-19 10:09+0000\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
 "desktop/shortcut-overlay/zh_Hant/>\n"
@@ -137,7 +137,7 @@ msgstr "切換螢幕閱讀器："
 
 #: src/Views/ShortcutsView.vala:134
 msgid "Screenshots"
-msgstr "螢幕快照"
+msgstr "畫面快照"
 
 #: src/Views/ShortcutsView.vala:137
 msgid "Grab the whole screen:"
