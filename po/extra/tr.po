@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-20 14:09+0000\n"
 "PO-Revision-Date: 2024-09-21 10:16+0000\n"
-"Last-Translator: Sinan Decron <sinanveyasinan@gmail.com>\n"
+"Last-Translator: Ahmet Eren Tomurcuk <eren_tomurcuk@hotmail.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay-extra/tr/>\n"
 "Language: tr\n"
@@ -49,7 +49,7 @@ msgstr "Ekran okuyucu kısayolunu göster"
 
 #: data/shortcut-overlay.metainfo.xml.in:61
 msgid "Show in the applications menu"
-msgstr ""
+msgstr "Uygulamalar menüsünde göster"
 
 #: data/shortcut-overlay.metainfo.xml.in:62
 msgid "Replace keyboard settings button with a labeled link button"
@@ -61,7 +61,7 @@ msgstr "Ekran klavyesi kısayollunu göster"
 
 #: data/shortcut-overlay.metainfo.xml.in:64
 msgid "Close with the shortcut Ctrl + Q"
-msgstr ""
+msgstr "Ctrl + Q kısayolu ile kapat"
 
 #: data/shortcut-overlay.metainfo.xml.in:73
 msgid "Update for OS 7 and Gtk 4"
