@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-20 14:09+0000\n"
-"PO-Revision-Date: 2022-05-07 16:29+0000\n"
+"PO-Revision-Date: 2024-10-05 19:16+0000\n"
 "Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
-"Language-Team: Slovak <https://l10n.elementary.io/projects/desktop/shortcut-"
-"overlay/sk/>\n"
+"Language-Team: Slovak <https://l10n.elementary.io/projects/desktop/"
+"shortcut-overlay/sk/>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: src/MainWindow.vala:23
 msgid "Shortcuts"
@@ -25,115 +25,115 @@ msgstr ""
 
 #: src/MainWindow.vala:30
 msgid "Keyboard Settings…"
-msgstr ""
+msgstr "Nastavenia klávesnice…"
 
 #: src/ShortcutLabel.vala:74
 msgid "Disabled"
-msgstr ""
+msgstr "Vypnuté"
 
 #: src/Views/ShortcutsView.vala:31
 msgid "Windows"
-msgstr ""
+msgstr "Okná"
 
 #: src/Views/ShortcutsView.vala:34
 msgid "Close window:"
-msgstr ""
+msgstr "Zatvoriť okno:"
 
 #: src/Views/ShortcutsView.vala:36
 msgid "Cycle windows:"
-msgstr ""
+msgstr "Prepínať okná:"
 
 #: src/Views/ShortcutsView.vala:38
 msgid "Toggle maximized:"
-msgstr ""
+msgstr "Prepínať maximalizáciu:"
 
 #: src/Views/ShortcutsView.vala:40
 msgid "Tile left:"
-msgstr ""
+msgstr "Vyplniť vľavo:"
 
 #: src/Views/ShortcutsView.vala:42
 msgid "Tile right:"
-msgstr ""
+msgstr "Vyplniť vpravo:"
 
 #: src/Views/ShortcutsView.vala:44
 msgid "Move to left workspace:"
-msgstr ""
+msgstr "Presunúť na pracovnú plochu vľavo:"
 
 #: src/Views/ShortcutsView.vala:46
 msgid "Move to right workspace:"
-msgstr ""
+msgstr "Presunúť na pracovnú plochu vpravo:"
 
 #: src/Views/ShortcutsView.vala:48
 msgid "Picture in Picture Mode:"
-msgstr ""
+msgstr "Režim Obraz v obraze:"
 
 #: src/Views/ShortcutsView.vala:51
 msgid "Workspaces"
-msgstr ""
+msgstr "Pracovné plochy"
 
 #: src/Views/ShortcutsView.vala:54
 msgid "Multitasking View:"
-msgstr ""
+msgstr "Zobrazenie úloh:"
 
 #: src/Views/ShortcutsView.vala:56
 msgid "Switch left:"
-msgstr ""
+msgstr "Prepnúť vľavo:"
 
 #: src/Views/ShortcutsView.vala:58
 msgid "Switch right:"
-msgstr ""
+msgstr "Prepnúť vpravo:"
 
 #: src/Views/ShortcutsView.vala:60
 msgid "Switch to first:"
-msgstr ""
+msgstr "Prepnúť na prvú:"
 
 #: src/Views/ShortcutsView.vala:62
 msgid "Switch to new:"
-msgstr ""
+msgstr "Prepnúť na novú:"
 
 #: src/Views/ShortcutsView.vala:64
 msgid "Cycle workspaces:"
-msgstr ""
+msgstr "Prepínať pracovné plochy:"
 
 #: src/Views/ShortcutsView.vala:112
 msgid "System"
-msgstr ""
+msgstr "Systém"
 
 #: src/Views/ShortcutsView.vala:115
 msgid "Applications Menu:"
-msgstr ""
+msgstr "Menu aplikácií:"
 
 #: src/Views/ShortcutsView.vala:117
 msgid "Cycle display mode:"
-msgstr ""
+msgstr "Prepínať režim zobrazenia:"
 
 #: src/Views/ShortcutsView.vala:119
 msgid "Zoom in:"
-msgstr ""
+msgstr "Priblížiť:"
 
 #: src/Views/ShortcutsView.vala:121
 msgid "Zoom out:"
-msgstr ""
+msgstr "Oddialiť:"
 
 #: src/Views/ShortcutsView.vala:123
 msgid "Lock screen:"
-msgstr ""
+msgstr "Zamknúť obrazovku:"
 
 #: src/Views/ShortcutsView.vala:125
 msgid "Log out:"
-msgstr ""
+msgstr "Odhlásiť sa:"
 
 #: src/Views/ShortcutsView.vala:127
 msgid "Switch keyboard layout:"
-msgstr ""
+msgstr "Prepnúť rozloženie klávesnice:"
 
 #: src/Views/ShortcutsView.vala:129
 msgid "Toggle on-screen keyboard:"
-msgstr ""
+msgstr "Prepnúť klávesnicu na obrazovke:"
 
 #: src/Views/ShortcutsView.vala:131
 msgid "Toggle screen reader:"
-msgstr ""
+msgstr "Prepnúť čítačku obrazovky:"
 
 #: src/Views/ShortcutsView.vala:134
 msgid "Screenshots"
@@ -141,24 +141,24 @@ msgstr "Snímky obrazovky"
 
 #: src/Views/ShortcutsView.vala:137
 msgid "Grab the whole screen:"
-msgstr ""
+msgstr "Zachytiť celú obrazovku:"
 
 #: src/Views/ShortcutsView.vala:139
 msgid "Copy the whole screen to clipboard:"
-msgstr ""
+msgstr "Skopírovať celý obsah obrazovky do schránky:"
 
 #: src/Views/ShortcutsView.vala:141
 msgid "Grab the current window:"
-msgstr ""
+msgstr "Zachytiť aktuálne okno:"
 
 #: src/Views/ShortcutsView.vala:143
 msgid "Copy the current window to clipboard:"
-msgstr ""
+msgstr "Skopírovať aktuálne okno do schránky:"
 
 #: src/Views/ShortcutsView.vala:145
 msgid "Select an area to grab:"
-msgstr ""
+msgstr "Vybrať oblasť na zachytenie:"
 
 #: src/Views/ShortcutsView.vala:147
 msgid "Copy an area to clipboard:"
-msgstr ""
+msgstr "Skopírovať oblasť do schránky:"
