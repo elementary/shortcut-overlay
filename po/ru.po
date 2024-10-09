@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-20 14:09+0000\n"
-"PO-Revision-Date: 2024-06-06 06:13+0000\n"
+"PO-Revision-Date: 2024-10-10 15:16+0000\n"
 "Last-Translator: кубик круглый <megarainbow29@gmail.com>\n"
-"Language-Team: Russian <https://l10n.elementary.io/projects/desktop/shortcut-"
-"overlay/ru/>\n"
+"Language-Team: Russian <https://l10n.elementary.io/projects/desktop/"
+"shortcut-overlay/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.5\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: src/MainWindow.vala:23
 msgid "Shortcuts"
@@ -30,7 +30,7 @@ msgstr "Параметры клавиатуры…"
 
 #: src/ShortcutLabel.vala:74
 msgid "Disabled"
-msgstr "Выключено"
+msgstr "Отключены"
 
 #: src/Views/ShortcutsView.vala:31
 msgid "Windows"
