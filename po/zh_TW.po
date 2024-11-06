@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-20 14:09+0000\n"
-"PO-Revision-Date: 2024-09-19 10:09+0000\n"
+"PO-Revision-Date: 2024-11-06 11:20+0000\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
 "desktop/shortcut-overlay/zh_Hant/>\n"
@@ -57,11 +57,11 @@ msgstr "向右舖排："
 
 #: src/Views/ShortcutsView.vala:44
 msgid "Move to left workspace:"
-msgstr "移至左方工作空間："
+msgstr "移至左方工作區："
 
 #: src/Views/ShortcutsView.vala:46
 msgid "Move to right workspace:"
-msgstr "移至右方工作空間："
+msgstr "移至右方工作區："
 
 #: src/Views/ShortcutsView.vala:48
 msgid "Picture in Picture Mode:"
@@ -69,11 +69,11 @@ msgstr "子母畫面模式："
 
 #: src/Views/ShortcutsView.vala:51
 msgid "Workspaces"
-msgstr "工作空間"
+msgstr "工作區"
 
 #: src/Views/ShortcutsView.vala:54
 msgid "Multitasking View:"
-msgstr "多工檢視："
+msgstr "多工作業檢視："
 
 #: src/Views/ShortcutsView.vala:56
 msgid "Switch left:"
@@ -93,7 +93,7 @@ msgstr "切換至新一項："
 
 #: src/Views/ShortcutsView.vala:64
 msgid "Cycle workspaces:"
-msgstr "循環切換工作空間："
+msgstr "循環切換工作區："
 
 #: src/Views/ShortcutsView.vala:112
 msgid "System"
