@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-20 14:09+0000\n"
-"PO-Revision-Date: 2021-07-25 20:31+0000\n"
+"PO-Revision-Date: 2024-12-02 15:16+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
-"Language-Team: Finnish <https://l10n.elementary.io/projects/desktop/shortcut-"
-"overlay-extra/fi/>\n"
+"Language-Team: Finnish <https://l10n.elementary.io/projects/desktop/"
+"shortcut-overlay-extra/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.metainfo.xml.in:10
 msgid "Shortcuts"
@@ -44,28 +44,24 @@ msgid "Updated translations"
 msgstr "Päivitetyt kielikäännökset"
 
 #: data/shortcut-overlay.metainfo.xml.in:53
-#, fuzzy
-#| msgid "View system keyboard shortcuts"
 msgid "Show screen reader shortcut"
-msgstr "Katsele järjestelmän pikanäppäimiä"
+msgstr "Näytä ruudunlukijan pikanäppäin"
 
 #: data/shortcut-overlay.metainfo.xml.in:61
 msgid "Show in the applications menu"
-msgstr ""
+msgstr "Näytä Sovellukset-valikossa"
 
 #: data/shortcut-overlay.metainfo.xml.in:62
 msgid "Replace keyboard settings button with a labeled link button"
 msgstr ""
 
 #: data/shortcut-overlay.metainfo.xml.in:63
-#, fuzzy
-#| msgid "View system keyboard shortcuts"
 msgid "Show on-screen keyboard shortcut"
-msgstr "Katsele järjestelmän pikanäppäimiä"
+msgstr "Näytä näyttönäppäimistön pikanäppäin"
 
 #: data/shortcut-overlay.metainfo.xml.in:64
 msgid "Close with the shortcut Ctrl + Q"
-msgstr ""
+msgstr "Sulje pikanäppäimellä Ctrl + Q"
 
 #: data/shortcut-overlay.metainfo.xml.in:73
 msgid "Update for OS 7 and Gtk 4"
