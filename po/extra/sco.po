@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-20 14:09+0000\n"
-"PO-Revision-Date: 2025-04-16 14:55+0000\n"
+"PO-Revision-Date: 2025-04-18 05:47+0000\n"
 "Last-Translator: Ben Gordon Agnew <ben.gordon@posteo.de>\n"
 "Language-Team: Scots <https://l10n.elementaryos.org/projects/desktop/"
 "shortcut-overlay-extra/sco/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.metainfo.xml.in:10
 msgid "Shortcuts"
-msgstr ""
+msgstr "Shortcuts"
 
 #: data/shortcut-overlay.desktop.in:4
 msgid "Shortcut Overlay"
