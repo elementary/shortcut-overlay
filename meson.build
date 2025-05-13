@@ -21,12 +21,16 @@ config_file = configure_file(
     configuration: config_data
 )
 
+subdir('data')
+subdir('po')
+
 executable(
     meson.project_name(),
     'src/Application.vala',
     'src/MainWindow.vala',
     'src/ShortcutLabel.vala',
     'src/Views/ShortcutsView.vala',
+    gresource,
     config_file,
     dependencies: [
         dependency('glib-2.0'),
@@ -38,6 +42,3 @@ executable(
     ],
     install : true
 )
-
-subdir('data')
-subdir('po')

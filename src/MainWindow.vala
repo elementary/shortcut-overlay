@@ -31,12 +31,7 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
             halign = Gtk.Align.END
         };
 
-        var box = new Gtk.Box (Gtk.Orientation.VERTICAL, 24) {
-            margin_start = 36,
-            margin_end = 36,
-            margin_top = 12,
-            margin_bottom = 24
-        };
+        var box = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
         box.append (shortcuts_view);
         box.append (settings_button);
         child = box;

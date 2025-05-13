@@ -1,0 +1,14 @@
+window > box {
+    border-spacing: 2em;
+    margin: 1em 2em 2em;
+}
+
+header {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+row {
+    border-radius: 3px;
+    padding: 3px 3px 3px 6px;
+}
