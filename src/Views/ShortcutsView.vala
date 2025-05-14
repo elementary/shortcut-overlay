@@ -120,7 +120,7 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Box {
         system_listbox.append (new NameLabel (_("Applications Menu"), new ShortcutLabel.from_gsettings (SCHEMA_GALA, "panel-main-menu")));
         system_listbox.append (new NameLabel (_("Cycle display mode"), new ShortcutLabel.from_gsettings (SCHEMA_MUTTER, "switch-monitor")));
         system_listbox.append (new NameLabel (_("Zoom in"), new ShortcutLabel.from_gsettings (SCHEMA_GALA, "zoom-in")));
-        system_listbox.append (new NameLabel (_("Zoom out"), new ShortcutLabel.from_gsettings (SCHEMA_GALA, "panel-main-menu")));
+        system_listbox.append (new NameLabel (_("Zoom out"), new ShortcutLabel.from_gsettings (SCHEMA_GALA, "zoom-out")));
         system_listbox.append (new NameLabel (_("Lock screen"), new ShortcutLabel.from_gsettings (SCHEMA_MEDIA, "screensaver")));
         system_listbox.append (new NameLabel (_("Log out"), new ShortcutLabel.from_gsettings (SCHEMA_MEDIA, "logout")));
         system_listbox.append (new NameLabel (_("Switch keyboard layout"), new ShortcutLabel (xkb_input_accels)));
