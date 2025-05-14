@@ -17,7 +17,75 @@
 
 
 public class ShortcutLabel : Gtk.Box {
+    public string label { get; construct; }
     public string[] accels { get; construct; }
+
+    private static Gtk.SizeGroup sizegroup;
+    private static Gtk.SizeGroup shortcut_sizegroup;
+
+    public ShortcutLabel (string label, string[] accels ) {
+        Object (
+            accels: accels,
+            label: label
+        );
+    }
+
+    public ShortcutLabel.from_gsettings (string label, string schema_id, string key) {
+        var settings = get_settings_for_schema (schema_id);
+        var key_value = settings.get_value (key);
+
+        string[] accels = {""};
+        if (key_value.is_of_type (VariantType.ARRAY)) {
+            var key_value_strv = key_value.get_strv ();
+            if (key_value_strv.length > 0 && key_value_strv[0] != "") {
+                accels = Granite.accel_to_string (key_value_strv[0]).split (" + ");
+            }
+        } else {
+            accels = Granite.accel_to_string (key_value.dup_string ()).split (" + ");
+        }
+
+        Object (
+            accels: accels,
+            label: label
+        );
+    }
+
+    static construct {
+        sizegroup = new Gtk.SizeGroup (HORIZONTAL);
+        shortcut_sizegroup = new Gtk.SizeGroup (HORIZONTAL);
+    }
+
+    construct {
+        var accel_box = new Gtk.Box (HORIZONTAL, 6);
+
+        var label_widget = new Gtk.Label (label) {
+            halign = START,
+            hexpand = true,
+            mnemonic_widget = accel_box
+        };
+
+        if (accels[0] != "") {
+            foreach (unowned string accel in accels) {
+                if (accel == "") {
+                    continue;
+                }
+                var label = new Gtk.Label (accel);
+                label.add_css_class ("keycap");
+                accel_box.append (label);
+            }
+        } else {
+            var disabled_label = new Gtk.Label (_("Disabled"));
+            disabled_label.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
+            accel_box.append (disabled_label);
+        }
+
+        spacing = 12;
+        append (label_widget);
+        append (accel_box);
+
+        sizegroup.add_widget (this);
+        shortcut_sizegroup.add_widget (accel_box);
+    }
 
     private static Gee.ArrayList<Settings> settings_list;
     private static Settings get_settings_for_schema (string schema_id) {
@@ -35,45 +103,5 @@ public class ShortcutLabel : Gtk.Box {
         settings_list.add (settings);
 
         return settings;
-    }
-
-    public ShortcutLabel (string[] accels ) {
-        Object (accels: accels);
-    }
-
-    public ShortcutLabel.from_gsettings (string schema_id, string key) {
-        var settings = get_settings_for_schema (schema_id);
-        var key_value = settings.get_value (key);
-
-        string[] accels = {""};
-        if (key_value.is_of_type (VariantType.ARRAY)) {
-            var key_value_strv = key_value.get_strv ();
-            if (key_value_strv.length > 0 && key_value_strv[0] != "") {
-                accels = Granite.accel_to_string (key_value_strv[0]).split (" + ");
-            }
-        } else {
-            accels = Granite.accel_to_string (key_value.dup_string ()).split (" + ");
-        }
-
-        Object (accels: accels);
-    }
-
-    construct {
-        spacing = 6;
-
-        if (accels[0] != "") {
-            foreach (unowned string accel in accels) {
-                if (accel == "") {
-                    continue;
-                }
-                var label = new Gtk.Label (accel);
-                label.add_css_class ("keycap");
-                append (label);
-            }
-        } else {
-            var label = new Gtk.Label (_("Disabled"));
-            label.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
-            append (label);
-        }
     }
 }
