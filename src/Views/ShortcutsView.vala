@@ -52,7 +52,7 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Box {
 
         column_start.attach (workspaces_header, 0, 9, 2);
         column_start.attach (new NameLabel (_("Multitasking View:")), 0, 10);
-        column_start.attach (new ShortcutLabel.from_gsettings (SCHEMA_WM, "show-desktop"), 1, 10);
+        column_start.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "toggle-multitasking-view"), 1, 10);
         column_start.attach (new NameLabel (_("Switch left:")), 0, 11);
         column_start.attach (new ShortcutLabel.from_gsettings (SCHEMA_WM, "switch-to-workspace-left"), 1, 11);
         column_start.attach (new NameLabel (_("Switch right:")), 0, 12);
