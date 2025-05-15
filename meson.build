@@ -21,6 +21,8 @@ config_file = configure_file(
     configuration: config_data
 )
 
+gtk_wayland_dep = dependency('gtk4-wayland')
+
 subdir('data')
 subdir('po')
 
@@ -38,6 +40,8 @@ executable(
         dependency('granite-7', version: '>= 7.3.0'),
         dependency('gtk4'),
         dependency('gee-0.8'),
+        dependency('pantheon-wayland-1'),
+        gtk_wayland_dep,
         meson.get_compiler('vala').find_library('posix'),
     ],
     install : true
