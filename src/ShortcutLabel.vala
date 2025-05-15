@@ -23,7 +23,7 @@ public class ShortcutLabel : Gtk.Box {
     private static Gtk.SizeGroup sizegroup;
     private static Gtk.SizeGroup shortcut_sizegroup;
 
-    public ShortcutLabel (string label, string[] accels ) {
+    public ShortcutLabel (string label, string[] accels) {
         Object (
             accels: accels,
             label: label
