@@ -16,6 +16,11 @@ i18n.merge_file (
     install_dir: join_paths(get_option('datadir'), 'applications')
 )
 
+gresource = gnome.compile_resources(
+    'gresource',
+    'shortcut-overlay.gresource.xml'
+)
+
 test (
     'Validate desktop file',
     find_program('desktop-file-validate'),
