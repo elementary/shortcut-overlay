@@ -22,49 +22,47 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Box {
     private const string SCHEMA_MUTTER = "org.gnome.mutter.keybindings";
 
     construct {
-        var windows_grid = new Gtk.Grid () {
-            column_spacing = 12,
-            hexpand = true,
-            row_spacing = 12
+        var windows_listbox = new Gtk.ListBox () {
+            selection_mode = BROWSE
         };
+        windows_listbox.add_css_class (Granite.STYLE_CLASS_BACKGROUND);
 
         var windows_header = new Granite.HeaderLabel (_("Windows")) {
-            mnemonic_widget = windows_grid
+            mnemonic_widget = windows_listbox
         };
 
         var windows_box = new Gtk.Box (VERTICAL, 0);
         windows_box.append (windows_header);
-        windows_box.append (windows_grid);
+        windows_box.append (windows_listbox);
 
-        windows_grid.attach (new ShortcutLabel.from_gsettings (_("Close window:"), SCHEMA_WM, "close"), 0, 1);
-        windows_grid.attach (new ShortcutLabel.from_gsettings (_("Cycle windows:"), SCHEMA_WM, "switch-windows"), 0, 2);
-        windows_grid.attach (new ShortcutLabel.from_gsettings (_("Toggle maximized:"), SCHEMA_WM, "toggle-maximized"), 0, 3);
-        windows_grid.attach (new ShortcutLabel.from_gsettings (_("Tile left:"), SCHEMA_MUTTER, "toggle-tiled-left"), 0, 4);
-        windows_grid.attach (new ShortcutLabel.from_gsettings (_("Tile right:"), SCHEMA_MUTTER, "toggle-tiled-right"), 0, 5);
-        windows_grid.attach (new ShortcutLabel.from_gsettings (_("Move to left workspace:"), SCHEMA_WM, "move-to-workspace-left"), 0, 6);
-        windows_grid.attach (new ShortcutLabel.from_gsettings (_("Move to right workspace:"), SCHEMA_WM, "move-to-workspace-right"), 0, 7);
-        windows_grid.attach (new ShortcutLabel.from_gsettings (_("Picture in Picture Mode:"), SCHEMA_GALA, "pip"), 0, 8);
+        windows_listbox.append (new ShortcutLabel.from_gsettings (_("Close window:"), SCHEMA_WM, "close"));
+        windows_listbox.append (new ShortcutLabel.from_gsettings (_("Cycle windows:"), SCHEMA_WM, "switch-windows"));
+        windows_listbox.append (new ShortcutLabel.from_gsettings (_("Toggle maximized:"), SCHEMA_WM, "toggle-maximized"));
+        windows_listbox.append (new ShortcutLabel.from_gsettings (_("Tile left:"), SCHEMA_MUTTER, "toggle-tiled-left"));
+        windows_listbox.append (new ShortcutLabel.from_gsettings (_("Tile right:"), SCHEMA_MUTTER, "toggle-tiled-right"));
+        windows_listbox.append (new ShortcutLabel.from_gsettings (_("Move to left workspace:"), SCHEMA_WM, "move-to-workspace-left"));
+        windows_listbox.append (new ShortcutLabel.from_gsettings (_("Move to right workspace:"), SCHEMA_WM, "move-to-workspace-right"));
+        windows_listbox.append (new ShortcutLabel.from_gsettings (_("Picture in Picture Mode:"), SCHEMA_GALA, "pip"));
 
-        var workspaces_grid = new Gtk.Grid () {
-            column_spacing = 12,
-            hexpand = true,
-            row_spacing = 12
+        var workspaces_listbox = new Gtk.ListBox () {
+            selection_mode = BROWSE
         };
+        workspaces_listbox.add_css_class (Granite.STYLE_CLASS_BACKGROUND);
 
         var workspaces_header = new Granite.HeaderLabel (_("Workspaces")) {
-            mnemonic_widget = workspaces_grid
+            mnemonic_widget = workspaces_listbox
         };
 
         var workspaces_box = new Gtk.Box (VERTICAL, 0);
         workspaces_box.append (workspaces_header);
-        workspaces_box.append (workspaces_grid);
+        workspaces_box.append (workspaces_listbox);
 
-        workspaces_grid.attach (new ShortcutLabel.from_gsettings (_("Multitasking View:"), SCHEMA_GALA, "toggle-multitasking-view"), 0, 10);
-        workspaces_grid.attach (new ShortcutLabel.from_gsettings (_("Switch left:"), SCHEMA_WM, "switch-to-workspace-left"), 0, 11);
-        workspaces_grid.attach (new ShortcutLabel.from_gsettings (_("Switch right:"), SCHEMA_WM, "switch-to-workspace-right"), 0, 12);
-        workspaces_grid.attach (new ShortcutLabel.from_gsettings (_("Switch to first:"), SCHEMA_GALA, "switch-to-workspace-first"), 0, 13);
-        workspaces_grid.attach (new ShortcutLabel.from_gsettings (_("Switch to new:"), SCHEMA_GALA, "switch-to-workspace-last"), 0, 14);
-        workspaces_grid.attach (new ShortcutLabel.from_gsettings (_("Cycle workspaces:"), SCHEMA_GALA, "cycle-workspaces-next"), 0, 15);
+        workspaces_listbox.append (new ShortcutLabel.from_gsettings (_("Multitasking View:"), SCHEMA_GALA, "toggle-multitasking-view"));
+        workspaces_listbox.append (new ShortcutLabel.from_gsettings (_("Switch left:"), SCHEMA_WM, "switch-to-workspace-left"));
+        workspaces_listbox.append (new ShortcutLabel.from_gsettings (_("Switch right:"), SCHEMA_WM, "switch-to-workspace-right"));
+        workspaces_listbox.append (new ShortcutLabel.from_gsettings (_("Switch to first:"), SCHEMA_GALA, "switch-to-workspace-first"));
+        workspaces_listbox.append (new ShortcutLabel.from_gsettings (_("Switch to new:"), SCHEMA_GALA, "switch-to-workspace-last"));
+        workspaces_listbox.append (new ShortcutLabel.from_gsettings (_("Cycle workspaces:"), SCHEMA_GALA, "cycle-workspaces-next"));
 
         var input_settings = new GLib.Settings ("org.gnome.desktop.input-sources");
         var xkb_options = input_settings.get_strv ("xkb-options");
@@ -106,50 +104,48 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Box {
             }
         }
 
-        var system_grid = new Gtk.Grid () {
-            column_spacing = 12,
-            hexpand = true,
-            row_spacing = 12
+        var system_listbox = new Gtk.ListBox () {
+            selection_mode = BROWSE
         };
+        system_listbox.add_css_class (Granite.STYLE_CLASS_BACKGROUND);
 
         var system_header = new Granite.HeaderLabel (_("System")) {
-            mnemonic_widget = system_grid
+            mnemonic_widget = system_listbox
         };
 
         var system_box = new Gtk.Box (VERTICAL, 0);
         system_box.append (system_header);
-        system_box.append (system_grid);
+        system_box.append (system_listbox);
 
-        system_grid.attach (new ShortcutLabel.from_gsettings (_("Applications Menu:"), SCHEMA_GALA, "panel-main-menu"), 0, 1);
-        system_grid.attach (new ShortcutLabel.from_gsettings (_("Cycle display mode:"), SCHEMA_MUTTER, "switch-monitor"), 0, 2);
-        system_grid.attach (new ShortcutLabel.from_gsettings (_("Zoom in:"), SCHEMA_GALA, "zoom-in"), 0, 3);
-        system_grid.attach (new ShortcutLabel.from_gsettings (_("Zoom out:"), SCHEMA_GALA, "zoom-out"), 0, 4);
-        system_grid.attach (new ShortcutLabel.from_gsettings (_("Lock screen:"), SCHEMA_MEDIA, "screensaver"), 0, 5);
-        system_grid.attach (new ShortcutLabel.from_gsettings (_("Log out:"), SCHEMA_MEDIA, "logout"), 0, 6);
-        system_grid.attach (new ShortcutLabel (_("Switch keyboard layout:"), xkb_input_accels), 0, 7);
-        system_grid.attach (new ShortcutLabel.from_gsettings (_("Toggle on-screen keyboard:"), SCHEMA_MEDIA, "on-screen-keyboard"), 0, 8);
-        system_grid.attach (new ShortcutLabel.from_gsettings (_("Toggle screen reader:"), SCHEMA_MEDIA, "screenreader"), 0, 9);
+        system_listbox.append (new ShortcutLabel.from_gsettings (_("Applications Menu:"), SCHEMA_GALA, "panel-main-menu"));
+        system_listbox.append (new ShortcutLabel.from_gsettings (_("Cycle display mode:"), SCHEMA_MUTTER, "switch-monitor"));
+        system_listbox.append (new ShortcutLabel.from_gsettings (_("Zoom in:"), SCHEMA_GALA, "zoom-in"));
+        system_listbox.append (new ShortcutLabel.from_gsettings (_("Zoom out:"), SCHEMA_GALA, "zoom-out"));
+        system_listbox.append (new ShortcutLabel.from_gsettings (_("Lock screen:"), SCHEMA_MEDIA, "screensaver"));
+        system_listbox.append (new ShortcutLabel.from_gsettings (_("Log out:"), SCHEMA_MEDIA, "logout"));
+        system_listbox.append (new ShortcutLabel (_("Switch keyboard layout:"), xkb_input_accels));
+        system_listbox.append (new ShortcutLabel.from_gsettings (_("Toggle on-screen keyboard:"), SCHEMA_MEDIA, "on-screen-keyboard"));
+        system_listbox.append (new ShortcutLabel.from_gsettings (_("Toggle screen reader:"), SCHEMA_MEDIA, "screenreader"));
 
-        var screenshots_grid = new Gtk.Grid () {
-            column_spacing = 12,
-            hexpand = true,
-            row_spacing = 12
+        var screenshots_listbox = new Gtk.ListBox () {
+            selection_mode = BROWSE
         };
+        screenshots_listbox.add_css_class (Granite.STYLE_CLASS_BACKGROUND);
 
         var screenshots_header = new Granite.HeaderLabel (_("Screenshots")) {
-            mnemonic_widget = screenshots_grid
+            mnemonic_widget = screenshots_listbox
         };
 
         var screenshots_box = new Gtk.Box (VERTICAL, 0);
         screenshots_box.append (screenshots_header);
-        screenshots_box.append (screenshots_grid);
+        screenshots_box.append (screenshots_listbox);
 
-        screenshots_grid.attach (new ShortcutLabel.from_gsettings (_("Grab the whole screen:"), SCHEMA_GALA, "screenshot"), 0, 11);
-        screenshots_grid.attach (new ShortcutLabel.from_gsettings (_("Copy the whole screen to clipboard:"), SCHEMA_GALA, "screenshot-clip"), 0, 12);
-        screenshots_grid.attach (new ShortcutLabel.from_gsettings (_("Grab the current window:"), SCHEMA_GALA, "window-screenshot"), 0, 13);
-        screenshots_grid.attach (new ShortcutLabel.from_gsettings (_("Copy the current window to clipboard:"), SCHEMA_GALA, "window-screenshot-clip"), 0, 14);
-        screenshots_grid.attach (new ShortcutLabel.from_gsettings (_("Select an area to grab:"), SCHEMA_GALA, "area-screenshot"), 0, 15);
-        screenshots_grid.attach (new ShortcutLabel.from_gsettings (_("Copy an area to clipboard:"), SCHEMA_GALA, "area-screenshot-clip"), 0, 16);
+        screenshots_listbox.append (new ShortcutLabel.from_gsettings (_("Grab the whole screen:"), SCHEMA_GALA, "screenshot"));
+        screenshots_listbox.append (new ShortcutLabel.from_gsettings (_("Copy the whole screen to clipboard:"), SCHEMA_GALA, "screenshot-clip"));
+        screenshots_listbox.append (new ShortcutLabel.from_gsettings (_("Grab the current window:"), SCHEMA_GALA, "window-screenshot"));
+        screenshots_listbox.append (new ShortcutLabel.from_gsettings (_("Copy the current window to clipboard:"), SCHEMA_GALA, "window-screenshot-clip"));
+        screenshots_listbox.append (new ShortcutLabel.from_gsettings (_("Select an area to grab:"), SCHEMA_GALA, "area-screenshot"));
+        screenshots_listbox.append (new ShortcutLabel.from_gsettings (_("Copy an area to clipboard:"), SCHEMA_GALA, "area-screenshot-clip"));
 
         var column_start = new Gtk.Box (VERTICAL, 24);
         column_start.append (windows_box);
