@@ -5,7 +5,7 @@ Maintainer: elementary LLC. <builds@elementary.io>
 Build-Depends: debhelper (>= 10.5.1),
                desktop-file-utils,
                libgee-0.8-dev,
-               libgranite-7-dev,
+               libgranite-7-dev (>= 7.3.0),
                libgtk-4-dev,
                meson,
                valac
