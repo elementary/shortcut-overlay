@@ -21,23 +21,24 @@ config_file = configure_file(
     configuration: config_data
 )
 
+subdir('data')
+subdir('po')
+
 executable(
     meson.project_name(),
     'src/Application.vala',
     'src/MainWindow.vala',
     'src/ShortcutLabel.vala',
     'src/Views/ShortcutsView.vala',
+    gresource,
     config_file,
     dependencies: [
         dependency('glib-2.0'),
         dependency('gobject-2.0'),
-        dependency('granite-7', version: '>= 7.0.0'),
+        dependency('granite-7', version: '>= 7.3.0'),
         dependency('gtk4'),
         dependency('gee-0.8'),
         meson.get_compiler('vala').find_library('posix'),
     ],
     install : true
 )
-
-subdir('data')
-subdir('po')
