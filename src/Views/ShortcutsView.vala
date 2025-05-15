@@ -36,22 +36,14 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Box {
         windows_box.append (windows_header);
         windows_box.append (windows_grid);
 
-        windows_grid.attach (new NameLabel (_("Close window:")), 0, 1);
-        windows_grid.attach (new ShortcutLabel.from_gsettings (SCHEMA_WM, "close"), 1, 1);
-        windows_grid.attach (new NameLabel (_("Cycle windows:")), 0, 2);
-        windows_grid.attach (new ShortcutLabel.from_gsettings (SCHEMA_WM, "switch-windows"), 1, 2);
-        windows_grid.attach (new NameLabel (_("Toggle maximized:")), 0, 3);
-        windows_grid.attach (new ShortcutLabel.from_gsettings (SCHEMA_WM, "toggle-maximized"), 1, 3);
-        windows_grid.attach (new NameLabel (_("Tile left:")), 0, 4);
-        windows_grid.attach (new ShortcutLabel.from_gsettings (SCHEMA_MUTTER, "toggle-tiled-left"), 1, 4);
-        windows_grid.attach (new NameLabel (_("Tile right:")), 0, 5);
-        windows_grid.attach (new ShortcutLabel.from_gsettings (SCHEMA_MUTTER, "toggle-tiled-right"), 1, 5);
-        windows_grid.attach (new NameLabel (_("Move to left workspace:")), 0, 6);
-        windows_grid.attach (new ShortcutLabel.from_gsettings (SCHEMA_WM, "move-to-workspace-left"), 1, 6);
-        windows_grid.attach (new NameLabel (_("Move to right workspace:")), 0, 7);
-        windows_grid.attach (new ShortcutLabel.from_gsettings (SCHEMA_WM, "move-to-workspace-right"), 1, 7);
-        windows_grid.attach (new NameLabel (_("Picture in Picture Mode:")), 0, 8);
-        windows_grid.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "pip"), 1, 8);
+        windows_grid.attach (new ShortcutLabel.from_gsettings (_("Close window:"), SCHEMA_WM, "close"), 0, 1);
+        windows_grid.attach (new ShortcutLabel.from_gsettings (_("Cycle windows:"), SCHEMA_WM, "switch-windows"), 0, 2);
+        windows_grid.attach (new ShortcutLabel.from_gsettings (_("Toggle maximized:"), SCHEMA_WM, "toggle-maximized"), 0, 3);
+        windows_grid.attach (new ShortcutLabel.from_gsettings (_("Tile left:"), SCHEMA_MUTTER, "toggle-tiled-left"), 0, 4);
+        windows_grid.attach (new ShortcutLabel.from_gsettings (_("Tile right:"), SCHEMA_MUTTER, "toggle-tiled-right"), 0, 5);
+        windows_grid.attach (new ShortcutLabel.from_gsettings (_("Move to left workspace:"), SCHEMA_WM, "move-to-workspace-left"), 0, 6);
+        windows_grid.attach (new ShortcutLabel.from_gsettings (_("Move to right workspace:"), SCHEMA_WM, "move-to-workspace-right"), 0, 7);
+        windows_grid.attach (new ShortcutLabel.from_gsettings (_("Picture in Picture Mode:"), SCHEMA_GALA, "pip"), 0, 8);
 
         var workspaces_grid = new Gtk.Grid () {
             column_spacing = 12,
@@ -67,18 +59,12 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Box {
         workspaces_box.append (workspaces_header);
         workspaces_box.append (workspaces_grid);
 
-        workspaces_grid.attach (new NameLabel (_("Multitasking View:")), 0, 10);
-        workspaces_grid.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "toggle-multitasking-view"), 1, 10);
-        workspaces_grid.attach (new NameLabel (_("Switch left:")), 0, 11);
-        workspaces_grid.attach (new ShortcutLabel.from_gsettings (SCHEMA_WM, "switch-to-workspace-left"), 1, 11);
-        workspaces_grid.attach (new NameLabel (_("Switch right:")), 0, 12);
-        workspaces_grid.attach (new ShortcutLabel.from_gsettings (SCHEMA_WM, "switch-to-workspace-right"), 1, 12);
-        workspaces_grid.attach (new NameLabel (_("Switch to first:")), 0, 13);
-        workspaces_grid.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "switch-to-workspace-first"), 1, 13);
-        workspaces_grid.attach (new NameLabel (_("Switch to new:")), 0, 14);
-        workspaces_grid.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "switch-to-workspace-last"), 1, 14);
-        workspaces_grid.attach (new NameLabel (_("Cycle workspaces:")), 0, 15);
-        workspaces_grid.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "cycle-workspaces-next"), 1, 15);
+        workspaces_grid.attach (new ShortcutLabel.from_gsettings (_("Multitasking View:"), SCHEMA_GALA, "toggle-multitasking-view"), 0, 10);
+        workspaces_grid.attach (new ShortcutLabel.from_gsettings (_("Switch left:"), SCHEMA_WM, "switch-to-workspace-left"), 0, 11);
+        workspaces_grid.attach (new ShortcutLabel.from_gsettings (_("Switch right:"), SCHEMA_WM, "switch-to-workspace-right"), 0, 12);
+        workspaces_grid.attach (new ShortcutLabel.from_gsettings (_("Switch to first:"), SCHEMA_GALA, "switch-to-workspace-first"), 0, 13);
+        workspaces_grid.attach (new ShortcutLabel.from_gsettings (_("Switch to new:"), SCHEMA_GALA, "switch-to-workspace-last"), 0, 14);
+        workspaces_grid.attach (new ShortcutLabel.from_gsettings (_("Cycle workspaces:"), SCHEMA_GALA, "cycle-workspaces-next"), 0, 15);
 
         var input_settings = new GLib.Settings ("org.gnome.desktop.input-sources");
         var xkb_options = input_settings.get_strv ("xkb-options");
@@ -130,29 +116,19 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Box {
             mnemonic_widget = system_grid
         };
 
-
         var system_box = new Gtk.Box (VERTICAL, 0);
         system_box.append (system_header);
         system_box.append (system_grid);
 
-        system_grid.attach (new NameLabel (_("Applications Menu:")), 0, 1);
-        system_grid.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "panel-main-menu"), 1, 1);
-        system_grid.attach (new NameLabel (_("Cycle display mode:")), 0, 2);
-        system_grid.attach (new ShortcutLabel.from_gsettings (SCHEMA_MUTTER, "switch-monitor"), 1, 2);
-        system_grid.attach (new NameLabel (_("Zoom in:")), 0, 3);
-        system_grid.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "zoom-in"), 1, 3);
-        system_grid.attach (new NameLabel (_("Zoom out:")), 0, 4);
-        system_grid.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "zoom-out"), 1, 4);
-        system_grid.attach (new NameLabel (_("Lock screen:")), 0, 5);
-        system_grid.attach (new ShortcutLabel.from_gsettings (SCHEMA_MEDIA, "screensaver"), 1, 5);
-        system_grid.attach (new NameLabel (_("Log out:")), 0, 6);
-        system_grid.attach (new ShortcutLabel.from_gsettings (SCHEMA_MEDIA, "logout"), 1, 6);
-        system_grid.attach (new NameLabel (_("Switch keyboard layout:")), 0, 7);
-        system_grid.attach (new ShortcutLabel (xkb_input_accels), 1, 7);
-        system_grid.attach (new NameLabel (_("Toggle on-screen keyboard:")), 0, 8);
-        system_grid.attach (new ShortcutLabel.from_gsettings (SCHEMA_MEDIA, "on-screen-keyboard"), 1, 8);
-        system_grid.attach (new NameLabel (_("Toggle screen reader:")), 0, 9);
-        system_grid.attach (new ShortcutLabel.from_gsettings (SCHEMA_MEDIA, "screenreader"), 1, 9);
+        system_grid.attach (new ShortcutLabel.from_gsettings (_("Applications Menu:"), SCHEMA_GALA, "panel-main-menu"), 0, 1);
+        system_grid.attach (new ShortcutLabel.from_gsettings (_("Cycle display mode:"), SCHEMA_MUTTER, "switch-monitor"), 0, 2);
+        system_grid.attach (new ShortcutLabel.from_gsettings (_("Zoom in:"), SCHEMA_GALA, "zoom-in"), 0, 3);
+        system_grid.attach (new ShortcutLabel.from_gsettings (_("Zoom out:"), SCHEMA_GALA, "zoom-out"), 0, 4);
+        system_grid.attach (new ShortcutLabel.from_gsettings (_("Lock screen:"), SCHEMA_MEDIA, "screensaver"), 0, 5);
+        system_grid.attach (new ShortcutLabel.from_gsettings (_("Log out:"), SCHEMA_MEDIA, "logout"), 0, 6);
+        system_grid.attach (new ShortcutLabel (_("Switch keyboard layout:"), xkb_input_accels), 0, 7);
+        system_grid.attach (new ShortcutLabel.from_gsettings (_("Toggle on-screen keyboard:"), SCHEMA_MEDIA, "on-screen-keyboard"), 0, 8);
+        system_grid.attach (new ShortcutLabel.from_gsettings (_("Toggle screen reader:"), SCHEMA_MEDIA, "screenreader"), 0, 9);
 
         var screenshots_grid = new Gtk.Grid () {
             column_spacing = 12,
@@ -168,18 +144,12 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Box {
         screenshots_box.append (screenshots_header);
         screenshots_box.append (screenshots_grid);
 
-        screenshots_grid.attach (new NameLabel (_("Grab the whole screen:")), 0, 11);
-        screenshots_grid.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "screenshot"), 1, 11);
-        screenshots_grid.attach (new NameLabel (_("Copy the whole screen to clipboard:")), 0, 12);
-        screenshots_grid.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "screenshot-clip"), 1, 12);
-        screenshots_grid.attach (new NameLabel (_("Grab the current window:")), 0, 13);
-        screenshots_grid.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "window-screenshot"), 1, 13);
-        screenshots_grid.attach (new NameLabel (_("Copy the current window to clipboard:")), 0, 14);
-        screenshots_grid.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "window-screenshot-clip"), 1, 14);
-        screenshots_grid.attach (new NameLabel (_("Select an area to grab:")), 0, 15);
-        screenshots_grid.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "area-screenshot"), 1, 15);
-        screenshots_grid.attach (new NameLabel (_("Copy an area to clipboard:")), 0, 16);
-        screenshots_grid.attach (new ShortcutLabel.from_gsettings (SCHEMA_GALA, "area-screenshot-clip"), 1, 16);
+        screenshots_grid.attach (new ShortcutLabel.from_gsettings (_("Grab the whole screen:"), SCHEMA_GALA, "screenshot"), 0, 11);
+        screenshots_grid.attach (new ShortcutLabel.from_gsettings (_("Copy the whole screen to clipboard:"), SCHEMA_GALA, "screenshot-clip"), 0, 12);
+        screenshots_grid.attach (new ShortcutLabel.from_gsettings (_("Grab the current window:"), SCHEMA_GALA, "window-screenshot"), 0, 13);
+        screenshots_grid.attach (new ShortcutLabel.from_gsettings (_("Copy the current window to clipboard:"), SCHEMA_GALA, "window-screenshot-clip"), 0, 14);
+        screenshots_grid.attach (new ShortcutLabel.from_gsettings (_("Select an area to grab:"), SCHEMA_GALA, "area-screenshot"), 0, 15);
+        screenshots_grid.attach (new ShortcutLabel.from_gsettings (_("Copy an area to clipboard:"), SCHEMA_GALA, "area-screenshot-clip"), 0, 16);
 
         var column_start = new Gtk.Box (VERTICAL, 24);
         column_start.append (windows_box);
@@ -189,28 +159,9 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Box {
         column_end.append (system_box);
         column_end.append (screenshots_box);
 
-        var column_size_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.HORIZONTAL);
-        column_size_group.add_widget (column_start);
-        column_size_group.add_widget (column_end);
-
         spacing = 48;
         append (column_start);
         append (new Gtk.Separator (Gtk.Orientation.VERTICAL));
         append (column_end);
-    }
-
-    private class NameLabel : Gtk.Box {
-        public string label { get; construct; }
-
-        public NameLabel (string label) {
-            Object (label: label);
-        }
-
-        construct {
-            var label = new Gtk.Label (label);
-
-            halign = Gtk.Align.END;
-            append (label);
-        }
     }
 }
