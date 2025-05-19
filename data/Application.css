@@ -12,3 +12,8 @@ row {
     border-radius: 0.25em;
     padding: 0.25em 0.25em 0.25em 0.5em;
 }
+
+/* Work around screen reader announcing "not selected" */
+row:selected:not(:focus) {
+    background: transparent;
+}

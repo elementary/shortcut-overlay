@@ -23,6 +23,7 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Box {
 
     construct {
         var windows_listbox = new Gtk.ListBox () {
+            /* NONE will make screen reader announce "not selected" */
             selection_mode = BROWSE
         };
         windows_listbox.add_css_class (Granite.STYLE_CLASS_BACKGROUND);
