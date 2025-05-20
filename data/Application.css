@@ -2,3 +2,18 @@ window > box {
     border-spacing: 2em;
     margin: 1em 2em 2em;
 }
+
+header {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+row {
+    border-radius: 0.25em;
+    padding: 0.25em 0.25em 0.25em 0.5em;
+}
+
+/* Work around screen reader announcing "not selected" */
+row:selected:not(:focus) {
+    background: transparent;
+}
