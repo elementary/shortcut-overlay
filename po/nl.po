@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-20 14:09+0000\n"
+"POT-Creation-Date: 2025-05-30 18:24+0000\n"
 "PO-Revision-Date: 2024-10-29 12:52+0000\n"
 "Last-Translator: DutchVipperloid <svenroelof@e.email>\n"
-"Language-Team: Dutch <https://l10n.elementary.io/projects/desktop/"
-"shortcut-overlay/nl/>\n"
+"Language-Team: Dutch <https://l10n.elementary.io/projects/desktop/shortcut-"
+"overlay/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,7 +27,7 @@ msgstr "Sneltoetsen"
 msgid "Keyboard Settings…"
 msgstr "Toetsenbord instellingen…"
 
-#: src/ShortcutLabel.vala:74
+#: src/ShortcutLabel.vala:77
 msgid "Disabled"
 msgstr "Uitgeschakeld"
 
@@ -35,23 +35,23 @@ msgstr "Uitgeschakeld"
 msgid "Windows"
 msgstr "Vensters"
 
-#: src/Views/ShortcutsView.vala:34
+#: src/Views/ShortcutsView.vala:39
 msgid "Close window:"
 msgstr "Sluit een venster:"
 
-#: src/Views/ShortcutsView.vala:36
+#: src/Views/ShortcutsView.vala:40
 msgid "Cycle windows:"
 msgstr "Wissel tussen vensters:"
 
-#: src/Views/ShortcutsView.vala:38
+#: src/Views/ShortcutsView.vala:41
 msgid "Toggle maximized:"
 msgstr "Maximaliseer een venster:"
 
-#: src/Views/ShortcutsView.vala:40
+#: src/Views/ShortcutsView.vala:42
 msgid "Tile left:"
 msgstr "Tegel links:"
 
-#: src/Views/ShortcutsView.vala:42
+#: src/Views/ShortcutsView.vala:43
 msgid "Tile right:"
 msgstr "Tegel rechts:"
 
@@ -59,67 +59,67 @@ msgstr "Tegel rechts:"
 msgid "Move to left workspace:"
 msgstr "Verplaats naar het linker bureaublad:"
 
-#: src/Views/ShortcutsView.vala:46
+#: src/Views/ShortcutsView.vala:45
 msgid "Move to right workspace:"
 msgstr "Verplaats naar het rechter bureaublad:"
 
-#: src/Views/ShortcutsView.vala:48
+#: src/Views/ShortcutsView.vala:46
 msgid "Picture in Picture Mode:"
 msgstr "Beeld in beeld modus:"
 
-#: src/Views/ShortcutsView.vala:51
+#: src/Views/ShortcutsView.vala:53
 msgid "Workspaces"
 msgstr "Bureaubladen"
 
-#: src/Views/ShortcutsView.vala:54
+#: src/Views/ShortcutsView.vala:61
 msgid "Multitasking View:"
 msgstr "Multitasking scherm:"
 
-#: src/Views/ShortcutsView.vala:56
+#: src/Views/ShortcutsView.vala:62
 msgid "Switch left:"
 msgstr "Switch naar links:"
 
-#: src/Views/ShortcutsView.vala:58
+#: src/Views/ShortcutsView.vala:63
 msgid "Switch right:"
 msgstr "Switch naar rechts:"
 
-#: src/Views/ShortcutsView.vala:60
+#: src/Views/ShortcutsView.vala:64
 msgid "Switch to first:"
 msgstr "Switch naar de eerste:"
 
-#: src/Views/ShortcutsView.vala:62
+#: src/Views/ShortcutsView.vala:65
 msgid "Switch to new:"
 msgstr "Switch naar het nieuwe:"
 
-#: src/Views/ShortcutsView.vala:64
+#: src/Views/ShortcutsView.vala:66
 msgid "Cycle workspaces:"
 msgstr "Wissel tussen bureaubladen:"
 
-#: src/Views/ShortcutsView.vala:112
+#: src/Views/ShortcutsView.vala:113
 msgid "System"
 msgstr "Systeem"
 
-#: src/Views/ShortcutsView.vala:115
+#: src/Views/ShortcutsView.vala:121
 msgid "Applications Menu:"
 msgstr "Applicatie Menu:"
 
-#: src/Views/ShortcutsView.vala:117
+#: src/Views/ShortcutsView.vala:122
 msgid "Cycle display mode:"
 msgstr "Wissel tussen verschillende schermen:"
 
-#: src/Views/ShortcutsView.vala:119
+#: src/Views/ShortcutsView.vala:123
 msgid "Zoom in:"
 msgstr "Inzoomen:"
 
-#: src/Views/ShortcutsView.vala:121
+#: src/Views/ShortcutsView.vala:124
 msgid "Zoom out:"
 msgstr "Uitzoomen:"
 
-#: src/Views/ShortcutsView.vala:123
+#: src/Views/ShortcutsView.vala:125
 msgid "Lock screen:"
 msgstr "Vergrendel het scherm:"
 
-#: src/Views/ShortcutsView.vala:125
+#: src/Views/ShortcutsView.vala:126
 msgid "Log out:"
 msgstr "Log uit:"
 
@@ -127,39 +127,39 @@ msgstr "Log uit:"
 msgid "Switch keyboard layout:"
 msgstr "Wissel de indeling van het toetsenbord:"
 
-#: src/Views/ShortcutsView.vala:129
+#: src/Views/ShortcutsView.vala:128
 msgid "Toggle on-screen keyboard:"
 msgstr "Schakel het schermtoetsenbord:"
 
-#: src/Views/ShortcutsView.vala:131
+#: src/Views/ShortcutsView.vala:129
 msgid "Toggle screen reader:"
 msgstr "Schakel het schermtoetsenbord:"
 
-#: src/Views/ShortcutsView.vala:134
+#: src/Views/ShortcutsView.vala:136
 msgid "Screenshots"
 msgstr "Schermafbeeldingen"
 
-#: src/Views/ShortcutsView.vala:137
+#: src/Views/ShortcutsView.vala:144
 msgid "Grab the whole screen:"
 msgstr "Leg het hele scherm vast:"
 
-#: src/Views/ShortcutsView.vala:139
+#: src/Views/ShortcutsView.vala:145
 msgid "Copy the whole screen to clipboard:"
 msgstr "Het hele scherm kopiëren naar het klembord:"
 
-#: src/Views/ShortcutsView.vala:141
+#: src/Views/ShortcutsView.vala:146
 msgid "Grab the current window:"
 msgstr "Leg het huidige venster vast:"
 
-#: src/Views/ShortcutsView.vala:143
+#: src/Views/ShortcutsView.vala:147
 msgid "Copy the current window to clipboard:"
 msgstr "Kopieer het momenteel geselecteerd venster naar het klembord:"
 
-#: src/Views/ShortcutsView.vala:145
+#: src/Views/ShortcutsView.vala:148
 msgid "Select an area to grab:"
 msgstr "Selecteer een gebied om vast te leggen:"
 
-#: src/Views/ShortcutsView.vala:147
+#: src/Views/ShortcutsView.vala:149
 msgid "Copy an area to clipboard:"
 msgstr "Kopieer een selectie naar het klembord:"
 

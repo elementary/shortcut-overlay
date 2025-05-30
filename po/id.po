@@ -7,10 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-20 14:09+0000\n"
+"POT-Creation-Date: 2025-05-30 18:24+0000\n"
 "PO-Revision-Date: 2023-05-20 18:06+0000\n"
-"Last-Translator: Faisal Rachmadin <frachmadin@users.noreply.l10n.elementary."
-"io>\n"
+"Last-Translator: Faisal Rachmadin "
+"<frachmadin@users.noreply.l10n.elementary.io>\n"
 "Language-Team: Indonesian <https://l10n.elementary.io/projects/desktop/"
 "shortcut-overlay/id/>\n"
 "Language: id\n"
@@ -28,7 +28,7 @@ msgstr "Pintasan"
 msgid "Keyboard Settings…"
 msgstr "Pengaturan Papan Ketik…"
 
-#: src/ShortcutLabel.vala:74
+#: src/ShortcutLabel.vala:77
 msgid "Disabled"
 msgstr "Dinonaktifkan"
 
@@ -36,23 +36,23 @@ msgstr "Dinonaktifkan"
 msgid "Windows"
 msgstr "Jendela"
 
-#: src/Views/ShortcutsView.vala:34
+#: src/Views/ShortcutsView.vala:39
 msgid "Close window:"
 msgstr "Tutup jendela:"
 
-#: src/Views/ShortcutsView.vala:36
+#: src/Views/ShortcutsView.vala:40
 msgid "Cycle windows:"
 msgstr "Siklus jendela:"
 
-#: src/Views/ShortcutsView.vala:38
+#: src/Views/ShortcutsView.vala:41
 msgid "Toggle maximized:"
 msgstr "Beralih ke maksimalkan:"
 
-#: src/Views/ShortcutsView.vala:40
+#: src/Views/ShortcutsView.vala:42
 msgid "Tile left:"
 msgstr "Rekat kiri:"
 
-#: src/Views/ShortcutsView.vala:42
+#: src/Views/ShortcutsView.vala:43
 msgid "Tile right:"
 msgstr "Rekat kanan:"
 
@@ -60,67 +60,67 @@ msgstr "Rekat kanan:"
 msgid "Move to left workspace:"
 msgstr "Pindah ke ruang kerja sebelah kiri:"
 
-#: src/Views/ShortcutsView.vala:46
+#: src/Views/ShortcutsView.vala:45
 msgid "Move to right workspace:"
 msgstr "Pindah ke ruang kerja sebalah kanan:"
 
-#: src/Views/ShortcutsView.vala:48
+#: src/Views/ShortcutsView.vala:46
 msgid "Picture in Picture Mode:"
 msgstr "Mode Gambar dalam Gambar:"
 
-#: src/Views/ShortcutsView.vala:51
+#: src/Views/ShortcutsView.vala:53
 msgid "Workspaces"
 msgstr "Ruang Kerja"
 
-#: src/Views/ShortcutsView.vala:54
+#: src/Views/ShortcutsView.vala:61
 msgid "Multitasking View:"
 msgstr "Tampilan Multi Tugas:"
 
-#: src/Views/ShortcutsView.vala:56
+#: src/Views/ShortcutsView.vala:62
 msgid "Switch left:"
 msgstr "Beralih ke kiri:"
 
-#: src/Views/ShortcutsView.vala:58
+#: src/Views/ShortcutsView.vala:63
 msgid "Switch right:"
 msgstr "Beralih ke kanan:"
 
-#: src/Views/ShortcutsView.vala:60
+#: src/Views/ShortcutsView.vala:64
 msgid "Switch to first:"
 msgstr "Beralih ke awal:"
 
-#: src/Views/ShortcutsView.vala:62
+#: src/Views/ShortcutsView.vala:65
 msgid "Switch to new:"
 msgstr "Beralih ke yang baru:"
 
-#: src/Views/ShortcutsView.vala:64
+#: src/Views/ShortcutsView.vala:66
 msgid "Cycle workspaces:"
 msgstr "Siklus ruang kerja:"
 
-#: src/Views/ShortcutsView.vala:112
+#: src/Views/ShortcutsView.vala:113
 msgid "System"
 msgstr "Sistem"
 
-#: src/Views/ShortcutsView.vala:115
+#: src/Views/ShortcutsView.vala:121
 msgid "Applications Menu:"
 msgstr "Menu Aplikasi:"
 
-#: src/Views/ShortcutsView.vala:117
+#: src/Views/ShortcutsView.vala:122
 msgid "Cycle display mode:"
 msgstr "Siklus mode tampilan:"
 
-#: src/Views/ShortcutsView.vala:119
+#: src/Views/ShortcutsView.vala:123
 msgid "Zoom in:"
 msgstr "Perbesar:"
 
-#: src/Views/ShortcutsView.vala:121
+#: src/Views/ShortcutsView.vala:124
 msgid "Zoom out:"
 msgstr "Perkecil:"
 
-#: src/Views/ShortcutsView.vala:123
+#: src/Views/ShortcutsView.vala:125
 msgid "Lock screen:"
 msgstr "Layar kunci:"
 
-#: src/Views/ShortcutsView.vala:125
+#: src/Views/ShortcutsView.vala:126
 msgid "Log out:"
 msgstr "Keluar:"
 
@@ -128,41 +128,41 @@ msgstr "Keluar:"
 msgid "Switch keyboard layout:"
 msgstr "Beralih tata letak papan ketik:"
 
-#: src/Views/ShortcutsView.vala:129
+#: src/Views/ShortcutsView.vala:128
 msgid "Toggle on-screen keyboard:"
 msgstr "Beralih ke papan ketik di-layar:"
 
-#: src/Views/ShortcutsView.vala:131
+#: src/Views/ShortcutsView.vala:129
 #, fuzzy
 #| msgid "Toggle on-screen keyboard:"
 msgid "Toggle screen reader:"
 msgstr "Beralih ke papan ketik di-layar:"
 
-#: src/Views/ShortcutsView.vala:134
+#: src/Views/ShortcutsView.vala:136
 msgid "Screenshots"
 msgstr "Tangkapan Layar"
 
-#: src/Views/ShortcutsView.vala:137
+#: src/Views/ShortcutsView.vala:144
 msgid "Grab the whole screen:"
 msgstr "Ambil keseluruhan layar:"
 
-#: src/Views/ShortcutsView.vala:139
+#: src/Views/ShortcutsView.vala:145
 msgid "Copy the whole screen to clipboard:"
 msgstr "Salin seluruh layar ke clipboard:"
 
-#: src/Views/ShortcutsView.vala:141
+#: src/Views/ShortcutsView.vala:146
 msgid "Grab the current window:"
 msgstr "Ambil jendela saat ini:"
 
-#: src/Views/ShortcutsView.vala:143
+#: src/Views/ShortcutsView.vala:147
 msgid "Copy the current window to clipboard:"
 msgstr "Salin jendela saat ini ke clipboard:"
 
-#: src/Views/ShortcutsView.vala:145
+#: src/Views/ShortcutsView.vala:148
 msgid "Select an area to grab:"
 msgstr "Pilih area untuk diambil:"
 
-#: src/Views/ShortcutsView.vala:147
+#: src/Views/ShortcutsView.vala:149
 msgid "Copy an area to clipboard:"
 msgstr "Salin area ke clipboard:"
 
