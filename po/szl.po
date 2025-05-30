@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-20 14:09+0000\n"
+"POT-Creation-Date: 2025-05-30 18:24+0000\n"
 "PO-Revision-Date: 2020-02-25 22:08+0000\n"
 "Last-Translator: gkkulik <g.kulik@o2.pl>\n"
 "Language-Team: Silesian <https://l10n.elementary.io/projects/desktop/"
@@ -24,7 +24,7 @@ msgstr "Skrōty tastatury"
 msgid "Keyboard Settings…"
 msgstr "Sztelōnki tastatury…"
 
-#: src/ShortcutLabel.vala:74
+#: src/ShortcutLabel.vala:77
 msgid "Disabled"
 msgstr "Zastawiōny"
 
@@ -32,23 +32,23 @@ msgstr "Zastawiōny"
 msgid "Windows"
 msgstr "Windows"
 
-#: src/Views/ShortcutsView.vala:34
+#: src/Views/ShortcutsView.vala:39
 msgid "Close window:"
 msgstr "Zawrzij ôkno:"
 
-#: src/Views/ShortcutsView.vala:36
+#: src/Views/ShortcutsView.vala:40
 msgid "Cycle windows:"
 msgstr "Szaltrowanie ôkyn:"
 
-#: src/Views/ShortcutsView.vala:38
+#: src/Views/ShortcutsView.vala:41
 msgid "Toggle maximized:"
 msgstr "Szaltrowanie maksymalizacyje:"
 
-#: src/Views/ShortcutsView.vala:40
+#: src/Views/ShortcutsView.vala:42
 msgid "Tile left:"
 msgstr "Przisuń do lewyj:"
 
-#: src/Views/ShortcutsView.vala:42
+#: src/Views/ShortcutsView.vala:43
 msgid "Tile right:"
 msgstr "Przisuń do prawyj:"
 
@@ -56,67 +56,67 @@ msgstr "Przisuń do prawyj:"
 msgid "Move to left workspace:"
 msgstr "Przeniyś na plac roboczy po lewyj:"
 
-#: src/Views/ShortcutsView.vala:46
+#: src/Views/ShortcutsView.vala:45
 msgid "Move to right workspace:"
 msgstr "Przeniyś na plac roboczy po prawyj:"
 
-#: src/Views/ShortcutsView.vala:48
+#: src/Views/ShortcutsView.vala:46
 msgid "Picture in Picture Mode:"
 msgstr "Tryb ôbroz w ôbrazie:"
 
-#: src/Views/ShortcutsView.vala:51
+#: src/Views/ShortcutsView.vala:53
 msgid "Workspaces"
 msgstr "Przestrzynie robocze"
 
-#: src/Views/ShortcutsView.vala:54
+#: src/Views/ShortcutsView.vala:61
 msgid "Multitasking View:"
 msgstr "Widok wielozadaniowy:"
 
-#: src/Views/ShortcutsView.vala:56
+#: src/Views/ShortcutsView.vala:62
 msgid "Switch left:"
 msgstr "Przeszaltruj do lewyj:"
 
-#: src/Views/ShortcutsView.vala:58
+#: src/Views/ShortcutsView.vala:63
 msgid "Switch right:"
 msgstr "Przeszaltruj do prawyj:"
 
-#: src/Views/ShortcutsView.vala:60
+#: src/Views/ShortcutsView.vala:64
 msgid "Switch to first:"
 msgstr "Przeszaltruj na piyrszo:"
 
-#: src/Views/ShortcutsView.vala:62
+#: src/Views/ShortcutsView.vala:65
 msgid "Switch to new:"
 msgstr "Przeszaltruj do nowyj:"
 
-#: src/Views/ShortcutsView.vala:64
+#: src/Views/ShortcutsView.vala:66
 msgid "Cycle workspaces:"
 msgstr "Szaltrowanie placōw roboczych:"
 
-#: src/Views/ShortcutsView.vala:112
+#: src/Views/ShortcutsView.vala:113
 msgid "System"
 msgstr "Systym"
 
-#: src/Views/ShortcutsView.vala:115
+#: src/Views/ShortcutsView.vala:121
 msgid "Applications Menu:"
 msgstr "Myni programōw:"
 
-#: src/Views/ShortcutsView.vala:117
+#: src/Views/ShortcutsView.vala:122
 msgid "Cycle display mode:"
 msgstr "Szaltrowanie trybu pokazowanio:"
 
-#: src/Views/ShortcutsView.vala:119
+#: src/Views/ShortcutsView.vala:123
 msgid "Zoom in:"
 msgstr "Powiynkszynie:"
 
-#: src/Views/ShortcutsView.vala:121
+#: src/Views/ShortcutsView.vala:124
 msgid "Zoom out:"
 msgstr "Pōmyńszynie:"
 
-#: src/Views/ShortcutsView.vala:123
+#: src/Views/ShortcutsView.vala:125
 msgid "Lock screen:"
 msgstr "Ekran blokady:"
 
-#: src/Views/ShortcutsView.vala:125
+#: src/Views/ShortcutsView.vala:126
 msgid "Log out:"
 msgstr "Ôdlogowanie:"
 
@@ -124,43 +124,43 @@ msgstr "Ôdlogowanie:"
 msgid "Switch keyboard layout:"
 msgstr "Przeszaltruj ukłod tastatury:"
 
-#: src/Views/ShortcutsView.vala:129
+#: src/Views/ShortcutsView.vala:128
 msgid "Toggle on-screen keyboard:"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:131
+#: src/Views/ShortcutsView.vala:129
 msgid "Toggle screen reader:"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:134
+#: src/Views/ShortcutsView.vala:136
 msgid "Screenshots"
 msgstr "Przechyty ekranu"
 
-#: src/Views/ShortcutsView.vala:137
+#: src/Views/ShortcutsView.vala:144
 msgid "Grab the whole screen:"
 msgstr "Przechyć cołki ekran:"
 
-#: src/Views/ShortcutsView.vala:139
+#: src/Views/ShortcutsView.vala:145
 #, fuzzy
 #| msgid "Grab the whole screen:"
 msgid "Copy the whole screen to clipboard:"
 msgstr "Przechyć cołki ekran:"
 
-#: src/Views/ShortcutsView.vala:141
+#: src/Views/ShortcutsView.vala:146
 msgid "Grab the current window:"
 msgstr "Przechyć teroźne ôkno:"
 
-#: src/Views/ShortcutsView.vala:143
+#: src/Views/ShortcutsView.vala:147
 #, fuzzy
 #| msgid "Grab the current window:"
 msgid "Copy the current window to clipboard:"
 msgstr "Przechyć teroźne ôkno:"
 
-#: src/Views/ShortcutsView.vala:145
+#: src/Views/ShortcutsView.vala:148
 msgid "Select an area to grab:"
 msgstr "Ôbier plac do przechytu:"
 
-#: src/Views/ShortcutsView.vala:147
+#: src/Views/ShortcutsView.vala:149
 msgid "Copy an area to clipboard:"
 msgstr ""
 

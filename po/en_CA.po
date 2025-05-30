@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-20 14:09+0000\n"
+"POT-Creation-Date: 2025-05-30 18:24+0000\n"
 "PO-Revision-Date: 2018-05-07 15:48+0000\n"
 "Last-Translator: Shawn <syst3mfailur3@gmail.com>\n"
 "Language-Team: English (Canada) <https://weblate.elementary.io/projects/"
@@ -29,7 +29,7 @@ msgstr "Keyboard Shortcuts"
 msgid "Keyboard Settings…"
 msgstr "Keyboard Settings…"
 
-#: src/ShortcutLabel.vala:74
+#: src/ShortcutLabel.vala:77
 msgid "Disabled"
 msgstr "Disabled"
 
@@ -37,24 +37,24 @@ msgstr "Disabled"
 msgid "Windows"
 msgstr "Windows"
 
-#: src/Views/ShortcutsView.vala:34
+#: src/Views/ShortcutsView.vala:39
 #, fuzzy
 msgid "Close window:"
 msgstr "Cycle windows:"
 
-#: src/Views/ShortcutsView.vala:36
+#: src/Views/ShortcutsView.vala:40
 msgid "Cycle windows:"
 msgstr "Cycle windows:"
 
-#: src/Views/ShortcutsView.vala:38
+#: src/Views/ShortcutsView.vala:41
 msgid "Toggle maximized:"
 msgstr "Toggle maximized:"
 
-#: src/Views/ShortcutsView.vala:40
+#: src/Views/ShortcutsView.vala:42
 msgid "Tile left:"
 msgstr "Tile left:"
 
-#: src/Views/ShortcutsView.vala:42
+#: src/Views/ShortcutsView.vala:43
 msgid "Tile right:"
 msgstr "Tile right:"
 
@@ -62,67 +62,67 @@ msgstr "Tile right:"
 msgid "Move to left workspace:"
 msgstr "Move to left workspace:"
 
-#: src/Views/ShortcutsView.vala:46
+#: src/Views/ShortcutsView.vala:45
 msgid "Move to right workspace:"
 msgstr "Move to right workspace:"
 
-#: src/Views/ShortcutsView.vala:48
+#: src/Views/ShortcutsView.vala:46
 msgid "Picture in Picture Mode:"
 msgstr "Picture in Picture Mode:"
 
-#: src/Views/ShortcutsView.vala:51
+#: src/Views/ShortcutsView.vala:53
 msgid "Workspaces"
 msgstr "Workspaces"
 
-#: src/Views/ShortcutsView.vala:54
+#: src/Views/ShortcutsView.vala:61
 msgid "Multitasking View:"
 msgstr "Multitasking View:"
 
-#: src/Views/ShortcutsView.vala:56
+#: src/Views/ShortcutsView.vala:62
 msgid "Switch left:"
 msgstr "Switch left:"
 
-#: src/Views/ShortcutsView.vala:58
+#: src/Views/ShortcutsView.vala:63
 msgid "Switch right:"
 msgstr "Switch right:"
 
-#: src/Views/ShortcutsView.vala:60
+#: src/Views/ShortcutsView.vala:64
 msgid "Switch to first:"
 msgstr "Switch to first:"
 
-#: src/Views/ShortcutsView.vala:62
+#: src/Views/ShortcutsView.vala:65
 msgid "Switch to new:"
 msgstr "Switch to new:"
 
-#: src/Views/ShortcutsView.vala:64
+#: src/Views/ShortcutsView.vala:66
 msgid "Cycle workspaces:"
 msgstr "Cycle workspaces:"
 
-#: src/Views/ShortcutsView.vala:112
+#: src/Views/ShortcutsView.vala:113
 msgid "System"
 msgstr "System"
 
-#: src/Views/ShortcutsView.vala:115
+#: src/Views/ShortcutsView.vala:121
 msgid "Applications Menu:"
 msgstr "Applications Menu:"
 
-#: src/Views/ShortcutsView.vala:117
+#: src/Views/ShortcutsView.vala:122
 msgid "Cycle display mode:"
 msgstr "Cycle display mode:"
 
-#: src/Views/ShortcutsView.vala:119
+#: src/Views/ShortcutsView.vala:123
 msgid "Zoom in:"
 msgstr "Zoom in:"
 
-#: src/Views/ShortcutsView.vala:121
+#: src/Views/ShortcutsView.vala:124
 msgid "Zoom out:"
 msgstr "Zoom out:"
 
-#: src/Views/ShortcutsView.vala:123
+#: src/Views/ShortcutsView.vala:125
 msgid "Lock screen:"
 msgstr "Lock screen:"
 
-#: src/Views/ShortcutsView.vala:125
+#: src/Views/ShortcutsView.vala:126
 msgid "Log out:"
 msgstr "Log out:"
 
@@ -130,43 +130,43 @@ msgstr "Log out:"
 msgid "Switch keyboard layout:"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:129
+#: src/Views/ShortcutsView.vala:128
 msgid "Toggle on-screen keyboard:"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:131
+#: src/Views/ShortcutsView.vala:129
 msgid "Toggle screen reader:"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:134
+#: src/Views/ShortcutsView.vala:136
 msgid "Screenshots"
 msgstr "Screenshots"
 
-#: src/Views/ShortcutsView.vala:137
+#: src/Views/ShortcutsView.vala:144
 msgid "Grab the whole screen:"
 msgstr "Grab the whole screen:"
 
-#: src/Views/ShortcutsView.vala:139
+#: src/Views/ShortcutsView.vala:145
 #, fuzzy
 #| msgid "Grab the whole screen:"
 msgid "Copy the whole screen to clipboard:"
 msgstr "Grab the whole screen:"
 
-#: src/Views/ShortcutsView.vala:141
+#: src/Views/ShortcutsView.vala:146
 msgid "Grab the current window:"
 msgstr "Grab the current window:"
 
-#: src/Views/ShortcutsView.vala:143
+#: src/Views/ShortcutsView.vala:147
 #, fuzzy
 #| msgid "Grab the current window:"
 msgid "Copy the current window to clipboard:"
 msgstr "Grab the current window:"
 
-#: src/Views/ShortcutsView.vala:145
+#: src/Views/ShortcutsView.vala:148
 msgid "Select an area to grab:"
 msgstr "Select an area to grab:"
 
-#: src/Views/ShortcutsView.vala:147
+#: src/Views/ShortcutsView.vala:149
 msgid "Copy an area to clipboard:"
 msgstr ""
 

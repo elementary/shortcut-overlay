@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-20 14:09+0000\n"
+"POT-Creation-Date: 2025-05-30 18:24+0000\n"
 "PO-Revision-Date: 2024-09-02 22:33+0000\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
@@ -35,39 +35,44 @@ msgstr "檢視系統快捷鍵"
 msgid "cheatsheet;shortcut;overlay;keyboard;"
 msgstr "cheatsheet;shortcut;overlay;快捷鍵;小抄;提示;捷徑;鍵盤;"
 
+#: data/shortcut-overlay.metainfo.xml.in:35
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
+
 #: data/shortcut-overlay.metainfo.xml.in:44
-#: data/shortcut-overlay.metainfo.xml.in:52
-#: data/shortcut-overlay.metainfo.xml.in:65
-#: data/shortcut-overlay.metainfo.xml.in:74
-#: data/shortcut-overlay.metainfo.xml.in:83
+#: data/shortcut-overlay.metainfo.xml.in:55
+#: data/shortcut-overlay.metainfo.xml.in:63
+#: data/shortcut-overlay.metainfo.xml.in:76
+#: data/shortcut-overlay.metainfo.xml.in:85
+#: data/shortcut-overlay.metainfo.xml.in:94
 msgid "Updated translations"
 msgstr "更新翻譯"
 
-#: data/shortcut-overlay.metainfo.xml.in:53
+#: data/shortcut-overlay.metainfo.xml.in:64
 msgid "Show screen reader shortcut"
 msgstr "顯示螢幕閱讀器的快捷鍵"
 
-#: data/shortcut-overlay.metainfo.xml.in:61
+#: data/shortcut-overlay.metainfo.xml.in:72
 msgid "Show in the applications menu"
 msgstr "在應用程式選單中顯示"
 
-#: data/shortcut-overlay.metainfo.xml.in:62
+#: data/shortcut-overlay.metainfo.xml.in:73
 msgid "Replace keyboard settings button with a labeled link button"
 msgstr "將鍵盤設定按鈕改為文字連結按鈕"
 
-#: data/shortcut-overlay.metainfo.xml.in:63
+#: data/shortcut-overlay.metainfo.xml.in:74
 msgid "Show on-screen keyboard shortcut"
 msgstr "顯示螢幕鍵盤的快捷鍵"
 
-#: data/shortcut-overlay.metainfo.xml.in:64
+#: data/shortcut-overlay.metainfo.xml.in:75
 msgid "Close with the shortcut Ctrl + Q"
 msgstr "用 Ctrl + Q 快捷鍵來關閉"
 
-#: data/shortcut-overlay.metainfo.xml.in:73
+#: data/shortcut-overlay.metainfo.xml.in:84
 msgid "Update for OS 7 and Gtk 4"
 msgstr "為 elementary OS 7 和 Gtk 4 更新"
 
-#: data/shortcut-overlay.metainfo.xml.in:82
+#: data/shortcut-overlay.metainfo.xml.in:93
 msgid "Fix the app not launching if a shortcut key is set to blank"
 msgstr "修正有快捷鍵設為空白時此應用程式沒辦法啟動的問題"
 
@@ -75,9 +80,6 @@ msgstr "修正有快捷鍵設為空白時此應用程式沒辦法啟動的問題
 #~| msgid "View system keyboard shortcuts"
 #~ msgid "Add screenshot shortcuts"
 #~ msgstr "檢視系統鍵盤快捷鍵"
-
-#~ msgid "elementary, Inc."
-#~ msgstr "elementary, Inc."
 
 #~ msgid "preferences-desktop-keyboard"
 #~ msgstr "preferences-desktop-keyboard"

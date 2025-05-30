@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-20 14:09+0000\n"
+"POT-Creation-Date: 2025-05-30 18:24+0000\n"
 "PO-Revision-Date: 2024-06-06 21:17+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/desktop/shortcut-"
@@ -35,39 +35,44 @@ msgstr "הצגת קיצורי הדרך המערכתיים"
 msgid "cheatsheet;shortcut;overlay;keyboard;"
 msgstr "שליף;קיצור דרך;סימון;מקלדת;"
 
+#: data/shortcut-overlay.metainfo.xml.in:35
+msgid "elementary, Inc."
+msgstr "elementary בע״מ."
+
 #: data/shortcut-overlay.metainfo.xml.in:44
-#: data/shortcut-overlay.metainfo.xml.in:52
-#: data/shortcut-overlay.metainfo.xml.in:65
-#: data/shortcut-overlay.metainfo.xml.in:74
-#: data/shortcut-overlay.metainfo.xml.in:83
+#: data/shortcut-overlay.metainfo.xml.in:55
+#: data/shortcut-overlay.metainfo.xml.in:63
+#: data/shortcut-overlay.metainfo.xml.in:76
+#: data/shortcut-overlay.metainfo.xml.in:85
+#: data/shortcut-overlay.metainfo.xml.in:94
 msgid "Updated translations"
 msgstr "התרגומים עודכנו"
 
-#: data/shortcut-overlay.metainfo.xml.in:53
+#: data/shortcut-overlay.metainfo.xml.in:64
 msgid "Show screen reader shortcut"
 msgstr "קיצור דרך למקריא מסך יוצג"
 
-#: data/shortcut-overlay.metainfo.xml.in:61
+#: data/shortcut-overlay.metainfo.xml.in:72
 msgid "Show in the applications menu"
 msgstr "הופעה בתפריט היישומים"
 
-#: data/shortcut-overlay.metainfo.xml.in:62
+#: data/shortcut-overlay.metainfo.xml.in:73
 msgid "Replace keyboard settings button with a labeled link button"
 msgstr "כפתור הגדרות המקלדת הוחלף בכפתור עם קישור מתויג"
 
-#: data/shortcut-overlay.metainfo.xml.in:63
+#: data/shortcut-overlay.metainfo.xml.in:74
 msgid "Show on-screen keyboard shortcut"
 msgstr "קיצור דרך למקלדת על גבי המסך יוצג"
 
-#: data/shortcut-overlay.metainfo.xml.in:64
+#: data/shortcut-overlay.metainfo.xml.in:75
 msgid "Close with the shortcut Ctrl + Q"
 msgstr "אפשר לסגור עם קיצור המקשים Ctrl + Q"
 
-#: data/shortcut-overlay.metainfo.xml.in:73
+#: data/shortcut-overlay.metainfo.xml.in:84
 msgid "Update for OS 7 and Gtk 4"
 msgstr "עדכון ל־OS 7 ו־Gtk 4"
 
-#: data/shortcut-overlay.metainfo.xml.in:82
+#: data/shortcut-overlay.metainfo.xml.in:93
 msgid "Fix the app not launching if a shortcut key is set to blank"
 msgstr "תוקנה התקלה שהיישום לא עולה אם מקש קיצור מוגדר לכלום"
 
@@ -79,9 +84,6 @@ msgstr "תוקנה התקלה שהיישום לא עולה אם מקש קיצו�
 
 #~ msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
 #~ msgstr "הוספת קיצורים לביצוע „החלפת פריסה” ו־„סגירת חלון”"
-
-#~ msgid "elementary, Inc."
-#~ msgstr "elementary בע״מ."
 
 #~ msgid "preferences-desktop-keyboard"
 #~ msgstr "preferences-desktop-keyboard"

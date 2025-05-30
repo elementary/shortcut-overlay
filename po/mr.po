@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-20 14:09+0000\n"
+"POT-Creation-Date: 2025-05-30 18:24+0000\n"
 "PO-Revision-Date: 2019-04-06 21:52+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/desktop/shortcut-"
@@ -29,7 +29,7 @@ msgstr "कीबोर्ड शॉर्टकट"
 msgid "Keyboard Settings…"
 msgstr "कीबोर्ड सेटिंग्ज …"
 
-#: src/ShortcutLabel.vala:74
+#: src/ShortcutLabel.vala:77
 msgid "Disabled"
 msgstr "अक्षम"
 
@@ -37,23 +37,23 @@ msgstr "अक्षम"
 msgid "Windows"
 msgstr "विंडोज"
 
-#: src/Views/ShortcutsView.vala:34
+#: src/Views/ShortcutsView.vala:39
 msgid "Close window:"
 msgstr "विंडो बंद करा:"
 
-#: src/Views/ShortcutsView.vala:36
+#: src/Views/ShortcutsView.vala:40
 msgid "Cycle windows:"
 msgstr "चक्रीय विंडोज:"
 
-#: src/Views/ShortcutsView.vala:38
+#: src/Views/ShortcutsView.vala:41
 msgid "Toggle maximized:"
 msgstr "कमाल आकार टॉगल करा :"
 
-#: src/Views/ShortcutsView.vala:40
+#: src/Views/ShortcutsView.vala:42
 msgid "Tile left:"
 msgstr "डावीकडे असलेली टाईल:"
 
-#: src/Views/ShortcutsView.vala:42
+#: src/Views/ShortcutsView.vala:43
 msgid "Tile right:"
 msgstr "उजवीकडे असलेली टाईल:"
 
@@ -61,67 +61,67 @@ msgstr "उजवीकडे असलेली टाईल:"
 msgid "Move to left workspace:"
 msgstr "डावीकडे असलेल्या कार्यक्षेत्रावर जा :"
 
-#: src/Views/ShortcutsView.vala:46
+#: src/Views/ShortcutsView.vala:45
 msgid "Move to right workspace:"
 msgstr "उजवीकडे असलेल्या कार्यक्षेत्रावर जा :"
 
-#: src/Views/ShortcutsView.vala:48
+#: src/Views/ShortcutsView.vala:46
 msgid "Picture in Picture Mode:"
 msgstr "चित्र मोडमध्ये चित्र :"
 
-#: src/Views/ShortcutsView.vala:51
+#: src/Views/ShortcutsView.vala:53
 msgid "Workspaces"
 msgstr "कार्यक्षेत्रे"
 
-#: src/Views/ShortcutsView.vala:54
+#: src/Views/ShortcutsView.vala:61
 msgid "Multitasking View:"
 msgstr "मल्टीटास्किंग दृष्टीपथ:"
 
-#: src/Views/ShortcutsView.vala:56
+#: src/Views/ShortcutsView.vala:62
 msgid "Switch left:"
 msgstr "डावीकडे स्विच करा:"
 
-#: src/Views/ShortcutsView.vala:58
+#: src/Views/ShortcutsView.vala:63
 msgid "Switch right:"
 msgstr "उजवीकडे स्विच करा :"
 
-#: src/Views/ShortcutsView.vala:60
+#: src/Views/ShortcutsView.vala:64
 msgid "Switch to first:"
 msgstr "पहिल्याला स्विच करा :"
 
-#: src/Views/ShortcutsView.vala:62
+#: src/Views/ShortcutsView.vala:65
 msgid "Switch to new:"
 msgstr "नवीन वर स्विच करा:"
 
-#: src/Views/ShortcutsView.vala:64
+#: src/Views/ShortcutsView.vala:66
 msgid "Cycle workspaces:"
 msgstr "चक्रीय वर्कस्पेसेस:"
 
-#: src/Views/ShortcutsView.vala:112
+#: src/Views/ShortcutsView.vala:113
 msgid "System"
 msgstr "सिस्टिम"
 
-#: src/Views/ShortcutsView.vala:115
+#: src/Views/ShortcutsView.vala:121
 msgid "Applications Menu:"
 msgstr "अनुप्रयोग मेनू :"
 
-#: src/Views/ShortcutsView.vala:117
+#: src/Views/ShortcutsView.vala:122
 msgid "Cycle display mode:"
 msgstr "चक्रीय प्रदर्शन मोड :"
 
-#: src/Views/ShortcutsView.vala:119
+#: src/Views/ShortcutsView.vala:123
 msgid "Zoom in:"
 msgstr "प्रतिमेचे दृष्य रूप मोठे करा :"
 
-#: src/Views/ShortcutsView.vala:121
+#: src/Views/ShortcutsView.vala:124
 msgid "Zoom out:"
 msgstr "प्रतिमेचे दृष्य रूप लहान करा :"
 
-#: src/Views/ShortcutsView.vala:123
+#: src/Views/ShortcutsView.vala:125
 msgid "Lock screen:"
 msgstr "लॉक स्क्रीन:"
 
-#: src/Views/ShortcutsView.vala:125
+#: src/Views/ShortcutsView.vala:126
 msgid "Log out:"
 msgstr "बाहेर पडणे:"
 
@@ -129,43 +129,43 @@ msgstr "बाहेर पडणे:"
 msgid "Switch keyboard layout:"
 msgstr "कीबोर्ड मांडणी स्विच करा:"
 
-#: src/Views/ShortcutsView.vala:129
+#: src/Views/ShortcutsView.vala:128
 msgid "Toggle on-screen keyboard:"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:131
+#: src/Views/ShortcutsView.vala:129
 msgid "Toggle screen reader:"
 msgstr ""
 
-#: src/Views/ShortcutsView.vala:134
+#: src/Views/ShortcutsView.vala:136
 msgid "Screenshots"
 msgstr "स्क्रीनशॉट"
 
-#: src/Views/ShortcutsView.vala:137
+#: src/Views/ShortcutsView.vala:144
 msgid "Grab the whole screen:"
 msgstr "संपूर्ण स्क्रीन मिळवा:"
 
-#: src/Views/ShortcutsView.vala:139
+#: src/Views/ShortcutsView.vala:145
 #, fuzzy
 #| msgid "Grab the whole screen:"
 msgid "Copy the whole screen to clipboard:"
 msgstr "संपूर्ण स्क्रीन मिळवा:"
 
-#: src/Views/ShortcutsView.vala:141
+#: src/Views/ShortcutsView.vala:146
 msgid "Grab the current window:"
 msgstr "वर्तमान विंडो पकडा:"
 
-#: src/Views/ShortcutsView.vala:143
+#: src/Views/ShortcutsView.vala:147
 #, fuzzy
 #| msgid "Grab the current window:"
 msgid "Copy the current window to clipboard:"
 msgstr "वर्तमान विंडो पकडा:"
 
-#: src/Views/ShortcutsView.vala:145
+#: src/Views/ShortcutsView.vala:148
 msgid "Select an area to grab:"
 msgstr "पकडण्यासाठी एक क्षेत्र निवडा:"
 
-#: src/Views/ShortcutsView.vala:147
+#: src/Views/ShortcutsView.vala:149
 msgid "Copy an area to clipboard:"
 msgstr ""
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-20 14:09+0000\n"
+"POT-Creation-Date: 2025-05-30 18:24+0000\n"
 "PO-Revision-Date: 2023-08-30 11:08+0000\n"
 "Last-Translator: Jakub Kyzr <jakubkyzr@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/desktop/shortcut-"
@@ -35,43 +35,48 @@ msgstr "Prohlédněte si systémové zkratky"
 msgid "cheatsheet;shortcut;overlay;keyboard;"
 msgstr "cheatsheet;zkratka;overlay;zkratka;přehled;nápověda;klávesnice;"
 
+#: data/shortcut-overlay.metainfo.xml.in:35
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
+
 #: data/shortcut-overlay.metainfo.xml.in:44
-#: data/shortcut-overlay.metainfo.xml.in:52
-#: data/shortcut-overlay.metainfo.xml.in:65
-#: data/shortcut-overlay.metainfo.xml.in:74
-#: data/shortcut-overlay.metainfo.xml.in:83
+#: data/shortcut-overlay.metainfo.xml.in:55
+#: data/shortcut-overlay.metainfo.xml.in:63
+#: data/shortcut-overlay.metainfo.xml.in:76
+#: data/shortcut-overlay.metainfo.xml.in:85
+#: data/shortcut-overlay.metainfo.xml.in:94
 msgid "Updated translations"
 msgstr "Aktualizované překlady"
 
-#: data/shortcut-overlay.metainfo.xml.in:53
+#: data/shortcut-overlay.metainfo.xml.in:64
 #, fuzzy
 #| msgid "Add screenshot shortcuts"
 msgid "Show screen reader shortcut"
 msgstr "Přidány klávesové zkratky pro pořizování snímků obrazovky"
 
-#: data/shortcut-overlay.metainfo.xml.in:61
+#: data/shortcut-overlay.metainfo.xml.in:72
 msgid "Show in the applications menu"
 msgstr ""
 
-#: data/shortcut-overlay.metainfo.xml.in:62
+#: data/shortcut-overlay.metainfo.xml.in:73
 msgid "Replace keyboard settings button with a labeled link button"
 msgstr ""
 
-#: data/shortcut-overlay.metainfo.xml.in:63
+#: data/shortcut-overlay.metainfo.xml.in:74
 #, fuzzy
 #| msgid "Add screenshot shortcuts"
 msgid "Show on-screen keyboard shortcut"
 msgstr "Přidány klávesové zkratky pro pořizování snímků obrazovky"
 
-#: data/shortcut-overlay.metainfo.xml.in:64
+#: data/shortcut-overlay.metainfo.xml.in:75
 msgid "Close with the shortcut Ctrl + Q"
 msgstr ""
 
-#: data/shortcut-overlay.metainfo.xml.in:73
+#: data/shortcut-overlay.metainfo.xml.in:84
 msgid "Update for OS 7 and Gtk 4"
 msgstr ""
 
-#: data/shortcut-overlay.metainfo.xml.in:82
+#: data/shortcut-overlay.metainfo.xml.in:93
 msgid "Fix the app not launching if a shortcut key is set to blank"
 msgstr ""
 "Opraveno nespouštění aplikace pokud je klávesová zkratka nastavena na "
@@ -87,9 +92,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Přidány klávesové zkratky pro „Přepínání rozvržení klávesnice“ a „Zavření "
 #~ "okna“"
-
-#~ msgid "elementary, Inc."
-#~ msgstr "elementary, Inc."
 
 #~ msgid "preferences-desktop-keyboard"
 #~ msgstr "preferences-desktop-keyboard"
