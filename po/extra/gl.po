@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-20 14:09+0000\n"
+"POT-Creation-Date: 2025-05-30 18:24+0000\n"
 "PO-Revision-Date: 2019-12-15 23:07+0000\n"
 "Last-Translator: Daniel Foré <daniel@elementary.io>\n"
 "Language-Team: Galician <https://l10n.elementary.io/projects/desktop/"
@@ -41,43 +41,48 @@ msgstr "Ver os atallos de teclado do sistema"
 msgid "cheatsheet;shortcut;overlay;keyboard;"
 msgstr "teclado;acceso directo;truco;"
 
+#: data/shortcut-overlay.metainfo.xml.in:35
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
+
 #: data/shortcut-overlay.metainfo.xml.in:44
-#: data/shortcut-overlay.metainfo.xml.in:52
-#: data/shortcut-overlay.metainfo.xml.in:65
-#: data/shortcut-overlay.metainfo.xml.in:74
-#: data/shortcut-overlay.metainfo.xml.in:83
+#: data/shortcut-overlay.metainfo.xml.in:55
+#: data/shortcut-overlay.metainfo.xml.in:63
+#: data/shortcut-overlay.metainfo.xml.in:76
+#: data/shortcut-overlay.metainfo.xml.in:85
+#: data/shortcut-overlay.metainfo.xml.in:94
 msgid "Updated translations"
 msgstr ""
 
-#: data/shortcut-overlay.metainfo.xml.in:53
+#: data/shortcut-overlay.metainfo.xml.in:64
 #, fuzzy
 #| msgid "View system keyboard shortcuts"
 msgid "Show screen reader shortcut"
 msgstr "Ver os atallos de teclado do sistema"
 
-#: data/shortcut-overlay.metainfo.xml.in:61
+#: data/shortcut-overlay.metainfo.xml.in:72
 msgid "Show in the applications menu"
 msgstr ""
 
-#: data/shortcut-overlay.metainfo.xml.in:62
+#: data/shortcut-overlay.metainfo.xml.in:73
 msgid "Replace keyboard settings button with a labeled link button"
 msgstr ""
 
-#: data/shortcut-overlay.metainfo.xml.in:63
+#: data/shortcut-overlay.metainfo.xml.in:74
 #, fuzzy
 #| msgid "View system keyboard shortcuts"
 msgid "Show on-screen keyboard shortcut"
 msgstr "Ver os atallos de teclado do sistema"
 
-#: data/shortcut-overlay.metainfo.xml.in:64
+#: data/shortcut-overlay.metainfo.xml.in:75
 msgid "Close with the shortcut Ctrl + Q"
 msgstr ""
 
-#: data/shortcut-overlay.metainfo.xml.in:73
+#: data/shortcut-overlay.metainfo.xml.in:84
 msgid "Update for OS 7 and Gtk 4"
 msgstr ""
 
-#: data/shortcut-overlay.metainfo.xml.in:82
+#: data/shortcut-overlay.metainfo.xml.in:93
 msgid "Fix the app not launching if a shortcut key is set to blank"
 msgstr ""
 
@@ -85,9 +90,6 @@ msgstr ""
 #~| msgid "View system keyboard shortcuts"
 #~ msgid "Add screenshot shortcuts"
 #~ msgstr "Ver os atallos de teclado do sistema"
-
-#~ msgid "elementary, Inc."
-#~ msgstr "elementary, Inc."
 
 #~ msgid "preferences-desktop-keyboard"
 #~ msgstr "preferences-desktop-keyboard"

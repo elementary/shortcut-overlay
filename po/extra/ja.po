@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-20 14:09+0000\n"
+"POT-Creation-Date: 2025-05-30 18:24+0000\n"
 "PO-Revision-Date: 2024-06-07 23:14+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
@@ -37,39 +37,44 @@ msgstr ""
 "cheatsheet;shortcut;overlay;keyboard;チートシート;ショートカット;オーバーレ"
 "イ;キーボード;"
 
+#: data/shortcut-overlay.metainfo.xml.in:35
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
+
 #: data/shortcut-overlay.metainfo.xml.in:44
-#: data/shortcut-overlay.metainfo.xml.in:52
-#: data/shortcut-overlay.metainfo.xml.in:65
-#: data/shortcut-overlay.metainfo.xml.in:74
-#: data/shortcut-overlay.metainfo.xml.in:83
+#: data/shortcut-overlay.metainfo.xml.in:55
+#: data/shortcut-overlay.metainfo.xml.in:63
+#: data/shortcut-overlay.metainfo.xml.in:76
+#: data/shortcut-overlay.metainfo.xml.in:85
+#: data/shortcut-overlay.metainfo.xml.in:94
 msgid "Updated translations"
 msgstr "翻訳の更新"
 
-#: data/shortcut-overlay.metainfo.xml.in:53
+#: data/shortcut-overlay.metainfo.xml.in:64
 msgid "Show screen reader shortcut"
 msgstr "スクリーンリーダーのショートカットを表示するように修正"
 
-#: data/shortcut-overlay.metainfo.xml.in:61
+#: data/shortcut-overlay.metainfo.xml.in:72
 msgid "Show in the applications menu"
 msgstr "アプリケーションメニューに表示するように修正"
 
-#: data/shortcut-overlay.metainfo.xml.in:62
+#: data/shortcut-overlay.metainfo.xml.in:73
 msgid "Replace keyboard settings button with a labeled link button"
 msgstr "キーボードの設定ボタンを、ラベル付きリンクボタンに変更"
 
-#: data/shortcut-overlay.metainfo.xml.in:63
+#: data/shortcut-overlay.metainfo.xml.in:74
 msgid "Show on-screen keyboard shortcut"
 msgstr "オンスクリーンキーボードのショートカットを表示するように修正"
 
-#: data/shortcut-overlay.metainfo.xml.in:64
+#: data/shortcut-overlay.metainfo.xml.in:75
 msgid "Close with the shortcut Ctrl + Q"
 msgstr "Ctrl + Q でアプリを終了できるように修正"
 
-#: data/shortcut-overlay.metainfo.xml.in:73
+#: data/shortcut-overlay.metainfo.xml.in:84
 msgid "Update for OS 7 and Gtk 4"
 msgstr "elementary OS 7 と Gtk 4 に向けたアップデート"
 
-#: data/shortcut-overlay.metainfo.xml.in:82
+#: data/shortcut-overlay.metainfo.xml.in:93
 msgid "Fix the app not launching if a shortcut key is set to blank"
 msgstr ""
 "ショートカットキーが設定されていない場合にアプリが起動しない不具合を修正"
@@ -83,9 +88,6 @@ msgstr ""
 #~ msgid "Add \"Switch Layout\" and \"Close Window\", shortcuts"
 #~ msgstr ""
 #~ "\"レイアウトを切り替え\"と\"ウィンドウを閉じる\"ショートカットを追加"
-
-#~ msgid "elementary, Inc."
-#~ msgstr "elementary, Inc."
 
 #~ msgid "preferences-desktop-keyboard"
 #~ msgstr "preferences-desktop-keyboard"
