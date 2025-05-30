@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-public class ShortcutOverlay.MainWindow : Gtk.Window {
+public class ShortcutOverlay.MainWindow : Gtk.Window, PantheonWayland.ExtendedBehavior {
     public MainWindow (Gtk.Application application) {
         Object (
             application: application,
@@ -41,5 +41,11 @@ public class ShortcutOverlay.MainWindow : Gtk.Window {
         titlebar.add_css_class (Granite.STYLE_CLASS_DEFAULT_DECORATION);
 
         set_titlebar (titlebar);
+
+        child.realize.connect (() => {
+            connect_to_shell ();
+            set_keep_above ();
+            make_centered ();
+        });
     }
 }
