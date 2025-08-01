@@ -8,15 +8,17 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-30 18:24+0000\n"
-"PO-Revision-Date: 2018-03-07 10:56-0800\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-08-02 20:55+0000\n"
+"Last-Translator: lenify <lenify@tutanota.com>\n"
+"Language-Team: Belarusian <https://l10n.elementaryos.org/projects/desktop/"
+"shortcut-overlay/be/>\n"
 "Language: be\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src/MainWindow.vala:23
 msgid "Shortcuts"
@@ -136,7 +138,7 @@ msgstr ""
 
 #: src/Views/ShortcutsView.vala:136
 msgid "Screenshots"
-msgstr ""
+msgstr "Здымкі экрана"
 
 #: src/Views/ShortcutsView.vala:144
 msgid "Grab the whole screen:"
