@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-30 18:24+0000\n"
-"PO-Revision-Date: 2024-06-07 23:14+0000\n"
+"PO-Revision-Date: 2025-08-30 22:55+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
-"Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
+"Language-Team: Japanese <https://l10n.elementaryos.org/projects/desktop/"
 "shortcut-overlay-extra/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.5\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.metainfo.xml.in:10
 msgid "Shortcuts"
@@ -60,7 +60,7 @@ msgstr "アプリケーションメニューに表示するように修正"
 
 #: data/shortcut-overlay.metainfo.xml.in:73
 msgid "Replace keyboard settings button with a labeled link button"
-msgstr "キーボードの設定ボタンを、ラベル付きリンクボタンに変更"
+msgstr "キーボード設定のボタンを、ラベル付きリンクボタンに変更"
 
 #: data/shortcut-overlay.metainfo.xml.in:74
 msgid "Show on-screen keyboard shortcut"
