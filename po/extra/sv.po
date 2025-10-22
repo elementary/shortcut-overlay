@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-30 18:24+0000\n"
-"PO-Revision-Date: 2025-10-22 05:26+0000\n"
+"PO-Revision-Date: 2025-10-23 12:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/desktop/"
 "shortcut-overlay-extra/sv/>\n"
@@ -54,7 +54,7 @@ msgstr "Visa genväg för skärmläsare"
 
 #: data/shortcut-overlay.metainfo.xml.in:72
 msgid "Show in the applications menu"
-msgstr "Visa i applikationsmenyn"
+msgstr "Visa i programmenyn"
 
 #: data/shortcut-overlay.metainfo.xml.in:73
 msgid "Replace keyboard settings button with a labeled link button"
