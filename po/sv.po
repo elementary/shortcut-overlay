@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-30 18:24+0000\n"
-"PO-Revision-Date: 2025-10-22 05:26+0000\n"
+"PO-Revision-Date: 2025-10-25 08:48+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/desktop/"
 "shortcut-overlay/sv/>\n"
@@ -141,7 +141,7 @@ msgstr "Skärmbilder"
 
 #: src/Views/ShortcutsView.vala:144
 msgid "Grab the whole screen:"
-msgstr "Ta tag i hela skärmen:"
+msgstr "Fånga hela skärmen:"
 
 #: src/Views/ShortcutsView.vala:145
 msgid "Copy the whole screen to clipboard:"
@@ -149,7 +149,7 @@ msgstr "Kopiera hela skärmen till urklipp:"
 
 #: src/Views/ShortcutsView.vala:146
 msgid "Grab the current window:"
-msgstr "Ta tag i det aktuella fönstret:"
+msgstr "Fånga det aktuella fönstret:"
 
 #: src/Views/ShortcutsView.vala:147
 msgid "Copy the current window to clipboard:"
@@ -157,7 +157,7 @@ msgstr "Kopiera det aktuella fönstret till urklipp:"
 
 #: src/Views/ShortcutsView.vala:148
 msgid "Select an area to grab:"
-msgstr "Välj ett område att ta tag i:"
+msgstr "Välj ett område att fånga:"
 
 #: src/Views/ShortcutsView.vala:149
 msgid "Copy an area to clipboard:"
