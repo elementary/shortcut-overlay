@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-30 18:24+0000\n"
-"PO-Revision-Date: 2025-10-25 08:48+0000\n"
+"PO-Revision-Date: 2025-10-30 18:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/desktop/"
 "shortcut-overlay/sv/>\n"
@@ -137,7 +137,7 @@ msgstr "Växla skärmläsare:"
 
 #: src/Views/ShortcutsView.vala:136
 msgid "Screenshots"
-msgstr "Skärmbilder"
+msgstr "Skärmdumpar"
 
 #: src/Views/ShortcutsView.vala:144
 msgid "Grab the whole screen:"
