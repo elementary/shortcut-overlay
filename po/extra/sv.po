@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-30 18:24+0000\n"
-"PO-Revision-Date: 2025-10-23 12:55+0000\n"
+"PO-Revision-Date: 2025-10-30 18:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/desktop/"
 "shortcut-overlay-extra/sv/>\n"
@@ -62,7 +62,7 @@ msgstr "Ersätt knappen för tangentbordsinställningar med en märkt länkknapp
 
 #: data/shortcut-overlay.metainfo.xml.in:74
 msgid "Show on-screen keyboard shortcut"
-msgstr "Visa tangentbordsgenväg på skärmen"
+msgstr "Visa genväg för skärmtangentbord"
 
 #: data/shortcut-overlay.metainfo.xml.in:75
 msgid "Close with the shortcut Ctrl + Q"
@@ -74,7 +74,8 @@ msgstr "Uppdatering för OS 7 och Gtk 4"
 
 #: data/shortcut-overlay.metainfo.xml.in:93
 msgid "Fix the app not launching if a shortcut key is set to blank"
-msgstr "Åtgärda att appen inte startar om en genvägsknapp är inställd på tom"
+msgstr ""
+"Åtgärda att appen inte startar om en genvägstangent är inställd till tom"
 
 #, fuzzy
 #~| msgid "View system keyboard shortcuts"
