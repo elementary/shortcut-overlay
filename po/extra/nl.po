@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-30 18:24+0000\n"
-"PO-Revision-Date: 2024-08-17 17:19+0000\n"
-"Last-Translator: DutchVipperloid <svenroelof@e.email>\n"
-"Language-Team: Dutch <https://l10n.elementary.io/projects/desktop/shortcut-"
-"overlay-extra/nl/>\n"
+"PO-Revision-Date: 2025-11-30 07:55+0000\n"
+"Last-Translator: Bas Ernst <bas@ernstgenova.it>\n"
+"Language-Team: Dutch <https://l10n.elementaryos.org/projects/desktop/"
+"shortcut-overlay-extra/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.metainfo.xml.in:10
 msgid "Shortcuts"
@@ -49,10 +49,8 @@ msgid "Updated translations"
 msgstr "Bijgewerkte vertalingen"
 
 #: data/shortcut-overlay.metainfo.xml.in:64
-#, fuzzy
-#| msgid "Show on-screen keyboard shortcut"
 msgid "Show screen reader shortcut"
-msgstr "Laat sneltoets zien op het scherm"
+msgstr "Snelkoppeling voor schermlezer weergeven"
 
 #: data/shortcut-overlay.metainfo.xml.in:72
 msgid "Show in the applications menu"
