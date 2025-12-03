@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-30 18:24+0000\n"
-"PO-Revision-Date: 2025-08-12 10:55+0000\n"
+"PO-Revision-Date: 2025-12-04 11:55+0000\n"
 "Last-Translator: lenify <lenify@tutanota.com>\n"
 "Language-Team: Belarusian <https://l10n.elementaryos.org/projects/desktop/"
 "shortcut-overlay/be/>\n"
@@ -22,15 +22,15 @@ msgstr ""
 
 #: src/MainWindow.vala:23
 msgid "Shortcuts"
-msgstr ""
+msgstr "Спалучэнні клавіш"
 
 #: src/MainWindow.vala:30
 msgid "Keyboard Settings…"
-msgstr ""
+msgstr "Налады клавіятуры…"
 
 #: src/ShortcutLabel.vala:77
 msgid "Disabled"
-msgstr ""
+msgstr "Выключана"
 
 #: src/Views/ShortcutsView.vala:31
 msgid "Windows"
@@ -38,63 +38,63 @@ msgstr "Вокны"
 
 #: src/Views/ShortcutsView.vala:39
 msgid "Close window:"
-msgstr ""
+msgstr "Закрыць акно:"
 
 #: src/Views/ShortcutsView.vala:40
 msgid "Cycle windows:"
-msgstr ""
+msgstr "Пераключэнне паміж вокнамі:"
 
 #: src/Views/ShortcutsView.vala:41
 msgid "Toggle maximized:"
-msgstr ""
+msgstr "Разгарнуць:"
 
 #: src/Views/ShortcutsView.vala:42
 msgid "Tile left:"
-msgstr ""
+msgstr "Замацаваць злева:"
 
 #: src/Views/ShortcutsView.vala:43
 msgid "Tile right:"
-msgstr ""
+msgstr "Замацаваць справа:"
 
 #: src/Views/ShortcutsView.vala:44
 msgid "Move to left workspace:"
-msgstr ""
+msgstr "Перамясціць на прастору злева:"
 
 #: src/Views/ShortcutsView.vala:45
 msgid "Move to right workspace:"
-msgstr ""
+msgstr "Перамясціць на прастору справа:"
 
 #: src/Views/ShortcutsView.vala:46
 msgid "Picture in Picture Mode:"
-msgstr ""
+msgstr "Рэжым выява-ў-выяве:"
 
 #: src/Views/ShortcutsView.vala:53
 msgid "Workspaces"
-msgstr ""
+msgstr "Прасторы"
 
 #: src/Views/ShortcutsView.vala:61
 msgid "Multitasking View:"
-msgstr ""
+msgstr "Шматзадачны агляд:"
 
 #: src/Views/ShortcutsView.vala:62
 msgid "Switch left:"
-msgstr ""
+msgstr "Пераключыцца налева:"
 
 #: src/Views/ShortcutsView.vala:63
 msgid "Switch right:"
-msgstr ""
+msgstr "Пераключыцца направа:"
 
 #: src/Views/ShortcutsView.vala:64
 msgid "Switch to first:"
-msgstr ""
+msgstr "Перайсці да першай:"
 
 #: src/Views/ShortcutsView.vala:65
 msgid "Switch to new:"
-msgstr ""
+msgstr "Перайсці да апошняй:"
 
 #: src/Views/ShortcutsView.vala:66
 msgid "Cycle workspaces:"
-msgstr ""
+msgstr "Пераключэнне паміж прасторамі:"
 
 #: src/Views/ShortcutsView.vala:113
 msgid "System"
@@ -102,39 +102,39 @@ msgstr "Сістэма"
 
 #: src/Views/ShortcutsView.vala:121
 msgid "Applications Menu:"
-msgstr ""
+msgstr "Меню праграм:"
 
 #: src/Views/ShortcutsView.vala:122
 msgid "Cycle display mode:"
-msgstr ""
+msgstr "Пераключэнне рэжымаў прагляду:"
 
 #: src/Views/ShortcutsView.vala:123
 msgid "Zoom in:"
-msgstr ""
+msgstr "Павялічыць:"
 
 #: src/Views/ShortcutsView.vala:124
 msgid "Zoom out:"
-msgstr ""
+msgstr "Паменшыць:"
 
 #: src/Views/ShortcutsView.vala:125
 msgid "Lock screen:"
-msgstr ""
+msgstr "Заблакіраваць:"
 
 #: src/Views/ShortcutsView.vala:126
 msgid "Log out:"
-msgstr ""
+msgstr "Выйсці з сістэмы:"
 
 #: src/Views/ShortcutsView.vala:127
 msgid "Switch keyboard layout:"
-msgstr ""
+msgstr "Пераключыць раскладку клавіятуры:"
 
 #: src/Views/ShortcutsView.vala:128
 msgid "Toggle on-screen keyboard:"
-msgstr ""
+msgstr "Пераключыць экранную клавіятуру:"
 
 #: src/Views/ShortcutsView.vala:129
 msgid "Toggle screen reader:"
-msgstr ""
+msgstr "Пераключыць чытанне з экрана:"
 
 #: src/Views/ShortcutsView.vala:136
 msgid "Screenshots"
@@ -142,24 +142,24 @@ msgstr "Здымкі экрана"
 
 #: src/Views/ShortcutsView.vala:144
 msgid "Grab the whole screen:"
-msgstr ""
+msgstr "Захапіць увесь экран:"
 
 #: src/Views/ShortcutsView.vala:145
 msgid "Copy the whole screen to clipboard:"
-msgstr ""
+msgstr "Скапіраваць увесь экран у буфер абмену:"
 
 #: src/Views/ShortcutsView.vala:146
 msgid "Grab the current window:"
-msgstr ""
+msgstr "Захапіць бягучае акно:"
 
 #: src/Views/ShortcutsView.vala:147
 msgid "Copy the current window to clipboard:"
-msgstr ""
+msgstr "Скапіраваць бягучае акно ў буфер абмену:"
 
 #: src/Views/ShortcutsView.vala:148
 msgid "Select an area to grab:"
-msgstr ""
+msgstr "Выбраць вобласць для захопу:"
 
 #: src/Views/ShortcutsView.vala:149
 msgid "Copy an area to clipboard:"
-msgstr ""
+msgstr "Скапіраваць вобласць у буфер абмену:"
