@@ -19,7 +19,7 @@ We need to decide which shortcuts are included, how they're sorted, and if they'
 
 You'll need the following dependencies:
 * libgee-0.8-dev
-* libgranite-7-dev >= 7.3.0
+* libgranite-7-dev >= 7.7.0
 * libgtk-4-dev
 * libpantheon-wayland-1-dev
 * meson

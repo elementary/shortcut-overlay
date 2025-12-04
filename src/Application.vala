@@ -23,6 +23,12 @@ public class ShortcutOverlay.Application : Gtk.Application {
         );
     }
 
+    protected override void startup () {
+        base.startup ();
+
+        Granite.init ();
+    }
+
     protected override void activate () {
         unowned List<Gtk.Window> windows = get_windows ();
         if (windows.length () > 0) {
@@ -59,15 +65,6 @@ public class ShortcutOverlay.Application : Gtk.Application {
                     return GLib.Source.REMOVE;
                 });
             }
-        });
-
-        var granite_settings = Granite.Settings.get_default ();
-        var gtk_settings = Gtk.Settings.get_default ();
-
-        gtk_settings.gtk_application_prefer_dark_theme = granite_settings.prefers_color_scheme == Granite.Settings.ColorScheme.DARK;
-
-        granite_settings.notify["prefers-color-scheme"].connect (() => {
-            gtk_settings.gtk_application_prefer_dark_theme = granite_settings.prefers_color_scheme == Granite.Settings.ColorScheme.DARK;
         });
     }
 }
