@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-30 18:24+0000\n"
-"PO-Revision-Date: 2019-12-29 05:21+0000\n"
-"Last-Translator: Marko <marko.dolar@gmail.com>\n"
-"Language-Team: Slovenian <https://l10n.elementary.io/projects/desktop/"
+"PO-Revision-Date: 2026-01-20 15:55+0000\n"
+"Last-Translator: Jernej Virag <jernej@virag.si>\n"
+"Language-Team: Slovenian <https://l10n.elementaryos.org/projects/desktop/"
 "shortcut-overlay/sl/>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -18,13 +18,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src/MainWindow.vala:23
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
 msgid "Shortcuts"
-msgstr "Bližnjice na tipkovnici"
+msgstr "Bližnjice"
 
 #: src/MainWindow.vala:30
 msgid "Keyboard Settings…"
@@ -132,11 +130,11 @@ msgstr "Preklopi razporeditev tipkovnice:"
 
 #: src/Views/ShortcutsView.vala:128
 msgid "Toggle on-screen keyboard:"
-msgstr ""
+msgstr "Vklop/izklop zaslonske tipkovnice:"
 
 #: src/Views/ShortcutsView.vala:129
 msgid "Toggle screen reader:"
-msgstr ""
+msgstr "Vklop/izklop zaslonskega bralnika:"
 
 #: src/Views/ShortcutsView.vala:136
 msgid "Screenshots"
@@ -147,20 +145,16 @@ msgid "Grab the whole screen:"
 msgstr "Zajemi celoten zaslon:"
 
 #: src/Views/ShortcutsView.vala:145
-#, fuzzy
-#| msgid "Grab the whole screen:"
 msgid "Copy the whole screen to clipboard:"
-msgstr "Zajemi celoten zaslon:"
+msgstr "Kopiraj celoten zaslon na odložišče:"
 
 #: src/Views/ShortcutsView.vala:146
 msgid "Grab the current window:"
 msgstr "Zajemi trenutno okno:"
 
 #: src/Views/ShortcutsView.vala:147
-#, fuzzy
-#| msgid "Grab the current window:"
 msgid "Copy the current window to clipboard:"
-msgstr "Zajemi trenutno okno:"
+msgstr "Kopiraj trenutno okno na odložišče:"
 
 #: src/Views/ShortcutsView.vala:148
 msgid "Select an area to grab:"
@@ -168,7 +162,7 @@ msgstr "Zajemi kos zaslona:"
 
 #: src/Views/ShortcutsView.vala:149
 msgid "Copy an area to clipboard:"
-msgstr ""
+msgstr "Kopiraj območje na odložišče:"
 
 #, fuzzy
 #~| msgid "Keyboard Shortcuts"
