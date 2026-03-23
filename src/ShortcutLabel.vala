@@ -75,7 +75,7 @@ public class ShortcutLabel : Gtk.Box {
             }
         } else {
             var disabled_label = new Gtk.Label (_("Disabled"));
-            disabled_label.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
+            disabled_label.add_css_class (Granite.CssClass.DIM);
             accel_box.append (disabled_label);
         }
 
