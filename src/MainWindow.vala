@@ -31,7 +31,7 @@ public class ShortcutOverlay.MainWindow : Gtk.Window, PantheonWayland.ExtendedBe
             halign = Gtk.Align.END
         };
 
-        var box = new Gtk.Box (VERTICAL, 0);
+        var box = new Granite.Box (VERTICAL, DOUBLE);
         box.append (shortcuts_view);
         box.append (settings_button);
         child = box;
