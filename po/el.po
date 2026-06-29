@@ -8,22 +8,24 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-30 18:24+0000\n"
-"PO-Revision-Date: 2018-03-07 10:56-0800\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-06-29 13:56+0000\n"
+"Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
+"Language-Team: Greek <https://l10n.elementaryos.org/projects/desktop/"
+"shortcut-overlay/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.5\n"
 
 #: src/MainWindow.vala:23
 msgid "Shortcuts"
-msgstr ""
+msgstr "Συντομεύσεις"
 
 #: src/MainWindow.vala:30
 msgid "Keyboard Settings…"
-msgstr ""
+msgstr "Ρυθμίσεις πληκτρολογίου…"
 
 #: src/ShortcutLabel.vala:77
 msgid "Disabled"
@@ -31,11 +33,11 @@ msgstr ""
 
 #: src/Views/ShortcutsView.vala:31
 msgid "Windows"
-msgstr ""
+msgstr "Παράθυρα"
 
 #: src/Views/ShortcutsView.vala:39
 msgid "Close window:"
-msgstr ""
+msgstr "Κλείσιμο παραθύρου:"
 
 #: src/Views/ShortcutsView.vala:40
 msgid "Cycle windows:"
@@ -47,31 +49,31 @@ msgstr ""
 
 #: src/Views/ShortcutsView.vala:42
 msgid "Tile left:"
-msgstr ""
+msgstr "Παράθεση αριστερά:"
 
 #: src/Views/ShortcutsView.vala:43
 msgid "Tile right:"
-msgstr ""
+msgstr "Παράθεση δεξιά:"
 
 #: src/Views/ShortcutsView.vala:44
 msgid "Move to left workspace:"
-msgstr ""
+msgstr "Μετακίνηση στον αριστερό χώρο εργασίας:"
 
 #: src/Views/ShortcutsView.vala:45
 msgid "Move to right workspace:"
-msgstr ""
+msgstr "Μετακίνηση στον δεξιό χώρο εργασίας:"
 
 #: src/Views/ShortcutsView.vala:46
 msgid "Picture in Picture Mode:"
-msgstr ""
+msgstr "Λειτουργία «Εικόνα εντός εικόνας»:"
 
 #: src/Views/ShortcutsView.vala:53
 msgid "Workspaces"
-msgstr ""
+msgstr "Χώροι εργασίας"
 
 #: src/Views/ShortcutsView.vala:61
 msgid "Multitasking View:"
-msgstr ""
+msgstr "Προβολή πολυδιεργασίας:"
 
 #: src/Views/ShortcutsView.vala:62
 msgid "Switch left:"
@@ -95,11 +97,11 @@ msgstr ""
 
 #: src/Views/ShortcutsView.vala:113
 msgid "System"
-msgstr ""
+msgstr "Σύστημα"
 
 #: src/Views/ShortcutsView.vala:121
 msgid "Applications Menu:"
-msgstr ""
+msgstr "Μενού εφαρμογών:"
 
 #: src/Views/ShortcutsView.vala:122
 msgid "Cycle display mode:"
@@ -107,27 +109,27 @@ msgstr ""
 
 #: src/Views/ShortcutsView.vala:123
 msgid "Zoom in:"
-msgstr ""
+msgstr "Μεγέθυνση:"
 
 #: src/Views/ShortcutsView.vala:124
 msgid "Zoom out:"
-msgstr ""
+msgstr "Σμίκρυνση:"
 
 #: src/Views/ShortcutsView.vala:125
 msgid "Lock screen:"
-msgstr ""
+msgstr "Κλείδωμα οθόνης:"
 
 #: src/Views/ShortcutsView.vala:126
 msgid "Log out:"
-msgstr ""
+msgstr "Αποσύνδεση:"
 
 #: src/Views/ShortcutsView.vala:127
 msgid "Switch keyboard layout:"
-msgstr ""
+msgstr "Εναλλαγή διάταξης πληκτρολογίου:"
 
 #: src/Views/ShortcutsView.vala:128
 msgid "Toggle on-screen keyboard:"
-msgstr ""
+msgstr "Εναλλαγή πληκτρολογίου οθόνης:"
 
 #: src/Views/ShortcutsView.vala:129
 msgid "Toggle screen reader:"
@@ -135,7 +137,7 @@ msgstr ""
 
 #: src/Views/ShortcutsView.vala:136
 msgid "Screenshots"
-msgstr ""
+msgstr "Στιγμιότυπα οθόνης"
 
 #: src/Views/ShortcutsView.vala:144
 msgid "Grab the whole screen:"
