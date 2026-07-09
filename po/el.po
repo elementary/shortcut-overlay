@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-30 18:24+0000\n"
-"PO-Revision-Date: 2026-06-29 13:56+0000\n"
+"PO-Revision-Date: 2026-07-10 08:09+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://l10n.elementaryos.org/projects/desktop/"
 "shortcut-overlay/el/>\n"
@@ -45,7 +45,7 @@ msgstr ""
 
 #: src/Views/ShortcutsView.vala:41
 msgid "Toggle maximized:"
-msgstr ""
+msgstr "Εναλλαγή μεγιστοποίησης:"
 
 #: src/Views/ShortcutsView.vala:42
 msgid "Tile left:"
@@ -133,7 +133,7 @@ msgstr "Εναλλαγή πληκτρολογίου οθόνης:"
 
 #: src/Views/ShortcutsView.vala:129
 msgid "Toggle screen reader:"
-msgstr ""
+msgstr "Εναλλαγή ανάγνωσης οθόνης:"
 
 #: src/Views/ShortcutsView.vala:136
 msgid "Screenshots"
@@ -141,24 +141,24 @@ msgstr "Στιγμιότυπα οθόνης"
 
 #: src/Views/ShortcutsView.vala:144
 msgid "Grab the whole screen:"
-msgstr ""
+msgstr "Καταγραφή ολόκληρης της οθόνης:"
 
 #: src/Views/ShortcutsView.vala:145
 msgid "Copy the whole screen to clipboard:"
-msgstr ""
+msgstr "Αντιγραφή ολόκληρης της οθόνης στο πρόχειρο:"
 
 #: src/Views/ShortcutsView.vala:146
 msgid "Grab the current window:"
-msgstr ""
+msgstr "Καταγραφή του τρέχοντος παραθύρου:"
 
 #: src/Views/ShortcutsView.vala:147
 msgid "Copy the current window to clipboard:"
-msgstr ""
+msgstr "Αντιγραφή του τρέχοντος παραθύρου στο πρόχειρο:"
 
 #: src/Views/ShortcutsView.vala:148
 msgid "Select an area to grab:"
-msgstr ""
+msgstr "Επιλογή περιοχής προς καταγραφή:"
 
 #: src/Views/ShortcutsView.vala:149
 msgid "Copy an area to clipboard:"
-msgstr ""
+msgstr "Αντιγραφή περιοχής στο πρόχειρο:"
