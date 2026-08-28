@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-30 18:24+0000\n"
+"POT-Creation-Date: 2026-08-28 21:45+0000\n"
 "PO-Revision-Date: 2024-08-16 20:16+0000\n"
 "Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.elementary.io/projects/desktop/"
@@ -31,134 +31,140 @@ msgstr "კლავიატურის მორგება…"
 msgid "Disabled"
 msgstr "გამორთულია"
 
-#: src/Views/ShortcutsView.vala:31
+#: src/Views/ShortcutsView.vala:32
 msgid "Windows"
 msgstr "Windows"
 
-#: src/Views/ShortcutsView.vala:39
+#: src/Views/ShortcutsView.vala:40
 msgid "Close window:"
 msgstr "ფანჯრის დახურვა:"
 
-#: src/Views/ShortcutsView.vala:40
+#: src/Views/ShortcutsView.vala:41
 msgid "Cycle windows:"
 msgstr "ფანჯრების წრიული გადართვა:"
 
-#: src/Views/ShortcutsView.vala:41
+#: src/Views/ShortcutsView.vala:42
 msgid "Toggle maximized:"
 msgstr "გაშლილობის გადართვა:"
 
-#: src/Views/ShortcutsView.vala:42
+#: src/Views/ShortcutsView.vala:43
 msgid "Tile left:"
 msgstr "ფილა მარცხნივ:"
 
-#: src/Views/ShortcutsView.vala:43
+#: src/Views/ShortcutsView.vala:44
 msgid "Tile right:"
 msgstr "ფილა მარჯვნივ:"
 
-#: src/Views/ShortcutsView.vala:44
+#: src/Views/ShortcutsView.vala:45
 msgid "Move to left workspace:"
 msgstr "ფანჯრის გადატანა მარცხენა სამუშაო სივრცეზე:"
 
-#: src/Views/ShortcutsView.vala:45
+#: src/Views/ShortcutsView.vala:46
 msgid "Move to right workspace:"
 msgstr "ფანჯრის გადატანა მარჯვენა სამუშაო სივრცეზე:"
 
-#: src/Views/ShortcutsView.vala:46
+#: src/Views/ShortcutsView.vala:47
 msgid "Picture in Picture Mode:"
 msgstr "რეჟიმი სურათი სურათში:"
 
-#: src/Views/ShortcutsView.vala:53
+#: src/Views/ShortcutsView.vala:54
 msgid "Workspaces"
 msgstr "სამუშაო სივრცეები"
 
-#: src/Views/ShortcutsView.vala:61
+#: src/Views/ShortcutsView.vala:62
 msgid "Multitasking View:"
 msgstr "მრავალამოცანიანი ხედი:"
 
-#: src/Views/ShortcutsView.vala:62
+#: src/Views/ShortcutsView.vala:63
 msgid "Switch left:"
 msgstr "მარცხნივ გადართვა:"
 
-#: src/Views/ShortcutsView.vala:63
+#: src/Views/ShortcutsView.vala:64
 msgid "Switch right:"
 msgstr "მარჯვნივ გადართვა:"
 
-#: src/Views/ShortcutsView.vala:64
+#: src/Views/ShortcutsView.vala:65
 msgid "Switch to first:"
 msgstr "პირველზე გადართვა:"
 
-#: src/Views/ShortcutsView.vala:65
+#: src/Views/ShortcutsView.vala:66
 msgid "Switch to new:"
 msgstr "ახალზე გადართვა:"
 
-#: src/Views/ShortcutsView.vala:66
+#: src/Views/ShortcutsView.vala:67
 msgid "Cycle workspaces:"
 msgstr "სამუშაო სივრცეებზე გადართვა:"
 
-#: src/Views/ShortcutsView.vala:113
+#: src/Views/ShortcutsView.vala:114
 msgid "System"
 msgstr "სისტემა"
 
-#: src/Views/ShortcutsView.vala:121
+#: src/Views/ShortcutsView.vala:122
 msgid "Applications Menu:"
 msgstr "პროგრამების მენიუ:"
 
-#: src/Views/ShortcutsView.vala:122
+#: src/Views/ShortcutsView.vala:123
+#, fuzzy
+#| msgid "Applications Menu:"
+msgid "Notifications Menu:"
+msgstr "პროგრამების მენიუ:"
+
+#: src/Views/ShortcutsView.vala:124
 msgid "Cycle display mode:"
 msgstr "ეკრანის რეჟიმებს შორის გადართვა:"
 
-#: src/Views/ShortcutsView.vala:123
+#: src/Views/ShortcutsView.vala:125
 msgid "Zoom in:"
 msgstr "გადიდება:"
 
-#: src/Views/ShortcutsView.vala:124
+#: src/Views/ShortcutsView.vala:126
 msgid "Zoom out:"
 msgstr "დაპატარავება:"
 
-#: src/Views/ShortcutsView.vala:125
+#: src/Views/ShortcutsView.vala:127
 msgid "Lock screen:"
 msgstr "ეკრანის დაბლოკვა:"
 
-#: src/Views/ShortcutsView.vala:126
+#: src/Views/ShortcutsView.vala:128
 msgid "Log out:"
 msgstr "გასვლა:"
 
-#: src/Views/ShortcutsView.vala:127
+#: src/Views/ShortcutsView.vala:129
 msgid "Switch keyboard layout:"
 msgstr "კლავიატურის განლაგების გადართვა:"
 
-#: src/Views/ShortcutsView.vala:128
+#: src/Views/ShortcutsView.vala:130
 msgid "Toggle on-screen keyboard:"
 msgstr "ეკრანის კლავიატურის გადართვა:"
 
-#: src/Views/ShortcutsView.vala:129
+#: src/Views/ShortcutsView.vala:131
 msgid "Toggle screen reader:"
 msgstr "ეკრანის წამკითხველის გადართვა:"
 
-#: src/Views/ShortcutsView.vala:136
+#: src/Views/ShortcutsView.vala:138
 msgid "Screenshots"
 msgstr "ეკრანის ანაბეჭდები"
 
-#: src/Views/ShortcutsView.vala:144
+#: src/Views/ShortcutsView.vala:146
 msgid "Grab the whole screen:"
 msgstr "მთლიანი ეკრანის დათრევა:"
 
-#: src/Views/ShortcutsView.vala:145
+#: src/Views/ShortcutsView.vala:147
 msgid "Copy the whole screen to clipboard:"
 msgstr "მთელი ეკრანის ბუფერში კოპირება:"
 
-#: src/Views/ShortcutsView.vala:146
+#: src/Views/ShortcutsView.vala:148
 msgid "Grab the current window:"
 msgstr "მიმდინარე ფანჯრის დათრევა:"
 
-#: src/Views/ShortcutsView.vala:147
+#: src/Views/ShortcutsView.vala:149
 msgid "Copy the current window to clipboard:"
 msgstr "მიმდინარე ფანჯრის ბუფერში კოპირება:"
 
-#: src/Views/ShortcutsView.vala:148
+#: src/Views/ShortcutsView.vala:150
 msgid "Select an area to grab:"
 msgstr "მონიშნეთ დასათრევი ადგილი:"
 
-#: src/Views/ShortcutsView.vala:149
+#: src/Views/ShortcutsView.vala:151
 msgid "Copy an area to clipboard:"
 msgstr "ადგილის ბუფერში კოპირება:"
