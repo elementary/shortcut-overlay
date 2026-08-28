@@ -20,6 +20,7 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Box {
     private const string SCHEMA_GALA = "io.elementary.desktop.wm.keybindings";
     private const string SCHEMA_MEDIA = "org.gnome.settings-daemon.plugins.media-keys";
     private const string SCHEMA_MUTTER = "org.gnome.mutter.keybindings";
+    private const string SCHEMA_PANEL = "io.elementary.panel.keybindings";
 
     construct {
         var windows_listbox = new Gtk.ListBox () {
@@ -119,6 +120,7 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Box {
         system_box.append (system_listbox);
 
         system_listbox.append (new ShortcutLabel.from_gsettings (_("Applications Menu:"), SCHEMA_GALA, "panel-main-menu"));
+        system_listbox.append (new ShortcutLabel.from_gsettings (_("Notifications Menu:"), SCHEMA_PANEL, "open-menu-notifications"));
         system_listbox.append (new ShortcutLabel.from_gsettings (_("Cycle display mode:"), SCHEMA_MUTTER, "switch-monitor"));
         system_listbox.append (new ShortcutLabel.from_gsettings (_("Zoom in:"), SCHEMA_GALA, "zoom-in"));
         system_listbox.append (new ShortcutLabel.from_gsettings (_("Zoom out:"), SCHEMA_GALA, "zoom-out"));
