@@ -27,7 +27,6 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Box {
             /* NONE will make screen reader announce "not selected" */
             selection_mode = BROWSE
         };
-        windows_listbox.add_css_class (Granite.STYLE_CLASS_BACKGROUND);
 
         var windows_header = new Granite.HeaderLabel (_("Windows")) {
             mnemonic_widget = windows_listbox
@@ -49,7 +48,6 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Box {
         var workspaces_listbox = new Gtk.ListBox () {
             selection_mode = BROWSE
         };
-        workspaces_listbox.add_css_class (Granite.STYLE_CLASS_BACKGROUND);
 
         var workspaces_header = new Granite.HeaderLabel (_("Workspaces")) {
             mnemonic_widget = workspaces_listbox
@@ -109,7 +107,6 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Box {
         var system_listbox = new Gtk.ListBox () {
             selection_mode = BROWSE
         };
-        system_listbox.add_css_class (Granite.STYLE_CLASS_BACKGROUND);
 
         var system_header = new Granite.HeaderLabel (_("System")) {
             mnemonic_widget = system_listbox
@@ -133,7 +130,6 @@ public class ShortcutOverlay.ShortcutsView : Gtk.Box {
         var screenshots_listbox = new Gtk.ListBox () {
             selection_mode = BROWSE
         };
-        screenshots_listbox.add_css_class (Granite.STYLE_CLASS_BACKGROUND);
 
         var screenshots_header = new Granite.HeaderLabel (_("Screenshots")) {
             mnemonic_widget = screenshots_listbox
