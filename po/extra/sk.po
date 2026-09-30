@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-30 18:24+0000\n"
+"POT-Creation-Date: 2026-08-28 21:45+0000\n"
 "PO-Revision-Date: 2024-10-05 19:16+0000\n"
 "Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/desktop/shortcut-"
@@ -19,19 +19,19 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 5.6.2\n"
 
-#: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.metainfo.xml.in:10
+#: data/shortcut-overlay.desktop.in:2 data/shortcut-overlay.metainfo.xml.in:10
 msgid "Shortcuts"
 msgstr "Skratky"
 
-#: data/shortcut-overlay.desktop.in:4
+#: data/shortcut-overlay.desktop.in:3
 msgid "Shortcut Overlay"
 msgstr ""
 
-#: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.metainfo.xml.in:11
+#: data/shortcut-overlay.desktop.in:4 data/shortcut-overlay.metainfo.xml.in:11
 msgid "View system shortcuts"
 msgstr ""
 
-#: data/shortcut-overlay.desktop.in:13
+#: data/shortcut-overlay.desktop.in:12
 msgid "cheatsheet;shortcut;overlay;keyboard;"
 msgstr ""
 

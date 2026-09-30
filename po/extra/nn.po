@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-30 18:24+0000\n"
+"POT-Creation-Date: 2026-08-28 21:45+0000\n"
 "PO-Revision-Date: 2023-02-07 15:25+0000\n"
 "Last-Translator: Martin Myrvold <myrvold.martin@gmail.com>\n"
 "Language-Team: Norwegian Nynorsk <https://l10n.elementary.io/projects/"
@@ -19,21 +19,21 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.14.2\n"
 
-#: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.metainfo.xml.in:10
+#: data/shortcut-overlay.desktop.in:2 data/shortcut-overlay.metainfo.xml.in:10
 msgid "Shortcuts"
 msgstr "Snarvegar"
 
-#: data/shortcut-overlay.desktop.in:4
+#: data/shortcut-overlay.desktop.in:3
 msgid "Shortcut Overlay"
 msgstr "Snarvegsoverlag"
 
-#: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.metainfo.xml.in:11
+#: data/shortcut-overlay.desktop.in:4 data/shortcut-overlay.metainfo.xml.in:11
 #, fuzzy
 #| msgid "View system keyboard shortcuts"
 msgid "View system shortcuts"
 msgstr "Vis systemet sine tastatursnarvegar"
 
-#: data/shortcut-overlay.desktop.in:13
+#: data/shortcut-overlay.desktop.in:12
 #, fuzzy
 #| msgid "cheatsheet;shortcut;overlay;"
 msgid "cheatsheet;shortcut;overlay;keyboard;"

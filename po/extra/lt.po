@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-30 18:24+0000\n"
+"POT-Creation-Date: 2026-08-28 21:45+0000\n"
 "PO-Revision-Date: 2020-01-18 02:07+0000\n"
 "Last-Translator: Daniel Foré <daniel@elementary.io>\n"
 "Language-Team: Lithuanian <https://l10n.elementary.io/projects/desktop/"
@@ -20,23 +20,23 @@ msgstr ""
 "n%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
 "X-Generator: Weblate 3.9.1\n"
 
-#: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.metainfo.xml.in:10
+#: data/shortcut-overlay.desktop.in:2 data/shortcut-overlay.metainfo.xml.in:10
 #, fuzzy
 #| msgid "Keyboard Shortcuts"
 msgid "Shortcuts"
 msgstr "Klaviatūros susiejimai"
 
-#: data/shortcut-overlay.desktop.in:4
+#: data/shortcut-overlay.desktop.in:3
 msgid "Shortcut Overlay"
 msgstr "Susiejimų perdanga"
 
-#: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.metainfo.xml.in:11
+#: data/shortcut-overlay.desktop.in:4 data/shortcut-overlay.metainfo.xml.in:11
 #, fuzzy
 #| msgid "View system keyboard shortcuts"
 msgid "View system shortcuts"
 msgstr "Rodyti sistemos klaviatūros susiejimus"
 
-#: data/shortcut-overlay.desktop.in:13
+#: data/shortcut-overlay.desktop.in:12
 #, fuzzy
 #| msgid "cheatsheet;shortcut;overlay;"
 msgid "cheatsheet;shortcut;overlay;keyboard;"

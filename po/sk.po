@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-30 18:24+0000\n"
+"POT-Creation-Date: 2026-08-28 21:45+0000\n"
 "PO-Revision-Date: 2024-10-05 19:16+0000\n"
 "Last-Translator: janko mrkvicka <6aby74rto@relay.firefox.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/desktop/shortcut-"
@@ -31,134 +31,140 @@ msgstr "Nastavenia klávesnice…"
 msgid "Disabled"
 msgstr "Vypnuté"
 
-#: src/Views/ShortcutsView.vala:31
+#: src/Views/ShortcutsView.vala:32
 msgid "Windows"
 msgstr "Okná"
 
-#: src/Views/ShortcutsView.vala:39
+#: src/Views/ShortcutsView.vala:40
 msgid "Close window:"
 msgstr "Zatvoriť okno:"
 
-#: src/Views/ShortcutsView.vala:40
+#: src/Views/ShortcutsView.vala:41
 msgid "Cycle windows:"
 msgstr "Prepínať okná:"
 
-#: src/Views/ShortcutsView.vala:41
+#: src/Views/ShortcutsView.vala:42
 msgid "Toggle maximized:"
 msgstr "Prepínať maximalizáciu:"
 
-#: src/Views/ShortcutsView.vala:42
+#: src/Views/ShortcutsView.vala:43
 msgid "Tile left:"
 msgstr "Vyplniť vľavo:"
 
-#: src/Views/ShortcutsView.vala:43
+#: src/Views/ShortcutsView.vala:44
 msgid "Tile right:"
 msgstr "Vyplniť vpravo:"
 
-#: src/Views/ShortcutsView.vala:44
+#: src/Views/ShortcutsView.vala:45
 msgid "Move to left workspace:"
 msgstr "Presunúť na pracovnú plochu vľavo:"
 
-#: src/Views/ShortcutsView.vala:45
+#: src/Views/ShortcutsView.vala:46
 msgid "Move to right workspace:"
 msgstr "Presunúť na pracovnú plochu vpravo:"
 
-#: src/Views/ShortcutsView.vala:46
+#: src/Views/ShortcutsView.vala:47
 msgid "Picture in Picture Mode:"
 msgstr "Režim Obraz v obraze:"
 
-#: src/Views/ShortcutsView.vala:53
+#: src/Views/ShortcutsView.vala:54
 msgid "Workspaces"
 msgstr "Pracovné plochy"
 
-#: src/Views/ShortcutsView.vala:61
+#: src/Views/ShortcutsView.vala:62
 msgid "Multitasking View:"
 msgstr "Zobrazenie úloh:"
 
-#: src/Views/ShortcutsView.vala:62
+#: src/Views/ShortcutsView.vala:63
 msgid "Switch left:"
 msgstr "Prepnúť vľavo:"
 
-#: src/Views/ShortcutsView.vala:63
+#: src/Views/ShortcutsView.vala:64
 msgid "Switch right:"
 msgstr "Prepnúť vpravo:"
 
-#: src/Views/ShortcutsView.vala:64
+#: src/Views/ShortcutsView.vala:65
 msgid "Switch to first:"
 msgstr "Prepnúť na prvú:"
 
-#: src/Views/ShortcutsView.vala:65
+#: src/Views/ShortcutsView.vala:66
 msgid "Switch to new:"
 msgstr "Prepnúť na novú:"
 
-#: src/Views/ShortcutsView.vala:66
+#: src/Views/ShortcutsView.vala:67
 msgid "Cycle workspaces:"
 msgstr "Prepínať pracovné plochy:"
 
-#: src/Views/ShortcutsView.vala:113
+#: src/Views/ShortcutsView.vala:114
 msgid "System"
 msgstr "Systém"
 
-#: src/Views/ShortcutsView.vala:121
+#: src/Views/ShortcutsView.vala:122
 msgid "Applications Menu:"
 msgstr "Menu aplikácií:"
 
-#: src/Views/ShortcutsView.vala:122
+#: src/Views/ShortcutsView.vala:123
+#, fuzzy
+#| msgid "Applications Menu:"
+msgid "Notifications Menu:"
+msgstr "Menu aplikácií:"
+
+#: src/Views/ShortcutsView.vala:124
 msgid "Cycle display mode:"
 msgstr "Prepínať režim zobrazenia:"
 
-#: src/Views/ShortcutsView.vala:123
+#: src/Views/ShortcutsView.vala:125
 msgid "Zoom in:"
 msgstr "Priblížiť:"
 
-#: src/Views/ShortcutsView.vala:124
+#: src/Views/ShortcutsView.vala:126
 msgid "Zoom out:"
 msgstr "Oddialiť:"
 
-#: src/Views/ShortcutsView.vala:125
+#: src/Views/ShortcutsView.vala:127
 msgid "Lock screen:"
 msgstr "Zamknúť obrazovku:"
 
-#: src/Views/ShortcutsView.vala:126
+#: src/Views/ShortcutsView.vala:128
 msgid "Log out:"
 msgstr "Odhlásiť sa:"
 
-#: src/Views/ShortcutsView.vala:127
+#: src/Views/ShortcutsView.vala:129
 msgid "Switch keyboard layout:"
 msgstr "Prepnúť rozloženie klávesnice:"
 
-#: src/Views/ShortcutsView.vala:128
+#: src/Views/ShortcutsView.vala:130
 msgid "Toggle on-screen keyboard:"
 msgstr "Prepnúť klávesnicu na obrazovke:"
 
-#: src/Views/ShortcutsView.vala:129
+#: src/Views/ShortcutsView.vala:131
 msgid "Toggle screen reader:"
 msgstr "Prepnúť čítačku obrazovky:"
 
-#: src/Views/ShortcutsView.vala:136
+#: src/Views/ShortcutsView.vala:138
 msgid "Screenshots"
 msgstr "Snímky obrazovky"
 
-#: src/Views/ShortcutsView.vala:144
+#: src/Views/ShortcutsView.vala:146
 msgid "Grab the whole screen:"
 msgstr "Zachytiť celú obrazovku:"
 
-#: src/Views/ShortcutsView.vala:145
+#: src/Views/ShortcutsView.vala:147
 msgid "Copy the whole screen to clipboard:"
 msgstr "Skopírovať celý obsah obrazovky do schránky:"
 
-#: src/Views/ShortcutsView.vala:146
+#: src/Views/ShortcutsView.vala:148
 msgid "Grab the current window:"
 msgstr "Zachytiť aktuálne okno:"
 
-#: src/Views/ShortcutsView.vala:147
+#: src/Views/ShortcutsView.vala:149
 msgid "Copy the current window to clipboard:"
 msgstr "Skopírovať aktuálne okno do schránky:"
 
-#: src/Views/ShortcutsView.vala:148
+#: src/Views/ShortcutsView.vala:150
 msgid "Select an area to grab:"
 msgstr "Vybrať oblasť na zachytenie:"
 
-#: src/Views/ShortcutsView.vala:149
+#: src/Views/ShortcutsView.vala:151
 msgid "Copy an area to clipboard:"
 msgstr "Skopírovať oblasť do schránky:"

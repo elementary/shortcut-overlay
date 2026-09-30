@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-30 18:24+0000\n"
+"POT-Creation-Date: 2026-08-28 21:45+0000\n"
 "PO-Revision-Date: 2026-01-20 15:55+0000\n"
 "Last-Translator: Jernej Virag <jernej@virag.si>\n"
 "Language-Team: Slovenian <https://l10n.elementaryos.org/projects/desktop/"
@@ -20,21 +20,21 @@ msgstr ""
 "n%100==4 ? 2 : 3;\n"
 "X-Generator: Weblate 5.11.4\n"
 
-#: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.metainfo.xml.in:10
+#: data/shortcut-overlay.desktop.in:2 data/shortcut-overlay.metainfo.xml.in:10
 msgid "Shortcuts"
 msgstr "Bližnjice"
 
-#: data/shortcut-overlay.desktop.in:4
+#: data/shortcut-overlay.desktop.in:3
 msgid "Shortcut Overlay"
 msgstr "Prikaz bližnjic"
 
-#: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.metainfo.xml.in:11
+#: data/shortcut-overlay.desktop.in:4 data/shortcut-overlay.metainfo.xml.in:11
 #, fuzzy
 #| msgid "View system keyboard shortcuts"
 msgid "View system shortcuts"
 msgstr "Prikaži sistemske bližnjice na tipkovnici"
 
-#: data/shortcut-overlay.desktop.in:13
+#: data/shortcut-overlay.desktop.in:12
 #, fuzzy
 #| msgid "cheatsheet;shortcut;overlay;"
 msgid "cheatsheet;shortcut;overlay;keyboard;"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-30 18:24+0000\n"
+"POT-Creation-Date: 2026-08-28 21:45+0000\n"
 "PO-Revision-Date: 2019-12-15 23:07+0000\n"
 "Last-Translator: Daniel Foré <daniel@elementary.io>\n"
 "Language-Team: Galician <https://l10n.elementary.io/projects/desktop/"
@@ -19,23 +19,23 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.9.1\n"
 
-#: data/shortcut-overlay.desktop.in:3 data/shortcut-overlay.metainfo.xml.in:10
+#: data/shortcut-overlay.desktop.in:2 data/shortcut-overlay.metainfo.xml.in:10
 #, fuzzy
 #| msgid "Keyboard Shortcuts"
 msgid "Shortcuts"
 msgstr "Atallos de teclado"
 
-#: data/shortcut-overlay.desktop.in:4
+#: data/shortcut-overlay.desktop.in:3
 msgid "Shortcut Overlay"
 msgstr "Ocultar Acceso directo"
 
-#: data/shortcut-overlay.desktop.in:5 data/shortcut-overlay.metainfo.xml.in:11
+#: data/shortcut-overlay.desktop.in:4 data/shortcut-overlay.metainfo.xml.in:11
 #, fuzzy
 #| msgid "View system keyboard shortcuts"
 msgid "View system shortcuts"
 msgstr "Ver os atallos de teclado do sistema"
 
-#: data/shortcut-overlay.desktop.in:13
+#: data/shortcut-overlay.desktop.in:12
 #, fuzzy
 #| msgid "cheatsheet;shortcut;overlay;"
 msgid "cheatsheet;shortcut;overlay;keyboard;"
