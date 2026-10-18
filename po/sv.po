@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.shortcut-overlay\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-28 21:45+0000\n"
-"PO-Revision-Date: 2025-10-30 18:55+0000\n"
+"PO-Revision-Date: 2026-10-19 07:46+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/desktop/"
 "shortcut-overlay/sv/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11.4\n"
+"X-Generator: Weblate 2026.5\n"
 
 #: src/MainWindow.vala:23
 msgid "Shortcuts"
@@ -104,10 +104,8 @@ msgid "Applications Menu:"
 msgstr "Programmeny:"
 
 #: src/Views/ShortcutsView.vala:123
-#, fuzzy
-#| msgid "Applications Menu:"
 msgid "Notifications Menu:"
-msgstr "Programmeny:"
+msgstr "Aviseringsmeny:"
 
 #: src/Views/ShortcutsView.vala:124
 msgid "Cycle display mode:"
