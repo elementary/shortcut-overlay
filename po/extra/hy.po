@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-28 21:45+0000\n"
-"PO-Revision-Date: 2026-11-07 20:05+0000\n"
+"PO-Revision-Date: 2026-11-09 21:04+0000\n"
 "Last-Translator: Davit Yedigaryan <davit.yedigaryan.1993@gmail.com>\n"
 "Language-Team: Armenian <https://l10n.elementaryos.org/projects/desktop/"
 "shortcut-overlay-extra/hy/>\n"
@@ -37,7 +37,7 @@ msgstr ""
 
 #: data/shortcut-overlay.metainfo.xml.in:35
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."
 
 #: data/shortcut-overlay.metainfo.xml.in:44
 #: data/shortcut-overlay.metainfo.xml.in:55
@@ -46,7 +46,7 @@ msgstr ""
 #: data/shortcut-overlay.metainfo.xml.in:85
 #: data/shortcut-overlay.metainfo.xml.in:94
 msgid "Updated translations"
-msgstr ""
+msgstr "Թարմացված թարգմանություններ"
 
 #: data/shortcut-overlay.metainfo.xml.in:64
 msgid "Show screen reader shortcut"
