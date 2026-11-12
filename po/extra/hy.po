@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-28 21:45+0000\n"
-"PO-Revision-Date: 2026-11-09 21:04+0000\n"
+"PO-Revision-Date: 2026-11-13 20:04+0000\n"
 "Last-Translator: Davit Yedigaryan <davit.yedigaryan.1993@gmail.com>\n"
 "Language-Team: Armenian <https://l10n.elementaryos.org/projects/desktop/"
 "shortcut-overlay-extra/hy/>\n"
@@ -25,15 +25,15 @@ msgstr "Դյուրանցումներ"
 
 #: data/shortcut-overlay.desktop.in:3
 msgid "Shortcut Overlay"
-msgstr ""
+msgstr "Դյուրանցումների ծածկույթ"
 
 #: data/shortcut-overlay.desktop.in:4 data/shortcut-overlay.metainfo.xml.in:11
 msgid "View system shortcuts"
-msgstr ""
+msgstr "Դիտել համակարգի դյուրանցումները"
 
 #: data/shortcut-overlay.desktop.in:12
 msgid "cheatsheet;shortcut;overlay;keyboard;"
-msgstr ""
+msgstr "cheatsheet;shortcut;overlay;keyboard;"
 
 #: data/shortcut-overlay.metainfo.xml.in:35
 msgid "elementary, Inc."
@@ -50,28 +50,28 @@ msgstr "Թարմացված թարգմանություններ"
 
 #: data/shortcut-overlay.metainfo.xml.in:64
 msgid "Show screen reader shortcut"
-msgstr ""
+msgstr "Ցուցադրվում է էկրանի ընթերցիչի դյուրանցումը"
 
 #: data/shortcut-overlay.metainfo.xml.in:72
 msgid "Show in the applications menu"
-msgstr ""
+msgstr "Ցուցադրվում է Հավելվածների ցանկում"
 
 #: data/shortcut-overlay.metainfo.xml.in:73
 msgid "Replace keyboard settings button with a labeled link button"
-msgstr ""
+msgstr "Ստեղնաշարի կարգավորումների կոճակը փոխարինվել է պիտակով հղման կոճակով"
 
 #: data/shortcut-overlay.metainfo.xml.in:74
 msgid "Show on-screen keyboard shortcut"
-msgstr ""
+msgstr "Ցուցադրվում է էկրանային ստեղնաշարի դյուրանցումը"
 
 #: data/shortcut-overlay.metainfo.xml.in:75
 msgid "Close with the shortcut Ctrl + Q"
-msgstr ""
+msgstr "Փակվում է Ctrl + Q դյուրանցումով"
 
 #: data/shortcut-overlay.metainfo.xml.in:84
 msgid "Update for OS 7 and Gtk 4"
-msgstr ""
+msgstr "Թարմացում OS 7-ի և Gtk 4-ի համար"
 
 #: data/shortcut-overlay.metainfo.xml.in:93
 msgid "Fix the app not launching if a shortcut key is set to blank"
-msgstr ""
+msgstr "Շտկվել է հավելվածի չգործարկվելը, երբ դյուրանցման ստեղնը դատարկ է"
